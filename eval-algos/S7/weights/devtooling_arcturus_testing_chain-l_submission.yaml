@@ -1,0 +1,58 @@
+# ----------------------------------------------------
+# Devtooling - Arcturus
+# ----------------------------------------------------
+
+data_snapshot:
+  data_dir: "eval-algos/S7/data/devtooling_testing"
+  onchain_projects: "onchain_projects.csv"
+  devtooling_projects: "devtooling_projects.csv"
+  project_dependencies: "project_dependencies.csv"
+  developers_to_projects: "developers_to_projects.csv"
+
+simulation:
+  alpha: 0.6
+
+  onchain_project_pretrust_weights:
+    transaction_count_all_levels: 0.2
+    transaction_count_txn_level_only: 0.2
+    gas_fees_all_levels: 0.2
+    gas_fees_txn_level_only: 0.2
+    user_count: 0.1
+    bot_filtered_user_count: 0.1
+
+  devtooling_project_pretrust_weights:
+    star_count: 0.25
+    fork_count: 0.35
+    num_packages_in_deps_dev: 0.4
+
+  link_type_time_decays:
+    package_dependency: 1.0
+    onchain_project_to_developer: 0.80
+    developer_to_devtooling_project: 0.80
+
+  link_type_weights:
+    package_dependency: 4.0
+    onchain_project_to_developer: 1.0
+    developer_to_devtooling_project: 1.0
+
+  event_type_weights:
+    cargo: 1.0
+    npm: 1.0
+    pypi: 1.0
+    golang: 1.0
+    forked: 2.0
+    starred: 1.0
+    commit_code: 1.0
+    issue_closed: 0.0
+    issue_comment: 0.0
+    issue_opened: 1.0
+    issue_reopened: 0.0
+    pull_request_closed: 0.0
+    pull_request_merged: 0.0
+    pull_request_opened: 1.0
+    pull_request_reopened: 0.0
+    pull_request_review_comment: 0.0
+
+  eligibility_thresholds:
+    num_projects_with_package_links: 3
+    num_onchain_developers_with_links: 8

@@ -444,5 +444,5 @@ These are just a few of our ideas! All data and code can be found in the [Retro-
 - [Optimism Dev Tooling Mission Details](https://gov.optimism.io/t/retro-funding-dev-tooling-mission-details/9598)
 - [Open Rank / EigenTrust Docs](https://docs.openrank.com/reputation-algorithms/eigentrust)
 - [EigenTrust Original Paper](https://nlp.stanford.edu/pubs/eigentrust.pdf)
-- [OSO Superchain S7 Metric Models](https://github.com/opensource-observer/oso/tree/main/warehouse/metrics_mesh/models/intermediate/superchain)
+- [OSO Superchain S7 Metric Models](https://github.com/opensource-observer/oso/blob/main/apps/docs/docs/references/ecosystems/superchain.md)
 - [OSO’s Devtooling Evaluation Notebook](https://app.hex.tech/00bffd76-9d33-4243-8e7e-9add359f25c7/app/d5da455e-b49a-47d6-a88d-dce1f679a02b/latest)

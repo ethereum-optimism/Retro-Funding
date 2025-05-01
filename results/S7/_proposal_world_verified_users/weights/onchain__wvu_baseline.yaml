@@ -1,0 +1,59 @@
+# ----------------------------------------------------
+# Onchain Builders - World Verified Users - Baseline
+# ----------------------------------------------------
+
+data_snapshot:
+  data_dir: 'results/S7/_proposal_world_verified_users/data/'
+  projects_file: 'onchain__project_metadata.csv'
+  metrics_file: 'onchain__metrics_by_project.csv'
+
+simulation:
+  periods:
+    previous: 'Feb 2025'
+    current: 'Mar 2025'
+  
+  eligibility_filter: true
+  
+  # Chain weights (1.0 = full weight)
+  chains:
+    base: 1.0
+    optimism: 1.0
+
+  tvl_minimum: 1000000
+  
+  # Metric weights must sum to 1.0
+  metrics:
+
+    # metrics used in M1
+    amortized_contract_invocations_monthly: 0.25
+    gas_fees_monthly: 0.25
+    average_tvl_monthly: 0.25
+    
+    # user-related metrics available for weighting
+    active_farcaster_users_monthly: 0.25
+    active_addresses_monthly: 0.00
+    qualified_addresses_monthly: 0.00
+    active_worldchain_verified_addresses_monthly: 0.00
+
+    # transaction-related metrics used in amortized_contract_invocations_monthly
+    internal_transactions_monthly: 0.00
+    account_abstraction_userops_monthly: 0.00
+    transactions_monthly: 0.00
+    contract_invocations_monthly: 0.00
+    worldchain_events_monthly: 0.00
+
+    
+  
+  # Variant weights must sum to 1.0
+  metric_variants:
+    adoption: 0.20    # Current period value
+    growth: 0.20      # Change from previous period
+    retention: 0.60   # Minimum of current and previous
+
+  # Percentile cap for min-max scaling (100 = no cap)
+  percentile_cap: 97
+
+allocation:
+  budget: 1333333.3333333333
+  min_amount_per_project: 200
+  max_share_per_project: 0.05

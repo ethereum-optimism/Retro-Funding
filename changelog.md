@@ -2,6 +2,28 @@
 
 All notable changes to algorithms, weights, and underlying OSO models will be documented here.
 
+## [M4] - 2025-06-15
+
+### Added
+- Added graph-based metrics to devtooling project pretrust weights: `num_package_connections` and `num_developer_connections`.
+- Introduced separate trust propagation rates for onchain and devtooling projects via `alpha_onchain` and `alpha_devtooling` parameters.
+- Shell utility script for running the complete pipeline.
+
+### Changed
+- Reduced total budgets from 1,333,333.33 to 1,300,000 OP.
+- Updated onchain builder metric weights to increase emphasis on core metrics:
+  - Increased weights for contract invocations, gas fees, and TVL from 0.25 to 0.275 each
+  - Reduced overall weight for user metrics from 0.25 to 0.175
+- Modified devtooling project pretrust weights to focus entirely on graph-based metrics:
+  - Removed GitHub metrics (stars, forks, deps.dev packages)
+  - Added new weights: `num_package_connections: 0.40`, `num_developer_connections: 0.60`
+- Increased utility weights for 'Core Protocol Interfaces' and 'Development Frameworks' from 4.00 to 5.00
+- Increased maximum share per project from 5% to 6%
+
+### Fixed
+- Enabled backwards compatibility for configuration loading with new alpha parameters.
+- Updated queries to use the latest OSO data and suppress duplicate DefiLlama slugs introduced due to Atlas bug.
+
 ## [M3] - 2025-05-19
 
 ### Added
@@ -24,7 +46,7 @@ All notable changes to algorithms, weights, and underlying OSO models will be do
 - Introduced new onchain-builder weighting metrics options (e.g., World Verified Users and Account Abstraction UserOps); these currently have no explicit weightings in M2.
 - Added Worldchain-specific event handling for UserOps.
 - Developed utility scripts for fetching OSO data and generating algorithm results.
-- Configured serialization of each round’s results to JSON under `data/outputs`.
+- Configured serialization of each round's results to JSON under `data/outputs`.
 
 ### Changed
 - Removed the `addresses` criterion from the onchain builder eligibility filter.

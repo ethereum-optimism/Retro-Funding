@@ -14,9 +14,9 @@ This document explains the initial evaluation methodology developed for the **Re
 
 ## Context
 
-In 2025, Optimism’s Retro Funding program is shifting to a "metrics-driven, humans-in-the-loop" approach. Instead of voting on projects, citizens vote on _algorithms_. Each algorithm represents a different strategy for rewarding projects. Algorithms will evolve in response to voting, community feedback, and new ideas over the course of the season.
+In 2025, Optimism's Retro Funding program is shifting to a "metrics-driven, humans-in-the-loop" approach. Instead of voting on projects, citizens vote on _algorithms_. Each algorithm represents a different strategy for rewarding projects. Algorithms will evolve in response to voting, community feedback, and new ideas over the course of the season.
 
-This particular round—**Retro Funding S7: Developer Tooling**—focuses on open source compilers, libraries, debuggers, and other toolchains that help builders create cross-chain or interop-compatible apps on the Superchain. See the [round details on the Optimism governance forum](https://gov.optimism.io/t/retro-funding-dev-tooling-mission-details/9598) for more on the mission’s objectives.
+This particular round—**Retro Funding S7: Developer Tooling**—focuses on open source compilers, libraries, debuggers, and other toolchains that help builders create cross-chain or interop-compatible apps on the Superchain. See the [round details on the Optimism governance forum](https://gov.optimism.io/t/retro-funding-dev-tooling-mission-details/9598) for more on the mission's objectives.
 
 ### Expected Impact
 
@@ -69,7 +69,7 @@ A devtooling project must meet all of the following to be considered for a rewar
 
 1. **Open Source**: It has a _public_ GitHub repository with a continuous history of public commits (including some activity in the last 6 months).
 2. **Minimum Links**: The devtooling project must meet the following "centrality" thresholds within the Optimism ecosystem:
-   - At least **three** qualified onchain builder projects have included this devtooling project in their dependency graph (see “What types of package links?” below), **or**
+   - At least **three** qualified onchain builder projects have included this devtooling project in their dependency graph (see "What types of package links?" below), **or**
    - At least **five** active onchain developers (i.e., devs who contributed to qualified onchain builder projects) have engaged with the devtooling project on GitHub (commits, issues, PRs, forks, stars, etc.).
 3. **Qualified Onchain Projects**: The onchain builder projects referencing this devtooling project must themselves meet two conditions:
    - Verify GitHub and contract ownership on OP Atlas or OSO's registry of onchain projects
@@ -104,25 +104,25 @@ There are three types of core **nodes** in the graph:
 
 - **Onchain Projects**, which hold economic pretrust and pass it on.
 - **Developers**, who gain partial trust from the onchain projects they contribute to.
-- **Devtooling Projects**, which receive trust both directly from onchain projects, via package dependencies, and indirectly from developers’ GitHub engagement.
+- **Devtooling Projects**, which receive trust both directly from onchain projects, via package dependencies, and indirectly from developers' GitHub engagement.
 
 Links between nodes, i.e., **edges**, are derived from the following relationships:
 
 1. **Onchain Projects → Devtooling Projects** (Package Dependencies)
 
-   - For each package in the onchain project’s [Software Bill of Materials (SBOM)](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository), if that package is owned by a devtooling project, we add an edge from the onchain project to the devtooling project.
+   - For each package in the onchain project's [Software Bill of Materials (SBOM)](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository), if that package is owned by a devtooling project, we add an edge from the onchain project to the devtooling project.
    - Note: Currently, all dependency edges are assigned the same `event_month` value based on the most recent developer event in the dataset. This effectively means all package dependencies share the same timestamp for time-decay calculations.
 
 2. **Onchain Projects → Developers** (Commits)
 
-   - Whenever a developer commits code (or merges PRs) in an onchain project’s GitHub repository, we add an edge from the onchain project to that developer.
+   - Whenever a developer commits code (or merges PRs) in an onchain project's GitHub repository, we add an edge from the onchain project to that developer.
    - At present, the code lumps all commits in a monthly bucket. We do _not_ differentiate between 1 commit or 100 commits in that month—just that the developer contributed.
    - If a developer contributed to multiple onchain projects in the same month, each project → developer link is added.
 
 3. **Developers → Devtooling Projects** (GitHub Engagement)
 
    - Whenever a developer (from the set recognized above) engages with a devtooling project (commits, PRs, issues, forks, stars, or comments), we add an edge from that developer to the devtooling project.
-   - As with onchain commits, these events are grouped by month—1 PR or 10 PRs is treated as “the developer engaged in that month.”
+   - As with onchain commits, these events are grouped by month—1 PR or 10 PRs is treated as "the developer engaged in that month."
 
 Starting from the third measurement period, we also apply a configurable `utility_weights` parameter to devtooling project links, based on each project's assigned utility label (e.g., Core Protocol Interfaces, Development Frameworks, Data Indexing & Analytics, etc.). Utility labels are assigned via the Devtooling Labels experiment, which clusters and categorizes projects as described in the [Devtooling Labels Experiment](https://github.com/opensource-observer/insights/tree/main/experiments/devtooling_labels).
 
@@ -194,27 +194,30 @@ Pretrust metrics are applied to each node in the graph:
    - Pretrust is derived from aggregated economic metrics like:
      - Transaction volume (count of Superchain transactions in the last 180 days)
      - Gas fees (cumulative L2 fees paid by users in the last 180 days)
-     - Bot-filtered unique user count (unique addresses that interacted with the project’s contract)
+     - Bot-filtered unique user count (unique addresses that interacted with the project's contract)
    - Each metric is log-scaled and min-max normalized
    - The importance of each metric is multiplied by algorithm-specific weights.
    - We sum the weighted metrics for each onchain project, then normalize again so the total across all onchain projects = 1.
 
 2. **Devtooling Projects**
 
-   - Pretrust is derived from the total number of published packages and GitHub metrics (stars, forks).
+   - As of M4, pretrust is derived entirely from graph-based metrics:
+     - Number of package connections (dependencies where project is target)
+     - Number of developer connections (developer links where project is target)
+   - Previously included GitHub metrics (stars, forks) and package counts, but these have been removed
    - The importance of each metric is multiplied by algorithm-specific weights.
    - The same procedure of log-scaling, min-max normalization, weighting, and final normalization ensures the total across devtooling projects = 1.
 
 3. **Developer Reputation**
 
    - Pretrust is derived from the onchain project(s) a developer contributes to:
-     1. Group the developer’s commit history by (`event_month`, `developer_id`).
+     1. Group the developer's commit history by (`event_month`, `developer_id`).
      2. Identify which onchain projects they contributed to in that month.
-     3. Sum the **onchain project pretrust** for those projects, then **divide** that sum by the number of onchain projects. This yields the “share” of trust the developer receives for that month.
+     3. Sum the **onchain project pretrust** for those projects, then **divide** that sum by the number of onchain projects. This yields the "share" of trust the developer receives for that month.
      4. Accumulate these shares across all months.
    - Unlike onchain and devtooling pretrust, the developer reputation is not further min-max or sum normalized in our current code. In other words, the aggregated developer reputation may exceed 1 when summed across all developers.
 
-Note: Because onchain projects are normalized to sum to 1, and devtooling projects are normalized to sum to 1, but developer reputations are not normalized, the total combined “global pretrust” can exceed 1 when these three are merged. This is not a problem for our EigenTrust pipeline, but it is worth noting.
+Note: Because onchain projects are normalized to sum to 1, and devtooling projects are normalized to sum to 1, but developer reputations are not normalized, the total combined "global pretrust" can exceed 1 when these three are merged. This is not a problem for our EigenTrust pipeline, but it is worth noting.
 
 <details>
 <summary>Why these metrics?</summary>
@@ -226,7 +229,7 @@ These metrics are relatively simple to measure and widely applicable to differen
 <details>
 <summary>Why are we dividing by the number of onchain projects contributed to in a month?</summary>
 
-This ensures that if a developer works on multiple onchain projects _in the same time window_, they do not receive the full sum of each project’s pretrust. It is effectively splitting the combined trust among all relevant projects. We may refine this approach in future versions (e.g., weighting by lines changed, repository size, etc.).
+This ensures that if a developer works on multiple onchain projects _in the same time window_, they do not receive the full sum of each project's pretrust. It is effectively splitting the combined trust among all relevant projects. We may refine this approach in future versions (e.g., weighting by lines changed, repository size, etc.).
 
 </details>
 
@@ -243,7 +246,11 @@ After constructing the graph and computing pretrust scores, we assign final weig
 
 1. **Alpha**
 
-   - The alpha parameter controls the portion of the EigenTrust output taken from the pretrust values vs. the iterative trust propagation step. See [below](#eigentrust) for more details of setting alpha values.
+   - As of M4, separate alpha parameters control the portion of the EigenTrust output taken from the pretrust values vs. the iterative trust propagation step:
+     - `alpha_onchain`: Controls trust propagation for onchain project links
+     - `alpha_devtooling`: Controls trust propagation for devtooling project links
+   - Previously used a single alpha parameter for all link types
+   - See [below](#eigentrust) for more details of setting alpha values.
    - Algorithms can specify separate alpha values in the YAML config.
 
 1. **Time Decay**
@@ -251,7 +258,7 @@ After constructing the graph and computing pretrust scores, we assign final weig
    - By default, we reference the latest `event_month` in the dataset as `time_ref` and compute `(time_ref - event_month)` in years.
    - We apply an exponential decay factor, i.e., `exp(-decay_factor * change_in_years)`.
    - Algorithms can specify separate decay factors for each type of link in the YAML config.
-   - Package dependencies are typically set to the same “event timestamp,” meaning they all share the same date in practice, so they experience the same decay penalty (or none).
+   - Package dependencies are typically set to the same "event timestamp," meaning they all share the same date in practice, so they experience the same decay penalty (or none).
 
 1. **Link-Type Weights**
 
@@ -302,12 +309,12 @@ We run the [EigenTrust](https://docs.openrank.com/openrank-sdk/sdk-references/ei
 2. **Pretrust Vector**
 
    - We combine the onchain project pretrust, devtooling project pretrust, and developer reputation into one vector for each EigenTrust pass.
-   - Example: If an onchain project `i` has pretrust 0.05, a devtooling project `j` has pretrust 0.01, and a developer `d` has 0.02, those are all entries in the same “seed” vector.
+   - Example: If an onchain project `i` has pretrust 0.05, a devtooling project `j` has pretrust 0.01, and a developer `d` has 0.02, those are all entries in the same "seed" vector.
 
 3. **Weighted Adjacency Matrix**
 
    - Each row i in the adjacency matrix (for node i) has outgoing edges to j with final weight `v_final`.
-   - EigenTrust normalizes each row so that the sum of outbound edges from node i is 1, distributing i’s trust proportionally to its outbound edges.
+   - EigenTrust normalizes each row so that the sum of outbound edges from node i is 1, distributing i's trust proportionally to its outbound edges.
 
 4. **Iteration & Convergence**
    - EigenTrust typically converges in a handful of iterations on large graphs.
@@ -338,18 +345,18 @@ When EigenTrust converges, we focus on scores for **devtooling projects** only:
 
 2. **Aggregate Scores**
 
-   - For each devtooling project, we take its EigenTrust score (v). If it’s ineligible, we set it to 0.
+   - For each devtooling project, we take its EigenTrust score (v). If it's ineligible, we set it to 0.
    - We then normalize so that the sum of devtooling scores = 1. This is the final fraction of the available S7 devtooling funds.
 
 3. **Reward Distribution**
-   - We can optionally apply a min/max reward cap. Then each project’s final trust fraction × (pool size) yields the reward.
+   - We can optionally apply a min/max reward cap. Then each project's final trust fraction × (pool size) yields the reward.
    - The reward distribution parameters are determined by the Optimism Foundation and are not algorithm-specific.
 
 <details>
-<summary>How does OSO produce the “value flow” Sankey from onchain projects to devtooling projects?</summary>
+<summary>How does OSO produce the "value flow" Sankey from onchain projects to devtooling projects?</summary>
 
-After we have final devtooling scores, we use a method called **iterative proportional fitting (IPF)** to break down exactly how each devtooling project’s final trust is “sourced” from the onchain projects that connect to it.  
-The pipeline exports a “detailed_value_flow_graph” CSV that can power visual diagrams of which onchain projects contributed to a devtooling project’s final score. This helps with attribution and transparency.
+After we have final devtooling scores, we use a method called **iterative proportional fitting (IPF)** to break down exactly how each devtooling project's final trust is "sourced" from the onchain projects that connect to it.  
+The pipeline exports a "detailed_value_flow_graph" CSV that can power visual diagrams of which onchain projects contributed to a devtooling project's final score. This helps with attribution and transparency.
 
 </details>
 
@@ -366,10 +373,15 @@ Arcturus rewards projects with **significant current adoption** by focusing on t
 
 Weightings for Arcturus:
 
-- **Alpha**: High. The metrics used to establish pretrust have a relatively large impact on the final scores.
+- **Alpha**: 
+  - `alpha_onchain`: 0.5 (high trust in onchain project metrics)
+  - `alpha_devtooling`: 0.25 (moderate trust in devtooling project metrics)
 - **Time Decay**: Low. There is a small discount applied to older events, but not as much as other algorithms.
 - **Link-Type Weights**: Package bias. The model prefers package dependencies over developer engagement.
 - **Event-Type Weights**: Neutral. The model does not strongly favor one type of event over another.
+- **Pretrust Weights**: 
+  - Onchain: Economic metrics (transactions, gas, users)
+  - Devtooling: Graph-based metrics (package and developer connections)
 
 Projects from Retro Funding 3 that score well in this algorithm include:
 
@@ -443,7 +455,7 @@ We welcome improvements to:
    - Or propose entirely new weighting logic.
 4. **Scoring Method**
    - Compare EigenTrust with alternative ranking algorithms (PageRank, HITS, etc.).
-   - See how each method aligns with the developer community’s sense of “impact.”
+   - See how each method aligns with the developer community's sense of "impact."
 
 These are just a few of our ideas! All data and code can be found in the [Retro-Funding GitHub repo](https://github.com/ethereum-optimism/Retro-Funding).
 
@@ -454,4 +466,4 @@ These are just a few of our ideas! All data and code can be found in the [Retro-
 - [Open Rank / EigenTrust Docs](https://docs.openrank.com/reputation-algorithms/eigentrust)
 - [EigenTrust Original Paper](https://nlp.stanford.edu/pubs/eigentrust.pdf)
 - [OSO Superchain S7 Metric Models](https://github.com/opensource-observer/oso/tree/main/warehouse/oso_sqlmesh/models/intermediate/superchain)
-- [OSO’s Devtooling Evaluation Notebook](https://app.hex.tech/00bffd76-9d33-4243-8e7e-9add359f25c7/app/d5da455e-b49a-47d6-a88d-dce1f679a02b/latest)
+- [OSO's Devtooling Evaluation Notebook](https://app.hex.tech/00bffd76-9d33-4243-8e7e-9add359f25c7/app/d5da455e-b49a-47d6-a88d-dce1f679a02b/latest)

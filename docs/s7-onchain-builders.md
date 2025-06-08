@@ -14,9 +14,9 @@ This document explains the initial evaluation methodology developed for the **Re
 
 ## Context
 
-In 2025, Optimism’s Retro Funding program is shifting to a "metrics-driven, humans-in-the-loop" approach. Instead of voting on projects, citizens vote on _algorithms_. Each algorithm represents a different strategy for rewarding projects. Algorithms will evolve in response to voting, community feedback, and new ideas over the course of the season.
+In 2025, Optimism's Retro Funding program is shifting to a "metrics-driven, humans-in-the-loop" approach. Instead of voting on projects, citizens vote on _algorithms_. Each algorithm represents a different strategy for rewarding projects. Algorithms will evolve in response to voting, community feedback, and new ideas over the course of the season.
 
-This particular round—**Retro Funding S7: Onchain Builders**—focuses on protocols and dApps that are helping grow the Superchain economy. See the [round details on the Optimism governance forum](https://gov.optimism.io/t/retro-funding-onchain-builders-mission-details/9611) for more on the mission’s objectives.
+This particular round—**Retro Funding S7: Onchain Builders**—focuses on protocols and dApps that are helping grow the Superchain economy. See the [round details on the Optimism governance forum](https://gov.optimism.io/t/retro-funding-onchain-builders-mission-details/9611) for more on the mission's objectives.
 
 ### Expected Impact
 
@@ -50,7 +50,7 @@ Note: all figures are as of January 2025, and are lower than actual figures as w
 The OSO pipeline code is contained in our `OnchainBuildersCalculator` class and associated SQL models. Below is a high-level flow:
 
 1. **Data Collection**: Gather transaction and trace-level data from the Superchain (contract invocation events, gas fees, active addresses, user labels, etc.), plus monthly TVL data from DefiLlama.
-2. **Eligibility Filtering**: Exclude projects that don’t meet the minimum activity thresholds (detailed below).
+2. **Eligibility Filtering**: Exclude projects that don't meet the minimum activity thresholds (detailed below).
 3. **Metric Aggregation**: Consolidate raw data per project by chain, applying amortization logic when multiple projects are invoked in the same transaction.
 4. **Variant Computation**: Generate time-based _Adoption_, _Growth_, and _Retention_ metrics by comparing values across time periods.
 5. **Weighting & Scoring**: Apply algorithm-specific metric and variant weightings to produce a single project score.
@@ -96,12 +96,12 @@ Any address that invokes a project's contract as a `from` address is counted. Th
 
 ### Project-Level Metrics
 
-Each project’s score is based on four key metrics:
+Each project's score is based on four key metrics:
 
 1. **TVL**. The average Total Value Locked (in USD) during the measurement period, focusing on ETH, stablecoins, and eventually other qualified assets.
-2. **Transaction Counts**. The count of unique, successful transaction hashes that result in a state change and involve one or more of a project’s contracts on the Superchain.
-3. **Gas Fees**. The total L2 gas (gas consumed \* gas price) for all successful transactions the results in a state change and involve one or more of a project’s contracts on the Superchain.
-4. **Monthly Active Users**. The count of qualified unique users (Farcaster linked addresses or World Verified Users) that initiated an event producing a state change with one or more of a project’s contracts.
+2. **Transaction Counts**. The count of unique, successful transaction hashes that result in a state change and involve one or more of a project's contracts on the Superchain.
+3. **Gas Fees**. The total L2 gas (gas consumed * gas price) for all successful transactions the results in a state change and involve one or more of a project's contracts on the Superchain.
+4. **Monthly Active Users**. The count of qualified unique users (Farcaster linked addresses or World Verified Users) that initiated an event producing a state change with one or more of a project's contracts.
 
 These metrics are grouped by project and chain, with the potential to weight by interop- or chain-specific multipliers. Finally, we sum them across all chains to get a single aggregated value per project.
 
@@ -117,7 +117,7 @@ These metrics are grouped by project and chain, with the potential to weight by 
 <details>
 <summary>How are transactions and gas fees attributed to projects?</summary>
 
-- If a project’s contract is the `to_address` in the transaction, that project is attributed 50% of the impact.
+- If a project's contract is the `to_address` in the transaction, that project is attributed 50% of the impact.
 - Any other projects whose contracts appear in the traces share the remaining 50%, split evenly.
 - If no other projects appear in the traces, the `to_address` project receives 100% of the impact.
 - If the `to_address` is not linked to a project in the round, but the traces include one or more known projects, then those projects together receive 50%, split evenly.
@@ -171,13 +171,13 @@ Each algorithm we present has a different weighting of these variants. For insta
 <details>
 <summary>Show me an example</summary>
 
-- If a project’s monthly **transaction count** was 10k last month and 15k this month:
+- If a project's monthly **transaction count** was 10k last month and 15k this month:
 
   - **Adoption** = 15k
   - **Growth** = (15k - 10k) = 5k
   - **Retention** = min(10k, 15k) = 10k
 
-- If another project’s monthly **transaction count** was 15k last month and 10k this month:
+- If another project's monthly **transaction count** was 15k last month and 10k this month:
   - **Adoption** = 10k
   - **Growth** = (10k - 15k) = 0
   - **Retention** = min(15k, 10k) = 10k
@@ -204,16 +204,16 @@ After we assemble the metrics and compute the variants, we apply the following a
 3. **Variant Weights**
 
    - Each variant (adoption, growth, retention) also has a base weight.
-   - For example, we might put more emphasis on “growth” to reward rapidly rising projects.
+   - For example, we might put more emphasis on "growth" to reward rapidly rising projects.
 
 These multipliers are all described in a YAML config that the pipeline reads. They can be easily tuned to reflect different philosophies on how to reward onchain projects. We encourage the community to propose different settings that reflect how we want to reward certain forms of impact.
 
 <details>
 <summary>Crosschain Multipliers: Coming Soon<sup>tm</sup></summary>
 
-- **Purpose:** In addition to all of the above, each project can qualify for “crosschain multipliers” for supporting interoperability-related features. Starting in H2, there will be a route-specific multiplier to projects’ scores based on the amount of crosschain activity they handle.
+- **Purpose:** In addition to all of the above, each project can qualify for "crosschain multipliers" for supporting interoperability-related features. Starting in H2, there will be a route-specific multiplier to projects' scores based on the amount of crosschain activity they handle.
 - **Application of Crosschain Multiplier**: Projects that qualify will receive a multiplier applied to their final score, increasing their potential reward.
-  - Example: OP Mainnet ←→ Unichain has a 1.5X multiplier, and 30% of the project’s transactions occurred between these two chains, thus the projects gets a net multiplier of (1 + 0.5 \* 0.3) = 1.15X.
+  - Example: OP Mainnet ←→ Unichain has a 1.5X multiplier, and 30% of the project's transactions occurred between these two chains, thus the projects gets a net multiplier of (1 + 0.5 * 0.3) = 1.15X.
 
 </details>
 
@@ -227,7 +227,7 @@ Then, we multiply by the algorithm-specific weights described above:
 normalized_variant_score = normalized_metric * metric_weight * variant_weight
 ```
 
-To arrive at single project score, we take the power mean (with p=2) across all normalized variants. This somewhat penalizes “spiky” metrics and rewards a more balanced performance. Projects are not penalized for metrics for which they have null values (e.g., TVL metrics for non-defi projects).
+To arrive at single project score, we take the power mean (with p=2) across all normalized variants. This somewhat penalizes "spiky" metrics and rewards a more balanced performance. Projects are not penalized for metrics for which they have null values (e.g., TVL metrics for non-defi projects).
 
 ### Finalizing & Ranking
 
@@ -239,7 +239,7 @@ The following steps are applied to finalize results and convert them into a rewa
 
 2. **Reward Distribution**
 
-   - We can optionally apply a min/max reward cap. Then each project’s final score × pool size yields the reward, with amounts above or below the caps allocated to projects in the middle.
+   - We can optionally apply a min/max reward cap. Then each project's final score × pool size yields the reward, with amounts above or below the caps allocated to projects in the middle.
    - The reward distribution parameters are determined by the Optimism Foundation and are not algorithm-specific.
 
 ## Proposed Algorithms
@@ -294,7 +294,7 @@ Projects from Retro Funding 4 that score well include:
 
 ### Goldilocks [Used in S7]
 
-This algorithm seeks to **evenly balance various aspects of impact**. It places a moderate weight on each metric and prioritizes retention over sheer growth. The goal is to support steady, sustained contributions across the board rather than “spiky” projects that only excel in one area. This is a good algorithm to vote for if you want to support a wide range of projects.
+This algorithm seeks to **evenly balance various aspects of impact**. It places a moderate weight on each metric and prioritizes retention over sheer growth. The goal is to support steady, sustained contributions across the board rather than "spiky" projects that only excel in one area. This is a good algorithm to vote for if you want to support a wide range of projects.
 
 <details>
 <summary>Weightings & Sample Results</summary>
@@ -302,8 +302,11 @@ This algorithm seeks to **evenly balance various aspects of impact**. It places 
 Weightings for Goldilocks:
 
 - **Chain Weights**: Neutral. All chains are weighted equally.
-- **Metric Weights**: Neutral. All metrics (TVL, transactions, gas, user counts) are weighted fairly evenly.
+- **Metric Weights**: 
+  - Core metrics (contract invocations, gas fees, TVL): 0.275 each
+  - User metrics (active Farcaster users, qualified addresses): 0.0875 each
 - **Variant Weights**: Retention bias. Adoption and growth are weighted less.
+- **Budget**: 1,300,000 OP (reduced from 1,333,333.33 OP in M3)
 
 Projects from Retro Funding 4 that score well include:
 
@@ -342,4 +345,4 @@ These are just a few of our ideas! All data and code can be found in the [Retro-
 - [DefiLlama Documentation](https://docs.llama.fi/) (for how TVL is calculated)
 - [Superchain Data on BigQuery](https://docs.opensource.observer/docs/integrate/datasets/#superchain)
 - [OSO Superchain S7 Metric Models](https://github.com/opensource-observer/oso/tree/main/warehouse/metrics_mesh/models/intermediate/superchain)
-- [OSO’s Onchain Builders Evaluation Notebook](https://app.hex.tech/00bffd76-9d33-4243-8e7e-9add359f25c7/app/067ac30b-ef55-452c-891c-cf4dff9d86c9/latest)
+- [OSO's Onchain Builders Evaluation Notebook](https://app.hex.tech/00bffd76-9d33-4243-8e7e-9add359f25c7/app/067ac30b-ef55-452c-891c-cf4dff9d86c9/latest)

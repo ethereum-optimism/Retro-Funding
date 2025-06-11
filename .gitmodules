@@ -1,0 +1,3 @@
+[submodule "results/S7/community_submissions/devtooling-heuristics-eval-algo"]
+	path = results/S7/community_submissions/devtooling-heuristics-eval-algo
+	url = git@github.com:theChriscen/devtooling-heuristics-eval-algo.git

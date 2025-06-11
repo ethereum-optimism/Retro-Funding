@@ -1,0 +1,45 @@
+model:
+  name: domain_specific_heuristics
+  parameters:
+    weights:
+      stars: 0.1
+      forks: 0.1
+      contributors: 0.1
+      dependents: 0.20
+      commit_volume: 0.2
+      pull_requests: 0.2
+      forks_to_import_ratio: 0.1
+    thresholds:
+      min_dependents: 1
+      min_contributors: 1
+data:
+  projects_file: devtooling_project_metadata.csv
+  contributor_file: devtooling_raw_metrics.json  
+  onchain_metrics_file: devtooling_onchain_metadata.csv
+  dependency_file: devtooling_developer_graph.csv
+output:
+  rankings_file: heuristics_rankings.csv
+
+
+
+# model:
+#   name: domain_specific_heuristics
+#   parameters:
+#     weights:
+#       stars: 0.1
+#       forks: 0.1
+#       contributors: 0.20
+#       dependents: 0.20
+#       tx_count: 0.20
+#       unique_users: 0.10
+#       gas_fee: 0.1
+#     thresholds:
+#       min_dependents: 1
+#       min_contributors: 1
+# data:
+#   projects_file: devtooling_project_metadata.csv
+#   contributor_file: devtooling_raw_metrics.json  
+#   onchain_metrics_file: devtooling_onchain_metadata.csv
+#   dependency_file: devtooling_developer_graph.csv
+# output:
+#   rankings_file: heuristics_rankings.csv

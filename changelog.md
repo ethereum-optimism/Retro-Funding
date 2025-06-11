@@ -11,14 +11,16 @@ All notable changes to algorithms, weights, and underlying OSO models will be do
 
 ### Changed
 - Reduced total budgets from 1,333,333.33 to 1,300,000 OP.
-- Updated onchain builder metric weights to increase emphasis on core metrics:
-  - Increased weights for contract invocations, gas fees, and TVL from 0.25 to 0.275 each
-  - Reduced overall weight for user metrics from 0.25 to 0.175
-- Modified devtooling project pretrust weights to focus entirely on graph-based metrics:
-  - Removed GitHub metrics (stars, forks, deps.dev packages)
-  - Added new weights: `num_package_connections: 0.40`, `num_developer_connections: 0.60`
-- Increased utility weights for 'Core Protocol Interfaces' and 'Development Frameworks' from 4.00 to 5.00
-- Increased maximum share per project from 5% to 6%
+- Onchain builders:
+  - Updated onchain builder metric weights to increase emphasis on core metrics:
+    - Increased weights for contract invocations, gas fees, and TVL from 0.25 to 0.275 each
+    - Reduced overall weight for user metrics from 0.25 to 0.175
+- Dev Tooling:
+  - Modified devtooling project pretrust weights to focus entirely on graph-based metrics:
+    - Removed GitHub metrics (stars, forks, deps.dev packages)
+    - Added new weights: `num_package_connections: 0.40`, `num_developer_connections: 0.60`
+  - Increased utility weights for 'Core Protocol Interfaces' and 'Development Frameworks' from 4.00 to 5.00
+  - Increased maximum share per project from 5% to 6%
 
 ### Fixed
 - Enabled backwards compatibility for configuration loading with new alpha parameters.

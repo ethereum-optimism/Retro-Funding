@@ -619,10 +619,10 @@
     "oso_project_id":"gShBUgODnfUHQo2svXnecUd6kG22drV+Og4nxdq/82k=",
     "op_atlas_id":"0x2c1d2ae68e4a718a04a41f1a9fde1ed0648602e08c150e3f72d3dc7ef22dd71a",
     "display_name":"GM",
-    "is_eligible":false,
+    "is_eligible":true,
     "has_defillama_adapter":false,
     "has_bundle_bear":false,
-    "op_reward":null,
+    "op_reward":19393.22,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":0,

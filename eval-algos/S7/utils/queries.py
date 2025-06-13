@@ -170,6 +170,7 @@ QUERIES = [
             JOIN projects_v1 AS p ON p.project_id = tm.project_id
             JOIN projects_by_collection_v1 AS pbc ON pbc.project_id = p.project_id
             JOIN params AS pms ON TRUE
+            CROSS JOIN int_superchain_chain_names AS chains
             WHERE
                 pbc.collection_name = '8-{MEASUREMENT_PERIOD}'
             AND tm.sample_date >= pms.month_start
@@ -180,6 +181,7 @@ QUERIES = [
                 OR m.metric_name LIKE '%active_addresses_aggregation_daily'
                 OR m.metric_name LIKE '%contract_invocations_daily'
             )
+            AND m.metric_name LIKE CONCAT(chains.chain, '_%')
             AND NOT (
                 p.project_name IN ({stringify(DEFILLAMA_REMOVE_LIST)})
                 AND m.metric_name LIKE '%defillama_tvl_daily'

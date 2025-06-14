@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/github/license/ethereum-optimism/Retro-Funding)](https://github.com/ethereum-optimism/Retro-Funding/blob/main/LICENSE)
+
 # Retro Funding Season 7 (S7) Data and Algorithms
 
 ## Quickstart

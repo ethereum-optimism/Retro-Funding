@@ -2,6 +2,7 @@
 credentials.json
 _ignore/
 *rewards.csv
+Updater.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -3,7 +3,7 @@
 # Check if measurement period is provided
 if [ -z "$1" ]; then
     echo "Usage: ./run_pipeline.sh <measurement_period>"
-    echo "Example: ./run_pipeline.sh M4"
+    echo "Example: ./run_pipeline.sh M5"
     exit 1
 fi
 

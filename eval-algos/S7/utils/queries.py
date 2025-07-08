@@ -10,6 +10,7 @@ THIS_PERIOD_DATE = '2025-06-01'
 LAST_PERIOD_DATE = '2025-05-01'
 FLAG_LIST = [
     '0x482720e73e91229b5f7d5e2d80a54eb8a722309c26dba03355359788b18f4373', # M4 RubyScore (manufactured activity)
+    '0xaa1b878800206da24ee7297fb202ef98a6af0fb3ec298a65ba6b675cb4f4144b', # Test Project
 ]
 TRANSITIVE_DEPENDENCY_LIST = [
     'pr9u5w1LqcK44g1o2RcI9ztDGB8nZTkJYMOq7e8pvac=', # noble-cryptography
@@ -124,6 +125,7 @@ QUERIES = [
         "query": f"""
             SELECT *
             FROM int_superchain_s7_devtooling_devs_to_projects_graph
+            WHERE project_id != '8Cgztczct8fnsJW6D2OQcFRY6nClKNyOC7Le0soED94='
         """
     },
     {
@@ -146,7 +148,15 @@ QUERIES = [
                 p.project_name AS op_atlas_id,
                 p.display_name,
                 LOWER(
-                    REGEXP_REPLACE(m.display_name, '[^a-zA-Z0-9]+', '_')
+                    REGEXP_REPLACE(
+                      (CASE
+                        WHEN m.metric_name = 'WORLDCHAIN_worldchain_users_aggregation_daily' THEN 'Active Addresses Aggregation'
+                        WHEN m.metric_name = 'WORLDCHAIN_gas_fees_internal_daily' THEN 'Gas Fees'
+                        ELSE m.display_name
+                      END),
+                      '[^a-zA-Z0-9]+',
+                      '_'
+                    )
                 ) || '__' ||
                 LOWER(DATE_FORMAT(tm.sample_date, '%b')) || '_' || 
                 DATE_FORMAT(tm.sample_date, '%Y')
@@ -156,7 +166,7 @@ QUERIES = [
 
                 SUM(
                     CASE
-                        WHEN m.display_name IN ('Defillama TVL', 'Active Addresses Aggregation')
+                        WHEN m.display_name IN ('Defillama TVL', 'Active Addresses Aggregation', 'Worldchain Users Aggregation')
                         THEN tm.amount / DAY(LAST_DAY_OF_MONTH(tm.sample_date))
                         ELSE tm.amount
                     END
@@ -167,7 +177,7 @@ QUERIES = [
             JOIN projects_by_collection_v1 AS pbc ON pbc.project_id = p.project_id
             JOIN params AS pms ON TRUE
             WHERE
-                pbc.collection_name = '8-{THIS_PERIOD_NUMBER}'
+                pbc.collection_name = '8-5'
             AND tm.sample_date >= pms.month_start
             AND tm.sample_date < DATE_ADD('month', 1, pms.month_start)
             AND (
@@ -175,6 +185,9 @@ QUERIES = [
                 OR m.metric_name LIKE '%defillama_tvl_daily'
                 OR m.metric_name LIKE '%active_addresses_aggregation_daily'
                 OR m.metric_name LIKE '%contract_invocations_daily'
+                OR m.metric_name LIKE '%contract_invocations_daily'
+                OR m.metric_name = 'WORLDCHAIN_worldchain_users_aggregation_daily'
+                OR m.metric_name = 'WORLDCHAIN_gas_fees_internal_daily'
             )
             GROUP BY 1, 2, 3, 4, 5
         """

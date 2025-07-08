@@ -2,6 +2,25 @@
 
 All notable changes to algorithms, weights, and underlying OSO models will be documented here.
 
+## [M5] - 2025-07-07
+
+### Added
+- Added support for [transitive NPM dependencies](https://github.blog/changelog/2025-03-04-easily-distinguish-between-direct-and-transitive-dependencies-for-npm-packages/) in devtooling project links.
+- Added new onchain builder metric: `contract_invocations_upgraded_eoa_monthly`. This metric is used to track the number of contract invocations made from EIP-7702 upgraded EOAs.
+
+### Changed
+- Onchain builders:
+  - Set initial weight for `contract_invocations_upgraded_eoa_monthly` to 0.07702 and reduced weight for `amortized_contract_invocations_monthly` from 0.275 to 0.19798.
+  - Increased weight for `average_tvl_monthly` from 0.275 to 0.30.
+  - Reduced `qualified_addresses_monthly` weight from 0.175 to 0.15.
+  - Increased the `percentile_cap` from 98 to 98.5.
+- Dev Tooling:
+  - Set initial weight for `npm_transitive` to 0.1.
+  - Applied the `npm_transitive` weight to projects that had more than 10 package links and more than 90% of these links are transitive.
+
+### Fixed
+- Created more consistent contract discovery and de-duplication logic for onchain builders in the OSO models.
+
 ## [M4] - 2025-06-15
 
 ### Added

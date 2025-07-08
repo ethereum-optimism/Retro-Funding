@@ -111,6 +111,7 @@ Links between nodes, i.e., **edges**, are derived from the following relationshi
 1. **Onchain Projects → Devtooling Projects** (Package Dependencies)
 
    - For each package in the onchain project's [Software Bill of Materials (SBOM)](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository), if that package is owned by a devtooling project, we add an edge from the onchain project to the devtooling project.
+   - As of M5, we now distinguish between direct and [transitive NPM dependencies](https://github.blog/changelog/2025-03-04-easily-distinguish-between-direct-and-transitive-dependencies-for-npm-packages/), with transitive dependencies receiving a lower weight (0.1) for projects that have more than 10 package links and more than 90% of these links are transitive.
    - Note: Currently, all dependency edges are assigned the same `event_month` value based on the most recent developer event in the dataset. This effectively means all package dependencies share the same timestamp for time-decay calculations.
 
 2. **Onchain Projects → Developers** (Commits)
@@ -150,6 +151,13 @@ We currently condense them into a single edge by package source (e.g., npm, crat
 <summary>What about historical dependencies?</summary>
 
 We have plans to include historical dependency data in future iterations of the evaluation. Currently, however, our metrics are only on the latest dependency data.
+
+</details>
+
+<details>
+<summary>How are transitive dependencies handled?</summary>
+
+As of M5, we distinguish between direct and transitive NPM dependencies. Transitive dependencies (dependencies of dependencies) receive a lower weight (0.1) compared to direct dependencies. This weighting is applied to projects that have more than 10 package links and more than 90% of these links are transitive, helping to prevent over-rewarding projects that are primarily included as indirect dependencies.
 
 </details>
 
@@ -366,7 +374,7 @@ Each algorithm references a different YAML file but shares the same underlying p
 
 ### Arcturus [Used in S7]
 
-Arcturus rewards projects with **significant current adoption** by focusing on total dependents and downstream impact. It emphasizes the number of developers and onchain users benefiting from these tools, ensuring that cornerstone infrastructure is properly recognized. By applying only a modest discount to older events, Arcturus is best suited for rewarding established projects that many builders rely on.
+Arcturus rewards projects with **significant current adoption** by focusing on total dependents and downstream impact. It emphasizes the number of developers and onchain users benefiting from these tools, ensuring that cornerstone infrastructure is properly recognized. By applying only a modest discount to older events, Arcturus is best suited for rewarding established projects that many builders rely on. As of M5, Arcturus also distinguishes between direct and transitive dependencies, with transitive dependencies receiving reduced weight to prevent over-rewarding indirectly included packages.
 
 <details>
 <summary>Weightings & Sample Results</summary>
@@ -379,6 +387,9 @@ Weightings for Arcturus:
 - **Time Decay**: Low. There is a small discount applied to older events, but not as much as other algorithms.
 - **Link-Type Weights**: Package bias. The model prefers package dependencies over developer engagement.
 - **Event-Type Weights**: Neutral. The model does not strongly favor one type of event over another.
+- **Dependency Weights**: 
+  - Direct dependencies: Full weight
+  - Transitive dependencies: 0.1 weight (for projects with >10 links and >90% transitive)
 - **Pretrust Weights**: 
   - Onchain: Economic metrics (transactions, gas, users)
   - Devtooling: Graph-based metrics (package and developer connections)

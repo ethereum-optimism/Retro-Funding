@@ -83,7 +83,7 @@ OSO relies on the [OP Labs](https://docs.opensource.observer/docs/integrate/data
 <details>
 <summary>How exactly are transactions counted?</summary>
 
-Any successful transaction that invokes a project's contract as a `to` address is counted. This includes both direct contract invocations and contract invocations via traces (via `delegatecall` or `call`). The metric itself is calculated via a `count distinct` operation on the transaction hash.
+Any successful transaction that invokes a project's contract as a `to` address is counted. This includes both direct contract invocations and contract invocations via traces (via `delegatecall` or `call`). The metric itself is calculated via a `count distinct` operation on the transaction hash. As of M5, we have improved contract discovery and de-duplication logic to ensure more consistent attribution of transactions to projects.
 
 </details>
 
@@ -96,12 +96,13 @@ Any address that invokes a project's contract as a `from` address is counted. Th
 
 ### Project-Level Metrics
 
-Each project's score is based on four key metrics:
+Each project's score is based on five key metrics:
 
 1. **TVL**. The average Total Value Locked (in USD) during the measurement period, focusing on ETH, stablecoins, and eventually other qualified assets.
 2. **Transaction Counts**. The count of unique, successful transaction hashes that result in a state change and involve one or more of a project's contracts on the Superchain.
 3. **Gas Fees**. The total L2 gas (gas consumed * gas price) for all successful transactions the results in a state change and involve one or more of a project's contracts on the Superchain.
 4. **Monthly Active Users**. The count of qualified unique users (Farcaster linked addresses or World Verified Users) that initiated an event producing a state change with one or more of a project's contracts.
+5. **Contract Invocations from Upgraded EOAs**. The count of contract invocations made from EIP-7702 upgraded EOAs, introduced in M5 to track adoption of account abstraction features.
 
 These metrics are grouped by project and chain, with the potential to weight by interop- or chain-specific multipliers. Finally, we sum them across all chains to get a single aggregated value per project.
 
@@ -155,6 +156,13 @@ User numbers are not heavily weighted in any of the algorithms, so this is not a
 <summary>How are user ops from account abstraction projects handled?</summary>
 
 As of M2, we have created logic specifically for handling account abstraction-related transactions, which bundle actions from multiple users into the same same transaction. UserOps are counted as a distinct transaction and smart contract wallet as a distinct address. Gas fees are shared among all projects involved in the transaction.
+
+</details>
+
+<details>
+<summary>What are contract invocations from upgraded EOAs?</summary>
+
+As of M5, we track contract invocations made from EIP-7702 upgraded EOAs. This metric helps identify projects that are actively supporting account abstraction features and the transition to smart contract wallets. Projects that facilitate more interactions from upgraded EOAs receive additional weight in the scoring algorithm.
 
 </details>
 
@@ -303,10 +311,12 @@ Weightings for Goldilocks:
 
 - **Chain Weights**: Neutral. All chains are weighted equally.
 - **Metric Weights**: 
-  - Core metrics (contract invocations, gas fees, TVL): 0.275 each
-  - User metrics (active Farcaster users, qualified addresses): 0.0875 each
+  - Core metrics (contract invocations: 0.20, gas fees: 0.275, TVL: 0.30)
+  - User metrics (active Farcaster users: 0.0875, qualified addresses: 0.15)
+  - Account abstraction (contract invocations from upgraded EOAs: 0.075)
 - **Variant Weights**: Retention bias. Adoption and growth are weighted less.
 - **Budget**: 1,300,000 OP (reduced from 1,333,333.33 OP in M3)
+- **Percentile Cap**: 98.5 (increased from 98 in M4)
 
 Projects from Retro Funding 4 that score well include:
 

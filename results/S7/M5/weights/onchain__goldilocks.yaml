@@ -25,10 +25,10 @@ simulation:
   metrics:
 
     # new for M5
-    contract_invocations_upgraded_eoa_monthly: 0.075
+    contract_invocations_upgraded_eoa_monthly: 0.07702
 
     # metrics used in M1
-    amortized_contract_invocations_monthly: 0.20
+    amortized_contract_invocations_monthly: 0.19798
     gas_fees_monthly: 0.275
     average_tvl_monthly: 0.30
 

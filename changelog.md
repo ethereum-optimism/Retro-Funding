@@ -10,7 +10,7 @@ All notable changes to algorithms, weights, and underlying OSO models will be do
 
 ### Changed
 - Onchain builders:
-  - Set initial weight for `contract_invocations_upgraded_eoa_monthly` to 0.075 and reduced weight for `amortized_contract_invocations_monthly` from 0.275 to 0.20.
+  - Set initial weight for `contract_invocations_upgraded_eoa_monthly` to 0.07702 and reduced weight for `amortized_contract_invocations_monthly` from 0.275 to 0.19798.
   - Increased weight for `average_tvl_monthly` from 0.275 to 0.30.
   - Reduced `qualified_addresses_monthly` weight from 0.175 to 0.15.
   - Increased the `percentile_cap` from 98 to 98.5.

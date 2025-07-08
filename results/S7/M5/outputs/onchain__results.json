@@ -4,7 +4,7 @@
     "op_atlas_id":"0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
     "display_name":"CreateX",
     "is_eligible":true,
-    "op_reward":11082.37,
+    "op_reward":10980.95,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -12,10 +12,10 @@
       "transaction_count":1878817
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":619.5,
       "contract_invocations":515822.0,
-      "gas_fees":9.3186210692
+      "active_addresses_aggregation":619.5,
+      "defillama_tvl":null,
+      "gas_fees":9.3219518966
     }
   },
   {
@@ -23,7 +23,7 @@
     "op_atlas_id":"0x000c2ce4773defb3010a58d3800d0ec9d432189c574ba26d3103f1db44a5af6d",
     "display_name":"WOOFi",
     "is_eligible":true,
-    "op_reward":5604.31,
+    "op_reward":5525.77,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -31,9 +31,9 @@
       "transaction_count":4015523
     },
     "monthly_metrics":{
-      "defillama_tvl":19896211.4771606587,
-      "active_addresses_aggregation":69.5,
       "contract_invocations":1058637.0,
+      "active_addresses_aggregation":69.5,
+      "defillama_tvl":19896211.4771606736,
       "gas_fees":0.1501634842
     }
   },
@@ -42,7 +42,7 @@
     "op_atlas_id":"0x00d5eaebec0fa6a41bbf5e29d347162dabc04dfffcd188663fc16393a5d9917a",
     "display_name":"The Box",
     "is_eligible":true,
-    "op_reward":12079.73,
+    "op_reward":11913.13,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":166,
@@ -50,10 +50,10 @@
       "transaction_count":15930593
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":9.7666666667,
       "contract_invocations":3635692.0,
-      "gas_fees":0.1824542707
+      "active_addresses_aggregation":17406.6333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.6913679294
     }
   },
   {
@@ -61,7 +61,7 @@
     "op_atlas_id":"0x019ccd1a7cafff57a05d1dc463ad4acd4d138ad4f7c74675e205dfcda2498053",
     "display_name":"Flight to Zora Planet",
     "is_eligible":true,
-    "op_reward":269.23,
+    "op_reward":265.25,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":64,
@@ -69,9 +69,9 @@
       "transaction_count":72414
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":236.2,
       "contract_invocations":28904.0,
+      "active_addresses_aggregation":236.2,
+      "defillama_tvl":null,
       "gas_fees":0.0182745168
     }
   },
@@ -88,9 +88,9 @@
       "transaction_count":94215
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -107,9 +107,9 @@
       "transaction_count":659
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":8.7,
       "contract_invocations":463.0,
+      "active_addresses_aggregation":8.7,
+      "defillama_tvl":null,
       "gas_fees":0.0052853828
     }
   },
@@ -118,7 +118,7 @@
     "op_atlas_id":"0x041baee0d8c07a4e89e4c6c19410d8f6cd0a8439cbe8ea0687bf9a504f1c6a88",
     "display_name":"Worldle",
     "is_eligible":true,
-    "op_reward":9090.95,
+    "op_reward":9373.75,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":84,
@@ -126,10 +126,10 @@
       "transaction_count":4669126
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.8,
       "contract_invocations":1756862.0,
-      "gas_fees":0.0000080469
+      "active_addresses_aggregation":13891.2,
+      "defillama_tvl":null,
+      "gas_fees":0.086315729
     }
   },
   {
@@ -145,9 +145,9 @@
       "transaction_count":960
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -156,7 +156,7 @@
     "op_atlas_id":"0x076a2b1418a515ff8c5bb11beed5630cc6fe7f65fd8d42d4403c4364514f2a30",
     "display_name":"BAG Guild Dapp",
     "is_eligible":true,
-    "op_reward":477.51,
+    "op_reward":468.53,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":64,
@@ -164,9 +164,9 @@
       "transaction_count":108040
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":630.8333333333,
       "contract_invocations":105018.0,
+      "active_addresses_aggregation":630.8333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0145008856
     }
   },
@@ -183,9 +183,9 @@
       "transaction_count":804
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":11.7333333333,
       "contract_invocations":390.0,
+      "active_addresses_aggregation":11.7333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000458447
     }
   },
@@ -194,7 +194,7 @@
     "op_atlas_id":"0x08447636de20816960f0427a65677df5571d503f09235b2bec37f7dd5c28161d",
     "display_name":"Credit",
     "is_eligible":true,
-    "op_reward":2018.73,
+    "op_reward":1973.82,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":67,
@@ -202,10 +202,10 @@
       "transaction_count":330307
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3.2,
       "contract_invocations":148738.0,
-      "gas_fees":0.0091268912
+      "active_addresses_aggregation":456.0666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0536951456
     }
   },
   {
@@ -221,9 +221,9 @@
       "transaction_count":275538286
     },
     "monthly_metrics":{
-      "defillama_tvl":96132943.4445280433,
-      "active_addresses_aggregation":5064.6333333333,
       "contract_invocations":105297091.0,
+      "active_addresses_aggregation":5064.6333333333,
+      "defillama_tvl":96132943.4445279539,
       "gas_fees":25.8671372187
     }
   },
@@ -232,7 +232,7 @@
     "op_atlas_id":"0x098fca4a62159ddfc2c45dc2931a727d56f039b8f68e31222b927aaf2ce75b9e",
     "display_name":"pods.media",
     "is_eligible":true,
-    "op_reward":618.7,
+    "op_reward":613.55,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -240,9 +240,9 @@
       "transaction_count":329799
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":73.0333333333,
       "contract_invocations":12029.0,
+      "active_addresses_aggregation":73.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.2069938858
     }
   },
@@ -251,7 +251,7 @@
     "op_atlas_id":"0x0b06e685eab9c4fee7d93ca54e1c02281e2be560bfc54f43fa738961fa2ce4c1",
     "display_name":"Coop Records",
     "is_eligible":true,
-    "op_reward":2702.78,
+    "op_reward":2726.36,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -259,9 +259,9 @@
       "transaction_count":2331824
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1231.3,
       "contract_invocations":458926.0,
+      "active_addresses_aggregation":1231.3,
+      "defillama_tvl":null,
       "gas_fees":0.1848160051
     }
   },
@@ -278,9 +278,9 @@
       "transaction_count":13427
     },
     "monthly_metrics":{
-      "defillama_tvl":130943.19546,
-      "active_addresses_aggregation":147.5333333333,
       "contract_invocations":7153.0,
+      "active_addresses_aggregation":147.5333333333,
+      "defillama_tvl":130943.1954599999,
       "gas_fees":0.0027151696
     }
   },
@@ -289,7 +289,7 @@
     "op_atlas_id":"0x0b8acaf73a25ba1f64bf829f9678beb8b7edf825353ebea38085590d78d74d5d",
     "display_name":"Tokiemon",
     "is_eligible":true,
-    "op_reward":982.87,
+    "op_reward":979.64,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -297,9 +297,9 @@
       "transaction_count":2449186
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":332.6666666667,
       "contract_invocations":320172.0,
+      "active_addresses_aggregation":332.6666666667,
+      "defillama_tvl":null,
       "gas_fees":0.4523764798
     }
   },
@@ -308,7 +308,7 @@
     "op_atlas_id":"0x0c327d5f07a0abc24d646de807a9768619a34ba5277b24fc935b1edf57fa6244",
     "display_name":"dHEDGE",
     "is_eligible":true,
-    "op_reward":2967.39,
+    "op_reward":2941.01,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -316,9 +316,9 @@
       "transaction_count":580257
     },
     "monthly_metrics":{
-      "defillama_tvl":34223090.7401916534,
-      "active_addresses_aggregation":61.3333333333,
       "contract_invocations":52064.0,
+      "active_addresses_aggregation":61.3333333333,
+      "defillama_tvl":34223090.7401916608,
       "gas_fees":0.0606672521
     }
   },
@@ -335,9 +335,9 @@
       "transaction_count":162702
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":15.2666666667,
       "contract_invocations":1602.0,
+      "active_addresses_aggregation":15.2666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0008343191
     }
   },
@@ -354,9 +354,9 @@
       "transaction_count":10835
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.8333333333,
       "contract_invocations":109.0,
+      "active_addresses_aggregation":0.8333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000189174
     }
   },
@@ -365,7 +365,7 @@
     "op_atlas_id":"0x0ee3defac0e2a31b995bc073ac02a2140aaf01679e141eb8d1d80409f75f90ea",
     "display_name":"Mint Club",
     "is_eligible":true,
-    "op_reward":2606.2,
+    "op_reward":2575.68,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -373,9 +373,9 @@
       "transaction_count":2140378
     },
     "monthly_metrics":{
-      "defillama_tvl":1586575.1452373322,
-      "active_addresses_aggregation":1206.6666666667,
       "contract_invocations":668725.0,
+      "active_addresses_aggregation":1206.6666666667,
+      "defillama_tvl":1586575.1452373324,
       "gas_fees":0.6128846632
     }
   },
@@ -384,7 +384,7 @@
     "op_atlas_id":"0x120cdd8e43ae1efbafdf02eda876e1952c05a52870c8d5a8f56d9ec0f79f586d",
     "display_name":"Passport XYZ | Gitcoin Passport",
     "is_eligible":true,
-    "op_reward":293.1,
+    "op_reward":290.27,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -392,9 +392,9 @@
       "transaction_count":188514
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":73.0,
       "contract_invocations":11614.0,
+      "active_addresses_aggregation":73.0,
+      "defillama_tvl":null,
       "gas_fees":0.0293788489
     }
   },
@@ -403,7 +403,7 @@
     "op_atlas_id":"0x12721a0927c5d0598380e718e69c7f3395cc7b8847da42ac384af9c59efd025d",
     "display_name":"AION",
     "is_eligible":true,
-    "op_reward":936.55,
+    "op_reward":921.04,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":105,
@@ -411,10 +411,10 @@
       "transaction_count":377663
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.0,
       "contract_invocations":26031.0,
-      "gas_fees":0.0019406718
+      "active_addresses_aggregation":288.0666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0060528299
     }
   },
   {
@@ -430,9 +430,9 @@
       "transaction_count":18938
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":7.2666666667,
       "contract_invocations":6750.0,
+      "active_addresses_aggregation":7.2666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0264170918
     }
   },
@@ -449,9 +449,9 @@
       "transaction_count":5854
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.6333333333,
       "contract_invocations":5482.0,
+      "active_addresses_aggregation":1.6333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0010969941
     }
   },
@@ -468,9 +468,9 @@
       "transaction_count":355633
     },
     "monthly_metrics":{
-      "defillama_tvl":6874226.4845589986,
-      "active_addresses_aggregation":7.7333333333,
       "contract_invocations":9975.0,
+      "active_addresses_aggregation":7.7333333333,
+      "defillama_tvl":6874226.484558994,
       "gas_fees":0.0007369617
     }
   },
@@ -487,9 +487,9 @@
       "transaction_count":132
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.3333333333,
       "contract_invocations":44.0,
+      "active_addresses_aggregation":0.3333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0001545221
     }
   },
@@ -506,9 +506,9 @@
       "transaction_count":23778
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":61.4333333333,
       "contract_invocations":1908.0,
+      "active_addresses_aggregation":61.4333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0002596676
     }
   },
@@ -517,7 +517,7 @@
     "op_atlas_id":"0x17192aa9ad034d44d99abdcea664c21532e69f865eb7824d10db09e94e7418da",
     "display_name":"HAMsters",
     "is_eligible":true,
-    "op_reward":490.33,
+    "op_reward":484.79,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":168,
@@ -525,9 +525,9 @@
       "transaction_count":25027
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":165.1333333333,
       "contract_invocations":8779.0,
+      "active_addresses_aggregation":165.1333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0350127245
     }
   },
@@ -544,9 +544,9 @@
       "transaction_count":48875
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":21.5333333333,
       "contract_invocations":2165.0,
+      "active_addresses_aggregation":21.5333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0015150749
     }
   },
@@ -555,7 +555,7 @@
     "op_atlas_id":"0x18923b60296e26a8ce35a0b4754cd6fd5427b2820a202f82901c826794fdbc9e",
     "display_name":"Sake",
     "is_eligible":true,
-    "op_reward":4426.86,
+    "op_reward":4381.92,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":174,
@@ -563,9 +563,9 @@
       "transaction_count":36223236
     },
     "monthly_metrics":{
-      "defillama_tvl":20080648.4876813293,
-      "active_addresses_aggregation":1882.1333333333,
       "contract_invocations":2042025.0,
+      "active_addresses_aggregation":1882.1333333333,
+      "defillama_tvl":20080648.4876813293,
       "gas_fees":0.0640064802
     }
   },
@@ -574,7 +574,7 @@
     "op_atlas_id":"0x18e7582de42dd9a7fd2cb69fb6566b8bcb3e86b936b229b0c5af78fa1de791a4",
     "display_name":"DackieSwap",
     "is_eligible":true,
-    "op_reward":1548.06,
+    "op_reward":1535.14,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -582,9 +582,9 @@
       "transaction_count":4256478
     },
     "monthly_metrics":{
-      "defillama_tvl":186037.7250716666,
-      "active_addresses_aggregation":30.7,
       "contract_invocations":623010.0,
+      "active_addresses_aggregation":30.7,
+      "defillama_tvl":186037.7250716667,
       "gas_fees":0.0388489065
     }
   },
@@ -593,7 +593,7 @@
     "op_atlas_id":"0x1ac8413aaf8110410b9447af27251ba89311f5ec4e2d289006e834b122a44dbf",
     "display_name":"PancakeSwap",
     "is_eligible":true,
-    "op_reward":53545.84,
+    "op_reward":53055.93,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -601,9 +601,9 @@
       "transaction_count":56009150
     },
     "monthly_metrics":{
-      "defillama_tvl":1717277164.6383686066,
-      "active_addresses_aggregation":372.0333333333,
       "contract_invocations":10903644.0,
+      "active_addresses_aggregation":372.0333333333,
+      "defillama_tvl":1717277164.638368845,
       "gas_fees":1.9585380817
     }
   },
@@ -620,10 +620,10 @@
       "transaction_count":124388
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":7.2666666667,
       "contract_invocations":47730.0,
-      "gas_fees":0.0155158664
+      "active_addresses_aggregation":7.2666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0155184638
     }
   },
   {
@@ -639,9 +639,9 @@
       "transaction_count":5542
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":4.6666666667,
       "contract_invocations":380.0,
+      "active_addresses_aggregation":4.6666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0025345439
     }
   },
@@ -658,9 +658,9 @@
       "transaction_count":40
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.1333333333,
       "contract_invocations":11.0,
+      "active_addresses_aggregation":0.1333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000004961
     }
   },
@@ -677,9 +677,9 @@
       "transaction_count":2116922
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":25.6,
       "contract_invocations":1908.0,
+      "active_addresses_aggregation":25.6,
+      "defillama_tvl":null,
       "gas_fees":0.0004362384
     }
   },
@@ -696,9 +696,9 @@
       "transaction_count":16628
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.8,
       "contract_invocations":70.0,
+      "active_addresses_aggregation":0.8,
+      "defillama_tvl":null,
       "gas_fees":0.0000121355
     }
   },
@@ -707,7 +707,7 @@
     "op_atlas_id":"0x1f60db63651f74e2fc8b3ff900d05142552a763c31caf3a8c8e62b0953f02bf2",
     "display_name":"SuperVol",
     "is_eligible":true,
-    "op_reward":676.94,
+    "op_reward":666.06,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":170,
@@ -715,9 +715,9 @@
       "transaction_count":1659045
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":54.9333333333,
       "contract_invocations":432460.0,
+      "active_addresses_aggregation":54.9333333333,
+      "defillama_tvl":null,
       "gas_fees":0.1949210221
     }
   },
@@ -726,7 +726,7 @@
     "op_atlas_id":"0x24937e547db8ac83965a3d781ef7fe2861f9bbf79828cbc60fcc0598213c5b0a",
     "display_name":"Echow",
     "is_eligible":true,
-    "op_reward":2223.56,
+    "op_reward":2203.79,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":166,
@@ -734,9 +734,9 @@
       "transaction_count":23552
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":47.7333333333,
       "contract_invocations":11817.0,
+      "active_addresses_aggregation":47.7333333333,
+      "defillama_tvl":null,
       "gas_fees":0.146592177
     }
   },
@@ -745,7 +745,7 @@
     "op_atlas_id":"0x24ff0fb2933e55b169a80d9bd35a00a7011795387717b27445ccdc0f8660d740",
     "display_name":"OpenOcean",
     "is_eligible":true,
-    "op_reward":6023.21,
+    "op_reward":6068.11,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -753,9 +753,9 @@
       "transaction_count":7916094
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":346.8333333333,
       "contract_invocations":999998.0,
+      "active_addresses_aggregation":346.8333333333,
+      "defillama_tvl":null,
       "gas_fees":0.6833236336
     }
   },
@@ -764,7 +764,7 @@
     "op_atlas_id":"0x250065e82e6a2fd0127f0f7c7e0df7eb305810bd9796f72aa28a0c7f2c71ae08",
     "display_name":"Relay Protocol",
     "is_eligible":true,
-    "op_reward":37201.75,
+    "op_reward":36818.52,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":67,
@@ -772,10 +772,10 @@
       "transaction_count":15245263
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":97237.7666666667,
       "contract_invocations":8991884.0,
-      "gas_fees":38.9227969034
+      "active_addresses_aggregation":97237.7666666666,
+      "defillama_tvl":null,
+      "gas_fees":38.9658599266
     }
   },
   {
@@ -783,7 +783,7 @@
     "op_atlas_id":"0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a",
     "display_name":"Flaunch",
     "is_eligible":true,
-    "op_reward":4191.29,
+    "op_reward":4154.31,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":153,
@@ -791,9 +791,9 @@
       "transaction_count":2191217
     },
     "monthly_metrics":{
-      "defillama_tvl":1086502.6297206669,
-      "active_addresses_aggregation":42.3666666667,
       "contract_invocations":103168.0,
+      "active_addresses_aggregation":42.3666666667,
+      "defillama_tvl":1086502.6297206669,
       "gas_fees":0.0527072579
     }
   },
@@ -810,9 +810,9 @@
       "transaction_count":5852
     },
     "monthly_metrics":{
-      "defillama_tvl":436331.803931,
-      "active_addresses_aggregation":1.5333333333,
       "contract_invocations":455.0,
+      "active_addresses_aggregation":1.5333333333,
+      "defillama_tvl":436331.8039310001,
       "gas_fees":0.0009143771
     }
   },
@@ -829,9 +829,9 @@
       "transaction_count":5
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0666666667,
       "contract_invocations":2.0,
+      "active_addresses_aggregation":0.0666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000006073
     }
   },
@@ -840,7 +840,7 @@
     "op_atlas_id":"0x2a2d2dbfa03619094fbeb6474776f2f3b5f6be443c8576abc6f3caa2c18dc45e",
     "display_name":"Morkie",
     "is_eligible":true,
-    "op_reward":387.6,
+    "op_reward":382.29,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -848,9 +848,9 @@
       "transaction_count":252555
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1631.2,
       "contract_invocations":70157.0,
+      "active_addresses_aggregation":1631.2,
+      "defillama_tvl":null,
       "gas_fees":0.0464789615
     }
   },
@@ -859,7 +859,7 @@
     "op_atlas_id":"0x2bdfa034cf1e853db8ed4b30531270c7a62d66550cd23383819e816abb234f0a",
     "display_name":"Cash Convert",
     "is_eligible":true,
-    "op_reward":16055.67,
+    "op_reward":15862.83,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":67,
@@ -867,10 +867,10 @@
       "transaction_count":9964971
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.7333333333,
       "contract_invocations":3167586.0,
-      "gas_fees":0.0000108498
+      "active_addresses_aggregation":36745.9,
+      "defillama_tvl":null,
+      "gas_fees":0.2897433022
     }
   },
   {
@@ -878,18 +878,18 @@
     "op_atlas_id":"0x2c1d2ae68e4a718a04a41f1a9fde1ed0648602e08c150e3f72d3dc7ef22dd71a",
     "display_name":"GM",
     "is_eligible":true,
-    "op_reward":null,
+    "op_reward":9148.63,
     "round_id":"8",
     "eligibility_metrics":{
-      "active_days":106,
-      "gas_fees":4.2349482001,
-      "transaction_count":8527578
+      "active_days":132,
+      "gas_fees":4.4127580691,
+      "transaction_count":10076563
     },
     "monthly_metrics":{
+      "contract_invocations":1548985.0,
+      "active_addresses_aggregation":51632.7333333333,
       "defillama_tvl":null,
-      "active_addresses_aggregation":null,
-      "contract_invocations":null,
-      "gas_fees":null
+      "gas_fees":0.177809869
     }
   },
   {
@@ -897,7 +897,7 @@
     "op_atlas_id":"0x2c41bf7b4d36a344881581e20ecb2929d38c3415fffa4bf65f81ae049dfb2e72",
     "display_name":"PUF",
     "is_eligible":true,
-    "op_reward":21726.78,
+    "op_reward":21362.87,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -905,10 +905,10 @@
       "transaction_count":41843766
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":24.1333333333,
       "contract_invocations":18702988.0,
-      "gas_fees":0.0680237418
+      "active_addresses_aggregation":16434.8666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.8582421932
     }
   },
   {
@@ -924,9 +924,9 @@
       "transaction_count":13
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -943,10 +943,10 @@
       "transaction_count":11049
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":6.8666666667,
       "contract_invocations":1717.0,
-      "gas_fees":0.0021179331
+      "active_addresses_aggregation":6.8666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0023382294
     }
   },
   {
@@ -962,9 +962,9 @@
       "transaction_count":8287
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.6666666667,
       "contract_invocations":5140.0,
+      "active_addresses_aggregation":0.6666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0009917851
     }
   },
@@ -981,9 +981,9 @@
       "transaction_count":27421
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":6.5666666667,
       "contract_invocations":447.0,
+      "active_addresses_aggregation":6.5666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0003511952
     }
   },
@@ -992,7 +992,7 @@
     "op_atlas_id":"0x2ecedc3cad0a68d398020bf6d41167535fcaeb6d5bbf1602d6318f07e9c59af6",
     "display_name":"Untitled Bank",
     "is_eligible":true,
-    "op_reward":2280.6,
+    "op_reward":2260.2,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":170,
@@ -1000,9 +1000,9 @@
       "transaction_count":6283200
     },
     "monthly_metrics":{
-      "defillama_tvl":11800224.1860423367,
-      "active_addresses_aggregation":782.4333333333,
       "contract_invocations":111991.0,
+      "active_addresses_aggregation":782.4333333333,
+      "defillama_tvl":11800224.1860423312,
       "gas_fees":0.0164226549
     }
   },
@@ -1019,9 +1019,9 @@
       "transaction_count":153
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2.2333333333,
       "contract_invocations":127.0,
+      "active_addresses_aggregation":2.2333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000728735
     }
   },
@@ -1030,7 +1030,7 @@
     "op_atlas_id":"0x3061b642db56c507e265f03029735b0413a613bda43456a31e78128baeb18754",
     "display_name":"Aave",
     "is_eligible":true,
-    "op_reward":61871.32,
+    "op_reward":61322.31,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1038,9 +1038,9 @@
       "transaction_count":32802906
     },
     "monthly_metrics":{
-      "defillama_tvl":24959878912.932510376,
-      "active_addresses_aggregation":3379.4333333333,
       "contract_invocations":8928598.0,
+      "active_addresses_aggregation":3379.4333333333,
+      "defillama_tvl":24959878912.9324760437,
       "gas_fees":1.8665050251
     }
   },
@@ -1049,7 +1049,7 @@
     "op_atlas_id":"0x31704fee34d3edec158b5df714b613642bfbbb58ad7466204ded66a3f811b979",
     "display_name":"Superchain Safe",
     "is_eligible":true,
-    "op_reward":2681.07,
+    "op_reward":2656.73,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1057,9 +1057,9 @@
       "transaction_count":668229
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":178.9333333333,
       "contract_invocations":129941.0,
+      "active_addresses_aggregation":178.9333333333,
+      "defillama_tvl":null,
       "gas_fees":0.8544189637
     }
   },
@@ -1076,9 +1076,9 @@
       "transaction_count":15731
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":9.7333333333,
       "contract_invocations":5804.0,
+      "active_addresses_aggregation":9.7333333333,
+      "defillama_tvl":null,
       "gas_fees":0.020262216
     }
   },
@@ -1095,9 +1095,9 @@
       "transaction_count":720067
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.2333333333,
       "contract_invocations":2328.0,
+      "active_addresses_aggregation":0.2333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0235835695
     }
   },
@@ -1114,9 +1114,9 @@
       "transaction_count":3470
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":9.8666666667,
       "contract_invocations":968.0,
+      "active_addresses_aggregation":9.8666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0051354655
     }
   },
@@ -1133,9 +1133,9 @@
       "transaction_count":3525
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":4.8,
       "contract_invocations":557.0,
+      "active_addresses_aggregation":4.8,
+      "defillama_tvl":null,
       "gas_fees":0.0011667342
     }
   },
@@ -1144,7 +1144,7 @@
     "op_atlas_id":"0x3526b9c6fdc34076d7d2c31893b94e760f4d5a010387b6b76b45f8b5577ceb98",
     "display_name":"Gyroscope",
     "is_eligible":true,
-    "op_reward":5479.49,
+    "op_reward":5433.97,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1152,9 +1152,9 @@
       "transaction_count":2431112
     },
     "monthly_metrics":{
-      "defillama_tvl":17790574.1689126603,
-      "active_addresses_aggregation":1.1333333333,
       "contract_invocations":514085.0,
+      "active_addresses_aggregation":1.1333333333,
+      "defillama_tvl":17790574.1689126678,
       "gas_fees":0.0000202832
     }
   },
@@ -1163,7 +1163,7 @@
     "op_atlas_id":"0x38c38455bb0fd71d2929fcf799279569ab5f5c5d3e1f92f8642ce87aa25accdf",
     "display_name":"Decent.xyz",
     "is_eligible":true,
-    "op_reward":546.24,
+    "op_reward":541.16,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1171,10 +1171,10 @@
       "transaction_count":468547
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":226.0,
       "contract_invocations":27725.0,
-      "gas_fees":0.0166098779
+      "active_addresses_aggregation":226.0,
+      "defillama_tvl":null,
+      "gas_fees":0.0166303766
     }
   },
   {
@@ -1182,7 +1182,7 @@
     "op_atlas_id":"0x394cdf60010e890aeb52606b938e6ff6ef7a52b0b5a3e897daf0133bed243b14",
     "display_name":"Double or Nothing",
     "is_eligible":true,
-    "op_reward":2761.22,
+    "op_reward":2720.85,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":175,
@@ -1190,10 +1190,10 @@
       "transaction_count":3720429
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":4.4333333333,
       "contract_invocations":543887.0,
-      "gas_fees":0.066755825
+      "active_addresses_aggregation":601.5333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.2271255297
     }
   },
   {
@@ -1209,9 +1209,9 @@
       "transaction_count":2230
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.5,
       "contract_invocations":528.0,
+      "active_addresses_aggregation":1.5,
+      "defillama_tvl":null,
       "gas_fees":0.0007558959
     }
   },
@@ -1228,9 +1228,9 @@
       "transaction_count":7029
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":12.7333333333,
       "contract_invocations":907.0,
+      "active_addresses_aggregation":12.7333333333,
+      "defillama_tvl":null,
       "gas_fees":0.00090338
     }
   },
@@ -1239,7 +1239,7 @@
     "op_atlas_id":"0x3d009f8f7c1e8a3bcbc81ca8ed60d2e86b956dd0fa68c4595f851be37052a2b5",
     "display_name":"Guild.xyz",
     "is_eligible":true,
-    "op_reward":556.81,
+    "op_reward":551.29,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1247,10 +1247,10 @@
       "transaction_count":318062
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":262.7666666667,
       "contract_invocations":21849.0,
-      "gas_fees":0.0343950714
+      "active_addresses_aggregation":262.7666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0343953441
     }
   },
   {
@@ -1258,7 +1258,7 @@
     "op_atlas_id":"0x3ecbf66c1b21342b26acb0f7d4c6b8bbbef168ffafff3f425de3503fd8dfa535",
     "display_name":"Superfluid",
     "is_eligible":true,
-    "op_reward":4453.15,
+    "op_reward":4451.59,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1266,9 +1266,9 @@
       "transaction_count":11014839
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":434.7,
       "contract_invocations":3244015.0,
+      "active_addresses_aggregation":434.7,
+      "defillama_tvl":null,
       "gas_fees":0.684509224
     }
   },
@@ -1277,7 +1277,7 @@
     "op_atlas_id":"0x40cda7edf27894d647d9433ded29290966f5c258dade2c3ea36427fccf0ef3c9",
     "display_name":"Veil Cash",
     "is_eligible":true,
-    "op_reward":969.93,
+    "op_reward":956.69,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1285,9 +1285,9 @@
       "transaction_count":294218
     },
     "monthly_metrics":{
-      "defillama_tvl":22751.6213733333,
-      "active_addresses_aggregation":220.4,
       "contract_invocations":61982.0,
+      "active_addresses_aggregation":220.4,
+      "defillama_tvl":22751.6213733333,
       "gas_fees":0.0277653203
     }
   },
@@ -1296,7 +1296,7 @@
     "op_atlas_id":"0x40ee6048c99aefd288f6133db207849d0951fe6b62afa1cca0db5a4ad7f558de",
     "display_name":"ORO",
     "is_eligible":true,
-    "op_reward":29240.6,
+    "op_reward":28756.12,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1304,10 +1304,10 @@
       "transaction_count":32954550
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3.7,
       "contract_invocations":5435429.0,
-      "gas_fees":0.0000137659
+      "active_addresses_aggregation":148096.6333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.5369369113
     }
   },
   {
@@ -1315,7 +1315,7 @@
     "op_atlas_id":"0x41b2ae8a2ead458ff7c85549a9a11380353e1ae4b234666312d495326636f77a",
     "display_name":"Sushiswap",
     "is_eligible":true,
-    "op_reward":11921.89,
+    "op_reward":11803.01,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1323,9 +1323,9 @@
       "transaction_count":14642051
     },
     "monthly_metrics":{
-      "defillama_tvl":133761387.1178880036,
-      "active_addresses_aggregation":101.4666666667,
       "contract_invocations":2273735.0,
+      "active_addresses_aggregation":101.4666666667,
+      "defillama_tvl":133761387.1178878993,
       "gas_fees":0.4135314486
     }
   },
@@ -1342,9 +1342,9 @@
       "transaction_count":469
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.4,
       "contract_invocations":56.0,
+      "active_addresses_aggregation":0.4,
+      "defillama_tvl":null,
       "gas_fees":0.0000643195
     }
   },
@@ -1361,9 +1361,9 @@
       "transaction_count":1138072717
     },
     "monthly_metrics":{
-      "defillama_tvl":508476505.9479805827,
-      "active_addresses_aggregation":6761.0333333333,
       "contract_invocations":198507552.0,
+      "active_addresses_aggregation":6761.0333333333,
+      "defillama_tvl":508476505.9479807019,
       "gas_fees":184.3754500648
     }
   },
@@ -1372,7 +1372,7 @@
     "op_atlas_id":"0x42bdd05fa3beb0b21780bbd35b34eefc3e69e45bc4f17043f6eb6b2bbed26237",
     "display_name":"Superhero",
     "is_eligible":true,
-    "op_reward":3329.7,
+    "op_reward":3542.26,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":79,
@@ -1380,10 +1380,10 @@
       "transaction_count":447961
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.2333333333,
       "contract_invocations":215085.0,
-      "gas_fees":0.0000012895
+      "active_addresses_aggregation":3917.2,
+      "defillama_tvl":null,
+      "gas_fees":0.0064001145
     }
   },
   {
@@ -1399,9 +1399,9 @@
       "transaction_count":173078
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":8.9,
       "contract_invocations":3911.0,
+      "active_addresses_aggregation":8.9,
+      "defillama_tvl":null,
       "gas_fees":0.0011853255
     }
   },
@@ -1418,9 +1418,9 @@
       "transaction_count":4261
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":20.1666666667,
       "contract_invocations":1363.0,
+      "active_addresses_aggregation":20.1666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0006913412
     }
   },
@@ -1437,9 +1437,9 @@
       "transaction_count":1683
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2.2333333333,
       "contract_invocations":525.0,
+      "active_addresses_aggregation":2.2333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000414939
     }
   },
@@ -1448,7 +1448,7 @@
     "op_atlas_id":"0x469f813ce1b0c64293d1f884363808f076d27abc8c6060bd3abe46bedd0d7982",
     "display_name":"Neptune Finance",
     "is_eligible":true,
-    "op_reward":2175.18,
+    "op_reward":2134.2,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1456,9 +1456,9 @@
       "transaction_count":2066928
     },
     "monthly_metrics":{
-      "defillama_tvl":241132.3069136666,
-      "active_addresses_aggregation":3.4333333333,
       "contract_invocations":1217470.0,
+      "active_addresses_aggregation":3.4333333333,
+      "defillama_tvl":241132.3069136667,
       "gas_fees":0.0582527469
     }
   },
@@ -1467,7 +1467,7 @@
     "op_atlas_id":"0x46d819ee72e9b51fb0175286e6ade010776b39cdb56aee88bc9f39501050eb92",
     "display_name":"Team Finance",
     "is_eligible":true,
-    "op_reward":1194.49,
+    "op_reward":1183.86,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1475,9 +1475,9 @@
       "transaction_count":17381
     },
     "monthly_metrics":{
-      "defillama_tvl":82151641.5104853064,
-      "active_addresses_aggregation":69.7666666667,
       "contract_invocations":2803.0,
+      "active_addresses_aggregation":69.7666666667,
+      "defillama_tvl":82151641.5104854703,
       "gas_fees":0.0093200056
     }
   },
@@ -1486,7 +1486,7 @@
     "op_atlas_id":"0x47047238c33fb3f16f4e93d5b9844c06a64525c8a483538dc72085c0df4495e8",
     "display_name":"Symbiosis",
     "is_eligible":true,
-    "op_reward":485.64,
+    "op_reward":485.14,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":64,
@@ -1494,9 +1494,9 @@
       "transaction_count":224671
     },
     "monthly_metrics":{
-      "defillama_tvl":9536491.4403300043,
-      "active_addresses_aggregation":123.8,
       "contract_invocations":72650.0,
+      "active_addresses_aggregation":123.8,
+      "defillama_tvl":9536491.4403300006,
       "gas_fees":0.057340115
     }
   },
@@ -1513,9 +1513,9 @@
       "transaction_count":1282
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -1532,9 +1532,9 @@
       "transaction_count":4052107
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2523.2333333333,
       "contract_invocations":155450.0,
+      "active_addresses_aggregation":2523.2333333333,
+      "defillama_tvl":null,
       "gas_fees":0.1499492607
     }
   },
@@ -1543,7 +1543,7 @@
     "op_atlas_id":"0x491ffd3c2e4c25ab7fbdbefe0f5fc8dc2beee5ab801287b9c6c93c9c3c810463",
     "display_name":"SwapMode",
     "is_eligible":true,
-    "op_reward":686.74,
+    "op_reward":673.85,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1551,9 +1551,9 @@
       "transaction_count":3243291
     },
     "monthly_metrics":{
-      "defillama_tvl":93823.3648636666,
-      "active_addresses_aggregation":4.9666666667,
       "contract_invocations":500542.0,
+      "active_addresses_aggregation":4.9666666667,
+      "defillama_tvl":93823.3648636667,
       "gas_fees":0.0000621956
     }
   },
@@ -1570,9 +1570,9 @@
       "transaction_count":5252
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":6.5666666667,
       "contract_invocations":493.0,
+      "active_addresses_aggregation":6.5666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0012933722
     }
   },
@@ -1589,10 +1589,10 @@
       "transaction_count":186053
     },
     "monthly_metrics":{
-      "defillama_tvl":9977.3156276667,
-      "active_addresses_aggregation":5.8333333333,
       "contract_invocations":936.0,
-      "gas_fees":0.0016907324
+      "active_addresses_aggregation":5.8333333333,
+      "defillama_tvl":9977.3156276667,
+      "gas_fees":0.0016945736
     }
   },
   {
@@ -1608,9 +1608,9 @@
       "transaction_count":498325
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":153.1333333333,
       "contract_invocations":64552.0,
+      "active_addresses_aggregation":153.1333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0028726675
     }
   },
@@ -1619,7 +1619,7 @@
     "op_atlas_id":"0x4f64c34669043d9fac6a8fd01a93c27b2ab0c88a803c7b72dedb8cef035ede01",
     "display_name":"MetaMap",
     "is_eligible":true,
-    "op_reward":12200.18,
+    "op_reward":11969.8,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":24,
@@ -1627,9 +1627,9 @@
       "transaction_count":2518534
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":604.7,
       "contract_invocations":2518534.0,
+      "active_addresses_aggregation":604.7,
+      "defillama_tvl":null,
       "gas_fees":0.1689803424
     }
   },
@@ -1638,7 +1638,7 @@
     "op_atlas_id":"0x4f9ef6f8a732858918de5e9e53a4a5a344aecbe62562946a3078d507d1d15cc0",
     "display_name":"40acres.finance",
     "is_eligible":true,
-    "op_reward":11049.99,
+    "op_reward":10951.7,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":170,
@@ -1646,9 +1646,9 @@
       "transaction_count":40656
     },
     "monthly_metrics":{
-      "defillama_tvl":17080594.5636716671,
-      "active_addresses_aggregation":47.0666666667,
       "contract_invocations":17203.0,
+      "active_addresses_aggregation":47.0666666667,
+      "defillama_tvl":17080594.5636716783,
       "gas_fees":0.4230714211
     }
   },
@@ -1657,7 +1657,7 @@
     "op_atlas_id":"0x4fbca6c29f26eac481379ffa48ebef14eaab04075bff11e1636aae429542c224",
     "display_name":"ZEROBASE Staking",
     "is_eligible":true,
-    "op_reward":2614.99,
+    "op_reward":2591.73,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":53,
@@ -1665,9 +1665,9 @@
       "transaction_count":18216
     },
     "monthly_metrics":{
-      "defillama_tvl":29906206.5000789911,
-      "active_addresses_aggregation":149.6666666667,
       "contract_invocations":14243.0,
+      "active_addresses_aggregation":149.6666666667,
+      "defillama_tvl":29906206.5000789911,
       "gas_fees":0.0277038387
     }
   },
@@ -1676,7 +1676,7 @@
     "op_atlas_id":"0x50b442d0244a351acff81a3efa0824983cb4488118af2462488c3376e72ad898",
     "display_name":"Arrows",
     "is_eligible":true,
-    "op_reward":286.76,
+    "op_reward":283.95,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":97,
@@ -1684,9 +1684,9 @@
       "transaction_count":55989
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":48.4666666667,
       "contract_invocations":9459.0,
+      "active_addresses_aggregation":48.4666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0348115888
     }
   },
@@ -1703,9 +1703,9 @@
       "transaction_count":130024
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -1714,7 +1714,7 @@
     "op_atlas_id":"0x512f97f1de28ad530f752d53bf4f56ed16d34a3121f0512cd5a0485c2074b312",
     "display_name":"Extra Finance",
     "is_eligible":true,
-    "op_reward":14191.96,
+    "op_reward":14065.74,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1722,9 +1722,9 @@
       "transaction_count":1427879
     },
     "monthly_metrics":{
-      "defillama_tvl":73792794.0366623402,
-      "active_addresses_aggregation":424.9333333333,
       "contract_invocations":175251.0,
+      "active_addresses_aggregation":424.9333333333,
+      "defillama_tvl":73792794.0366622955,
       "gas_fees":0.9478064225
     }
   },
@@ -1741,9 +1741,9 @@
       "transaction_count":31592
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":63.5333333333,
       "contract_invocations":3464.0,
+      "active_addresses_aggregation":63.5333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0005925892
     }
   },
@@ -1752,7 +1752,7 @@
     "op_atlas_id":"0x517eaa9c56951de89261f2d7830ea49aae92f2a903104a17d9c5c2edd4959806",
     "display_name":"LI.FI",
     "is_eligible":true,
-    "op_reward":25062.49,
+    "op_reward":25032.5,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1760,10 +1760,10 @@
       "transaction_count":17640571
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":15489.8,
       "contract_invocations":5643960.0,
-      "gas_fees":5.2985499052
+      "active_addresses_aggregation":15490.8,
+      "defillama_tvl":null,
+      "gas_fees":5.3550690534
     }
   },
   {
@@ -1779,9 +1779,9 @@
       "transaction_count":460
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.7,
       "contract_invocations":120.0,
+      "active_addresses_aggregation":1.7,
+      "defillama_tvl":null,
       "gas_fees":0.0000433883
     }
   },
@@ -1798,9 +1798,9 @@
       "transaction_count":3783
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.4,
       "contract_invocations":147.0,
+      "active_addresses_aggregation":1.4,
+      "defillama_tvl":null,
       "gas_fees":0.0000564169
     }
   },
@@ -1809,7 +1809,7 @@
     "op_atlas_id":"0x558ad0914eaf21a4965b2e4b7fef4cd66ef9d5bb861c5c42f4795a9e4614df71",
     "display_name":"Chonks",
     "is_eligible":true,
-    "op_reward":2101.75,
+    "op_reward":2070.05,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1817,9 +1817,9 @@
       "transaction_count":318657
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1312.2333333333,
       "contract_invocations":209748.0,
+      "active_addresses_aggregation":1312.2333333333,
+      "defillama_tvl":null,
       "gas_fees":0.1614657817
     }
   },
@@ -1836,10 +1836,10 @@
       "transaction_count":903
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.0,
       "contract_invocations":179.0,
-      "gas_fees":0.006688
+      "active_addresses_aggregation":1.1,
+      "defillama_tvl":null,
+      "gas_fees":0.0200640203
     }
   },
   {
@@ -1847,7 +1847,7 @@
     "op_atlas_id":"0x5614d129eba060ce7d224e8e8f9f29aeddfdb572b0dd45edc81f18f5307bc01a",
     "display_name":"Send",
     "is_eligible":true,
-    "op_reward":460.42,
+    "op_reward":452.04,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -1855,9 +1855,9 @@
       "transaction_count":2561131
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":8.8333333333,
       "contract_invocations":477891.0,
+      "active_addresses_aggregation":8.8333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0009295135
     }
   },
@@ -1866,7 +1866,7 @@
     "op_atlas_id":"0x57b84242462a1ddfb9006369b96a60d85ec41fa29aa20b8f2902ce9ba22e3f54",
     "display_name":"SONEX",
     "is_eligible":true,
-    "op_reward":5689.75,
+    "op_reward":5635.28,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":170,
@@ -1874,9 +1874,9 @@
       "transaction_count":21261630
     },
     "monthly_metrics":{
-      "defillama_tvl":28310927.8693743274,
-      "active_addresses_aggregation":557.2,
       "contract_invocations":829896.0,
+      "active_addresses_aggregation":557.2,
+      "defillama_tvl":28310927.8693743274,
       "gas_fees":0.3199272408
     }
   },
@@ -1893,9 +1893,9 @@
       "transaction_count":54
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0333333333,
       "contract_invocations":3.0,
+      "active_addresses_aggregation":0.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.000000115
     }
   },
@@ -1904,7 +1904,7 @@
     "op_atlas_id":"0x5831a5bc2b6e683bcb8e392453a85c5e7f755aa700e827ed9c3e1c6d67fb2a96",
     "display_name":"World Republic",
     "is_eligible":true,
-    "op_reward":24350.89,
+    "op_reward":23972.53,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":144,
@@ -1912,10 +1912,10 @@
       "transaction_count":36482750
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":11.9666666667,
       "contract_invocations":7509660.0,
-      "gas_fees":0.0277142963
+      "active_addresses_aggregation":38056.8666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.2550680747
     }
   },
   {
@@ -1923,7 +1923,7 @@
     "op_atlas_id":"0x5958eb35cf4d4b8871924adc5e6272eff2ac701e368ca6ad043ee486cce9e223",
     "display_name":"Kyo finance",
     "is_eligible":true,
-    "op_reward":42586.34,
+    "op_reward":41862.68,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":171,
@@ -1931,9 +1931,9 @@
       "transaction_count":101672569
     },
     "monthly_metrics":{
-      "defillama_tvl":37815739.5419020057,
-      "active_addresses_aggregation":493.6,
       "contract_invocations":22594490.0,
+      "active_addresses_aggregation":493.6,
+      "defillama_tvl":37815739.5419020057,
       "gas_fees":17.3746137715
     }
   },
@@ -1942,7 +1942,7 @@
     "op_atlas_id":"0x596292c1581406fc4cfba89bc8ed86e32c7ac85c6239d074df7b91fcbc53f4c8",
     "display_name":"SynFutures",
     "is_eligible":true,
-    "op_reward":5400.97,
+    "op_reward":5347.66,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":64,
@@ -1950,9 +1950,9 @@
       "transaction_count":7811602
     },
     "monthly_metrics":{
-      "defillama_tvl":25199039.7747516707,
-      "active_addresses_aggregation":2355.6666666667,
       "contract_invocations":3000766.0,
+      "active_addresses_aggregation":2355.6666666667,
+      "defillama_tvl":25199039.7747516632,
       "gas_fees":3.9262920308
     }
   },
@@ -1961,7 +1961,7 @@
     "op_atlas_id":"0x5962ef9e4955bc4cd4c6ed080c55879be9ee2dddb1b7cd37d72182a142dc9eab",
     "display_name":"Arkada",
     "is_eligible":true,
-    "op_reward":1007.5,
+    "op_reward":994.36,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":155,
@@ -1969,9 +1969,9 @@
       "transaction_count":2683689
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3705.3333333333,
       "contract_invocations":274880.0,
+      "active_addresses_aggregation":3705.3333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0848496741
     }
   },
@@ -1988,9 +1988,9 @@
       "transaction_count":4615
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2.2333333333,
       "contract_invocations":798.0,
+      "active_addresses_aggregation":2.2333333333,
+      "defillama_tvl":null,
       "gas_fees":0.000266372
     }
   },
@@ -2007,9 +2007,9 @@
       "transaction_count":2
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -2026,9 +2026,9 @@
       "transaction_count":1847
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3.1666666667,
       "contract_invocations":480.0,
+      "active_addresses_aggregation":3.1666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0007042078
     }
   },
@@ -2045,9 +2045,9 @@
       "transaction_count":1620
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":5.7666666667,
       "contract_invocations":492.0,
+      "active_addresses_aggregation":5.7666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000191808
     }
   },
@@ -2064,9 +2064,9 @@
       "transaction_count":499
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.8,
       "contract_invocations":102.0,
+      "active_addresses_aggregation":0.8,
+      "defillama_tvl":null,
       "gas_fees":0.0000352305
     }
   },
@@ -2083,9 +2083,9 @@
       "transaction_count":8741
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.3333333333,
       "contract_invocations":11.0,
+      "active_addresses_aggregation":0.3333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000053221
     }
   },
@@ -2102,9 +2102,9 @@
       "transaction_count":154
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0666666667,
       "contract_invocations":19.0,
+      "active_addresses_aggregation":0.0666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000001457
     }
   },
@@ -2113,7 +2113,7 @@
     "op_atlas_id":"0x5ce7235a562b61a75f686937dfa6328b04b1d7fc075f592de46cfeeebaad8a71",
     "display_name":"HODL",
     "is_eligible":true,
-    "op_reward":1337.6,
+    "op_reward":1331.7,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":28,
@@ -2121,10 +2121,10 @@
       "transaction_count":126271
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.3333333333,
       "contract_invocations":126232.0,
-      "gas_fees":0.0000011413
+      "active_addresses_aggregation":780.2333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.0017614229
     }
   },
   {
@@ -2140,9 +2140,9 @@
       "transaction_count":22733
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":8.5666666667,
       "contract_invocations":3525.0,
+      "active_addresses_aggregation":8.5666666667,
+      "defillama_tvl":null,
       "gas_fees":0.000187517
     }
   },
@@ -2159,9 +2159,9 @@
       "transaction_count":135
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0333333333,
       "contract_invocations":3.0,
+      "active_addresses_aggregation":0.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000037386
     }
   },
@@ -2170,7 +2170,7 @@
     "op_atlas_id":"0x61438e534ef14ce82cde9a10e36272e51cb56709b996e096157821948a705856",
     "display_name":"Plaza Finance",
     "is_eligible":true,
-    "op_reward":4357.66,
+    "op_reward":4324.04,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":115,
@@ -2178,9 +2178,9 @@
       "transaction_count":2186609
     },
     "monthly_metrics":{
-      "defillama_tvl":1451829.1144910003,
-      "active_addresses_aggregation":501.1666666667,
       "contract_invocations":717676.0,
+      "active_addresses_aggregation":501.1666666667,
+      "defillama_tvl":1451829.1144909998,
       "gas_fees":0.3657271468
     }
   },
@@ -2189,7 +2189,7 @@
     "op_atlas_id":"0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745",
     "display_name":"Stargate Finance",
     "is_eligible":true,
-    "op_reward":18871.3,
+    "op_reward":18693.19,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2197,9 +2197,9 @@
       "transaction_count":9400853
     },
     "monthly_metrics":{
-      "defillama_tvl":325493458.3516662717,
-      "active_addresses_aggregation":2247.8333333333,
       "contract_invocations":2746085.0,
+      "active_addresses_aggregation":2247.8333333333,
+      "defillama_tvl":325493458.3516662717,
       "gas_fees":1.4330219331
     }
   },
@@ -2216,9 +2216,9 @@
       "transaction_count":3030118
     },
     "monthly_metrics":{
-      "defillama_tvl":29689.253099,
-      "active_addresses_aggregation":3.5,
       "contract_invocations":117476.0,
+      "active_addresses_aggregation":3.5,
+      "defillama_tvl":29689.253099,
       "gas_fees":0.0001625092
     }
   },
@@ -2227,7 +2227,7 @@
     "op_atlas_id":"0x6371518c95cfa543514e01a77d470c695fac36691cffa3a45e992b2c0cc6ba72",
     "display_name":"Avantis ",
     "is_eligible":true,
-    "op_reward":8962.61,
+    "op_reward":8906.8,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2235,9 +2235,9 @@
       "transaction_count":10119483
     },
     "monthly_metrics":{
-      "defillama_tvl":16466047.3160996679,
-      "active_addresses_aggregation":276.7333333333,
       "contract_invocations":1325948.0,
+      "active_addresses_aggregation":276.7333333333,
+      "defillama_tvl":16466047.3160996679,
       "gas_fees":0.1212794323
     }
   },
@@ -2246,7 +2246,7 @@
     "op_atlas_id":"0x63d14cd07db0f56a91cb2f8972a29a225d24ea739034597f7c3e22f53817f7a8",
     "display_name":"Unimon",
     "is_eligible":true,
-    "op_reward":951.1,
+    "op_reward":947.77,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":90,
@@ -2254,9 +2254,9 @@
       "transaction_count":420892
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":325.8333333333,
       "contract_invocations":258696.0,
+      "active_addresses_aggregation":325.8333333333,
+      "defillama_tvl":null,
       "gas_fees":0.4507900196
     }
   },
@@ -2273,9 +2273,9 @@
       "transaction_count":28601
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":17.5666666667,
       "contract_invocations":2259.0,
+      "active_addresses_aggregation":17.5666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0005710156
     }
   },
@@ -2292,9 +2292,9 @@
       "transaction_count":2
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -2303,7 +2303,7 @@
     "op_atlas_id":"0x670140099063200aa424366d77f43b2ef5ff2b715189f412d76846ba0abf2058",
     "display_name":"Liberoverse",
     "is_eligible":true,
-    "op_reward":464.03,
+    "op_reward":458.85,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":178,
@@ -2311,9 +2311,9 @@
       "transaction_count":62089
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":393.3666666667,
       "contract_invocations":37828.0,
+      "active_addresses_aggregation":393.3666666667,
+      "defillama_tvl":null,
       "gas_fees":0.1340221432
     }
   },
@@ -2330,9 +2330,9 @@
       "transaction_count":38590
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":2718.0,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -2349,10 +2349,10 @@
       "transaction_count":426716
     },
     "monthly_metrics":{
-      "defillama_tvl":9587.1871986667,
-      "active_addresses_aggregation":0.0666666667,
       "contract_invocations":8810.0,
-      "gas_fees":0.0000001837
+      "active_addresses_aggregation":30.5333333333,
+      "defillama_tvl":9587.1871986667,
+      "gas_fees":0.0009031453
     }
   },
   {
@@ -2368,9 +2368,9 @@
       "transaction_count":219
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -2387,9 +2387,9 @@
       "transaction_count":29568
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.9666666667,
       "contract_invocations":1009.0,
+      "active_addresses_aggregation":0.9666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000875584
     }
   },
@@ -2406,9 +2406,9 @@
       "transaction_count":88495
     },
     "monthly_metrics":{
-      "defillama_tvl":294974.448972,
-      "active_addresses_aggregation":1.3333333333,
       "contract_invocations":598.0,
+      "active_addresses_aggregation":1.3333333333,
+      "defillama_tvl":294974.448972,
       "gas_fees":0.0151950237
     }
   },
@@ -2417,7 +2417,7 @@
     "op_atlas_id":"0x70624cd9a8be4ead96e5097025eb645b9848e2643e5025a4006dee2cff1a4138",
     "display_name":"WAGMI",
     "is_eligible":true,
-    "op_reward":1277.27,
+    "op_reward":1262.01,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2425,9 +2425,9 @@
       "transaction_count":2863799
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":101.5333333333,
       "contract_invocations":477487.0,
+      "active_addresses_aggregation":101.5333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0145976005
     }
   },
@@ -2436,7 +2436,7 @@
     "op_atlas_id":"0x70ba3cb2e433f1cd9ace8aea84c46d167ba5db12293cd108eaca068d06be3a71",
     "display_name":"Gains Network (gTrade)",
     "is_eligible":true,
-    "op_reward":10867.12,
+    "op_reward":10770.36,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2444,9 +2444,9 @@
       "transaction_count":7247536
     },
     "monthly_metrics":{
-      "defillama_tvl":27516761.7794983499,
-      "active_addresses_aggregation":89.2666666667,
       "contract_invocations":1304897.0,
+      "active_addresses_aggregation":89.2666666667,
+      "defillama_tvl":27516761.7794983275,
       "gas_fees":3.3867043171
     }
   },
@@ -2463,9 +2463,9 @@
       "transaction_count":3767
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.1666666667,
       "contract_invocations":92.0,
+      "active_addresses_aggregation":1.1666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000195441
     }
   },
@@ -2474,7 +2474,7 @@
     "op_atlas_id":"0x7262ed9c020b3b41ac7ba405aab4ff37575f8b6f975ebed2e65554a08419f8f4",
     "display_name":"Sablier",
     "is_eligible":true,
-    "op_reward":340.78,
+    "op_reward":338.83,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2482,9 +2482,9 @@
       "transaction_count":93102
     },
     "monthly_metrics":{
-      "defillama_tvl":129495782.1440240443,
-      "active_addresses_aggregation":181.1666666667,
       "contract_invocations":12362.0,
+      "active_addresses_aggregation":181.1666666667,
+      "defillama_tvl":129495782.1440239549,
       "gas_fees":0.0379093238
     }
   },
@@ -2493,7 +2493,7 @@
     "op_atlas_id":"0x72723e07fe409557489a6643b43d9493a94c10ba68230b0527f01834cb6a550f",
     "display_name":"Across Protocol",
     "is_eligible":true,
-    "op_reward":8608.65,
+    "op_reward":8601.81,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2501,9 +2501,9 @@
       "transaction_count":4765775
     },
     "monthly_metrics":{
-      "defillama_tvl":101196250.7084593177,
-      "active_addresses_aggregation":2786.1,
       "contract_invocations":870061.0,
+      "active_addresses_aggregation":2786.1,
+      "defillama_tvl":101196250.7084593177,
       "gas_fees":3.6231138524
     }
   },
@@ -2520,9 +2520,9 @@
       "transaction_count":2315
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3.9,
       "contract_invocations":220.0,
+      "active_addresses_aggregation":3.9,
+      "defillama_tvl":null,
       "gas_fees":0.0000671801
     }
   },
@@ -2531,7 +2531,7 @@
     "op_atlas_id":"0x7539f43dc91f9c406c83a06339708e4033cdbf630916c6dfb9de2b5ef811affd",
     "display_name":"Seamless Protocol",
     "is_eligible":true,
-    "op_reward":16971.0,
+    "op_reward":16820.03,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2539,9 +2539,9 @@
       "transaction_count":2658719
     },
     "monthly_metrics":{
-      "defillama_tvl":88386169.8926943243,
-      "active_addresses_aggregation":145.1666666667,
       "contract_invocations":134042.0,
+      "active_addresses_aggregation":145.1666666667,
+      "defillama_tvl":88386169.8926943243,
       "gas_fees":0.046640555
     }
   },
@@ -2558,9 +2558,9 @@
       "transaction_count":3
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.1,
       "contract_invocations":3.0,
+      "active_addresses_aggregation":0.1,
+      "defillama_tvl":null,
       "gas_fees":0.0000011237
     }
   },
@@ -2569,7 +2569,7 @@
     "op_atlas_id":"0x76596da0afbf2980ce80e6238c974495fbe52f5c29ec38893dcfdacd5378eaa3",
     "display_name":"DAOBase",
     "is_eligible":true,
-    "op_reward":1847.31,
+    "op_reward":1822.22,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2577,9 +2577,9 @@
       "transaction_count":452954
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":4674.5333333333,
       "contract_invocations":317203.0,
+      "active_addresses_aggregation":4674.5333333333,
+      "defillama_tvl":null,
       "gas_fees":0.3899477812
     }
   },
@@ -2596,9 +2596,9 @@
       "transaction_count":10139
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0333333333,
       "contract_invocations":3913.0,
+      "active_addresses_aggregation":0.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000000039
     }
   },
@@ -2607,7 +2607,7 @@
     "op_atlas_id":"0x780cf3d5aa4e3c94b8a4157f4b06a3f92ebcc20813585e20e3fe0271bf76b7a9",
     "display_name":"Virtuals Protocol",
     "is_eligible":true,
-    "op_reward":34273.61,
+    "op_reward":33970.88,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2615,9 +2615,9 @@
       "transaction_count":109274263
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":20796.7666666667,
       "contract_invocations":14735497.0,
+      "active_addresses_aggregation":20796.7666666667,
+      "defillama_tvl":null,
       "gas_fees":8.3379794284
     }
   },
@@ -2634,9 +2634,9 @@
       "transaction_count":26961
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":4.6,
       "contract_invocations":2698.0,
+      "active_addresses_aggregation":4.6,
+      "defillama_tvl":null,
       "gas_fees":0.0005836872
     }
   },
@@ -2653,9 +2653,9 @@
       "transaction_count":189557
     },
     "monthly_metrics":{
-      "defillama_tvl":466437.0772396668,
-      "active_addresses_aggregation":13.5333333333,
       "contract_invocations":15551.0,
+      "active_addresses_aggregation":13.5333333333,
+      "defillama_tvl":466437.077239667,
       "gas_fees":0.0314705504
     }
   },
@@ -2664,7 +2664,7 @@
     "op_atlas_id":"0x79e3ed10841da009fbbaef5ac13c27022dd35e95ac5c02bae078775981a9aaa0",
     "display_name":"BitMaster",
     "is_eligible":true,
-    "op_reward":589.32,
+    "op_reward":616.83,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":52,
@@ -2672,10 +2672,10 @@
       "transaction_count":61668
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2.9,
       "contract_invocations":31811.0,
-      "gas_fees":0.0015617032
+      "active_addresses_aggregation":318.0666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0064338726
     }
   },
   {
@@ -2683,7 +2683,7 @@
     "op_atlas_id":"0x79fa54d6c030c7803827e96933fc93b092f638079c738d13a27a08b3905b95ec",
     "display_name":"Smol",
     "is_eligible":true,
-    "op_reward":703.95,
+    "op_reward":696.9,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2691,9 +2691,9 @@
       "transaction_count":195805
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":732.5666666667,
       "contract_invocations":30123.0,
+      "active_addresses_aggregation":732.5666666667,
+      "defillama_tvl":null,
       "gas_fees":0.4218808687
     }
   },
@@ -2710,10 +2710,10 @@
       "transaction_count":18066
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":88.4666666667,
       "contract_invocations":3490.0,
-      "gas_fees":0.0262018554
+      "active_addresses_aggregation":88.4666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0267571478
     }
   },
   {
@@ -2721,7 +2721,7 @@
     "op_atlas_id":"0x7d5bcf0b123ca5611f1bb0c889816753cc215b0a230849c8464c6c2a08c4eddc",
     "display_name":"FLAG!",
     "is_eligible":true,
-    "op_reward":9476.5,
+    "op_reward":9396.8,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":53,
@@ -2729,10 +2729,10 @@
       "transaction_count":5443301
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.8333333333,
       "contract_invocations":3623751.0,
-      "gas_fees":0.0000036793
+      "active_addresses_aggregation":19728.3333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.4178538355
     }
   },
   {
@@ -2740,7 +2740,7 @@
     "op_atlas_id":"0x7e7d21d6fd33a544b7d1dc853239b1af732c778d16dbf0e2e059f5f34b1c1bfe",
     "display_name":"Uman",
     "is_eligible":true,
-    "op_reward":1945.81,
+    "op_reward":1988.73,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":108,
@@ -2748,10 +2748,10 @@
       "transaction_count":767669
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.8666666667,
       "contract_invocations":365549.0,
-      "gas_fees":0.0000853563
+      "active_addresses_aggregation":4160.6,
+      "defillama_tvl":null,
+      "gas_fees":0.0060917937
     }
   },
   {
@@ -2759,7 +2759,7 @@
     "op_atlas_id":"0x7eb6ba7a1057659d04ec414446c1b32509bf57704958139266c7120903446ad6",
     "display_name":"Pinto Protocol",
     "is_eligible":true,
-    "op_reward":9899.41,
+    "op_reward":9778.09,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2767,9 +2767,9 @@
       "transaction_count":7836801
     },
     "monthly_metrics":{
-      "defillama_tvl":0.0,
-      "active_addresses_aggregation":14.0666666667,
       "contract_invocations":3279533.0,
+      "active_addresses_aggregation":14.0666666667,
+      "defillama_tvl":0.0,
       "gas_fees":0.3483626266
     }
   },
@@ -2786,9 +2786,9 @@
       "transaction_count":1209602
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":11.3,
       "contract_invocations":224676.0,
+      "active_addresses_aggregation":11.3,
+      "defillama_tvl":null,
       "gas_fees":0.0095688488
     }
   },
@@ -2805,9 +2805,9 @@
       "transaction_count":2385
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2.2333333333,
       "contract_invocations":90.0,
+      "active_addresses_aggregation":2.2333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000742965
     }
   },
@@ -2824,9 +2824,9 @@
       "transaction_count":2463
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":5.7666666667,
       "contract_invocations":638.0,
+      "active_addresses_aggregation":5.7666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0034563038
     }
   },
@@ -2843,9 +2843,9 @@
       "transaction_count":62392
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":10.3333333333,
       "contract_invocations":820.0,
+      "active_addresses_aggregation":10.3333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0027839757
     }
   },
@@ -2862,9 +2862,9 @@
       "transaction_count":795689
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":20.1,
       "contract_invocations":1975.0,
+      "active_addresses_aggregation":20.1,
+      "defillama_tvl":null,
       "gas_fees":0.318428114
     }
   },
@@ -2873,7 +2873,7 @@
     "op_atlas_id":"0x81c88822ad7d004a94a2a5ce5d6a2a04466f78d211931230ac0c5a804d36c855",
     "display_name":"Mint Forest",
     "is_eligible":true,
-    "op_reward":4377.75,
+    "op_reward":4295.01,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":133,
@@ -2881,9 +2881,9 @@
       "transaction_count":30329710
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":7417.4333333333,
       "contract_invocations":2403176.0,
+      "active_addresses_aggregation":7417.4333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0072648609
     }
   },
@@ -2892,7 +2892,7 @@
     "op_atlas_id":"0x82edc3ac2a03da21c5a6033159ba8e97aab2f61dc5d1d9813929fea6d6c35362",
     "display_name":"Superform",
     "is_eligible":true,
-    "op_reward":3786.75,
+    "op_reward":3753.34,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2900,9 +2900,9 @@
       "transaction_count":880927
     },
     "monthly_metrics":{
-      "defillama_tvl":142808211.4630203247,
-      "active_addresses_aggregation":299.8333333333,
       "contract_invocations":84725.0,
+      "active_addresses_aggregation":299.8333333333,
+      "defillama_tvl":142808211.4630203843,
       "gas_fees":0.2883419702
     }
   },
@@ -2919,9 +2919,9 @@
       "transaction_count":1606
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.0666666667,
       "contract_invocations":156.0,
+      "active_addresses_aggregation":1.0666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000396533
     }
   },
@@ -2930,7 +2930,7 @@
     "op_atlas_id":"0x84893ce34d8069c43d8814db55a1ff5d472e4765650f0c37c1156b5ce97421ff",
     "display_name":"TPulseFi",
     "is_eligible":true,
-    "op_reward":4302.74,
+    "op_reward":4269.47,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":53,
@@ -2938,10 +2938,10 @@
       "transaction_count":1273309
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.3333333333,
       "contract_invocations":780502.0,
-      "gas_fees":0.0000049148
+      "active_addresses_aggregation":9510.9333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.1444374952
     }
   },
   {
@@ -2949,7 +2949,7 @@
     "op_atlas_id":"0x850df51e29f2846a5f085d88e6b6fc13fad51ad7161f8a825ed09d470668161a",
     "display_name":"Party.app + Party Protocol",
     "is_eligible":true,
-    "op_reward":782.99,
+    "op_reward":775.39,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2957,9 +2957,9 @@
       "transaction_count":267347
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":187.5,
       "contract_invocations":28067.0,
+      "active_addresses_aggregation":187.5,
+      "defillama_tvl":null,
       "gas_fees":0.0116762562
     }
   },
@@ -2976,9 +2976,9 @@
       "transaction_count":11975
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":4.2666666667,
       "contract_invocations":355.0,
+      "active_addresses_aggregation":4.2666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0029890635
     }
   },
@@ -2987,7 +2987,7 @@
     "op_atlas_id":"0x8595f830f4d1716621d19bca6394f304837133fb473d8fcd1699e84402df1409",
     "display_name":"SwapBased",
     "is_eligible":true,
-    "op_reward":3448.23,
+    "op_reward":3406.62,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -2995,9 +2995,9 @@
       "transaction_count":4140147
     },
     "monthly_metrics":{
-      "defillama_tvl":428999.3368333333,
-      "active_addresses_aggregation":82.0,
       "contract_invocations":702217.0,
+      "active_addresses_aggregation":82.0,
+      "defillama_tvl":428999.3368333334,
       "gas_fees":0.0381030894
     }
   },
@@ -3006,7 +3006,7 @@
     "op_atlas_id":"0x85bef37b528ec9d7e1a9cb864e298e3c117071507acd3f522c28561435d167f5",
     "display_name":"rhinofi",
     "is_eligible":true,
-    "op_reward":736.11,
+    "op_reward":729.13,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -3014,9 +3014,9 @@
       "transaction_count":200978
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":393.9333333333,
       "contract_invocations":33693.0,
+      "active_addresses_aggregation":393.9333333333,
+      "defillama_tvl":null,
       "gas_fees":0.01395095
     }
   },
@@ -3025,7 +3025,7 @@
     "op_atlas_id":"0x867b0364ac86ff4cc61a47ee99a0f96c8b952af8728442a048f7e3ac5892aae9",
     "display_name":"Gaslite Drop",
     "is_eligible":true,
-    "op_reward":872.93,
+    "op_reward":865.15,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":176,
@@ -3033,9 +3033,9 @@
       "transaction_count":131231
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3.7,
       "contract_invocations":7809.0,
+      "active_addresses_aggregation":3.7,
+      "defillama_tvl":null,
       "gas_fees":0.772060952
     }
   },
@@ -3044,7 +3044,7 @@
     "op_atlas_id":"0x869d601d2c5d78bcad37b589225632a9674c7bfbafeebf3c379ccc41265d6f33",
     "display_name":"SynStation",
     "is_eligible":true,
-    "op_reward":296.29,
+    "op_reward":293.65,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":169,
@@ -3052,9 +3052,9 @@
       "transaction_count":8150038
     },
     "monthly_metrics":{
-      "defillama_tvl":1530074.6095363332,
-      "active_addresses_aggregation":17.2666666667,
       "contract_invocations":6328.0,
+      "active_addresses_aggregation":17.2666666667,
+      "defillama_tvl":1530074.6095363332,
       "gas_fees":0.0076327468
     }
   },
@@ -3071,9 +3071,9 @@
       "transaction_count":454
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":182.0,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3090,9 +3090,9 @@
       "transaction_count":275
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.6,
       "contract_invocations":34.0,
+      "active_addresses_aggregation":0.6,
+      "defillama_tvl":null,
       "gas_fees":0.0000524935
     }
   },
@@ -3109,9 +3109,9 @@
       "transaction_count":274
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.4,
       "contract_invocations":32.0,
+      "active_addresses_aggregation":0.4,
+      "defillama_tvl":null,
       "gas_fees":0.0000045102
     }
   },
@@ -3128,9 +3128,9 @@
       "transaction_count":3
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3139,7 +3139,7 @@
     "op_atlas_id":"0x8efcf1b6e879bb6ec89d5982b8da840757053731b8972c4a07a6ce9b6ffcfc89",
     "display_name":"Blueshift.fi",
     "is_eligible":true,
-    "op_reward":1123.13,
+    "op_reward":1113.14,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":153,
@@ -3147,9 +3147,9 @@
       "transaction_count":60450
     },
     "monthly_metrics":{
-      "defillama_tvl":6125510.802046,
-      "active_addresses_aggregation":null,
       "contract_invocations":233.0,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":6125510.802046001,
       "gas_fees":null
     }
   },
@@ -3166,9 +3166,9 @@
       "transaction_count":25
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0333333333,
       "contract_invocations":1.0,
+      "active_addresses_aggregation":0.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000003234
     }
   },
@@ -3177,7 +3177,7 @@
     "op_atlas_id":"0x8f7edabd00cd8a9bc0065eec465bd3d97ebe3f4632c8d3d52b336a9bc1d8fb3a",
     "display_name":"SuperSwap",
     "is_eligible":true,
-    "op_reward":246.19,
+    "op_reward":243.32,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":177,
@@ -3185,9 +3185,9 @@
       "transaction_count":168486
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":354.5666666667,
       "contract_invocations":23930.0,
+      "active_addresses_aggregation":354.5666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0148001998
     }
   },
@@ -3196,7 +3196,7 @@
     "op_atlas_id":"0x8fbddc02ddbc9c9b303b7bbb645aa933541876a31a93d7dea165fb0283d7f685",
     "display_name":"Holdstation Wallet",
     "is_eligible":true,
-    "op_reward":7551.42,
+    "op_reward":7607.8,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":77,
@@ -3204,10 +3204,10 @@
       "transaction_count":2290701
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2.3666666667,
       "contract_invocations":809082.0,
-      "gas_fees":0.0200918897
+      "active_addresses_aggregation":6127.6333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.2294590385
     }
   },
   {
@@ -3223,9 +3223,9 @@
       "transaction_count":16030
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.1666666667,
       "contract_invocations":5.0,
+      "active_addresses_aggregation":0.1666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000003668
     }
   },
@@ -3234,7 +3234,7 @@
     "op_atlas_id":"0x91a4420e2fcc8311e97dad480f201a8ce221f2cd64c2de77280cbcc6ce193752",
     "display_name":"Layer3",
     "is_eligible":true,
-    "op_reward":10107.16,
+    "op_reward":10105.44,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -3242,10 +3242,10 @@
       "transaction_count":16405761
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":5432.1,
       "contract_invocations":1487446.0,
-      "gas_fees":0.9041266222
+      "active_addresses_aggregation":5432.1,
+      "defillama_tvl":null,
+      "gas_fees":0.9224147984
     }
   },
   {
@@ -3261,9 +3261,9 @@
       "transaction_count":25866
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":45.2,
       "contract_invocations":1908.0,
+      "active_addresses_aggregation":45.2,
+      "defillama_tvl":null,
       "gas_fees":0.0044338954
     }
   },
@@ -3280,9 +3280,9 @@
       "transaction_count":3
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3299,9 +3299,9 @@
       "transaction_count":17
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3318,9 +3318,9 @@
       "transaction_count":2856
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0333333333,
       "contract_invocations":1.0,
+      "active_addresses_aggregation":0.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000006321
     }
   },
@@ -3337,10 +3337,29 @@
       "transaction_count":1184
     },
     "monthly_metrics":{
-      "defillama_tvl":116883890.7314929813,
-      "active_addresses_aggregation":6.1333333333,
       "contract_invocations":327.0,
+      "active_addresses_aggregation":6.1333333333,
+      "defillama_tvl":116883890.7314929664,
       "gas_fees":0.000323833
+    }
+  },
+  {
+    "oso_project_id":"jzst/QxsBFbu/ddc0RmGqhOwnCvKDd6g542KX/UgB8s=",
+    "op_atlas_id":"0x94db05b6b1f8196cbc00d76fba5434c275f26cc90826351ecb327a85df4bb25a",
+    "display_name":"MySphere",
+    "is_eligible":false,
+    "op_reward":null,
+    "round_id":"8",
+    "eligibility_metrics":{
+      "active_days":26,
+      "gas_fees":0.0001570304,
+      "transaction_count":422
+    },
+    "monthly_metrics":{
+      "contract_invocations":422.0,
+      "active_addresses_aggregation":5.6333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.0001570304
     }
   },
   {
@@ -3356,9 +3375,9 @@
       "transaction_count":70
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3367,7 +3386,7 @@
     "op_atlas_id":"0x96767e87a27cdb9798f40c3a6fd78e70da611afe53a5e45cbaafc50cae4ad0e7",
     "display_name":"Sonus Exchange",
     "is_eligible":true,
-    "op_reward":517.39,
+    "op_reward":508.5,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":170,
@@ -3375,9 +3394,9 @@
       "transaction_count":7584952
     },
     "monthly_metrics":{
-      "defillama_tvl":59145.2471793333,
-      "active_addresses_aggregation":877.5666666667,
       "contract_invocations":311841.0,
+      "active_addresses_aggregation":877.5666666667,
+      "defillama_tvl":59145.2471793333,
       "gas_fees":0.1191725671
     }
   },
@@ -3386,7 +3405,7 @@
     "op_atlas_id":"0x97553b3e60fedc3d6e888c26132dfd49b6bc0174fc4546966215e1be3224d0de",
     "display_name":"Warpslot",
     "is_eligible":true,
-    "op_reward":1160.95,
+    "op_reward":1139.05,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":120,
@@ -3394,9 +3413,9 @@
       "transaction_count":855955
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.9666666667,
       "contract_invocations":255882.0,
+      "active_addresses_aggregation":0.9666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0662721343
     }
   },
@@ -3413,9 +3432,9 @@
       "transaction_count":104
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3432,9 +3451,9 @@
       "transaction_count":396483
     },
     "monthly_metrics":{
-      "defillama_tvl":26045.3317976667,
-      "active_addresses_aggregation":null,
       "contract_invocations":44081.0,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":26045.3317976667,
       "gas_fees":null
     }
   },
@@ -3451,9 +3470,9 @@
       "transaction_count":59
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3462,7 +3481,7 @@
     "op_atlas_id":"0x9c3a49cb4acf213a090a65920d3b23698d8da7588596dbdca20e903549f761ab",
     "display_name":"DeFi Saver",
     "is_eligible":true,
-    "op_reward":454.85,
+    "op_reward":450.81,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -3470,9 +3489,9 @@
       "transaction_count":79651
     },
     "monthly_metrics":{
-      "defillama_tvl":50513895.9617699981,
-      "active_addresses_aggregation":3.6,
       "contract_invocations":13579.0,
+      "active_addresses_aggregation":3.6,
+      "defillama_tvl":50513895.9617699981,
       "gas_fees":0.0647371844
     }
   },
@@ -3481,7 +3500,7 @@
     "op_atlas_id":"0x9c41aa9eccf18c7d96a98a84466a9406d4f325e83eae555efe40000d5fe39d8f",
     "display_name":"Raize",
     "is_eligible":true,
-    "op_reward":473.8,
+    "op_reward":480.06,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":45,
@@ -3489,9 +3508,9 @@
       "transaction_count":8161
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":26.8,
       "contract_invocations":7487.0,
+      "active_addresses_aggregation":26.8,
+      "defillama_tvl":null,
       "gas_fees":0.0027158504
     }
   },
@@ -3500,7 +3519,7 @@
     "op_atlas_id":"0x9c691ba3012549259099205cc1a7ca4d09d9b7a24a1b7b821b52c7bf1c9b89f4",
     "display_name":"Origin Protocol",
     "is_eligible":true,
-    "op_reward":1190.37,
+    "op_reward":1180.01,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -3508,9 +3527,9 @@
       "transaction_count":443475
     },
     "monthly_metrics":{
-      "defillama_tvl":119636669.1899596453,
-      "active_addresses_aggregation":43.2,
       "contract_invocations":45658.0,
+      "active_addresses_aggregation":43.2,
+      "defillama_tvl":119636669.1899596602,
       "gas_fees":0.0120140932
     }
   },
@@ -3527,10 +3546,10 @@
       "transaction_count":73824
     },
     "monthly_metrics":{
-      "defillama_tvl":14175.3296626667,
-      "active_addresses_aggregation":51.7666666667,
       "contract_invocations":6052.0,
-      "gas_fees":0.0066695338
+      "active_addresses_aggregation":51.7666666667,
+      "defillama_tvl":14175.3296626667,
+      "gas_fees":0.0070100955
     }
   },
   {
@@ -3546,9 +3565,9 @@
       "transaction_count":194419884
     },
     "monthly_metrics":{
-      "defillama_tvl":4727590423.0306110382,
-      "active_addresses_aggregation":45796.8,
       "contract_invocations":26189634.0,
+      "active_addresses_aggregation":45796.8,
+      "defillama_tvl":4727590423.0306100845,
       "gas_fees":116.5356648539
     }
   },
@@ -3565,9 +3584,9 @@
       "transaction_count":75
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0333333333,
       "contract_invocations":2.0,
+      "active_addresses_aggregation":0.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.000000457
     }
   },
@@ -3576,7 +3595,7 @@
     "op_atlas_id":"0x9fb539aa3ddb63cda1c29b50fbeaa6071f290926ce10f3d224233577b823454e",
     "display_name":"UNO",
     "is_eligible":true,
-    "op_reward":25691.06,
+    "op_reward":25283.11,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -3584,10 +3603,10 @@
       "transaction_count":17630598
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.1,
       "contract_invocations":6077346.0,
-      "gas_fees":0.0000215455
+      "active_addresses_aggregation":45455.7666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.8651430635
     }
   },
   {
@@ -3595,7 +3614,7 @@
     "op_atlas_id":"0xa09305aa57a60e362b11911666f6310f46c959ead9116333d2e7ca91aee180bf",
     "display_name":"Super Account",
     "is_eligible":true,
-    "op_reward":907.76,
+    "op_reward":899.46,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":179,
@@ -3603,9 +3622,9 @@
       "transaction_count":1956399
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2.9333333333,
       "contract_invocations":440945.0,
+      "active_addresses_aggregation":2.9333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000093265
     }
   },
@@ -3614,7 +3633,7 @@
     "op_atlas_id":"0xa1f96576ad998e804140caccd478bae81b8b1059a107166df87b59fbf42c9e4a",
     "display_name":"OnChainGM",
     "is_eligible":true,
-    "op_reward":12816.02,
+    "op_reward":12692.6,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":151,
@@ -3622,10 +3641,10 @@
       "transaction_count":1154513
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":8873.2666666667,
       "contract_invocations":288493.0,
-      "gas_fees":0.1393105773
+      "active_addresses_aggregation":8873.2666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.1458010247
     }
   },
   {
@@ -3641,9 +3660,9 @@
       "transaction_count":57040
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":21.3666666667,
       "contract_invocations":824.0,
+      "active_addresses_aggregation":21.3666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0005896075
     }
   },
@@ -3660,9 +3679,9 @@
       "transaction_count":69968
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":14.0666666667,
       "contract_invocations":5381.0,
+      "active_addresses_aggregation":14.0666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0120318021
     }
   },
@@ -3679,9 +3698,9 @@
       "transaction_count":2164
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":11.8,
       "contract_invocations":499.0,
+      "active_addresses_aggregation":11.8,
+      "defillama_tvl":null,
       "gas_fees":0.0002447659
     }
   },
@@ -3698,9 +3717,9 @@
       "transaction_count":33
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.1,
       "contract_invocations":6.0,
+      "active_addresses_aggregation":0.1,
+      "defillama_tvl":null,
       "gas_fees":0.0000007148
     }
   },
@@ -3709,7 +3728,7 @@
     "op_atlas_id":"0xa6e21a58b178cdfd073df12288b8edf761b595c2938b81c64e40c944a1403432",
     "display_name":"Spectra Finance",
     "is_eligible":true,
-    "op_reward":1043.61,
+    "op_reward":1033.91,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":178,
@@ -3717,9 +3736,9 @@
       "transaction_count":222928
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":221.4666666667,
       "contract_invocations":159291.0,
+      "active_addresses_aggregation":221.4666666667,
+      "defillama_tvl":null,
       "gas_fees":0.1610452848
     }
   },
@@ -3736,9 +3755,9 @@
       "transaction_count":15192
     },
     "monthly_metrics":{
-      "defillama_tvl":130.96843,
-      "active_addresses_aggregation":0.6,
       "contract_invocations":90.0,
+      "active_addresses_aggregation":0.6,
+      "defillama_tvl":130.96843,
       "gas_fees":0.0000144748
     }
   },
@@ -3747,7 +3766,7 @@
     "op_atlas_id":"0xa88844cea135382e3484e39c3172033437121b35ca0bc8b10b9b8253984876b5",
     "display_name":"Ethereum Attestation Service (EAS)",
     "is_eligible":true,
-    "op_reward":804.47,
+    "op_reward":795.8,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -3755,9 +3774,9 @@
       "transaction_count":728917
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":28.2666666667,
       "contract_invocations":119263.0,
+      "active_addresses_aggregation":28.2666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0604451164
     }
   },
@@ -3766,7 +3785,7 @@
     "op_atlas_id":"0xa8cc5045310579862c79af178bda9675202fa25341464b69db9421ce2ba67971",
     "display_name":"Caribbean Holdem",
     "is_eligible":true,
-    "op_reward":686.92,
+    "op_reward":715.78,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":53,
@@ -3774,10 +3793,10 @@
       "transaction_count":60079
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3.0,
       "contract_invocations":40568.0,
-      "gas_fees":0.0025491325
+      "active_addresses_aggregation":303.8333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.0085339547
     }
   },
   {
@@ -3793,9 +3812,9 @@
       "transaction_count":19534
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":45.8333333333,
       "contract_invocations":4614.0,
+      "active_addresses_aggregation":45.8333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0069119821
     }
   },
@@ -3803,8 +3822,8 @@
     "oso_project_id":"8Cgztczct8fnsJW6D2OQcFRY6nClKNyOC7Le0soED94=",
     "op_atlas_id":"0xaa1b878800206da24ee7297fb202ef98a6af0fb3ec298a65ba6b675cb4f4144b",
     "display_name":"Stepan's project",
-    "is_eligible":true,
-    "op_reward":0.0,
+    "is_eligible":false,
+    "op_reward":null,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":131,
@@ -3812,9 +3831,9 @@
       "transaction_count":6101
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":8.0,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3823,7 +3842,7 @@
     "op_atlas_id":"0xab1ddf597f6539acc5ad601c2a6d2899c0475cfd9cc3b837939b1084ba5d7a36",
     "display_name":"Reserve Protocol",
     "is_eligible":true,
-    "op_reward":3082.25,
+    "op_reward":3055.82,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -3831,9 +3850,9 @@
       "transaction_count":943770
     },
     "monthly_metrics":{
-      "defillama_tvl":313689764.7871633172,
-      "active_addresses_aggregation":268.0333333333,
       "contract_invocations":247566.0,
+      "active_addresses_aggregation":268.0333333333,
+      "defillama_tvl":313689764.7871633768,
       "gas_fees":0.0210021197
     }
   },
@@ -3850,9 +3869,9 @@
       "transaction_count":14
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3869,9 +3888,9 @@
       "transaction_count":7
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3888,9 +3907,9 @@
       "transaction_count":478
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.3666666667,
       "contract_invocations":14.0,
+      "active_addresses_aggregation":0.3666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000050522
     }
   },
@@ -3899,7 +3918,7 @@
     "op_atlas_id":"0xaf0b91c11966164d5b8e3cf02f082b19479c5f3faca1108ca1e2aec1e1177d06",
     "display_name":"Rolu",
     "is_eligible":true,
-    "op_reward":282.65,
+    "op_reward":281.52,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":96,
@@ -3907,10 +3926,10 @@
       "transaction_count":91057
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":27942.0,
-      "gas_fees":null
+      "active_addresses_aggregation":335.8666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0006230967
     }
   },
   {
@@ -3926,9 +3945,9 @@
       "transaction_count":114774
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3945,9 +3964,9 @@
       "transaction_count":619055
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -3956,7 +3975,7 @@
     "op_atlas_id":"0xb1ee13dc3a4f1db5840d4852e7c81977fcd14d7b423f3ed15407bbf13d1a3986",
     "display_name":"HumanFi",
     "is_eligible":true,
-    "op_reward":2623.56,
+    "op_reward":2675.6,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":73,
@@ -3964,10 +3983,10 @@
       "transaction_count":463408
     },
     "monthly_metrics":{
-      "defillama_tvl":0.0,
-      "active_addresses_aggregation":0.0333333333,
       "contract_invocations":161791.0,
-      "gas_fees":0.0000135545
+      "active_addresses_aggregation":1956.1,
+      "defillama_tvl":0.0,
+      "gas_fees":0.0158594015
     }
   },
   {
@@ -3983,9 +4002,9 @@
       "transaction_count":60131
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":4.8666666667,
       "contract_invocations":476.0,
+      "active_addresses_aggregation":4.8666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000693557
     }
   },
@@ -3994,7 +4013,7 @@
     "op_atlas_id":"0xb26d9315cec30e60b52efd523c25a260c41d573458b246e60cf2de76eefd15a4",
     "display_name":"MintSwap Finance",
     "is_eligible":true,
-    "op_reward":251.86,
+    "op_reward":249.41,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4002,9 +4021,9 @@
       "transaction_count":1424862
     },
     "monthly_metrics":{
-      "defillama_tvl":158331.416314,
-      "active_addresses_aggregation":103.5666666667,
       "contract_invocations":30010.0,
+      "active_addresses_aggregation":103.5666666667,
+      "defillama_tvl":158331.416314,
       "gas_fees":0.3900193692
     }
   },
@@ -4021,9 +4040,9 @@
       "transaction_count":842
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.7333333333,
       "contract_invocations":69.0,
+      "active_addresses_aggregation":0.7333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000157685
     }
   },
@@ -4032,7 +4051,7 @@
     "op_atlas_id":"0xb54051a79d3b97ba30bf6ee4f775ea606bf21197a990af8be90f88dac22ea555",
     "display_name":"Squadletics",
     "is_eligible":true,
-    "op_reward":4509.43,
+    "op_reward":4476.92,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":159,
@@ -4040,10 +4059,10 @@
       "transaction_count":246778
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0333333333,
       "contract_invocations":40962.0,
-      "gas_fees":0.0000000487
+      "active_addresses_aggregation":895.4666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0009578641
     }
   },
   {
@@ -4059,9 +4078,9 @@
       "transaction_count":3635
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0333333333,
       "contract_invocations":1.0,
+      "active_addresses_aggregation":0.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000000436
     }
   },
@@ -4070,7 +4089,7 @@
     "op_atlas_id":"0xb620f012eb197e5661f65c1a5aee6a4bbb43629f0056879ae4dc66adf8383ae3",
     "display_name":"ORB",
     "is_eligible":true,
-    "op_reward":4232.75,
+    "op_reward":4935.92,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4078,10 +4097,10 @@
       "transaction_count":1931404
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2.9,
       "contract_invocations":198131.0,
-      "gas_fees":0.0000119922
+      "active_addresses_aggregation":2065.0,
+      "defillama_tvl":null,
+      "gas_fees":0.01058181
     }
   },
   {
@@ -4089,7 +4108,7 @@
     "op_atlas_id":"0xb6266f3d955040aa7583f2f346db87abe0649f545389af3cc8fe302aacfc850b",
     "display_name":"Splits",
     "is_eligible":true,
-    "op_reward":2329.95,
+    "op_reward":2331.51,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4097,10 +4116,10 @@
       "transaction_count":908327
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":15.6,
       "contract_invocations":157104.0,
-      "gas_fees":0.0065681595
+      "active_addresses_aggregation":15.6,
+      "defillama_tvl":null,
+      "gas_fees":0.0066646913
     }
   },
   {
@@ -4116,9 +4135,9 @@
       "transaction_count":157
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.3333333333,
       "contract_invocations":25.0,
+      "active_addresses_aggregation":0.3333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0001303099
     }
   },
@@ -4127,7 +4146,7 @@
     "op_atlas_id":"0xb926ab918147d2264dba94a429eb07986aa533fd6062a78736d3eda4e0b4a69b",
     "display_name":"Oku Trade",
     "is_eligible":true,
-    "op_reward":2013.06,
+    "op_reward":1997.99,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4135,10 +4154,10 @@
       "transaction_count":23426939
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":388.7666666667,
       "contract_invocations":355599.0,
-      "gas_fees":0.2390909049
+      "active_addresses_aggregation":388.7666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.2450753755
     }
   },
   {
@@ -4146,7 +4165,7 @@
     "op_atlas_id":"0xb98778ca9ff41446e2bc304f7b5d27f0fa7c2bcd11df19e22d1352c06698a1f6",
     "display_name":"Account Abstraction - ERC-4337",
     "is_eligible":true,
-    "op_reward":63883.47,
+    "op_reward":63095.29,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4154,9 +4173,9 @@
       "transaction_count":44856767
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1149.5,
       "contract_invocations":10355270.0,
+      "active_addresses_aggregation":1149.5,
+      "defillama_tvl":null,
       "gas_fees":177.4316816961
     }
   },
@@ -4173,9 +4192,9 @@
       "transaction_count":821
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.8,
       "contract_invocations":75.0,
+      "active_addresses_aggregation":0.8,
+      "defillama_tvl":null,
       "gas_fees":0.0000098696
     }
   },
@@ -4184,7 +4203,7 @@
     "op_atlas_id":"0xbcb5c437d5347be21add3972512679054416805274f80e85ab8053ae79340a69",
     "display_name":"Ionic Protocol",
     "is_eligible":true,
-    "op_reward":2449.52,
+    "op_reward":2403.38,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":178,
@@ -4192,10 +4211,10 @@
       "transaction_count":6323764
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":229.8666666667,
       "contract_invocations":1273552.0,
-      "gas_fees":0.0774060504
+      "active_addresses_aggregation":229.8666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0816055659
     }
   },
   {
@@ -4203,7 +4222,7 @@
     "op_atlas_id":"0xbcc00e0075ebe6bad6e8afeeb533a0d22cfc9c2d3b1405c729804088986b8b9d",
     "display_name":"FREE $WLD",
     "is_eligible":true,
-    "op_reward":8282.86,
+    "op_reward":8383.91,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":173,
@@ -4211,10 +4230,10 @@
       "transaction_count":6235417
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":13.3666666667,
       "contract_invocations":1366663.0,
-      "gas_fees":0.1453321103
+      "active_addresses_aggregation":11860.6333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.5095089327
     }
   },
   {
@@ -4230,9 +4249,9 @@
       "transaction_count":111747
     },
     "monthly_metrics":{
-      "defillama_tvl":0.0,
-      "active_addresses_aggregation":77.1,
       "contract_invocations":4908.0,
+      "active_addresses_aggregation":77.1,
+      "defillama_tvl":0.0,
       "gas_fees":0.0522444194
     }
   },
@@ -4241,7 +4260,7 @@
     "op_atlas_id":"0xc0901c8f9503f0bf91a1cca0c6c90e55af8719cc2237fb4a0bf0770b307cbd11",
     "display_name":"Basepaint",
     "is_eligible":true,
-    "op_reward":6532.75,
+    "op_reward":6417.28,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4249,9 +4268,9 @@
       "transaction_count":459536
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3902.1666666667,
       "contract_invocations":352301.0,
+      "active_addresses_aggregation":3902.1666666667,
+      "defillama_tvl":null,
       "gas_fees":0.2154753678
     }
   },
@@ -4268,9 +4287,9 @@
       "transaction_count":47775
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.5333333333,
       "contract_invocations":156.0,
+      "active_addresses_aggregation":0.5333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000171965
     }
   },
@@ -4287,9 +4306,9 @@
       "transaction_count":962722
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.6333333333,
       "contract_invocations":25230.0,
+      "active_addresses_aggregation":1.6333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0002767562
     }
   },
@@ -4306,9 +4325,9 @@
       "transaction_count":2
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -4317,7 +4336,7 @@
     "op_atlas_id":"0xc55da0ccb43d29814ac5ac3e1eacb85a5008a30df7fff6c34c45684c89ad5f11",
     "display_name":"O\uff1dC\uff1dO",
     "is_eligible":true,
-    "op_reward":3534.52,
+    "op_reward":3570.2,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":80,
@@ -4325,10 +4344,10 @@
       "transaction_count":1893800
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.5,
       "contract_invocations":590257.0,
-      "gas_fees":0.000001713
+      "active_addresses_aggregation":3620.9666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0157800294
     }
   },
   {
@@ -4336,7 +4355,7 @@
     "op_atlas_id":"0xc55fe3df4a2689935cc0a4b912e3f913de7a8c1c6758370550aaf25a949ec79c",
     "display_name":"Otterverse",
     "is_eligible":true,
-    "op_reward":10055.69,
+    "op_reward":10081.6,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":138,
@@ -4344,10 +4363,10 @@
       "transaction_count":6939926
     },
     "monthly_metrics":{
-      "defillama_tvl":0.0,
-      "active_addresses_aggregation":3.2666666667,
       "contract_invocations":2505587.0,
-      "gas_fees":0.00007715
+      "active_addresses_aggregation":18335.7666666667,
+      "defillama_tvl":0.0,
+      "gas_fees":0.0881921048
     }
   },
   {
@@ -4363,9 +4382,9 @@
       "transaction_count":20822
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":14.3666666667,
       "contract_invocations":5208.0,
+      "active_addresses_aggregation":14.3666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0087741383
     }
   },
@@ -4374,7 +4393,7 @@
     "op_atlas_id":"0xc66e357ad67e63954cd1eb79da4d507d8800518f06c82e423e93e8771e7b8d13",
     "display_name":"Brahma",
     "is_eligible":true,
-    "op_reward":5062.97,
+    "op_reward":4985.46,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4382,9 +4401,9 @@
       "transaction_count":8262335
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":30.9666666667,
       "contract_invocations":2429911.0,
+      "active_addresses_aggregation":30.9666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0897159593
     }
   },
@@ -4393,7 +4412,7 @@
     "op_atlas_id":"0xc850d11fe786d1168bfeda108721101427dd5425d9d9e6595c35573f7616e940",
     "display_name":"Daimo Pay",
     "is_eligible":true,
-    "op_reward":442.57,
+    "op_reward":436.61,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":46,
@@ -4401,10 +4420,10 @@
       "transaction_count":259452
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":92.9,
       "contract_invocations":161176.0,
-      "gas_fees":0.0850080832
+      "active_addresses_aggregation":92.9,
+      "defillama_tvl":null,
+      "gas_fees":0.0923513307
     }
   },
   {
@@ -4412,7 +4431,7 @@
     "op_atlas_id":"0xc8a6f84677aca1ce288713e63616048e307d4c2d50aa76d65bc46e4c75aa3d53",
     "display_name":"Flat Money",
     "is_eligible":true,
-    "op_reward":972.89,
+    "op_reward":964.24,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4420,9 +4439,9 @@
       "transaction_count":112174
     },
     "monthly_metrics":{
-      "defillama_tvl":5066357.4135860018,
-      "active_addresses_aggregation":6.2333333333,
       "contract_invocations":22282.0,
+      "active_addresses_aggregation":6.2333333333,
+      "defillama_tvl":5066357.413585999,
       "gas_fees":0.0043305975
     }
   },
@@ -4431,7 +4450,7 @@
     "op_atlas_id":"0xc8ce0bfc7cd141c57a816cce213471208a1f6136c7aed5282c2c41b434006518",
     "display_name":"Bedrock on Optimism Superchain",
     "is_eligible":true,
-    "op_reward":27844.28,
+    "op_reward":27596.59,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4439,9 +4458,9 @@
       "transaction_count":153464
     },
     "monthly_metrics":{
-      "defillama_tvl":586803251.9726206064,
-      "active_addresses_aggregation":11.5,
       "contract_invocations":1108.0,
+      "active_addresses_aggregation":11.5,
+      "defillama_tvl":586803251.9726208448,
       "gas_fees":0.0000600494
     }
   },
@@ -4450,7 +4469,7 @@
     "op_atlas_id":"0xc938557155993da8f33857e52d7deb04421d1bb341fc24216563aae64fe32d36",
     "display_name":"BSX",
     "is_eligible":true,
-    "op_reward":925.98,
+    "op_reward":917.66,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4458,9 +4477,9 @@
       "transaction_count":1172362
     },
     "monthly_metrics":{
-      "defillama_tvl":1093612.0485090001,
-      "active_addresses_aggregation":12.1,
       "contract_invocations":203805.0,
+      "active_addresses_aggregation":12.1,
+      "defillama_tvl":1093612.0485090001,
       "gas_fees":0.5563335108
     }
   },
@@ -4469,7 +4488,7 @@
     "op_atlas_id":"0xca3f26e1c876e821d2384a5cb699c6be494f9810301c2e2be49c232656262642",
     "display_name":"BaseSwap ",
     "is_eligible":true,
-    "op_reward":9609.69,
+    "op_reward":9531.18,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4477,9 +4496,9 @@
       "transaction_count":17185808
     },
     "monthly_metrics":{
-      "defillama_tvl":2700529.3160423338,
-      "active_addresses_aggregation":559.5,
       "contract_invocations":3053158.0,
+      "active_addresses_aggregation":559.5,
+      "defillama_tvl":2700529.3160423334,
       "gas_fees":0.139022808
     }
   },
@@ -4488,7 +4507,7 @@
     "op_atlas_id":"0xcae812d91b7b86edf3141f44f006e8a03931ebc489e0a417b82b603bf325bc96",
     "display_name":"World MiniApps - NFT and Gaming",
     "is_eligible":true,
-    "op_reward":1446.46,
+    "op_reward":1453.06,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":63,
@@ -4496,10 +4515,10 @@
       "transaction_count":175373
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":88550.0,
-      "gas_fees":null
+      "active_addresses_aggregation":2888.4333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.0102213843
     }
   },
   {
@@ -4507,7 +4526,7 @@
     "op_atlas_id":"0xcbfdcf8f724d73504d1518d5ecd7d7256b12d37e68cd84569b383bfb6e2eeea4",
     "display_name":"Dmail Network",
     "is_eligible":true,
-    "op_reward":431.21,
+    "op_reward":425.67,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4515,9 +4534,9 @@
       "transaction_count":933301
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2841.7,
       "contract_invocations":174860.0,
+      "active_addresses_aggregation":2841.7,
+      "defillama_tvl":null,
       "gas_fees":0.0106687524
     }
   },
@@ -4526,7 +4545,7 @@
     "op_atlas_id":"0xcc230da6ee8cbcc2d4039a526fbc8aa910d63201e350be2fae0cab9864194974",
     "display_name":"Bunni.xyz",
     "is_eligible":true,
-    "op_reward":17876.25,
+    "op_reward":17717.2,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":64,
@@ -4534,9 +4553,9 @@
       "transaction_count":419822
     },
     "monthly_metrics":{
-      "defillama_tvl":15575403.4672226701,
-      "active_addresses_aggregation":13.5666666667,
       "contract_invocations":163124.0,
+      "active_addresses_aggregation":13.5666666667,
+      "defillama_tvl":15575403.4672226645,
       "gas_fees":0.0152266959
     }
   },
@@ -4553,9 +4572,9 @@
       "transaction_count":26497
     },
     "monthly_metrics":{
-      "defillama_tvl":1613498.6419113334,
-      "active_addresses_aggregation":2.4666666667,
       "contract_invocations":4967.0,
+      "active_addresses_aggregation":2.4666666667,
+      "defillama_tvl":1613498.6419113332,
       "gas_fees":0.010123807
     }
   },
@@ -4564,7 +4583,7 @@
     "op_atlas_id":"0xd17c16ed0ff3c31ae81ae9af4070a2150db0be538cabcb720c67cc5f221d3965",
     "display_name":"World Billboard",
     "is_eligible":true,
-    "op_reward":5677.96,
+    "op_reward":5613.0,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":149,
@@ -4572,10 +4591,10 @@
       "transaction_count":2885908
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.2333333333,
       "contract_invocations":973088.0,
-      "gas_fees":0.000000504
+      "active_addresses_aggregation":10347.0,
+      "defillama_tvl":null,
+      "gas_fees":0.088712617
     }
   },
   {
@@ -4591,9 +4610,9 @@
       "transaction_count":168003
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3.0,
       "contract_invocations":62038.0,
+      "active_addresses_aggregation":3.0,
+      "defillama_tvl":null,
       "gas_fees":0.005032094
     }
   },
@@ -4602,7 +4621,7 @@
     "op_atlas_id":"0xd3d00c946f62ac8cf49a85e3ab7d295d3b56f68d0b9f1fa4d595742fa372cf78",
     "display_name":"Compound Finance",
     "is_eligible":true,
-    "op_reward":29176.67,
+    "op_reward":28917.16,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4610,9 +4629,9 @@
       "transaction_count":1050232
     },
     "monthly_metrics":{
-      "defillama_tvl":2559070695.3972373009,
-      "active_addresses_aggregation":944.0666666667,
       "contract_invocations":257393.0,
+      "active_addresses_aggregation":944.0666666667,
+      "defillama_tvl":2559070695.3972392082,
       "gas_fees":0.1241121523
     }
   },
@@ -4621,7 +4640,7 @@
     "op_atlas_id":"0xd4f0252e6ac2408099cd40d213fb6f42e8fa129b446d6e8da55e673598ef14c0",
     "display_name":"Moonwell",
     "is_eligible":true,
-    "op_reward":49344.52,
+    "op_reward":48906.89,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4629,9 +4648,9 @@
       "transaction_count":7725853
     },
     "monthly_metrics":{
-      "defillama_tvl":243701140.186696291,
-      "active_addresses_aggregation":1445.8333333333,
       "contract_invocations":1628011.0,
+      "active_addresses_aggregation":1445.8333333333,
+      "defillama_tvl":243701140.1866962314,
       "gas_fees":0.5042894733
     }
   },
@@ -4640,7 +4659,7 @@
     "op_atlas_id":"0xd54e1032bf16d649f8f8f0a7da42a249966ad4a270b4c17b24ded1e32c97b2bf",
     "display_name":"NFTs2Me",
     "is_eligible":true,
-    "op_reward":1703.68,
+    "op_reward":1688.12,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":178,
@@ -4648,10 +4667,10 @@
       "transaction_count":856998
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":690.3,
       "contract_invocations":144648.0,
-      "gas_fees":0.216866057
+      "active_addresses_aggregation":690.3,
+      "defillama_tvl":null,
+      "gas_fees":0.217058611
     }
   },
   {
@@ -4667,9 +4686,9 @@
       "transaction_count":173784
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":28.5666666667,
       "contract_invocations":9216.0,
+      "active_addresses_aggregation":28.5666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0081008155
     }
   },
@@ -4686,9 +4705,9 @@
       "transaction_count":3344
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3.8666666667,
       "contract_invocations":527.0,
+      "active_addresses_aggregation":3.8666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0008524274
     }
   },
@@ -4697,7 +4716,7 @@
     "op_atlas_id":"0xd7a8e115b2b3772d7d5656d7798e349dcdedf2463302c78528c9e9686ab4efe3",
     "display_name":"OmniHub",
     "is_eligible":true,
-    "op_reward":1547.23,
+    "op_reward":1522.15,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4705,10 +4724,10 @@
       "transaction_count":792335
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":7394.4666666667,
       "contract_invocations":444105.0,
-      "gas_fees":0.1462033307
+      "active_addresses_aggregation":7394.4666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.1462867513
     }
   },
   {
@@ -4716,7 +4735,7 @@
     "op_atlas_id":"0xd81fa9e87a999faa70214d7981f6b85f3ea0c7922db0cc91a83552e208f0ec8f",
     "display_name":"Garden",
     "is_eligible":true,
-    "op_reward":2547.95,
+    "op_reward":2525.29,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":160,
@@ -4724,9 +4743,9 @@
       "transaction_count":13544
     },
     "monthly_metrics":{
-      "defillama_tvl":12483254.2740896605,
-      "active_addresses_aggregation":2.1333333333,
       "contract_invocations":5050.0,
+      "active_addresses_aggregation":2.1333333333,
+      "defillama_tvl":12483254.2740896661,
       "gas_fees":0.0015218578
     }
   },
@@ -4743,9 +4762,9 @@
       "transaction_count":107
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.3666666667,
       "contract_invocations":15.0,
+      "active_addresses_aggregation":0.3666666667,
+      "defillama_tvl":null,
       "gas_fees":0.000003374
     }
   },
@@ -4762,9 +4781,9 @@
       "transaction_count":1498
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.6333333333,
       "contract_invocations":23.0,
+      "active_addresses_aggregation":0.6333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000015449
     }
   },
@@ -4781,9 +4800,9 @@
       "transaction_count":131634
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":12.7,
       "contract_invocations":10144.0,
+      "active_addresses_aggregation":12.7,
+      "defillama_tvl":null,
       "gas_fees":0.0026624885
     }
   },
@@ -4792,7 +4811,7 @@
     "op_atlas_id":"0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5",
     "display_name":"Morpho ",
     "is_eligible":true,
-    "op_reward":59887.14,
+    "op_reward":59359.5,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4800,10 +4819,10 @@
       "transaction_count":10837526
     },
     "monthly_metrics":{
-      "defillama_tvl":4032203248.998488903,
-      "active_addresses_aggregation":835.8,
       "contract_invocations":3859830.0,
-      "gas_fees":0.7241119421
+      "active_addresses_aggregation":6788.6666666667,
+      "defillama_tvl":4032203248.9984917641,
+      "gas_fees":0.8620424134
     }
   },
   {
@@ -4811,7 +4830,7 @@
     "op_atlas_id":"0xdafc4d2a060c7d08913ceb05b19c4fe7fb6d93a7f5f1142642be939be16bf6e9",
     "display_name":"DNA Token",
     "is_eligible":true,
-    "op_reward":6047.67,
+    "op_reward":5958.38,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4819,10 +4838,10 @@
       "transaction_count":29842417
     },
     "monthly_metrics":{
-      "defillama_tvl":0.0,
-      "active_addresses_aggregation":2.3,
       "contract_invocations":3477464.0,
-      "gas_fees":0.0003041646
+      "active_addresses_aggregation":27548.2666666667,
+      "defillama_tvl":0.0,
+      "gas_fees":0.1244632931
     }
   },
   {
@@ -4830,7 +4849,7 @@
     "op_atlas_id":"0xdb3560a0c42f54dea2bc0b226fb45dc14bc19821b95cc18fae812d199feb5cbc",
     "display_name":"waveX",
     "is_eligible":true,
-    "op_reward":312.66,
+    "op_reward":307.26,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":64,
@@ -4838,9 +4857,9 @@
       "transaction_count":716660
     },
     "monthly_metrics":{
-      "defillama_tvl":537204.6703573333,
-      "active_addresses_aggregation":65.7333333333,
       "contract_invocations":161827.0,
+      "active_addresses_aggregation":65.7333333333,
+      "defillama_tvl":537204.6703573333,
       "gas_fees":0.1468063576
     }
   },
@@ -4857,9 +4876,9 @@
       "transaction_count":2743
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":3.9666666667,
       "contract_invocations":375.0,
+      "active_addresses_aggregation":3.9666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0002311441
     }
   },
@@ -4868,7 +4887,7 @@
     "op_atlas_id":"0xdba6f6be6f7cddd6b7f291292ab4179ad4dbe92fc8a85612f76dc67fc480a8a9",
     "display_name":"LasMeta",
     "is_eligible":true,
-    "op_reward":621.78,
+    "op_reward":610.09,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":130,
@@ -4876,9 +4895,9 @@
       "transaction_count":664080
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":46.0333333333,
       "contract_invocations":538727.0,
+      "active_addresses_aggregation":46.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0357016737
     }
   },
@@ -4895,9 +4914,9 @@
       "transaction_count":365059
     },
     "monthly_metrics":{
-      "defillama_tvl":2542220.9864906631,
-      "active_addresses_aggregation":38.8666666667,
       "contract_invocations":20081.0,
+      "active_addresses_aggregation":38.8666666667,
+      "defillama_tvl":2542220.9864906655,
       "gas_fees":0.0037488601
     }
   },
@@ -4914,9 +4933,9 @@
       "transaction_count":13521
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":5.3666666667,
       "contract_invocations":360.0,
+      "active_addresses_aggregation":5.3666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0005934819
     }
   },
@@ -4933,9 +4952,9 @@
       "transaction_count":38524
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":16.7333333333,
       "contract_invocations":6697.0,
+      "active_addresses_aggregation":16.7333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0261129523
     }
   },
@@ -4944,7 +4963,7 @@
     "op_atlas_id":"0xdd35cc4641c3c35bee5782fc0442b2a1b88a058ec0a7b90ba32c70347e4e9194",
     "display_name":"Arcadia Finance ",
     "is_eligible":true,
-    "op_reward":5028.94,
+    "op_reward":4984.25,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -4952,9 +4971,9 @@
       "transaction_count":398137
     },
     "monthly_metrics":{
-      "defillama_tvl":13845300.4348303359,
-      "active_addresses_aggregation":180.8333333333,
       "contract_invocations":113114.0,
+      "active_addresses_aggregation":180.8333333333,
+      "defillama_tvl":13845300.4348303359,
       "gas_fees":1.7738551611
     }
   },
@@ -4971,9 +4990,9 @@
       "transaction_count":276
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.4666666667,
       "contract_invocations":98.0,
+      "active_addresses_aggregation":0.4666666667,
+      "defillama_tvl":null,
       "gas_fees":0.000075632
     }
   },
@@ -4990,9 +5009,9 @@
       "transaction_count":972
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.5,
       "contract_invocations":56.0,
+      "active_addresses_aggregation":0.5,
+      "defillama_tvl":null,
       "gas_fees":0.0000010348
     }
   },
@@ -5009,10 +5028,10 @@
       "transaction_count":225758
     },
     "monthly_metrics":{
-      "defillama_tvl":94939.432678,
-      "active_addresses_aggregation":48.2666666667,
       "contract_invocations":24394.0,
-      "gas_fees":0.0151132345
+      "active_addresses_aggregation":54.7666666667,
+      "defillama_tvl":94939.4326780001,
+      "gas_fees":0.0154672444
     }
   },
   {
@@ -5020,7 +5039,7 @@
     "op_atlas_id":"0xdf92f936b0ddd6c5a944d3e2be594168ea108b0909e510b955333c5ef0b40242",
     "display_name":"ethOS - The Ethereum Phone",
     "is_eligible":true,
-    "op_reward":503.6,
+    "op_reward":494.92,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5028,9 +5047,9 @@
       "transaction_count":9712
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":76.3333333333,
       "contract_invocations":7820.0,
+      "active_addresses_aggregation":76.3333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0165533086
     }
   },
@@ -5047,10 +5066,10 @@
       "transaction_count":18343
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.2666666667,
       "contract_invocations":1072.0,
-      "gas_fees":0.0000065961
+      "active_addresses_aggregation":27.6333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.0001476356
     }
   },
   {
@@ -5066,9 +5085,9 @@
       "transaction_count":72923
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":5.2333333333,
       "contract_invocations":11944.0,
+      "active_addresses_aggregation":5.2333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000404746
     }
   },
@@ -5085,9 +5104,9 @@
       "transaction_count":19401
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":31.7666666667,
       "contract_invocations":4033.0,
+      "active_addresses_aggregation":31.7666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0018959001
     }
   },
@@ -5104,9 +5123,9 @@
       "transaction_count":9
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.1333333333,
       "contract_invocations":5.0,
+      "active_addresses_aggregation":0.1333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0000015637
     }
   },
@@ -5123,10 +5142,10 @@
       "transaction_count":194925
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.1,
       "contract_invocations":8347.0,
-      "gas_fees":0.0000002324
+      "active_addresses_aggregation":64.2666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0011050285
     }
   },
   {
@@ -5142,9 +5161,9 @@
       "transaction_count":915046
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":6.2666666667,
       "contract_invocations":9215.0,
+      "active_addresses_aggregation":6.2666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0009013921
     }
   },
@@ -5161,9 +5180,9 @@
       "transaction_count":15
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.1,
       "contract_invocations":7.0,
+      "active_addresses_aggregation":0.1,
+      "defillama_tvl":null,
       "gas_fees":0.0000008704
     }
   },
@@ -5180,9 +5199,9 @@
       "transaction_count":21571
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":6.3666666667,
       "contract_invocations":3478.0,
+      "active_addresses_aggregation":6.3666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0003772
     }
   },
@@ -5191,7 +5210,7 @@
     "op_atlas_id":"0xe5c133e05956a3939b9a78f4ad5d0a897a027da60a7d5e1b6276a2266211f69f",
     "display_name":"BMX",
     "is_eligible":true,
-    "op_reward":1011.06,
+    "op_reward":999.51,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5199,9 +5218,9 @@
       "transaction_count":2460947
     },
     "monthly_metrics":{
-      "defillama_tvl":2351952.8131463327,
-      "active_addresses_aggregation":81.5666666667,
       "contract_invocations":438615.0,
+      "active_addresses_aggregation":81.5666666667,
+      "defillama_tvl":2351952.8131463346,
       "gas_fees":0.1265629581
     }
   },
@@ -5218,9 +5237,9 @@
       "transaction_count":56877
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":42.1666666667,
       "contract_invocations":7038.0,
+      "active_addresses_aggregation":42.1666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0020433138
     }
   },
@@ -5237,10 +5256,10 @@
       "transaction_count":4038
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.0666666667,
       "contract_invocations":377.0,
-      "gas_fees":0.0000001049
+      "active_addresses_aggregation":10.9,
+      "defillama_tvl":null,
+      "gas_fees":0.0000096496
     }
   },
   {
@@ -5248,7 +5267,7 @@
     "op_atlas_id":"0xe6aa409da818b166ea4d354534d92745f2153fca126c1c38de675d42c3c559fe",
     "display_name":"Mint.Rich",
     "is_eligible":true,
-    "op_reward":1337.97,
+    "op_reward":1312.67,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":176,
@@ -5256,9 +5275,9 @@
       "transaction_count":3222625
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":899.3,
       "contract_invocations":447654.0,
+      "active_addresses_aggregation":899.3,
+      "defillama_tvl":null,
       "gas_fees":0.0075652729
     }
   },
@@ -5267,7 +5286,7 @@
     "op_atlas_id":"0xe8833ceee8beb2b3fb0f7f2dcef576f6f9cf20e35d8e53324d71b0ed47b01982",
     "display_name":"SOCKET protocol",
     "is_eligible":true,
-    "op_reward":8367.99,
+    "op_reward":8398.3,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5275,10 +5294,10 @@
       "transaction_count":7738687
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":9666.1333333333,
       "contract_invocations":1663876.0,
-      "gas_fees":1.2690005743
+      "active_addresses_aggregation":9666.1333333333,
+      "defillama_tvl":null,
+      "gas_fees":1.2882034378
     }
   },
   {
@@ -5294,9 +5313,9 @@
       "transaction_count":17675
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":59.5333333333,
       "contract_invocations":11372.0,
+      "active_addresses_aggregation":59.5333333333,
+      "defillama_tvl":null,
       "gas_fees":0.1963895805
     }
   },
@@ -5313,10 +5332,10 @@
       "transaction_count":8650
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":44.5333333333,
       "contract_invocations":2535.0,
-      "gas_fees":0.0002262512
+      "active_addresses_aggregation":44.5333333333,
+      "defillama_tvl":null,
+      "gas_fees":0.0002415133
     }
   },
   {
@@ -5332,9 +5351,9 @@
       "transaction_count":83
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.1,
       "contract_invocations":3.0,
+      "active_addresses_aggregation":0.1,
+      "defillama_tvl":null,
       "gas_fees":0.0000011237
     }
   },
@@ -5343,7 +5362,7 @@
     "op_atlas_id":"0xeecfa614f020c2ea4c2eb431246befedf35ddc6c52cfaa83d0c4caf2f580f9f4",
     "display_name":"doginme memecoin",
     "is_eligible":true,
-    "op_reward":509.63,
+    "op_reward":511.39,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5351,9 +5370,9 @@
       "transaction_count":1164701
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":144.3666666667,
       "contract_invocations":105004.0,
+      "active_addresses_aggregation":144.3666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0297155491
     }
   },
@@ -5362,7 +5381,7 @@
     "op_atlas_id":"0xef71b036123a72aa9aa64afb1263751bdfc7e7e4e63ec658c323136dc3a88d37",
     "display_name":"GMonchain",
     "is_eligible":true,
-    "op_reward":2739.3,
+    "op_reward":2712.34,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":64,
@@ -5370,9 +5389,9 @@
       "transaction_count":208986
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1032.9,
       "contract_invocations":71779.0,
+      "active_addresses_aggregation":1032.9,
+      "defillama_tvl":null,
       "gas_fees":0.0487203543
     }
   },
@@ -5381,7 +5400,7 @@
     "op_atlas_id":"0xefaeef1446de875ab6e50d31c8dbe776f99d884cb8cb68d50b1384067e4aeb6b",
     "display_name":"Synapse Protocol",
     "is_eligible":true,
-    "op_reward":1011.47,
+    "op_reward":1002.58,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5389,9 +5408,9 @@
       "transaction_count":911265
     },
     "monthly_metrics":{
-      "defillama_tvl":43508974.3533680141,
-      "active_addresses_aggregation":140.0666666667,
       "contract_invocations":83794.0,
+      "active_addresses_aggregation":140.0666666667,
+      "defillama_tvl":43508974.3533679768,
       "gas_fees":2.1158089439
     }
   },
@@ -5408,9 +5427,9 @@
       "transaction_count":71400
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.1,
       "contract_invocations":48612.0,
+      "active_addresses_aggregation":1.1,
+      "defillama_tvl":null,
       "gas_fees":0.0001198576
     }
   },
@@ -5427,9 +5446,9 @@
       "transaction_count":291
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.3666666667,
       "contract_invocations":21.0,
+      "active_addresses_aggregation":0.3666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0000078071
     }
   },
@@ -5438,7 +5457,7 @@
     "op_atlas_id":"0xf1401bad81c33bef010ea7bc1724e361365da347d446f7ac01fd49c24ef70def",
     "display_name":"Human Tap",
     "is_eligible":true,
-    "op_reward":1191.84,
+    "op_reward":1219.77,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":62,
@@ -5446,10 +5465,10 @@
       "transaction_count":140354
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":0.6,
       "contract_invocations":64584.0,
-      "gas_fees":0.0000020119
+      "active_addresses_aggregation":463.4666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.0022100932
     }
   },
   {
@@ -5457,7 +5476,7 @@
     "op_atlas_id":"0xf24315614063278ba3543e1717791132a9afa79b0e65baa01a85bcccbdfa215f",
     "display_name":"deBridge",
     "is_eligible":true,
-    "op_reward":3269.07,
+    "op_reward":3239.81,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5465,9 +5484,9 @@
       "transaction_count":1405496
     },
     "monthly_metrics":{
-      "defillama_tvl":11266542.898081664,
-      "active_addresses_aggregation":814.3666666667,
       "contract_invocations":223780.0,
+      "active_addresses_aggregation":814.3666666667,
+      "defillama_tvl":11266542.8980816659,
       "gas_fees":4.3071883567
     }
   },
@@ -5476,7 +5495,7 @@
     "op_atlas_id":"0xf2780313b6d15a9be15973bac05fcb0d849d656f63ace8cab54b9d723d4a2ea2",
     "display_name":"LogX",
     "is_eligible":true,
-    "op_reward":2314.3,
+    "op_reward":2293.07,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":46,
@@ -5484,9 +5503,9 @@
       "transaction_count":306201
     },
     "monthly_metrics":{
-      "defillama_tvl":858764.7197083322,
-      "active_addresses_aggregation":865.3333333333,
       "contract_invocations":260748.0,
+      "active_addresses_aggregation":865.3333333333,
+      "defillama_tvl":858764.7197083333,
       "gas_fees":0.3889158247
     }
   },
@@ -5503,9 +5522,9 @@
       "transaction_count":14
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -5514,7 +5533,7 @@
     "op_atlas_id":"0xf4e56e0c6654d6ef621191708f27ee20242462f541d3e79dc5512e1a10d90736",
     "display_name":"Eggs Vault",
     "is_eligible":true,
-    "op_reward":10196.62,
+    "op_reward":10042.79,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5522,10 +5541,10 @@
       "transaction_count":41775764
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":2.4333333333,
       "contract_invocations":5521127.0,
-      "gas_fees":0.0002761043
+      "active_addresses_aggregation":57989.7,
+      "defillama_tvl":null,
+      "gas_fees":0.1259194288
     }
   },
   {
@@ -5541,10 +5560,10 @@
       "transaction_count":894
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.0,
       "contract_invocations":181.0,
-      "gas_fees":0.006878
+      "active_addresses_aggregation":1.0,
+      "defillama_tvl":null,
+      "gas_fees":0.020634
     }
   },
   {
@@ -5552,7 +5571,7 @@
     "op_atlas_id":"0xf6d85abeac025b1e33f6ae3402557762e65cc437d0a3d03673d71a4d1236f8f4",
     "display_name":"Robots.Farm",
     "is_eligible":true,
-    "op_reward":304.77,
+    "op_reward":307.73,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5560,9 +5579,9 @@
       "transaction_count":351526
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":240.0666666667,
       "contract_invocations":31241.0,
+      "active_addresses_aggregation":240.0666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0247122214
     }
   },
@@ -5579,9 +5598,9 @@
       "transaction_count":75487
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.0666666667,
       "contract_invocations":2251.0,
+      "active_addresses_aggregation":1.0666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0015632383
     }
   },
@@ -5590,7 +5609,7 @@
     "op_atlas_id":"0xf87906563da69538c969ba438f127ce5f2196e76c84c9026ab6dafc4280b6be3",
     "display_name":"PHI",
     "is_eligible":true,
-    "op_reward":519.57,
+    "op_reward":515.06,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5598,9 +5617,9 @@
       "transaction_count":192214
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":116.1,
       "contract_invocations":44318.0,
+      "active_addresses_aggregation":116.1,
+      "defillama_tvl":null,
       "gas_fees":0.1554008594
     }
   },
@@ -5617,9 +5636,9 @@
       "transaction_count":12012
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":4.6,
       "contract_invocations":359.0,
+      "active_addresses_aggregation":4.6,
+      "defillama_tvl":null,
       "gas_fees":0.0004389127
     }
   },
@@ -5628,7 +5647,7 @@
     "op_atlas_id":"0xf9513b5bfca3be3513450bd56b48ae485ce157aa56c1d8b2e06a68bce0b8d084",
     "display_name":"LeverageX by Javsphere",
     "is_eligible":true,
-    "op_reward":17394.95,
+    "op_reward":17240.16,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5636,9 +5655,9 @@
       "transaction_count":3253450
     },
     "monthly_metrics":{
-      "defillama_tvl":6013824.6067193327,
-      "active_addresses_aggregation":114.3,
       "contract_invocations":1361835.0,
+      "active_addresses_aggregation":114.3,
+      "defillama_tvl":6013824.6067193346,
       "gas_fees":42.1748901428
     }
   },
@@ -5647,7 +5666,7 @@
     "op_atlas_id":"0xf9af65e8afbd0fd21802bca92c9d0d6201a8b1d114d5c9170fea7e914fd2b392",
     "display_name":"Drop Wallet",
     "is_eligible":true,
-    "op_reward":12053.93,
+    "op_reward":11868.9,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":53,
@@ -5655,10 +5674,10 @@
       "transaction_count":2457533
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":1.6,
       "contract_invocations":2256677.0,
-      "gas_fees":0.000008079
+      "active_addresses_aggregation":31013.7666666667,
+      "defillama_tvl":null,
+      "gas_fees":0.1188696152
     }
   },
   {
@@ -5674,9 +5693,9 @@
       "transaction_count":7896
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":4.0333333333,
       "contract_invocations":350.0,
+      "active_addresses_aggregation":4.0333333333,
+      "defillama_tvl":null,
       "gas_fees":0.0003137057
     }
   },
@@ -5693,9 +5712,9 @@
       "transaction_count":7590
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":9.8666666667,
       "contract_invocations":1218.0,
+      "active_addresses_aggregation":9.8666666667,
+      "defillama_tvl":null,
       "gas_fees":0.0011081752
     }
   },
@@ -5704,7 +5723,7 @@
     "op_atlas_id":"0xfb9ddb0fdae7aa1049979189c20c53bad5ab49b44435ca939cef7c618c96a187",
     "display_name":"X3X",
     "is_eligible":true,
-    "op_reward":4504.5,
+    "op_reward":4563.53,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":30,
@@ -5712,10 +5731,10 @@
       "transaction_count":465140
     },
     "monthly_metrics":{
-      "defillama_tvl":4683.7207233333,
-      "active_addresses_aggregation":9.3333333333,
       "contract_invocations":465140.0,
-      "gas_fees":0.2637828948
+      "active_addresses_aggregation":827.5666666667,
+      "defillama_tvl":4683.7207233333,
+      "gas_fees":0.8226409913
     }
   },
   {
@@ -5731,9 +5750,9 @@
       "transaction_count":766939
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":null,
       "contract_invocations":null,
+      "active_addresses_aggregation":null,
+      "defillama_tvl":null,
       "gas_fees":null
     }
   },
@@ -5742,7 +5761,7 @@
     "op_atlas_id":"0xfd9f98de666c5b0a5ce96d4a4b8d4ceee9f8c2156734d57bf6c23d0cff183e90",
     "display_name":"Kim Exchange",
     "is_eligible":true,
-    "op_reward":965.76,
+    "op_reward":948.58,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5750,9 +5769,9 @@
       "transaction_count":3626902
     },
     "monthly_metrics":{
-      "defillama_tvl":784612.2384466667,
-      "active_addresses_aggregation":68.9333333333,
       "contract_invocations":1375064.0,
+      "active_addresses_aggregation":68.9333333333,
+      "defillama_tvl":784612.2384466664,
       "gas_fees":0.0009322275
     }
   },
@@ -5761,7 +5780,7 @@
     "op_atlas_id":"0xfe8e35b3487bd0e0457b9431b12b73403ca1f5c9c19dd1db81a2317c97c1e1a2",
     "display_name":"Stoke Fire",
     "is_eligible":true,
-    "op_reward":390.78,
+    "op_reward":386.65,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5769,9 +5788,9 @@
       "transaction_count":3127756
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":257.6,
       "contract_invocations":141090.0,
+      "active_addresses_aggregation":257.6,
+      "defillama_tvl":null,
       "gas_fees":0.2567390342
     }
   },
@@ -5780,7 +5799,7 @@
     "op_atlas_id":"0xff1edf67227651293a9cff4dce3577c6ca52bf8c7c6f5f133f07b05255379b27",
     "display_name":"Kelp",
     "is_eligible":true,
-    "op_reward":1495.8,
+    "op_reward":1484.72,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5788,9 +5807,9 @@
       "transaction_count":334053
     },
     "monthly_metrics":{
-      "defillama_tvl":1151527764.1642251015,
-      "active_addresses_aggregation":45.8,
       "contract_invocations":58547.0,
+      "active_addresses_aggregation":45.8,
+      "defillama_tvl":1151527764.1642267704,
       "gas_fees":0.0001620989
     }
   },
@@ -5807,9 +5826,9 @@
       "transaction_count":735
     },
     "monthly_metrics":{
-      "defillama_tvl":131390.1309433333,
-      "active_addresses_aggregation":0.4333333333,
       "contract_invocations":35.0,
+      "active_addresses_aggregation":0.4333333333,
+      "defillama_tvl":131390.1309433333,
       "gas_fees":0.0000503534
     }
   },
@@ -5818,7 +5837,7 @@
     "op_atlas_id":"0xffffeb1d3576c1e847701c225975ee1a10259e05366b477e98fea7a47c5e5896",
     "display_name":"Rainbow (Rainbow Router)",
     "is_eligible":true,
-    "op_reward":1354.0,
+    "op_reward":1341.79,
     "round_id":"8",
     "eligibility_metrics":{
       "active_days":180,
@@ -5826,9 +5845,9 @@
       "transaction_count":314730
     },
     "monthly_metrics":{
-      "defillama_tvl":null,
-      "active_addresses_aggregation":486.2333333333,
       "contract_invocations":38896.0,
+      "active_addresses_aggregation":486.2333333333,
+      "defillama_tvl":null,
       "gas_fees":0.761679287
     }
   }

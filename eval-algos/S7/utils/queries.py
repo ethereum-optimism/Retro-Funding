@@ -175,11 +175,13 @@ QUERIES = [
             JOIN metrics_v0 AS m ON m.metric_id = tm.metric_id
             JOIN projects_v1 AS p ON p.project_id = tm.project_id
             JOIN projects_by_collection_v1 AS pbc ON pbc.project_id = p.project_id
+            CROSS JOIN int_superchain_chain_names AS chains
             JOIN params AS pms ON TRUE
             WHERE
                 pbc.collection_name = '8-5'
             AND tm.sample_date >= pms.month_start
             AND tm.sample_date < DATE_ADD('month', 1, pms.month_start)
+            AND m.metric_name LIKE CONCAT(chains.chain, '%')
             AND (
                 m.metric_name LIKE '%gas_fees_daily'
                 OR m.metric_name LIKE '%defillama_tvl_daily'

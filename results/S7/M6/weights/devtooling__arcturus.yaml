@@ -1,0 +1,79 @@
+# ----------------------------------------------------
+# Devtooling - Arcturus - M6
+# ----------------------------------------------------
+
+data_snapshot:
+  data_dir: 'results/S7/M6/data/'
+  devtooling_projects: 'devtooling__project_metadata.csv'
+  onchain_projects: 'devtooling__onchain_metadata.csv'
+  project_dependencies: 'devtooling__dependency_graph.csv'
+  developers_to_projects: 'devtooling__developer_graph.csv'
+  utility_labels: 'devtooling__utility_labels.csv'
+
+simulation:
+  alpha_onchain: 0.5
+  alpha_devtooling: 0.25
+    
+  onchain_project_pretrust_weights:
+    total_transaction_count: 0.4
+    total_gas_fees: 0.4
+    total_active_addresses: 0.2
+
+  devtooling_project_pretrust_weights:
+    star_count: 0.0
+    fork_count: 0.0
+    num_packages_in_deps_dev: 0.0
+    num_package_connections: 0.30
+    num_developer_connections: 0.70
+
+  link_type_time_decays:
+    package_dependency: 1.0
+    onchain_project_to_developer: 0.80
+    developer_to_devtooling_project: 0.60
+
+  link_type_weights:
+    package_dependency: 1.0
+    onchain_project_to_developer: 1.0
+    developer_to_devtooling_project: 1.0
+
+  event_type_weights:
+    rust: 1.0
+    npm: 1.0
+    npm_transitive: 0.1 # new for M5
+    pip: 1.0
+    go: 1.0
+    forked: 1.0
+    starred: 1.0
+    commit_code: 1.0
+    issue_closed: 0.0
+    issue_comment: 0.0
+    issue_opened: 1.0
+    issue_reopened: 0.0
+    pull_request_closed: 0.0
+    pull_request_merged: 0.0
+    pull_request_opened: 1.0
+    pull_request_reopened: 0.0
+    pull_request_review_comment: 0.0
+
+  utility_weights:
+    'Language & Compilation Tools': 5.00
+    'Core Protocol Interfaces': 5.00
+    'Development Frameworks': 5.00
+    'Deployment & Lifecycle Management': 2.00
+    'Data Indexing & Analytics': 2.00
+    'Testing & Verification Tools': 2.00
+    'Infrastructure & Node Operations': 1.00
+    'Application-Specific & Niche Tools': 1.00
+    'Cryptography & Primitives': 1.00
+    'Developer Experience Tools': 1.00
+    'Interoperability & Cross-chain': 1.00
+    'Others': 1.00
+
+  eligibility_thresholds:
+    num_projects_with_package_links: 3
+    num_onchain_developers_with_links: 5
+
+allocation:
+  budget: 1300000
+  min_amount_per_project: 200
+  max_share_per_project: 0.06

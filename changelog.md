@@ -2,6 +2,23 @@
 
 All notable changes to algorithms, weights, and underlying OSO models will be documented here.
 
+## [M6] - 2025-08-04
+
+### Added
+- Added support for PageRank propagation in devtooling project links.
+
+### Changed
+- Onchain builders:
+  - Adjusted metric variant weights: `growth` increased from 0.20 to 0.30, `retention` decreased from 0.60 to 0.50.
+  - Identified and removed 3 projects that were manufacturing activity.
+- Dev Tooling:
+  - Rebalanced devtooling project pretrust weights to emphasize developer connections: `num_package_connections` decreased from 0.40 to 0.30, `num_developer_connections` increased from 0.60 to 0.70.
+  - Reduced link type time decay for `developer_to_devtooling_project` from 0.80 to 0.60 to increase the influence of recent developer activity.
+  - Decreased `package_dependency` link type weight from 1.5 to 1.0
+
+### Fixed
+- Related projects (ie, projects that are maintained by the same team, share the same deployer, and operate on the same chain) are now aggregated into a single project, generally the first one to have applied to the round. This change affects a small number of World Mini Apps.
+
 ## [M5] - 2025-07-07
 
 ### Added

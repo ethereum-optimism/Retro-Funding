@@ -8,6 +8,7 @@ import warnings
 import argparse
 
 from openrank_sdk import EigenTrust
+import networkx as nx
 warnings.filterwarnings('ignore', message='Defaulting to the \'raw\' score scale*')
 
 
@@ -134,7 +135,8 @@ class DevtoolingCalculator:
         self._compute_devtooling_project_pretrust()
         self._compute_developer_reputation()
         self._weight_edges()
-        self._apply_eigentrust()
+        #self._apply_eigentrust()
+        self._apply_pagerank()
         self._rank_and_evaluate_projects()
         self._serialize_value_flow()
 
@@ -396,7 +398,7 @@ class DevtoolingCalculator:
         self.analysis['weighted_edges'] = df_edges
 
     # --------------------------------------------------------------------
-    # Step 6: Apply EigenTrust propagation
+    # Step 6A: Apply EigenTrust propagation
     # --------------------------------------------------------------------
     def _apply_eigentrust(self) -> None:
         """
@@ -463,6 +465,107 @@ class DevtoolingCalculator:
         
         df_scores.set_index('i', inplace=True)
         self.analysis['project_openrank_scores'] = df_scores
+
+    # --------------------------------------------------------------------
+    # Step 6B: Apply PageRank propagation
+    # --------------------------------------------------------------------
+
+    def _apply_pagerank(self) -> None:
+        """
+        Uses weighted PageRank (with personalised teleport vector) to propagate
+        trust from onchain projects and developers to devtooling projects.
+
+        Results are written to ``self.analysis["project_openrank_scores"]`` as
+        before so that subsequent steps remain unchanged.
+        """
+        # ---- 6a. Build the personalised teleport (pre‑trust) vector --------
+        pretrust = {}
+
+        def _add_pretrust(df: pd.DataFrame, id_col: str, weight_col: str):
+            nonlocal pretrust
+            if df.empty:
+                return
+            for _, row in df.iterrows():
+                if row[weight_col] > 0:
+                    pretrust[row[id_col]] = pretrust.get(row[id_col], 0.0) + row[weight_col]
+
+        _add_pretrust(self.analysis.get("onchain_projects_pretrust_scores", pd.DataFrame()), "i", "v")
+        _add_pretrust(self.analysis.get("devtooling_projects_pretrust_scores", pd.DataFrame()), "i", "v")
+        _add_pretrust(self.analysis.get("developer_reputation", pd.DataFrame()), "developer_id", "reputation")
+
+        if not pretrust:
+            raise ValueError("No pre‑trust scores available for PageRank.")
+
+        # ---- 6b. Extract the weighted edge list --------------------------------
+        df_edges = self.analysis["weighted_edges"].query("v_edge > 0").copy()
+
+        # Two separate passes (package & developer) to maintain existing weighting strategy
+        results = []
+        passes = {
+            "PACKAGE_DEPENDENCY": {
+                "alpha": self.config.alpha_onchain,   # damping factor
+                "edges": df_edges.query("link_type == 'PACKAGE_DEPENDENCY'"),
+            },
+            "DEVELOPER": {
+                "alpha": self.config.alpha_devtooling,
+                "edges": df_edges.query("link_type in ['ONCHAIN_PROJECT_TO_DEVELOPER', "
+                                        "'DEVELOPER_TO_DEVTOOLING_PROJECT']"),
+            },
+        }
+
+        for pass_name, spec in passes.items():
+            g = nx.DiGraph()
+            g.add_weighted_edges_from(
+                spec["edges"][["i", "j", "v_edge"]].itertuples(index=False, name=None)
+            )
+
+            # Normalise pretrust so it sums to 1 and only contains nodes present in this sub‑graph
+            sub_nodes = set(g.nodes())
+            personalisation = {n: pretrust.get(n, 0.0) for n in sub_nodes}
+            total = sum(personalisation.values())
+            if total == 0:
+                # fall back to uniform vector
+                personalisation = None
+            else:
+                personalisation = {k: v / total for k, v in personalisation.items()}
+
+            pr_scores = nx.pagerank(
+                g,
+                alpha=spec["alpha"],         # damping = 1 – teleport prob
+                personalization=personalisation,
+                weight="weight",
+                max_iter=100,
+                tol=1.0e-08,
+            )
+
+            # Write out as DataFrame
+            df_pr = (
+                pd.Series(pr_scores, name="v")
+                .reset_index()
+                .rename(columns={"index": "i"})
+            )
+            if pass_name == "PACKAGE_DEPENDENCY":
+                df_pr["link_type"] = "PACKAGE_DEPENDENCY"
+            else:
+                df_pr["link_type"] = "DEVELOPER_TO_DEVTOOLING_PROJECT"
+            # Keep only dev‑tooling projects for downstream ranking
+            devtooling_ids = self.analysis["devtooling_projects_pretrust_scores"]["i"].unique()
+            df_pr = df_pr[df_pr["i"].isin(devtooling_ids)]
+            # Re‑normalise so each pass sums to 1
+            df_pr["v"] = df_pr["v"] / df_pr["v"].sum()
+            results.append(df_pr)
+
+        # ---- 6c. Combine the two passes using configured link‑type weights ----
+        df_scores = pd.concat(results, ignore_index=True)
+
+        link_type_weights = {k.upper(): v for k, v in self.config.link_type_weights.items()}
+        df_scores["v"] *= df_scores["link_type"].map(link_type_weights).fillna(1.0)
+        df_scores = df_scores.groupby("i", as_index=False)["v"].sum()
+        df_scores["v"] /= df_scores["v"].sum()  # global normalisation
+
+        # Preserve previous interface
+        self.analysis["project_openrank_scores"] = df_scores.set_index("i")
+
 
     # --------------------------------------------------------------------
     # Step 7: Rank and evaluate devtooling projects

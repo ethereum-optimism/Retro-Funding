@@ -13,7 +13,6 @@ FLAG_LIST = [
     '0x482720e73e91229b5f7d5e2d80a54eb8a722309c26dba03355359788b18f4373', # M4 RubyScore (manufactured activity)
     '0x03f730811b2a61aa1e8f7bdb6676e4027ed2b8f10bb731789a5d10e5ddc1352c', # M6 Onchain Heritage (manufactured activity)
     '0x076a2b1418a515ff8c5bb11beed5630cc6fe7f65fd8d42d4403c4364514f2a30', # M6 BAG Guild Dapp (manufactured activity)
-    '0xcae812d91b7b86edf3141f44f006e8a03931ebc489e0a417b82b603bf325bc96', # M6 World MiniApps - NFT and Gaming (no in-store Mini App)
 ]
 TRANSITIVE_DEPENDENCY_LIST = [
     'pr9u5w1LqcK44g1o2RcI9ztDGB8nZTkJYMOq7e8pvac=', # noble-cryptography

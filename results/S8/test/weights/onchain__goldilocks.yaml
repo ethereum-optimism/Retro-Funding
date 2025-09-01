@@ -1,0 +1,50 @@
+# ----------------------------------------------------
+# Onchain Builders - Goldilocks - Test
+# ----------------------------------------------------
+
+data_snapshot:
+  data_dir: 'results/S8/test/data/'
+  projects_file: 'onchain__project_metadata.csv'
+  metrics_file: 'onchain__metrics_by_project.csv'
+
+simulation:
+  periods:
+    previous: 'Jun 2025'
+    current: 'Jul 2025'
+  
+  eligibility_filter: true
+  
+  # Chain weights (1.0 = full weight)
+  chains:
+    base: 0.3
+    optimism: 0.20
+    worldchain: 0.10
+    soneium: 0.10
+    unichain: 0.10
+    ink: 0.10
+
+  tvl_maximum: 100000000
+  tvl_minimum: 1000000
+  
+  # Metric weights must sum to 1.0
+  metrics:
+    amortized_contract_invocations_monthly: 0.25631
+    contract_invocations_upgraded_eoa_monthly: 0.07702
+    gas_fees_monthly: 0.33333
+    active_farcaster_users_monthly: 0.16667
+    qualified_addresses_monthly: 0.16667
+    average_tvl_monthly: 0.0
+
+  # Variant weights must sum to 1.0
+  metric_variants:
+    adoption: 0.20    # Current period value
+    growth: 0.30      # Change from previous period
+    retention: 0.50   # Minimum of current and previous
+
+  # Percentile cap for min-max scaling (100 = no cap)
+  percentile_cap: 98.5
+
+allocation:
+  budget: 166666.67
+  min_amount_per_project: 50
+  max_share_per_project: 0.05

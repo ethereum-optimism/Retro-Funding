@@ -1,4 +1,3 @@
-import argparse
 from dataclasses import dataclass
 import numpy as np
 import pandas as pd
@@ -6,6 +5,7 @@ import traceback
 from typing import Dict, Any, Tuple
 import yaml
 import warnings
+import os
 
 
 # ------------------------------------------------------------------------
@@ -91,7 +91,8 @@ class OnchainBuildersCalculator:
         if df is None:
             raise ValueError("Raw data not found in analysis. Ensure 'raw_data' is set before Step 1.")
         
-        tvl_metric = [metric for metric in self.config.metrics.keys() if 'tvl' in metric.lower()][0]
+        tvl_metrics = [metric for metric in self.config.metrics.keys() if 'tvl' in metric.lower()]
+        tvl_metric = tvl_metrics[0] if tvl_metrics else None
         non_zero_metrics = [metric for metric, weight in self.config.metrics.items() if weight > 0]
         all_metrics = non_zero_metrics
         if tvl_metric:
@@ -431,7 +432,7 @@ def load_data(ds: DataSnapshot) -> pd.DataFrame:
         pd.DataFrame: Merged DataFrame containing raw metrics data.
     """
     def path(filename: str) -> str:
-        return f"{ds.data_dir}/{filename}"
+        return os.path.join(ds.data_dir, filename)
 
     try:
         df_projects = pd.read_csv(path(ds.projects_file))
@@ -499,15 +500,9 @@ def save_results(analysis: Dict[str, Any]) -> None:
 
 def main():
     """
-    Standard entry-point for running the onchain builders analysis pipeline.
-    Accepts a YAML filename as a command line argument.
+    Test the onchain builders analysis pipeline.
     """
-    parser = argparse.ArgumentParser(description='Run onchain builders analysis pipeline')
-    parser.add_argument('yaml_file', nargs='?', default='onchain_builders_testing.yaml',
-                      help='Name of YAML file in weights directory (default: onchain_builders_testing.yaml)')
-    args = parser.parse_args()
-    
-    config_path = f'eval-algos/S8/weights/{args.yaml_file}'
+    config_path = f'results/S8/test/weights/onchain__goldilocks.yaml'
     try:
         analysis = run_simulation(config_path)
         save_results(analysis)

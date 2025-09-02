@@ -87,6 +87,18 @@ class SeasonConfig:
         for path in paths.values():
             Path(path).mkdir(parents=True, exist_ok=True)
     
+    def resolve_yaml_path(self, relative_path: str) -> str:
+        """
+        Resolve a relative path from YAML file to absolute path relative to project root.
+        
+        Args:
+            relative_path: Relative path from YAML file (e.g., 'results/S8/test/data/')
+            
+        Returns:
+            Absolute path resolved relative to project root
+        """
+        return os.path.join(self.project_root, relative_path)
+    
     @classmethod
     def get_season_config(cls, season: str) -> 'SeasonConfig':
         """
@@ -124,3 +136,18 @@ def ensure_directories(season: str, measurement_period: str) -> None:
     """Ensure directories exist for a specific season."""
     config = SeasonConfig.get_season_config(season)
     config.ensure_directories(measurement_period)
+
+
+def resolve_yaml_data_path(season: str, relative_path: str) -> str:
+    """
+    Resolve a relative path from YAML file to absolute path relative to project root.
+    
+    Args:
+        season: The season number (e.g., '7', '8')
+        relative_path: Relative path from YAML file (e.g., 'results/S8/test/data/')
+        
+    Returns:
+        Absolute path resolved relative to project root
+    """
+    config = SeasonConfig.get_season_config(season)
+    return config.resolve_yaml_path(relative_path)

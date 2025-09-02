@@ -116,12 +116,12 @@ echo "⚙️ Processing models..."
 if [[ -n "$ALGO" && -n "$WEIGHTS" ]]; then
     # Run single model
     echo "  Running ${ALGO} model with ${WEIGHTS} weights..."
-    (cd eval-algos && poetry run python -m core.utils.process_models --algo $ALGO --weights $WEIGHTS --season $SEASON --period $PERIOD)
+    poetry run python -m eval-algos.core.utils.process_models --algo $ALGO --weights $WEIGHTS --season $SEASON --period $PERIOD
 else
     # Run both models
     echo "  Running both devtooling and onchain models..."
-    (cd eval-algos && poetry run python -m core.utils.process_models --algo devtooling --weights arcturus --season $SEASON --period $PERIOD)
-    (cd eval-algos && poetry run python -m core.utils.process_models --algo onchain --weights goldilocks --season $SEASON --period $PERIOD)
+    poetry run python -m eval-algos.core.utils.process_models --algo devtooling --weights devtooling__arcturus --season $SEASON --period $PERIOD
+    poetry run python -m eval-algos.core.utils.process_models --algo onchain --weights onchain__goldilocks --season $SEASON --period $PERIOD
 fi
 
 if [ $? -ne 0 ]; then

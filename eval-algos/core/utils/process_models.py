@@ -171,7 +171,7 @@ def process_devtooling(season: str, measurement_period: str, model_name: str) ->
     
     print(f"✓ Successfully processed {model_name}")
     print(f"  - {len(allocated_results)} projects funded")
-    print(f"  - Total allocated: ${allocated_results['allocated_amount'].sum():,.2f}")
+    print(f"  - Total allocated: {allocated_results['allocated_amount'].sum():,.2f}")
 
 
 def process_onchain(season: str, measurement_period: str, model_name: str) -> None:
@@ -194,6 +194,9 @@ def process_onchain(season: str, measurement_period: str, model_name: str) -> No
     results = analysis.get('final_results')
     if results is None:
         raise ValueError("No final_results found in analysis")
+    
+    # Reset index to make project_id, project_name, display_name into columns
+    results = results.reset_index()
     
     score_column = MODEL_SCORE_COLUMNS['onchain']
     if score_column not in results.columns:
@@ -228,7 +231,7 @@ def process_onchain(season: str, measurement_period: str, model_name: str) -> No
     
     print(f"✓ Successfully processed {model_name}")
     print(f"  - {len(allocated_results)} projects funded")
-    print(f"  - Total allocated: ${allocated_results['allocated_amount'].sum():,.2f}")
+    print(f"  - Total allocated: {allocated_results['allocated_amount'].sum():,.2f}")
 
 
 def main():

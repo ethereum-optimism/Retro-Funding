@@ -6,6 +6,7 @@ import yaml
 import traceback
 import warnings
 import argparse
+import os
 
 from openrank_sdk import EigenTrust
 import networkx as nx
@@ -760,7 +761,7 @@ def load_data(data_snapshot: DataSnapshot) -> Tuple[pd.DataFrame, pd.DataFrame, 
         devtooling projects, project dependencies, developer-project relationships, and utility label mapping.
     """
     def get_path(filename: str) -> str:
-        return f"{data_snapshot.data_dir}/{filename}"
+        return os.path.join(data_snapshot.data_dir, filename)
 
     df_onchain_projects = pd.read_csv(get_path(data_snapshot.onchain_projects_file))
     df_devtooling_projects = pd.read_csv(get_path(data_snapshot.devtooling_projects_file))

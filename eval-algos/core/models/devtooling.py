@@ -598,7 +598,10 @@ class DevtoolingCalculator:
             'is_eligible'
         ] = 1
         
-        df_results = df_results.merge(df_scores, left_on='project_id', right_on='i', how='left')
+        # Reset index to make 'i' a column for merging
+        df_scores_reset = df_scores.reset_index()
+        df_results = df_results.merge(df_scores_reset, left_on='project_id', right_on='i', how='left')
+
         df_results['v'] = df_results['v'].fillna(0.0)
         df_results.drop_duplicates(subset=['project_id'], inplace=True)
 

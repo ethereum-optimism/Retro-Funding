@@ -9,8 +9,8 @@ data_snapshot:
 
 simulation:
   periods:
-    previous: 'Jun 2025'
-    current: 'Jul 2025'
+    previous: 'Jul 2025'
+    current: 'Aug 2025'
   
   eligibility_filter: true
   
@@ -28,12 +28,8 @@ simulation:
   
   # Metric weights must sum to 1.0
   metrics:
-    amortized_contract_invocations_monthly: 0.25631
-    contract_invocations_upgraded_eoa_monthly: 0.07702
-    gas_fees_monthly: 0.33333
-    active_farcaster_users_monthly: 0.16667
-    qualified_addresses_monthly: 0.16667
-    average_tvl_monthly: 0.0
+    contract_invocations_monthly: 0.5
+    gas_fees_monthly: 0.5
 
   # Variant weights must sum to 1.0
   metric_variants:

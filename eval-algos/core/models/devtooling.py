@@ -6,6 +6,7 @@ import yaml
 import traceback
 import warnings
 import argparse
+import os
 
 from openrank_sdk import EigenTrust
 import networkx as nx
@@ -598,7 +599,10 @@ class DevtoolingCalculator:
             'is_eligible'
         ] = 1
         
-        df_results = df_results.merge(df_scores, left_on='project_id', right_on='i', how='left')
+        # Reset index to make 'i' a column for merging
+        df_scores_reset = df_scores.reset_index()
+        df_results = df_results.merge(df_scores_reset, left_on='project_id', right_on='i', how='left')
+
         df_results['v'] = df_results['v'].fillna(0.0)
         df_results.drop_duplicates(subset=['project_id'], inplace=True)
 
@@ -757,7 +761,7 @@ def load_data(data_snapshot: DataSnapshot) -> Tuple[pd.DataFrame, pd.DataFrame, 
         devtooling projects, project dependencies, developer-project relationships, and utility label mapping.
     """
     def get_path(filename: str) -> str:
-        return f"{data_snapshot.data_dir}/{filename}"
+        return os.path.join(data_snapshot.data_dir, filename)
 
     df_onchain_projects = pd.read_csv(get_path(data_snapshot.onchain_projects_file))
     df_devtooling_projects = pd.read_csv(get_path(data_snapshot.devtooling_projects_file))

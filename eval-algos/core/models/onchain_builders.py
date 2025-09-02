@@ -1,4 +1,3 @@
-import argparse
 from dataclasses import dataclass
 import numpy as np
 import pandas as pd
@@ -6,6 +5,7 @@ import traceback
 from typing import Dict, Any, Tuple
 import yaml
 import warnings
+import os
 
 
 # ------------------------------------------------------------------------
@@ -33,6 +33,7 @@ class SimulationConfig:
     metrics: Dict[str, float]
     metric_variants: Dict[str, float]
     tvl_minimum: float = 0 
+    tvl_maximum: float = 0
     eligibility_filter: bool = False
     percentile_cap: float = 100
 
@@ -85,27 +86,23 @@ class OnchainBuildersCalculator:
     # Step 1: Pivot raw data
     # --------------------------------------------------------------------
     def _filter_and_pivot_raw_metrics_by_chain(self) -> None:
-        """
-        Filters the raw input DataFrame to include only metrics with non-zero weights for the
-        specified measurement periods, and then pivots the data by 'chain' and 'metric'.
-        Applies TVL minimum threshold to TVL-related metrics.
 
-        Output is stored in:
-            self.analysis["pivoted_raw_metrics_by_chain"]
-
-        Raises:
-            ValueError: If raw data is not found in self.analysis under key "raw_data".
-        """
         df = self.analysis.get("raw_data")
         if df is None:
             raise ValueError("Raw data not found in analysis. Ensure 'raw_data' is set before Step 1.")
         
+        tvl_metrics = [metric for metric in self.config.metrics.keys() if 'tvl' in metric.lower()]
+        tvl_metric = tvl_metrics[0] if tvl_metrics else None
         non_zero_metrics = [metric for metric, weight in self.config.metrics.items() if weight > 0]
+        all_metrics = non_zero_metrics
+        if tvl_metric:
+            all_metrics.append(tvl_metric)
+        
         periods_list = list(self.config.periods.values())
         
         # First, create the basic pivot
         pivoted = (
-            df.query("metric_name in @non_zero_metrics and measurement_period in @periods_list")
+            df.query("metric_name in @all_metrics and measurement_period in @periods_list")
               .pivot_table(
                   index=['project_id', 'project_name', 'display_name', 'chain'],
                   columns=['measurement_period', 'metric_name'],
@@ -113,8 +110,8 @@ class OnchainBuildersCalculator:
                   aggfunc='sum'
               )
         )
-        
-        # If TVL minimum is set, apply it to TVL metrics
+
+       # If TVL minimum is set, apply it to TVL metrics
         if hasattr(self.config, 'tvl_minimum') and self.config.tvl_minimum > 0:
             # Calculate total TVL per project and period
             tvl_metrics = [m for m in non_zero_metrics if 'tvl' in m.lower()]
@@ -296,11 +293,12 @@ class OnchainBuildersCalculator:
 
         final_df = (
             df_pivoted_weighted
-            .join(df_variants)
-            .join(df_weighted_variants, lsuffix=' - weighted')
+            # .join(df_variants)
+            # .join(df_weighted_variants, lsuffix=' - weighted')
             .join(normalized_series)
             .sort_values('weighted_score', ascending=False)
         )
+        #final_df = final_df[['weighted_score']]
         self.analysis["final_results"] = final_df
 
     # --------------------------------------------------------------------
@@ -383,7 +381,7 @@ def load_config(config_path: str) -> Tuple[DataSnapshot, SimulationConfig]:
 
     yaml_name = config_path.split('/')[-1]
     ds = DataSnapshot(
-        data_dir=ycfg['data_snapshot'].get('data_dir', "eval-algos/S7/data/onchain_testing"),
+        data_dir=ycfg['data_snapshot'].get('data_dir', "eval-algos/S8/data/onchain_testing"),
         projects_file=ycfg['data_snapshot'].get('projects_file', "projects_v1.csv"),
         metrics_file=ycfg['data_snapshot'].get('metrics_file', "onchain_metrics_by_project.csv"),
         yaml_name=yaml_name
@@ -396,6 +394,7 @@ def load_config(config_path: str) -> Tuple[DataSnapshot, SimulationConfig]:
         metrics=sim.get('metrics', {}),
         metric_variants=sim.get('metric_variants', {}),
         tvl_minimum=sim.get('tvl_minimum', 0),
+        tvl_maximum=sim.get('tvl_maximum', 0),
         eligibility_filter=sim.get('eligibility_filter', False),
         percentile_cap=sim.get('percentile_cap', 100)
     )
@@ -414,7 +413,7 @@ def load_data(ds: DataSnapshot) -> pd.DataFrame:
         pd.DataFrame: Merged DataFrame containing raw metrics data.
     """
     def path(filename: str) -> str:
-        return f"{ds.data_dir}/{filename}"
+        return os.path.join(ds.data_dir, filename)
 
     try:
         df_projects = pd.read_csv(path(ds.projects_file))
@@ -482,15 +481,9 @@ def save_results(analysis: Dict[str, Any]) -> None:
 
 def main():
     """
-    Standard entry-point for running the onchain builders analysis pipeline.
-    Accepts a YAML filename as a command line argument.
+    Test the onchain builders analysis pipeline.
     """
-    parser = argparse.ArgumentParser(description='Run onchain builders analysis pipeline')
-    parser.add_argument('yaml_file', nargs='?', default='onchain_builders_testing.yaml',
-                      help='Name of YAML file in weights directory (default: onchain_builders_testing.yaml)')
-    args = parser.parse_args()
-    
-    config_path = f'eval-algos/S7/weights/{args.yaml_file}'
+    config_path = f'results/S8/test/weights/onchain__goldilocks.yaml'
     try:
         analysis = run_simulation(config_path)
         save_results(analysis)

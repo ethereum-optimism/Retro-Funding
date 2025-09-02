@@ -1,4 +1,4 @@
-# Retro Funding Season 7 (S7) Data and Algorithms
+# Retro Funding Season Data and Algorithms
 
 ## Quickstart
 
@@ -26,34 +26,52 @@ Activate the virtual environment:
 poetry env activate
 ```
 
-Then, you can execute the commands below to test the simulation pipeline. For example:
+Test the pipeline:
 
 ```bash
-python eval-algos/S7/utils/process_onchain_builders.py --measurement-period M5 --model onchain__goldilocks
+./run_pipeline.sh 7 M6 --skip-fetch
+```
+
+Run the pipeline with data fetching:
+
+```bash
+./run_pipeline.sh 8 M7
 ```
 
 ## Simulation Pipeline
 
-For each measurement period (e.g. M1, M2, etc.), the maintainers of this repository fetch a snapshot of the data, review the model weights, and run the scoring algorithm.
+For each season (S7, S8) and measurement period (M1, M2, etc.), the maintainers of this repository fetch a snapshot of the data, review the model weights, and run the scoring algorithm.
 
 ### Directory Structure
 
 The project directory is organized as follows:
 
 ```
-Retro-Funding/
-├── docs/
-├── eval-algos/
-│   └── S7/
-│       ├── models/           # Core model implementations
-│       ├── utils/            # Utility functions and scripts
-└── results/
-    └── S7/
-        ├── M1/               # Measurement period
-        |   ├── data/         # Input data
-        |   ├── weights/      # Model configuration files
-        |   └── outputs/      # Output results
-        └── other_measurement_periods/
+├── docs/                    # Documentation
+├── eval-algos/              # Core evaluation algorithms
+│   ├── core/
+│   │   ├── models/          # Model implementations
+|   |   |   ├── allocator.py 
+|   |   |   ├── devtooling.py
+|   |   |   └── onchain_builders.py
+│   │   └── utils/           # Utility functions and scripts
+│   └── queries/             # Season-specific query files
+|       ├── s7_queries.py 
+|       └── s8_queries.py
+├── results/                 
+│   ├── S7/                  # Season 7 results
+│   │   ├── M1/              # February 2025
+│   │   │   ├── data/        # Input data snapshots
+│   │   │   ├── weights/     # Model YAML config files
+│   │   │   └── outputs/     # Output results
+│   │   └── ...
+│   └── S8/                  # Season 8 results
+│       ├── M7/              # August 2025
+│       │   ├── data/        
+│       │   ├── weights/     
+│       │   └── outputs/     
+│       └── ...
+└── run_pipeline.sh          # Main pipeline orchestration script
 ```
 
 ### Data Snapshots
@@ -87,29 +105,29 @@ To fetch the latest data for a specific measurement period, you need to:
    OSO_API_KEY=your_api_key_here
    ```
 
-2. Run the fetch_data.py script with the desired measurement period. For example:
+2. Run the data_fetcher.py script with the desired season and measurement period. For example:
    ```bash
-   python eval-algos/S7/utils/fetch_data.py --measurement-period M5
+   poetry run python -m eval-algos.core.utils.data_fetcher --season 8 --period M7
    ```
 
-This will download the data from OSO and save it to the `results/S7/M5/data/` directory. The script will fetch all the necessary CSV files for both the onchain builders and devtooling rounds.
+This will download the data from OSO and save it to the `results/S8/M7/data/` directory. The script will fetch all the necessary CSV files for both the onchain builders and devtooling rounds.
 
 ### Weights
 
-The weights for each model are stored in the `results/S7/<measurement_period>/weights` directory.
+The weights for each model are stored in the `results/S8/<measurement_period>/weights` directory.
 
 Be sure to use the right data snapshot and simulation period for your simulation.
 
 ```yaml
 data_snapshot:
-  data_dir: 'results/S7/M5/data/'
+  data_dir: 'results/S8/M7/data/'
   projects_file: 'onchain__project_metadata.csv'
   metrics_file: 'onchain__metrics_by_project.csv'
 
 simulation:
   periods:
-    previous: 'May 2025'
-    current: 'Jun 2025'
+    previous: 'Jul 2025'
+    current: 'Aug 2025'
 ```
 
 You can also modify the weights for each model as you see fit. Note that new metrics may be added throughout the season. For example, the `onchain__metrics_by_project.csv` in M2 includes new metrics related to Worldchain activity.
@@ -150,17 +168,44 @@ These settings control:
 
 ### Run the Pipeline
 
-To run the simulation with a specific model and measurement period:
+The Retro Funding pipeline follows this workflow:
+
+1. **Data Fetching**: Fetch raw data from OSO for the specified season and measurement period
+2. **Model Execution**: Run the devtooling and/or onchain models with specified weights
+3. **Reward Allocation**: Apply the allocation algorithm to distribute rewards based on model scores
+4. **Consolidation**: Combine results from multiple models into a single file
+5. **Serialization**: Create JSON files for OP Atlas integration
+
+The main pipeline can be run using the `run_pipeline.sh` script, which orchestrates the entire process:
 
 ```bash
-python eval-algos/S7/utils/process_onchain_builders.py --measurement-period M5 --model onchain__goldilocks
-python eval-algos/S7/utils/process_devtools.py --measurement-period M5 --model devtooling__arcturus
+# Run both models for a season/period
+./run_pipeline.sh 7 M6 --skip-fetch
+
+# Run a specific model
+./run_pipeline.sh 7 M6 --skip-fetch --algo devtooling --weights devtooling__arcturus
+
+# Run with data fetching (default)
+./run_pipeline.sh 8 M7 
+```
+
+Note: S7 models have been disabled, so you can only use the snapshot datasets.
+
+Alternatively, you can run individual models directly:
+
+```bash
+# Run devtooling model
+poetry run python -m eval-algos.core.utils.process_models --algo devtooling --weights devtooling__arcturus --season 7 --period M6
+
+# Run onchain model
+poetry run python -m eval-algos.core.utils.process_models --algo onchain --weights onchain__goldilocks --season 7 --period M6
 ```
 
 This will:
-1. Load the model configuration from `results/S7/M5/weights/<model>.yaml`
+1. Load the model configuration from `results/S7/M6/weights/<model>.yaml`
 2. Process the data according to the model's algorithm
-3. Save the results to `results/S7/M5/outputs/<model>_rewards.csv`
+3. Allocate rewards using the allocation algorithm
+4. Save the results to `results/S7/M6/outputs/<model>_rewards.csv`
 
 ### Consolidating and Serializing Results
 
@@ -171,27 +216,27 @@ After running the simulation pipeline, you can consolidate and serialize the res
 The `consolidate_rewards.py` script combines all rewards files from a measurement period into a single CSV file:
 
 ```bash
-python eval-algos/S7/utils/consolidate_rewards.py --measurement-period M5
+poetry run python -m eval-algos.core.utils.consolidate_rewards --season 7 --period M6
 ```
 
 This will:
-1. Find all rewards CSV files in the `results/S7/M5/outputs/` directory
+1. Find all rewards CSV files in the `results/S7/M6/outputs/` directory
 2. Standardize the format (ensuring consistent column names)
-3. Add `round_id` ('7' for devtooling, '8' for onchain) and `filename` columns
-4. Save the consolidated data to `results/S7/M5/outputs/M5_consolidated_rewards.csv`
+3. Add `filename`, `season`, and `period` columns
+4. Save the consolidated data to `results/S7/M6/outputs/M6_consolidated_rewards.csv`
 
 #### Serializing Results
 
 The `serialize.py` script creates JSON files that combine metrics and rewards data:
 
 ```bash
-python eval-algos/S7/utils/serialize.py --measurement-period M5
+poetry run python -m eval-algos.core.utils.serialize --season 7 --period M6
 ```
 
 This will:
 1. Use the consolidated rewards file (or create it if it doesn't exist)
-2. Create `devtooling__results.json` with devtooling metrics merged with round_id '7' rewards
-3. Create `onchain__results.json` with onchain metrics merged with round_id '8' rewards
+2. Create `devtooling__results.json` with devtooling metrics merged with rewards
+3. Create `onchain__results.json` with onchain metrics merged with rewards
 
 These JSON files are used for displaying results on OP Atlas and for further analysis.
 
@@ -239,6 +284,16 @@ For each metric, computes three variants:
 - Flattens multi-level columns for readability
 - Merges intermediate results for transparency
 - Sorts projects by final weighted score
+
+### Allocation Algorithm
+
+The allocation algorithm (`allocator.py`) distributes rewards based on project scores while respecting constraints:
+
+- **Budget**: Total amount available for distribution
+- **Minimum Amount**: Minimum reward per project
+- **Maximum Share**: Maximum percentage of budget any single project can receive
+
+The algorithm uses a constrained optimization approach to ensure fair and efficient distribution of rewards.
 </details>
 
 ### Devtooling OpenRank

@@ -111,46 +111,27 @@ class OnchainBuildersCalculator:
               )
         )
 
-        # If TVL maximum is set, set all metrics to NaN for any projects above the amount        
-        if hasattr(self.config, 'tvl_maximum') and self.config.tvl_maximum > 0:
-            # Calculate total TVL per project and period
-            for period in periods_list:
-                if tvl_metric:
-                    # Sum TVL across all chains for each project
-                    total_tvl = (
-                        pivoted[period]
-                        .reset_index()
-                        .groupby('project_id')[tvl_metric]
-                        .sum()
-                    )
-                    
-                    # Create a mask for projects above TVL maximum
-                    above_max = (total_tvl >= self.config.tvl_maximum)
-                    
-                    # Set TVL metrics to null for projects below minimum
-                    for metric in non_zero_metrics:
-                        mask = pivoted.index.get_level_values('project_id').isin(above_max[above_max].index)
-                        pivoted.loc[mask, (period, metric)] = np.nan
-        
-        # If TVL minimum is set, apply it to TVL metrics
+       # If TVL minimum is set, apply it to TVL metrics
         if hasattr(self.config, 'tvl_minimum') and self.config.tvl_minimum > 0:
             # Calculate total TVL per project and period
+            tvl_metrics = [m for m in non_zero_metrics if 'tvl' in m.lower()]
             for period in periods_list:
-                if tvl_metric:
+                if tvl_metrics:
                     # Sum TVL across all chains for each project
                     total_tvl = (
                         pivoted[period]
                         .reset_index()
-                        .groupby('project_id')[tvl_metric]
+                        .groupby('project_id')[tvl_metrics]
                         .sum()
                     )
                     
                     # Create a mask for projects below TVL minimum
-                    below_min = (total_tvl < self.config.tvl_minimum)
+                    below_min = (total_tvl < self.config.tvl_minimum).any(axis=1)
                     
-                    # Set TVL metrics to null for projects below minimum                    
-                    mask = pivoted.index.get_level_values('project_id').isin(below_min[below_min].index)
-                    pivoted.loc[mask, (period, metric)] = np.nan
+                    # Set TVL metrics to null for projects below minimum
+                    for metric in tvl_metrics:
+                        mask = pivoted.index.get_level_values('project_id').isin(below_min[below_min].index)
+                        pivoted.loc[mask, (period, metric)] = np.nan
         
         self.analysis["pivoted_raw_metrics_by_chain"] = pivoted
 

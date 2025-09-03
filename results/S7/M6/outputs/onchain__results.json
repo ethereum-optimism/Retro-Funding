@@ -2767,9 +2767,9 @@
       "transaction_count":7357190
     },
     "monthly_metrics":{
-      "active_addresses_aggregation":null,
-      "gas_fees":null,
-      "contract_invocations":null,
+      "active_addresses_aggregation":33569.0,
+      "gas_fees":9.014772,
+      "contract_invocations":5888593.0,
       "defillama_tvl":null
     }
   },

@@ -3,12 +3,49 @@ import os
 import sys
 import pandas as pd
 import requests
-from PIL import Image
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+from PIL import Image, ImageOps
 from io import BytesIO
 import time
-from typing import Optional, Dict
+import logging
+import re
+from pathlib import Path
+from typing import Optional, Dict, Tuple
 from dotenv import load_dotenv
 from pyoso import Client
+
+# Constants
+TARGET_SIZE = (1000, 1000)
+IMAGE_EXTENSIONS = ('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp')
+DEFAULT_DELAY = 0.5
+JPEG_QUALITY = 95
+MAX_IMAGE_SIZE = 10 * 1024 * 1024  # 10MB cap
+
+# Safe filename pattern
+SAFE_NAME_PATTERN = re.compile(r'[^a-zA-Z0-9._-]')
+
+
+def sanitize_filename(filename: str) -> str:
+    """Sanitize filename to be filesystem-safe."""
+    return SAFE_NAME_PATTERN.sub('_', filename or '')
+
+
+def make_session() -> requests.Session:
+    """Create a requests session with retry logic."""
+    session = requests.Session()
+    retry = Retry(
+        total=3,
+        backoff_factor=0.3,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"]
+    )
+    session.mount('https://', HTTPAdapter(max_retries=retry))
+    session.mount('http://', HTTPAdapter(max_retries=retry))
+    session.headers.update({
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    })
+    return session
 
 
 class LogoManager:
@@ -17,33 +54,31 @@ class LogoManager:
     Handles database queries, image downloading, and file management.
     """
     
-    def __init__(self, output_dir: str = None):
+    def __init__(self, client: Client, output_dir: Path = None):
         """
         Initialize the LogoManager.
         
         Args:
+            client: OSO client instance
             output_dir: Output directory for logos (default: results/logos/)
         """
         if output_dir is None:
             # Use project root to create results/logos/ directory
-            current_file = os.path.dirname(os.path.abspath(__file__))
-            project_root = os.path.abspath(os.path.join(current_file, '../../..'))
-            output_dir = os.path.join(project_root, 'results', 'logos')
+            current_file = Path(__file__).parent
+            project_root = current_file.parent.parent.parent
+            output_dir = project_root / 'results' / 'logos'
         
-        self.output_dir = output_dir
-        self.csv_path = os.path.join(output_dir, 'atlas_logos.csv')
-        self.client = self._init_oso_client()
+        self.output_dir = Path(output_dir)
+        self.raw_dir = self.output_dir / 'raw'
+        self.processed_dir = self.output_dir / 'processed'
+        self.csv_path = self.output_dir / 'atlas_logos.csv'
+        self.client = client
         
-        # Ensure output directory exists
-        os.makedirs(output_dir, exist_ok=True)
+        # Ensure directories exist
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.raw_dir.mkdir(exist_ok=True)
+        self.processed_dir.mkdir(exist_ok=True)
     
-    def _init_oso_client(self) -> Client:
-        """Initialize the OSO client with API key from environment."""
-        load_dotenv()
-        api_key = os.environ.get('OSO_API_KEY')
-        if not api_key:
-            raise ValueError("OSO_API_KEY environment variable not set")
-        return Client(api_key=api_key)
     
     def generate_logos_data(self) -> pd.DataFrame:
         """
@@ -97,79 +132,226 @@ class LogoManager:
         print(f"Loaded {len(df)} records from {self.csv_path}")
         return df
     
-    def get_existing_images(self) -> set:
+    def get_existing_images(self, processed: bool = False) -> set:
         """Get set of atlas_ids for which images already exist."""
+        target_dir = self.processed_dir if processed else self.raw_dir
         existing_images = set()
-        if os.path.exists(self.output_dir):
-            for filename in os.listdir(self.output_dir):
-                if filename.endswith('.jpg') and filename.startswith('0x'):
-                    existing_images.add(filename[:-4])  # Remove .jpg extension
         
-        print(f"Found {len(existing_images)} existing images")
+        if target_dir.exists():
+            for file_path in target_dir.iterdir():
+                if file_path.is_file():
+                    if processed and file_path.suffix.lower() == '.jpg':
+                        existing_images.add(file_path.stem)
+                    elif not processed and file_path.suffix.lower() in IMAGE_EXTENSIONS:
+                        existing_images.add(file_path.stem)
+        
+        logging.info(f"Found {len(existing_images)} existing {'processed' if processed else 'raw'} images")
         return existing_images
     
-    def download_image(self, url: str, timeout: int = 30) -> Optional[bytes]:
-        """Download an image from a URL."""
+    def download_image(self, session: requests.Session, url: str, timeout: int = 20) -> Optional[bytes]:
+        """Download an image from a URL with content-type validation."""
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-            response = requests.get(url, headers=headers, timeout=timeout)
-            response.raise_for_status()
-            return response.content
+            if not url or not url.startswith(('http://', 'https://')):
+                logging.warning(f"Invalid URL: {url}")
+                return None
+            
+            with session.get(url, timeout=timeout, stream=True) as response:
+                response.raise_for_status()
+                
+                # Validate content type
+                content_type = response.headers.get('Content-Type', '')
+                if not content_type.startswith('image/'):
+                    logging.warning(f"Invalid content type '{content_type}' for {url}")
+                    return None
+                
+                # Stream and cap size
+                chunks = []
+                total_size = 0
+                for chunk in response.iter_content(8192):
+                    if not chunk:
+                        break
+                    total_size += len(chunk)
+                    if total_size > MAX_IMAGE_SIZE:
+                        logging.warning(f"Image too large ({total_size} bytes) for {url}")
+                        return None
+                    chunks.append(chunk)
+                
+                return b''.join(chunks)
         except Exception as e:
-            print(f"  ✗ Failed to download {url}: {str(e)}")
+            logging.error(f"Failed to download {url}: {str(e)}")
             return None
     
-    def resize_image(self, image_bytes: bytes, target_size: tuple = (1000, 1000)) -> Optional[Image.Image]:
-        """Resize an image to target size while maintaining aspect ratio."""
+    def save_raw_image(self, image_bytes: bytes, atlas_id: str) -> bool:
+        """Save raw image bytes to file."""
+        try:
+            # Determine file extension from image content
+            image = Image.open(BytesIO(image_bytes))
+            format_ext = image.format.lower() if image.format else 'jpg'
+            if format_ext == 'jpeg':
+                format_ext = 'jpg'
+            
+            safe_filename = sanitize_filename(atlas_id)
+            output_path = self.raw_dir / f"{safe_filename}.{format_ext}"
+            
+            output_path.write_bytes(image_bytes)
+            logging.info(f"Saved raw: {output_path.name}")
+            return True
+        except Exception as e:
+            logging.error(f"Failed to save raw image: {str(e)}")
+            return False
+    
+    def resize_image(self, image_bytes: bytes, target_size: tuple = TARGET_SIZE) -> Optional[Image.Image]:
+        """Resize an image to target size using center-based cropping."""
         try:
             image = Image.open(BytesIO(image_bytes))
             
             # Convert to RGB if necessary
-            if image.mode in ('RGBA', 'LA', 'P'):
-                background = Image.new('RGB', image.size, (255, 255, 255))
-                if image.mode == 'P':
-                    image = image.convert('RGBA')
-                background.paste(image, mask=image.split()[-1] if image.mode == 'RGBA' else None)
-                image = background
-            elif image.mode != 'RGB':
+            if image.mode not in ('RGB', 'L'):
                 image = image.convert('RGB')
             
-            # Resize while maintaining aspect ratio
-            image.thumbnail(target_size, Image.Resampling.LANCZOS)
-            
-            # Create centered image with target size
-            new_image = Image.new('RGB', target_size, (255, 255, 255))
-            x_offset = (target_size[0] - image.size[0]) // 2
-            y_offset = (target_size[1] - image.size[1]) // 2
-            new_image.paste(image, (x_offset, y_offset))
-            
-            return new_image
+            # Use ImageOps.fit for simpler, more reliable center-crop and resize
+            return ImageOps.fit(
+                image, 
+                target_size, 
+                method=Image.Resampling.LANCZOS, 
+                centering=(0.5, 0.5)
+            )
         except Exception as e:
-            print(f"  ✗ Failed to resize image: {str(e)}")
+            logging.error(f"Failed to resize image: {str(e)}")
             return None
     
     def get_filename_from_atlas_id(self, atlas_id: str) -> str:
         """Generate filename from atlas_id."""
-        safe_filename = atlas_id.replace('/', '_').replace('\\', '_')
+        safe_filename = sanitize_filename(atlas_id)
         return f"{safe_filename}.jpg"
     
-    def download_and_resize_logos(self, df: pd.DataFrame, refresh_all: bool = False, delay: float = 0.5) -> Dict[str, int]:
-        """Download and resize logo images from the DataFrame."""
+    def _empty_stats(self) -> Dict[str, int]:
+        """Return empty statistics dictionary."""
+        return {'successful': 0, 'failed': 0, 'skipped': 0}
+    
+    def _print_summary(self, stats: Dict[str, int], title: str, output_dir: str, csv_path: str = None) -> None:
+        """Print processing summary."""
+        logging.info(f"=== {title} ===")
+        logging.info(f"  ✓ Successful: {stats['successful']}")
+        logging.info(f"  ✗ Failed: {stats['failed']}")
+        logging.info(f"  ⏭️  Skipped: {stats['skipped']}")
+        logging.info(f"  📁 Images saved to: {output_dir}")
+        if csv_path:
+            logging.info(f"  📄 CSV data saved to: {csv_path}")
+    
+    def process_raw_images(self, input_dir: Path = None, output_dir: Path = None, overwrite: bool = False) -> Dict[str, int]:
+        """
+        Process raw logo images in a directory to 1000x1000px with center-based cropping.
+        
+        Args:
+            input_dir: Directory containing raw logo images (default: self.raw_dir)
+            output_dir: Directory to save processed images (default: self.processed_dir)
+            overwrite: If True, overwrite existing processed images
+            
+        Returns:
+            Dictionary with processing statistics
+        """
+        if input_dir is None:
+            input_dir = self.raw_dir
+        
+        if output_dir is None:
+            output_dir = self.processed_dir
+        
+        output_dir.mkdir(parents=True, exist_ok=True)
+        logging.info(f"Input directory: {input_dir}")
+        logging.info(f"Output directory: {output_dir}")
+        
+        successful_processed = 0
+        failed_processed = 0
+        skipped_processed = 0
+        
+        # Find all image files
+        image_files = [f for f in input_dir.iterdir() 
+                      if f.is_file() and f.suffix.lower() in IMAGE_EXTENSIONS]
+        total_files = len(image_files)
+        
+        if total_files == 0:
+            logging.warning("No image files found in the input directory.")
+            return self._empty_stats()
+        
+        logging.info(f"Found {total_files} image files to process.")
+        
+        for idx, input_path in enumerate(image_files, 1):
+            output_filename = f"{input_path.stem}.jpg"  # Always save as JPG
+            output_path = output_dir / output_filename
+            
+            if output_path.exists() and not overwrite:
+                logging.info(f"[{idx}/{total_files}] Skipping: {input_path.name} (already processed)")
+                skipped_processed += 1
+                continue
+            
+            logging.info(f"[{idx}/{total_files}] Processing: {input_path.name}")
+            
+            try:
+                # Read image file
+                image_bytes = input_path.read_bytes()
+                
+                # Process image
+                resized_image = self.resize_image(image_bytes)
+                
+                if resized_image is None:
+                    failed_processed += 1
+                    continue
+                
+                # Save processed image
+                resized_image.save(output_path, 'JPEG', quality=JPEG_QUALITY, optimize=True)
+                logging.info(f"  ✓ Saved: {output_filename}")
+                successful_processed += 1
+                
+            except Exception as e:
+                logging.error(f"  ✗ Failed to process {input_path.name}: {str(e)}")
+                failed_processed += 1
+        
+        return {
+            'successful': successful_processed,
+            'failed': failed_processed,
+            'skipped': skipped_processed
+        }
+    
+    def _process_single_image(self, image_bytes: bytes, atlas_id: str, raw_only: bool = False) -> bool:
+        """Process a single image (save raw or resize and save)."""
+        if raw_only:
+            return self.save_raw_image(image_bytes, atlas_id)
+        else:
+            resized_image = self.resize_image(image_bytes)
+            if resized_image is None:
+                return False
+            
+            filename = self.get_filename_from_atlas_id(atlas_id)
+            output_path = self.processed_dir / filename
+            
+            try:
+                resized_image.save(output_path, 'JPEG', quality=JPEG_QUALITY, optimize=True)
+                logging.info(f"  ✓ Saved: {filename}")
+                return True
+            except Exception as e:
+                logging.error(f"  ✗ Failed to save {filename}: {str(e)}")
+                return False
+    
+    def download_logos(self, df: pd.DataFrame, refresh_all: bool = False, delay: float = DEFAULT_DELAY, raw_only: bool = False) -> Dict[str, int]:
+        """Download logo images from the DataFrame (raw or processed)."""
         # Filter out rows without thumbnail URLs
         df_with_urls = df[df['thumbnail_url'].notna() & (df['thumbnail_url'] != '')]
-        print(f"Found {len(df_with_urls)} records with thumbnail URLs")
+        logging.info(f"Found {len(df_with_urls)} records with thumbnail URLs")
         
         if len(df_with_urls) == 0:
-            print("No thumbnail URLs found in the data")
-            return {'successful': 0, 'failed': 0, 'skipped': 0}
+            logging.warning("No thumbnail URLs found in the data")
+            return self._empty_stats()
         
-        # Get existing images if not refreshing all
-        existing_images = set() if refresh_all else self.get_existing_images()
+        # Get existing images if not refreshing all - FIXED: use correct directory based on mode
+        existing_images = set() if refresh_all else self.get_existing_images(processed=not raw_only)
         
-        # Download and process images
-        successful_downloads = 0
-        failed_downloads = 0
-        skipped_downloads = 0
+        # Create session for better performance
+        session = make_session()
+        
+        # Download images
+        stats = {'successful': 0, 'failed': 0, 'skipped': 0}
+        action = "Downloading" if raw_only else "Processing"
         
         for idx, row in df_with_urls.iterrows():
             atlas_id = row['atlas_id']
@@ -178,114 +360,124 @@ class LogoManager:
             
             # Skip if image already exists and not refreshing
             if atlas_id in existing_images and not refresh_all:
-                print(f"[{idx + 1}/{len(df_with_urls)}] Skipping: {display_name} (already exists)")
-                skipped_downloads += 1
+                logging.info(f"[{idx + 1}/{len(df_with_urls)}] Skipping: {display_name} (already exists)")
+                stats['skipped'] += 1
                 continue
             
-            print(f"[{idx + 1}/{len(df_with_urls)}] Processing: {display_name}")
+            logging.info(f"[{idx + 1}/{len(df_with_urls)}] {action}: {display_name}")
             
-            # Download image
-            image_bytes = self.download_image(thumbnail_url)
+            # Download and process image
+            image_bytes = self.download_image(session, thumbnail_url)
             if image_bytes is None:
-                failed_downloads += 1
+                stats['failed'] += 1
                 continue
             
-            # Resize image
-            resized_image = self.resize_image(image_bytes)
-            if resized_image is None:
-                failed_downloads += 1
-                continue
+            if self._process_single_image(image_bytes, atlas_id, raw_only):
+                stats['successful'] += 1
+            else:
+                stats['failed'] += 1
             
-            # Generate filename and save
-            filename = self.get_filename_from_atlas_id(atlas_id)
-            output_path = os.path.join(self.output_dir, filename)
-            
-            try:
-                resized_image.save(output_path, 'JPEG', quality=95)
-                print(f"  ✓ Saved: {filename}")
-                successful_downloads += 1
-            except Exception as e:
-                print(f"  ✗ Failed to save {filename}: {str(e)}")
-                failed_downloads += 1
-            
-            # Add delay between downloads to be respectful
+            # Add delay between downloads
             if delay > 0:
                 time.sleep(delay)
         
-        return {
-            'successful': successful_downloads,
-            'failed': failed_downloads,
-            'skipped': skipped_downloads
-        }
+        return stats
     
-    def run_full_workflow(self, refresh_all: bool = False, delay: float = 0.5) -> None:
+    def run_full_workflow(self, refresh_all: bool = False, delay: float = DEFAULT_DELAY, raw_only: bool = False) -> None:
         """Run the complete workflow: query database, save CSV, and download images."""
-        print("=== Atlas Logo Manager ===")
+        logging.info("=== Atlas Logo Manager ===")
         
         # Step 1: Generate/update CSV data
-        print("\n1. Fetching atlas data from database...")
+        logging.info("1. Fetching atlas data from database...")
         df = self.generate_logos_data()
         self.save_logos_data(df)
         
         # Step 2: Download images
-        print(f"\n2. Downloading logo images...")
-        stats = self.download_and_resize_logos(df, refresh_all, delay)
+        action = "Downloading raw logo images" if raw_only else "Downloading and processing logo images"
+        logging.info(f"2. {action}...")
+        stats = self.download_logos(df, refresh_all, delay, raw_only)
         
         # Step 3: Summary
-        print(f"\n=== Download Summary ===")
-        print(f"  ✓ Successful: {stats['successful']}")
-        print(f"  ✗ Failed: {stats['failed']}")
-        print(f"  ⏭️  Skipped: {stats['skipped']}")
-        print(f"  📁 Images saved to: {self.output_dir}")
-        print(f"  📄 CSV data saved to: {self.csv_path}")
+        self._print_summary(stats, "Download Summary", str(self.output_dir), str(self.csv_path))
     
-    def run_download_only(self, refresh_all: bool = False, delay: float = 0.5) -> None:
+    def run_download_only(self, refresh_all: bool = False, delay: float = DEFAULT_DELAY, raw_only: bool = False) -> None:
         """Run only the download process using existing CSV data."""
-        print("=== Atlas Logo Downloader ===")
+        logging.info("=== Atlas Logo Downloader ===")
         
         # Load existing CSV data
-        print("\n1. Loading existing CSV data...")
+        logging.info("1. Loading existing CSV data...")
         df = self.load_logos_data()
         
         # Download images
-        print(f"\n2. Downloading logo images...")
-        stats = self.download_and_resize_logos(df, refresh_all, delay)
+        action = "Downloading raw logo images" if raw_only else "Downloading and processing logo images"
+        logging.info(f"2. {action}...")
+        stats = self.download_logos(df, refresh_all, delay, raw_only)
         
         # Summary
-        print(f"\n=== Download Summary ===")
-        print(f"  ✓ Successful: {stats['successful']}")
-        print(f"  ✗ Failed: {stats['failed']}")
-        print(f"  ⏭️  Skipped: {stats['skipped']}")
-        print(f"  📁 Images saved to: {self.output_dir}")
+        self._print_summary(stats, "Download Summary", str(self.output_dir))
 
 
 def main():
     """Main function for the logo manager CLI."""
     parser = argparse.ArgumentParser(description='Atlas Logo Manager - Query database and manage logo images')
-    parser.add_argument('--output-dir', '-o', type=str,
+    parser.add_argument('--output-dir', '-o', type=Path,
                        help='Output directory for CSV and images (default: results/logos/)')
     parser.add_argument('--refresh-all', '-r', action='store_true',
                        help='Download all images even if they already exist')
-    parser.add_argument('--delay', '-d', type=float, default=0.5,
-                       help='Delay between downloads in seconds (default: 0.5)')
+    parser.add_argument('--delay', '-d', type=float, default=DEFAULT_DELAY,
+                       help=f'Delay between downloads in seconds (default: {DEFAULT_DELAY})')
     parser.add_argument('--download-only', action='store_true',
                        help='Only download images using existing CSV data (skip database query)')
+    parser.add_argument('--raw-only', action='store_true',
+                       help='Download raw images without resizing (preserves original format and dimensions)')
+    parser.add_argument('--process-only', action='store_true',
+                       help='Only process existing raw images to 1000x1000px (skip download)')
+    parser.add_argument('--input-dir', '-i', type=Path,
+                       help='Input directory for processing (used with --process-only)')
+    parser.add_argument('--overwrite', action='store_true',
+                       help='Overwrite existing processed images (used with --process-only)')
+    parser.add_argument('--verbose', '-v', action='store_true',
+                       help='Enable verbose logging')
+    parser.add_argument('--quiet', '-q', action='store_true',
+                       help='Suppress output except errors')
     
     args = parser.parse_args()
     
+    # Setup logging
+    log_level = logging.DEBUG if args.verbose else (logging.ERROR if args.quiet else logging.INFO)
+    logging.basicConfig(
+        level=log_level,
+        format='%(levelname)s: %(message)s',
+        handlers=[logging.StreamHandler()]
+    )
+    
     try:
-        manager = LogoManager(args.output_dir)
+        # Initialize OSO client
+        load_dotenv()
+        api_key = os.environ.get('OSO_API_KEY')
+        if not api_key:
+            raise ValueError("OSO_API_KEY environment variable not set")
+        client = Client(api_key=api_key)
         
-        if args.download_only:
-            manager.run_download_only(args.refresh_all, args.delay)
+        # Create manager with dependency injection
+        manager = LogoManager(client, args.output_dir)
+        
+        if args.process_only:
+            # Process existing raw images
+            input_dir = args.input_dir if args.input_dir else manager.raw_dir
+            stats = manager.process_raw_images(input_dir, overwrite=args.overwrite)
+            
+            manager._print_summary(stats, "Processing Summary", str(manager.processed_dir))
+        elif args.download_only:
+            manager.run_download_only(args.refresh_all, args.delay, args.raw_only)
         else:
-            manager.run_full_workflow(args.refresh_all, args.delay)
+            manager.run_full_workflow(args.refresh_all, args.delay, args.raw_only)
         
     except KeyboardInterrupt:
-        print("\nOperation interrupted by user")
+        logging.info("Operation interrupted by user")
         sys.exit(1)
     except Exception as e:
-        print(f"Error: {str(e)}")
+        logging.error(f"Error: {str(e)}")
         sys.exit(1)
 
 

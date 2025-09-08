@@ -415,6 +415,96 @@ class LogoManager:
         
         # Summary
         self._print_summary(stats, "Download Summary", str(self.output_dir))
+    
+    def create_filtered_folders(self, consolidated_rewards_path: str) -> None:
+        """
+        Create three filtered folders based on consolidated rewards data:
+        1. All projects with rewards > 0
+        2. Unique onchain builder projects with rewards > 0
+        3. Unique devtooling projects with rewards > 0
+        
+        Args:
+            consolidated_rewards_path: Path to the consolidated rewards CSV file
+        """
+        logging.info("=== Creating Filtered Logo Folders ===")
+        
+        # Load consolidated rewards data
+        logging.info(f"1. Loading consolidated rewards from {consolidated_rewards_path}")
+        rewards_df = pd.read_csv(consolidated_rewards_path)
+        
+        # Filter projects with rewards > 0
+        rewards_df = rewards_df[rewards_df['op_reward'] > 0]
+        logging.info(f"   Found {len(rewards_df)} reward entries with rewards > 0")
+        
+        # Create filtered directories
+        all_rewards_dir = self.output_dir / 'filtered_all_rewards'
+        onchain_rewards_dir = self.output_dir / 'filtered_onchain_rewards'
+        devtooling_rewards_dir = self.output_dir / 'filtered_devtooling_rewards'
+        
+        for dir_path in [all_rewards_dir, onchain_rewards_dir, devtooling_rewards_dir]:
+            dir_path.mkdir(exist_ok=True)
+        
+        # Get all unique atlas_ids with rewards > 0
+        all_rewarded_ids = set(rewards_df['op_atlas_id'].unique())
+        logging.info(f"   Found {len(all_rewarded_ids)} unique projects with rewards > 0")
+        
+        # Copy logos for all projects with rewards > 0
+        logging.info("2. Creating folder with all projects that have rewards > 0...")
+        all_copied = self._copy_logos_to_folder(all_rewarded_ids, all_rewards_dir)
+        
+        # Filter for onchain builder projects
+        onchain_df = rewards_df[rewards_df['filename'].str.contains('onchain', na=False)]
+        onchain_rewarded_ids = set(onchain_df['op_atlas_id'].unique())
+        logging.info(f"   Found {len(onchain_rewarded_ids)} unique onchain builder projects with rewards > 0")
+        
+        # Copy logos for onchain builder projects
+        logging.info("3. Creating folder with onchain builder projects that have rewards > 0...")
+        onchain_copied = self._copy_logos_to_folder(onchain_rewarded_ids, onchain_rewards_dir)
+        
+        # Filter for devtooling projects
+        devtooling_df = rewards_df[rewards_df['filename'].str.contains('devtooling', na=False)]
+        devtooling_rewarded_ids = set(devtooling_df['op_atlas_id'].unique())
+        logging.info(f"   Found {len(devtooling_rewarded_ids)} unique devtooling projects with rewards > 0")
+        
+        # Copy logos for devtooling projects
+        logging.info("4. Creating folder with devtooling projects that have rewards > 0...")
+        devtooling_copied = self._copy_logos_to_folder(devtooling_rewarded_ids, devtooling_rewards_dir)
+        
+        # Summary
+        logging.info("=== Filtered Folders Summary ===")
+        logging.info(f"  📁 All rewards folder: {all_copied} logos copied to {all_rewards_dir}")
+        logging.info(f"  📁 Onchain rewards folder: {onchain_copied} logos copied to {onchain_rewards_dir}")
+        logging.info(f"  📁 Devtooling rewards folder: {devtooling_copied} logos copied to {devtooling_rewards_dir}")
+    
+    def _copy_logos_to_folder(self, atlas_ids: set, target_dir: Path) -> int:
+        """
+        Copy processed logos for given atlas_ids to target directory.
+        
+        Args:
+            atlas_ids: Set of atlas_ids to copy logos for
+            target_dir: Target directory to copy logos to
+            
+        Returns:
+            Number of logos successfully copied
+        """
+        copied_count = 0
+        
+        for atlas_id in atlas_ids:
+            source_path = self.processed_dir / f"{atlas_id}.jpg"
+            target_path = target_dir / f"{atlas_id}.jpg"
+            
+            if source_path.exists():
+                try:
+                    # Copy the file
+                    import shutil
+                    shutil.copy2(source_path, target_path)
+                    copied_count += 1
+                except Exception as e:
+                    logging.warning(f"Failed to copy {atlas_id}.jpg: {str(e)}")
+            else:
+                logging.warning(f"Logo not found for atlas_id: {atlas_id}")
+        
+        return copied_count
 
 
 def main():
@@ -440,6 +530,10 @@ def main():
                        help='Enable verbose logging')
     parser.add_argument('--quiet', '-q', action='store_true',
                        help='Suppress output except errors')
+    parser.add_argument('--create-filtered-folders', action='store_true',
+                       help='Create filtered folders based on consolidated rewards data')
+    parser.add_argument('--rewards-file', type=str,
+                       help='Path to consolidated rewards CSV file (required with --create-filtered-folders)')
     
     args = parser.parse_args()
     
@@ -462,7 +556,12 @@ def main():
         # Create manager with dependency injection
         manager = LogoManager(client, args.output_dir)
         
-        if args.process_only:
+        if args.create_filtered_folders:
+            # Create filtered folders based on rewards data
+            if not args.rewards_file:
+                raise ValueError("--rewards-file is required when using --create-filtered-folders")
+            manager.create_filtered_folders(args.rewards_file)
+        elif args.process_only:
             # Process existing raw images
             input_dir = args.input_dir if args.input_dir else manager.raw_dir
             stats = manager.process_raw_images(input_dir, overwrite=args.overwrite)

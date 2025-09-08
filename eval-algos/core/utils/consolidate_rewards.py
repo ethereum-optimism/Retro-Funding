@@ -23,8 +23,9 @@ def consolidate_rewards(season: str, measurement_period: str) -> pd.DataFrame:
     paths = get_measurement_period_paths(season, measurement_period)
     outputs_dir = paths['outputs']
     
-    # Find all rewards files (files ending with _rewards.csv)
+    # Find all rewards files (files ending with _rewards.csv, but exclude consolidated files)
     rewards_files = glob.glob(os.path.join(outputs_dir, "*_rewards.csv"))
+    rewards_files = [f for f in rewards_files if "consolidated" not in os.path.basename(f)]
     
     if not rewards_files:
         print(f"No rewards files found in {outputs_dir}")

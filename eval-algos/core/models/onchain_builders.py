@@ -288,6 +288,11 @@ class OnchainBuildersCalculator:
             scores_series = pd.Series(dtype=float)
         else:
             scores_series = scores_df['project_score']
+        
+        # Apply TVL maximum filter to final scores
+        if hasattr(self.config, 'tvl_maximum') and self.config.tvl_maximum > 0:
+            scores_series = self._apply_tvl_maximum_filter(scores_series, df_pivoted_weighted)
+        
         normalized_series = scores_series / scores_series.sum() if scores_series.sum() != 0 else scores_series
         normalized_series.name = 'weighted_score'
 
@@ -300,6 +305,40 @@ class OnchainBuildersCalculator:
         )
         #final_df = final_df[['weighted_score']]
         self.analysis["final_results"] = final_df
+
+    def _apply_tvl_maximum_filter(self, scores_series: pd.Series, df_pivoted_weighted: pd.DataFrame) -> pd.Series:
+        """
+        Apply TVL maximum filter by setting scores to 0 for projects exceeding TVL maximum.
+        
+        Args:
+            scores_series: Series of project scores
+            df_pivoted_weighted: DataFrame with weighted metrics data
+            
+        Returns:
+            Series with scores set to 0 for projects exceeding TVL maximum
+        """
+        # Find TVL metrics in the current period
+        current_period = self.config.periods.get('current')
+        tvl_columns = [col for col in df_pivoted_weighted.columns 
+                      if 'tvl' in col.lower() and current_period.lower().replace(' ', '_') in col.lower()]
+        
+        if not tvl_columns:
+            return scores_series
+            
+        # Calculate total TVL per project across all TVL metrics
+        total_tvl = df_pivoted_weighted[tvl_columns].sum(axis=1)
+        
+        # Create mask for projects exceeding TVL maximum
+        exceeds_max = total_tvl > self.config.tvl_maximum
+        
+        # Set scores to 0 for projects exceeding maximum
+        filtered_scores = scores_series.copy()
+        filtered_scores[exceeds_max] = 0
+        
+        if exceeds_max.any():
+            print(f"[INFO] TVL maximum filter: {exceeds_max.sum()} projects exceeded TVL maximum of {self.config.tvl_maximum:,}")
+        
+        return filtered_scores
 
     # --------------------------------------------------------------------
     # Helper: Flatten multi-level columns

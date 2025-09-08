@@ -44,8 +44,8 @@ simulation:
     contract_invocations: 0.35
     layer2_gas_fees_amortized: 0.35
     defillama_tvl: 0.0
-    farcaster_users: 0.15
-    worldchain_users_aggregation: 0.15
+    farcaster_users: 0.175
+    worldchain_users_aggregation: 0.125
     active_addresses_aggregation: 0.0
 
   # Variant weights must sum to 1.0
@@ -55,7 +55,7 @@ simulation:
     retention: 0.50   # Minimum of current and previous
 
   # Percentile cap for min-max scaling (100 = no cap)
-  percentile_cap: 98.5
+  percentile_cap: 97.5
 
 allocation:
   budget: 166666.67

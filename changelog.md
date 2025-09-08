@@ -2,6 +2,30 @@
 
 All notable changes to algorithms, weights, and underlying OSO models will be documented here.
 
+## [M7] - 2025-09-08
+
+_This is the first reward round for Season 8 (S8). Note that the total budgets for both Onchain Builders and Dev Tooling have been reduced in S8 compared to S7._
+
+### Added
+- Core utilities for running the complete pipeline for a given season and measurement period.
+- A logo manager utility for downloading, resizing, and saving logos for all projects in a given season and measurement period.
+
+### Changed
+- Onchain builders:
+  - The total monthly reward budget has been reduced from 1,300,000 OP to 166,666.67 OP.
+  - Projects with monthly Superchain TVL above $100M are now excluded from rewards.
+  - The `max_share_per_project` has been reduced from 0.05 to 0.03.
+  - The `percentile_cap` has been reduced from 98.5 to 97.5.
+  - The metric inputs have been set to `contract_invocations` = 0.35, `gas_fees` = 0.35, and `qualified_users` = 0.30.
+- Dev Tooling:
+  - The total monthly reward budget has been reduced from 1,300,000 OP to 500,000 OP.
+  - The starting period under considation for recent developer activity has been pushed forward by 6 months (eg, from 2024-01-01 to 2024-07-01).
+  - The `max_share_per_project` has been reduced from 0.06 to 0.05.
+
+### Fixed
+- Tighter filtering to ensure that only activity on the 19 targeted chains is factored into rewards.
+- Amortized Layer 2 gas fees are now being calculated directly using `receipts` data in the OSO pipeline. This change should produce more accurate gas estimations for projects on a given chain.
+
 ## [M6] - 2025-08-04
 
 ### Added

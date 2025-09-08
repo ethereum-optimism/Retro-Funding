@@ -3,8 +3,7 @@ import sys
 import os
 import pandas as pd
 import json
-import glob
-from typing import Optional, Dict, Any
+from typing import Optional
 
 # Add the current directory to the Python path
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -47,7 +46,6 @@ def load_metrics_data(season: str, measurement_period: str, model_type: str) -> 
     if model_type == 'devtooling':
         metrics_file = os.path.join(data_dir, 'devtooling__raw_metrics.json')
     elif model_type == 'onchain':
-        # Use the metrics by project file for onchain
         metrics_file = os.path.join(data_dir, 'onchain__metrics_by_project.csv')
     else:
         return None
@@ -136,11 +134,11 @@ def serialize_devtooling_results(season: str, measurement_period: str, df_reward
                 'op_reward': 0
             })
             
-            # Get eligibility from metadata
-            is_eligible = metadata_row.get('is_eligible', True)
-            
             # Get metrics data if available
             metrics_data = metrics_lookup.get(op_atlas_id, {})
+            
+            # Get eligibility from metrics data (which has the correct eligibility info)
+            is_eligible = metrics_data.get('is_eligible', True)
             
             result = {
                 'op_atlas_id': op_atlas_id,

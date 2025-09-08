@@ -19,7 +19,7 @@ _This is the first reward round for Season 8 (S8). Note that the total budgets f
   - The metric inputs have been set to `contract_invocations` = 0.35, `gas_fees` = 0.35, and `qualified_users` = 0.30.
 - Dev Tooling:
   - The total monthly reward budget has been reduced from 1,300,000 OP to 500,000 OP.
-  - The starting period under considation for recent developer activity has been pushed forward by 6 months (eg, from 2024-01-01 to 2024-07-01).
+  - The starting period under consideration for recent developer activity has been pushed forward by 6 months (eg, from 2024-01-01 to 2024-07-01).
   - The `max_share_per_project` has been reduced from 0.06 to 0.05.
 
 ### Fixed

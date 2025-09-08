@@ -505,6 +505,80 @@ class LogoManager:
                 logging.warning(f"Logo not found for atlas_id: {atlas_id}")
         
         return copied_count
+    
+    def create_chain_folders(self, metrics_csv_path: str, consolidated_rewards_path: str) -> None:
+        """
+        Create chain-specific directories and copy logos for projects with contract invocations on each chain
+        that also received rewards > 0.
+        
+        Args:
+            metrics_csv_path: Path to the onchain__metrics_by_project.csv file
+            consolidated_rewards_path: Path to the consolidated rewards CSV file
+        """
+        logging.info("=== Creating Chain-Specific Logo Folders (Rewarded Projects Only) ===")
+        
+        # Load metrics data
+        logging.info(f"1. Loading metrics data from {metrics_csv_path}")
+        metrics_df = pd.read_csv(metrics_csv_path)
+        
+        # Filter for contract_invocations only
+        contract_invocations_df = metrics_df[metrics_df['metric_name'] == 'contract_invocations']
+        logging.info(f"   Found {len(contract_invocations_df)} contract invocation records")
+        
+        if len(contract_invocations_df) == 0:
+            logging.warning("No contract invocation data found")
+            return
+        
+        # Load consolidated rewards data
+        logging.info(f"2. Loading consolidated rewards from {consolidated_rewards_path}")
+        rewards_df = pd.read_csv(consolidated_rewards_path)
+        
+        # Filter projects with rewards > 0
+        rewarded_projects = rewards_df[rewards_df['op_reward'] > 0]
+        rewarded_atlas_ids = set(rewarded_projects['op_atlas_id'].unique())
+        logging.info(f"   Found {len(rewarded_atlas_ids)} unique projects with rewards > 0")
+        
+        # Get unique chains
+        unique_chains = contract_invocations_df['chain'].unique()
+        logging.info(f"   Found {len(unique_chains)} unique chains: {', '.join(unique_chains)}")
+        
+        # Create chains directory
+        chains_dir = self.output_dir / 'chains'
+        chains_dir.mkdir(exist_ok=True)
+        
+        total_copied = 0
+        
+        # Process each chain
+        for chain in unique_chains:
+            logging.info(f"3. Processing chain: {chain}")
+            
+            # Filter projects for this chain
+            chain_projects = contract_invocations_df[contract_invocations_df['chain'] == chain]
+            # Use project_name field which contains the actual atlas IDs (0x...)
+            chain_atlas_ids = set(chain_projects['project_name'].unique())
+            
+            # Intersect with rewarded projects
+            rewarded_chain_atlas_ids = chain_atlas_ids.intersection(rewarded_atlas_ids)
+            
+            logging.info(f"   Found {len(chain_atlas_ids)} unique projects with contract invocations on {chain}")
+            logging.info(f"   Found {len(rewarded_chain_atlas_ids)} projects with both contract invocations and rewards > 0")
+            
+            # Create chain directory
+            chain_dir = chains_dir / chain.lower()
+            chain_dir.mkdir(exist_ok=True)
+            
+            # Copy logos for rewarded projects on this chain
+            copied_count = self._copy_logos_to_folder(rewarded_chain_atlas_ids, chain_dir)
+            total_copied += copied_count
+            
+            logging.info(f"   ✓ Copied {copied_count} logos to {chain_dir}")
+        
+        # Summary
+        logging.info("=== Chain Folders Summary ===")
+        logging.info(f"  📁 Created {len(unique_chains)} chain directories in {chains_dir}")
+        logging.info(f"  📄 Total logos copied: {total_copied}")
+        logging.info(f"  🔗 Chains processed: {', '.join(unique_chains)}")
+        logging.info(f"  💰 Only included projects with rewards > 0")
 
 
 def main():
@@ -534,6 +608,12 @@ def main():
                        help='Create filtered folders based on consolidated rewards data')
     parser.add_argument('--rewards-file', type=str,
                        help='Path to consolidated rewards CSV file (required with --create-filtered-folders)')
+    parser.add_argument('--create-chain-folders', action='store_true',
+                       help='Create chain-specific folders based on contract invocations data for rewarded projects only')
+    parser.add_argument('--metrics-file', type=str,
+                       help='Path to onchain__metrics_by_project.csv file (required with --create-chain-folders)')
+    parser.add_argument('--rewards-file-chain', type=str,
+                       help='Path to consolidated rewards CSV file (required with --create-chain-folders)')
     
     args = parser.parse_args()
     
@@ -561,6 +641,13 @@ def main():
             if not args.rewards_file:
                 raise ValueError("--rewards-file is required when using --create-filtered-folders")
             manager.create_filtered_folders(args.rewards_file)
+        elif args.create_chain_folders:
+            # Create chain-specific folders based on contract invocations data for rewarded projects only
+            if not args.metrics_file:
+                raise ValueError("--metrics-file is required when using --create-chain-folders")
+            if not args.rewards_file_chain:
+                raise ValueError("--rewards-file-chain is required when using --create-chain-folders")
+            manager.create_chain_folders(args.metrics_file, args.rewards_file_chain)
         elif args.process_only:
             # Process existing raw images
             input_dir = args.input_dir if args.input_dir else manager.raw_dir

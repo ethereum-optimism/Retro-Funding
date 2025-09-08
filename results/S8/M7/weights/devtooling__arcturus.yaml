@@ -1,9 +1,9 @@
 # ----------------------------------------------------
-# Devtooling - Arcturus - test
+# Devtooling - Arcturus - S8 - M7 (August 2025)
 # ----------------------------------------------------
 
 data_snapshot:
-  data_dir: 'results/S8/test/data/'
+  data_dir: 'results/S8/M7/data/'
   devtooling_projects: 'devtooling__project_metadata.csv'
   onchain_projects: 'devtooling__onchain_metadata.csv'
   project_dependencies: 'devtooling__dependency_graph.csv'
@@ -39,7 +39,7 @@ simulation:
   event_type_weights:
     rust: 1.0
     npm: 1.0
-    npm_transitive: 0.1 # new for M5
+    npm_transitive: 0.1
     pip: 1.0
     go: 1.0
     forked: 1.0
@@ -74,6 +74,6 @@ simulation:
     num_onchain_developers_with_links: 5
 
 allocation:
-  budget: 1300000
+  budget: 500000
   min_amount_per_project: 200
-  max_share_per_project: 0.06
+  max_share_per_project: 0.05

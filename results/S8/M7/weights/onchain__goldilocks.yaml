@@ -1,9 +1,9 @@
 # ----------------------------------------------------
-# Onchain Builders - Goldilocks - Test
+# Onchain Builders - Goldilocks - S8 - M7 (August 2025)
 # ----------------------------------------------------
 
 data_snapshot:
-  data_dir: 'results/S8/test/data/'
+  data_dir: 'results/S8/M7/data/'
   projects_file: 'onchain__project_metadata.csv'
   metrics_file: 'onchain__metrics_by_project.csv'
 
@@ -16,20 +16,37 @@ simulation:
   
   # Chain weights (1.0 = full weight)
   chains:
-    base: 0.3
-    optimism: 0.20
-    worldchain: 0.10
-    soneium: 0.10
-    unichain: 0.10
-    ink: 0.10
+    arenaz: 1.0
+    base: 1.0
+    bob: 1.0
+    epic: 1.0
+    ink: 1.0
+    lisk: 1.0
+    metal: 1.0
+    mint: 1.0
+    mode: 1.0
+    optimism: 1.0
+    polynomial: 1.0
+    race: 1.0
+    shape: 1.0
+    soneium: 1.0
+    superseed: 1.0
+    swell: 1.0
+    unichain: 1.0
+    worldchain: 1.0
+    zora: 1.0
 
   tvl_maximum: 100000000
   tvl_minimum: 1000000
   
   # Metric weights must sum to 1.0
   metrics:
-    contract_invocations_monthly: 0.5
-    gas_fees_monthly: 0.5
+    contract_invocations: 0.35
+    layer2_gas_fees_amortized: 0.35
+    defillama_tvl: 0.0
+    farcaster_users: 0.175
+    worldchain_users_aggregation: 0.125
+    active_addresses_aggregation: 0.0
 
   # Variant weights must sum to 1.0
   metric_variants:
@@ -38,9 +55,9 @@ simulation:
     retention: 0.50   # Minimum of current and previous
 
   # Percentile cap for min-max scaling (100 = no cap)
-  percentile_cap: 98.5
+  percentile_cap: 97.5
 
 allocation:
   budget: 166666.67
-  min_amount_per_project: 50
-  max_share_per_project: 0.05
+  min_amount_per_project: 200
+  max_share_per_project: 0.03

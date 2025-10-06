@@ -3286,15 +3286,15 @@
     "downstream_gas":4.4822979463
   },
   {
-    "op_atlas_id":"0x46aff4985914b8e56b8fd62a9b8c3a03e2320315a9dfd6126e5ae272173cda87",
-    "oso_project_id":"lgnblaeDVZ6FzQs9TDTWrP1THAtg8/8hNmwD5NU1I74=",
-    "display_name":"Patterns wallet analytics & CRM",
+    "op_atlas_id":"0xc4f4309de505d2581218e6a4f9634e37d546c8f2bc51242540ca1486b965c0f2",
+    "oso_project_id":"ViJ3AIpzN392AWGURZpGQA0Y/Lbk2xlAhynmzWEbhOs=",
+    "display_name":"evm-mcp-server by mcpdotdirect",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":79,
+    "star_count":255,
     "fork_count":61,
-    "num_packages_in_deps_dev":0,
+    "num_packages_in_deps_dev":5,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -3309,15 +3309,15 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xc4f4309de505d2581218e6a4f9634e37d546c8f2bc51242540ca1486b965c0f2",
-    "oso_project_id":"ViJ3AIpzN392AWGURZpGQA0Y/Lbk2xlAhynmzWEbhOs=",
-    "display_name":"evm-mcp-server by mcpdotdirect",
+    "op_atlas_id":"0x46aff4985914b8e56b8fd62a9b8c3a03e2320315a9dfd6126e5ae272173cda87",
+    "oso_project_id":"lgnblaeDVZ6FzQs9TDTWrP1THAtg8/8hNmwD5NU1I74=",
+    "display_name":"Patterns wallet analytics & CRM",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":255,
+    "star_count":79,
     "fork_count":61,
-    "num_packages_in_deps_dev":5,
+    "num_packages_in_deps_dev":0,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -3545,29 +3545,6 @@
     "downstream_gas":52.525356964
   },
   {
-    "op_atlas_id":"0x90bbb485004d99e20be133d2c26abc1f63a2c1ec8107358e87853b001bfb6597",
-    "oso_project_id":"hQT0o0eGDigVq+MHI5d5zZYxoRHoJJaiUFMvSq/mdhk=",
-    "display_name":"Updraft",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":64,
-    "fork_count":52,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
     "op_atlas_id":"0x08df6e20a3cfabbaf8f34d4f4d048fe7da40447c24be0f3ad513db6f13c755dd",
     "oso_project_id":"5/9fRbVoDF7pHwBdiMbNUbKhidEt/12Ojt9f8cWoZnQ=",
     "display_name":"Velodrome Finance",
@@ -3597,6 +3574,29 @@
       "bout3fiddy"
     ],
     "downstream_gas":2.5150871403
+  },
+  {
+    "op_atlas_id":"0x90bbb485004d99e20be133d2c26abc1f63a2c1ec8107358e87853b001bfb6597",
+    "oso_project_id":"hQT0o0eGDigVq+MHI5d5zZYxoRHoJJaiUFMvSq/mdhk=",
+    "display_name":"Updraft",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":64,
+    "fork_count":52,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
   },
   {
     "op_atlas_id":"0x62d9a8a3b602c688610abfbe3965e04ca0d19c5c506f40e79cd185cb501d2018",
@@ -3821,6 +3821,37 @@
     "downstream_gas":204.7663848392
   },
   {
+    "op_atlas_id":"0xa88844cea135382e3484e39c3172033437121b35ca0bc8b10b9b8253984876b5",
+    "oso_project_id":"Ze2CblnBaz2Apm6a00KjwAZ7N4K5yxDUpXlK+mDkwJw=",
+    "display_name":"Ethereum Attestation Service (EAS)",
+    "is_eligible":true,
+    "op_reward":1832.7,
+    "round_id":"8",
+    "star_count":93,
+    "fork_count":49,
+    "num_packages_in_deps_dev":6,
+    "package_connection_count":4,
+    "developer_connection_count":1,
+    "onchain_builder_oso_project_ids":[
+      "5uZFQH9IOekf6/GyA0E9dfbJwIRCmUIbU7Leycl0s4Y=",
+      "fHqtzjjFUIWmBZyZ3AAjjo7JPFRrTW4B3EvYGLVV3lY=",
+      "CbRyy79gatzGD0GyjO3wI5+BCx+1bVF7fTLBhwzxUoE=",
+      "87Uygt4CNKHiBhvGlVmFtfsKiPrxJiEXWcRnubfQUpg=",
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x120cdd8e43ae1efbafdf02eda876e1952c05a52870c8d5a8f56d9ec0f79f586d",
+      "0xf87906563da69538c969ba438f127ce5f2196e76c84c9026ab6dafc4280b6be3",
+      "0x47047238c33fb3f16f4e93d5b9844c06a64525c8a483538dc72085c0df4495e8",
+      "0x331511dd6300baf10a35b2d3f3953fd7160412b970049b3a63b64564ce26c347",
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
+    ],
+    "trusted_developer_usernames":[
+      "pcaversaccio"
+    ],
+    "downstream_gas":2.0712135569
+  },
+  {
     "op_atlas_id":"0xa7d78d566bfa319479ec048c94c3d8c1f4d628a9344ba157fc4974dbf472dc3e",
     "oso_project_id":"jVWJQz4HfEygXcD32rZL/keI+MFY6gEO6kKkhes0OIY=",
     "display_name":"Aderyn",
@@ -3856,37 +3887,6 @@
       "prevostc"
     ],
     "downstream_gas":2.9621770306
-  },
-  {
-    "op_atlas_id":"0xa88844cea135382e3484e39c3172033437121b35ca0bc8b10b9b8253984876b5",
-    "oso_project_id":"Ze2CblnBaz2Apm6a00KjwAZ7N4K5yxDUpXlK+mDkwJw=",
-    "display_name":"Ethereum Attestation Service (EAS)",
-    "is_eligible":true,
-    "op_reward":1832.7,
-    "round_id":"8",
-    "star_count":93,
-    "fork_count":49,
-    "num_packages_in_deps_dev":6,
-    "package_connection_count":4,
-    "developer_connection_count":1,
-    "onchain_builder_oso_project_ids":[
-      "5uZFQH9IOekf6/GyA0E9dfbJwIRCmUIbU7Leycl0s4Y=",
-      "fHqtzjjFUIWmBZyZ3AAjjo7JPFRrTW4B3EvYGLVV3lY=",
-      "CbRyy79gatzGD0GyjO3wI5+BCx+1bVF7fTLBhwzxUoE=",
-      "87Uygt4CNKHiBhvGlVmFtfsKiPrxJiEXWcRnubfQUpg=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x120cdd8e43ae1efbafdf02eda876e1952c05a52870c8d5a8f56d9ec0f79f586d",
-      "0xf87906563da69538c969ba438f127ce5f2196e76c84c9026ab6dafc4280b6be3",
-      "0x47047238c33fb3f16f4e93d5b9844c06a64525c8a483538dc72085c0df4495e8",
-      "0x331511dd6300baf10a35b2d3f3953fd7160412b970049b3a63b64564ce26c347",
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
-    ],
-    "trusted_developer_usernames":[
-      "pcaversaccio"
-    ],
-    "downstream_gas":2.0712135569
   },
   {
     "op_atlas_id":"0x44ff313ae6fb57054de6d637adae710594180239badaf2bc51889d068f4cf02b",
@@ -4006,6 +4006,29 @@
     "downstream_gas":8.6874549607
   },
   {
+    "op_atlas_id":"0x4dd10ba330a4a21459e2ba72f15fb5da2a63f7492e2b1567e6669c3d47fe6308",
+    "oso_project_id":"PEUfmLE6ZxoyY4FGC9j0lK91ggLO4oJmrNLeIDw5uL8=",
+    "display_name":"Web3j",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":140,
+    "fork_count":44,
+    "num_packages_in_deps_dev":2,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
     "op_atlas_id":"0x2247247c751707d897f5c0eab670426d9c1c26d84e96ac226004afbf0080cba4",
     "oso_project_id":"kGqT6jpsjzIUAt0enkz3GQmbOu37rELMoRCzu/Lg0I0=",
     "display_name":"Rundler",
@@ -4049,29 +4072,6 @@
       "derekbar90"
     ],
     "downstream_gas":4.9766280821
-  },
-  {
-    "op_atlas_id":"0x4dd10ba330a4a21459e2ba72f15fb5da2a63f7492e2b1567e6669c3d47fe6308",
-    "oso_project_id":"PEUfmLE6ZxoyY4FGC9j0lK91ggLO4oJmrNLeIDw5uL8=",
-    "display_name":"Web3j",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":140,
-    "fork_count":44,
-    "num_packages_in_deps_dev":2,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
   },
   {
     "op_atlas_id":"0x9b639cc6061e41a1d12adb39619a2fddb7005074cf965a3a6f4eabc6eea31112",
@@ -4293,63 +4293,6 @@
     "downstream_gas":36.3748692858
   },
   {
-    "op_atlas_id":"0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
-    "oso_project_id":"FT3wZj26UAebMH4ywu7oQvrie1GQSmu9aogl40bsCWQ=",
-    "display_name":"CreateX",
-    "is_eligible":true,
-    "op_reward":3816.48,
-    "round_id":"8",
-    "star_count":203,
-    "fork_count":36,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":14,
-    "onchain_builder_oso_project_ids":[
-      "wAHrubVV5dj+GrIz0KtzD1XqwA2MmyGmfUw74ZWFkYU=",
-      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4=",
-      "UFXNRBcMQFR5sO8mg3+DC5YIMeVl8+vAc6Mv/BxIlsQ=",
-      "ZtwRwweUfJxkM3rtVoIfvvOaqHRc7CGlSCAKE8VgmN0=",
-      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ=",
-      "kqujZQziAKlmF1hZHKciuM4kcUp+XOn5Fo/d+VZMa2E=",
-      "bHGrs5wFQsPVTRZ9AALMgCizZwlL1BrL6iFLaIo9F2k=",
-      "1XmrMwdqgUb8jliAn9nIScPx7fAicOqIFPW42ioD1x0=",
-      "1tglFLCPO1i0woe4TW7pBm1iMqrhlWJ1cv2L/5b0VUk=",
-      "yZEfzA9tUugnZhQ0Yqx6FvvyEHiEgXVgx6A6tpglPdw=",
-      "pWEQHj4IsxU8lx2EDLJpphYaGAvw/yRps3vgTbVCXjQ=",
-      "ngBRwzug+4yZnN2uE1wfoLeIsHQy9coImbvxkwYxfmk="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1",
-      "0x82edc3ac2a03da21c5a6033159ba8e97aab2f61dc5d1d9813929fea6d6c35362",
-      "0x4288aacdda65af69c03b2c9b9d057e2b93ed1b7671e481b03c6a7b33349d2365",
-      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687",
-      "0xffffeb1d3576c1e847701c225975ee1a10259e05366b477e98fea7a47c5e5896",
-      "0x08df6e20a3cfabbaf8f34d4f4d048fe7da40447c24be0f3ad513db6f13c755dd",
-      "0xe8833ceee8beb2b3fb0f7f2dcef576f6f9cf20e35d8e53324d71b0ed47b01982",
-      "0xb98778ca9ff41446e2bc304f7b5d27f0fa7c2bcd11df19e22d1352c06698a1f6",
-      "0xd61084147c0e08c9a304348584c6bd0e9974a4073bff55f6b1728730b6ce07f7",
-      "0x9d9162fac637991d2a56da8fbe03dba24c87eb82d47c7a00b921e39e956f8a9d",
-      "0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a"
-    ],
-    "trusted_developer_usernames":[
-      "paulbalaji",
-      "derekbar90",
-      "welps",
-      "avious00",
-      "mo-hussain",
-      "apoorvlathey",
-      "miguelmtzinf",
-      "vyorkin",
-      "ianflexa",
-      "drortirosh",
-      "saucepoint",
-      "simplyoptimistic",
-      "0xtimepunk",
-      "sebastiantf"
-    ],
-    "downstream_gas":125.7097383442
-  },
-  {
     "op_atlas_id":"0xfa7d950cfda2c634b052b6c07e75daaa95dd22ac1f220b6862cfd24221d4cabc",
     "oso_project_id":"NGbZU3ScsbMUnmgUnRJvqBXFPRljZDbDYozQSJw1Vh0=",
     "display_name":"Solhint",
@@ -4555,6 +4498,63 @@
     "downstream_gas":4.5643084533
   },
   {
+    "op_atlas_id":"0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
+    "oso_project_id":"FT3wZj26UAebMH4ywu7oQvrie1GQSmu9aogl40bsCWQ=",
+    "display_name":"CreateX",
+    "is_eligible":true,
+    "op_reward":3816.48,
+    "round_id":"8",
+    "star_count":203,
+    "fork_count":36,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":14,
+    "onchain_builder_oso_project_ids":[
+      "wAHrubVV5dj+GrIz0KtzD1XqwA2MmyGmfUw74ZWFkYU=",
+      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4=",
+      "UFXNRBcMQFR5sO8mg3+DC5YIMeVl8+vAc6Mv/BxIlsQ=",
+      "ZtwRwweUfJxkM3rtVoIfvvOaqHRc7CGlSCAKE8VgmN0=",
+      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ=",
+      "kqujZQziAKlmF1hZHKciuM4kcUp+XOn5Fo/d+VZMa2E=",
+      "bHGrs5wFQsPVTRZ9AALMgCizZwlL1BrL6iFLaIo9F2k=",
+      "1XmrMwdqgUb8jliAn9nIScPx7fAicOqIFPW42ioD1x0=",
+      "1tglFLCPO1i0woe4TW7pBm1iMqrhlWJ1cv2L/5b0VUk=",
+      "yZEfzA9tUugnZhQ0Yqx6FvvyEHiEgXVgx6A6tpglPdw=",
+      "pWEQHj4IsxU8lx2EDLJpphYaGAvw/yRps3vgTbVCXjQ=",
+      "ngBRwzug+4yZnN2uE1wfoLeIsHQy9coImbvxkwYxfmk="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1",
+      "0x82edc3ac2a03da21c5a6033159ba8e97aab2f61dc5d1d9813929fea6d6c35362",
+      "0x4288aacdda65af69c03b2c9b9d057e2b93ed1b7671e481b03c6a7b33349d2365",
+      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687",
+      "0xffffeb1d3576c1e847701c225975ee1a10259e05366b477e98fea7a47c5e5896",
+      "0x08df6e20a3cfabbaf8f34d4f4d048fe7da40447c24be0f3ad513db6f13c755dd",
+      "0xe8833ceee8beb2b3fb0f7f2dcef576f6f9cf20e35d8e53324d71b0ed47b01982",
+      "0xb98778ca9ff41446e2bc304f7b5d27f0fa7c2bcd11df19e22d1352c06698a1f6",
+      "0xd61084147c0e08c9a304348584c6bd0e9974a4073bff55f6b1728730b6ce07f7",
+      "0x9d9162fac637991d2a56da8fbe03dba24c87eb82d47c7a00b921e39e956f8a9d",
+      "0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a"
+    ],
+    "trusted_developer_usernames":[
+      "paulbalaji",
+      "derekbar90",
+      "welps",
+      "avious00",
+      "mo-hussain",
+      "apoorvlathey",
+      "miguelmtzinf",
+      "vyorkin",
+      "ianflexa",
+      "drortirosh",
+      "saucepoint",
+      "simplyoptimistic",
+      "0xtimepunk",
+      "sebastiantf"
+    ],
+    "downstream_gas":125.7097383442
+  },
+  {
     "op_atlas_id":"0xaed5941b7a9f20de83f5c839bda507be43cbf41777fc623abf4bf05773298826",
     "oso_project_id":"T06WDky5wuHt7zjSM3rZWAKPFqsoL7iUmXJFuWupcPc=",
     "display_name":"Otterscan",
@@ -4591,6 +4591,29 @@
     "downstream_gas":4.8599394355
   },
   {
+    "op_atlas_id":"0xcd032b75396f45f1ef82c8a38142352afa6071fbcd840480408e10e2aab9006d",
+    "oso_project_id":"C0pKjv5EgYil0/lR6YJc3EBIlbKXKvSsmGQpbEKlma0=",
+    "display_name":"miniapp starters",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":103,
+    "fork_count":33,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
     "op_atlas_id":"0x852f6213011d0ad31206df4993d22721102dbe615bb93492d6e8be8d89676243",
     "oso_project_id":"vN8m6FeWoAE7kgaqLbCsctIher0E1VKE4ZGyGKlHmzI=",
     "display_name":"foundry-devops",
@@ -4615,29 +4638,6 @@
       "zak3939"
     ],
     "downstream_gas":0.3289440569
-  },
-  {
-    "op_atlas_id":"0xcd032b75396f45f1ef82c8a38142352afa6071fbcd840480408e10e2aab9006d",
-    "oso_project_id":"C0pKjv5EgYil0/lR6YJc3EBIlbKXKvSsmGQpbEKlma0=",
-    "display_name":"miniapp starters",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":103,
-    "fork_count":33,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
   },
   {
     "op_atlas_id":"0x6f8f610667400044907494c879b717e806a03bf519dcfd786edc7f2fa61d6db8",
@@ -4815,31 +4815,6 @@
     "downstream_gas":80.1325479902
   },
   {
-    "op_atlas_id":"0xaa1b878800206da24ee7297fb202ef98a6af0fb3ec298a65ba6b675cb4f4144b",
-    "oso_project_id":"8Cgztczct8fnsJW6D2OQcFRY6nClKNyOC7Le0soED94=",
-    "display_name":"Stepan's project",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":43,
-    "fork_count":27,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":3,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-      "koo-virtuals",
-      "saucepoint",
-      "mmackz"
-    ],
-    "downstream_gas":0.0
-  },
-  {
     "op_atlas_id":"0x8589657542ff4b7c5071dfdeff18a041642a72344ede9acea701e9b39fb46fee",
     "oso_project_id":"Gs3aazAbSMODmvjViBNNN3SIoyQtGQL9p1kipzQDPvg=",
     "display_name":"Chimera",
@@ -4923,30 +4898,29 @@
     "downstream_gas":5.7459614432
   },
   {
-    "op_atlas_id":"0x67f6d1feb3b5e99caf0f2e7e4677494c57449de3980079589156e105df485488",
-    "oso_project_id":"wuxAw2hKpE9CfgLz3KD8SjZltjPhta2uVKB6UdleGho=",
-    "display_name":"Moccasin",
+    "op_atlas_id":"0xaa1b878800206da24ee7297fb202ef98a6af0fb3ec298a65ba6b675cb4f4144b",
+    "oso_project_id":"8Cgztczct8fnsJW6D2OQcFRY6nClKNyOC7Le0soED94=",
+    "display_name":"Stepan's project",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":109,
-    "fork_count":26,
-    "num_packages_in_deps_dev":1,
+    "star_count":43,
+    "fork_count":27,
+    "num_packages_in_deps_dev":0,
     "package_connection_count":0,
     "developer_connection_count":3,
     "onchain_builder_oso_project_ids":[
-      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
-      "IC4gXIZe/sWGrV5sOyeoSlqkS7t4BZd40afZT+2Q7bA="
+
     ],
     "onchain_builder_op_atlas_ids":[
-      "0x30769523b16315b6404ce3c6dbaf610028acdf3133dca8a4d427e0d19d3628c9"
+
     ],
     "trusted_developer_usernames":[
-      "albertocentonze",
-      "danielschiavini",
-      "prevostc"
+      "koo-virtuals",
+      "saucepoint",
+      "mmackz"
     ],
-    "downstream_gas":0.1471222567
+    "downstream_gas":0.0
   },
   {
     "op_atlas_id":"0x202a80f0f57630d04a26464d6492b3399059ca1187943032c37652eb2468a76f",
@@ -5039,6 +5013,32 @@
     "downstream_gas":4.2333716269
   },
   {
+    "op_atlas_id":"0x67f6d1feb3b5e99caf0f2e7e4677494c57449de3980079589156e105df485488",
+    "oso_project_id":"wuxAw2hKpE9CfgLz3KD8SjZltjPhta2uVKB6UdleGho=",
+    "display_name":"Moccasin",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":109,
+    "fork_count":26,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":0,
+    "developer_connection_count":3,
+    "onchain_builder_oso_project_ids":[
+      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
+      "IC4gXIZe/sWGrV5sOyeoSlqkS7t4BZd40afZT+2Q7bA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x30769523b16315b6404ce3c6dbaf610028acdf3133dca8a4d427e0d19d3628c9"
+    ],
+    "trusted_developer_usernames":[
+      "albertocentonze",
+      "danielschiavini",
+      "prevostc"
+    ],
+    "downstream_gas":0.1471222567
+  },
+  {
     "op_atlas_id":"0x9b014e8a2e062401d976745d9c8aafbf36bce7931586b36ecf3b9ad708bf2970",
     "oso_project_id":"a2E+8HlMsk+eQvSc9WUXMAhJCnQSdDbrWA09Z9RsTQI=",
     "display_name":"Blobscan",
@@ -5112,41 +5112,6 @@
       "chefjackson"
     ],
     "downstream_gas":5.3123078441
-  },
-  {
-    "op_atlas_id":"0xa873dcdcc84e0022edd2f7d5cc8646667b87bf06609d506cd8e39dbd7412fa59",
-    "oso_project_id":"5AamWhqmMtR5oDQp4/5JFyOWySBwFLfsOGMBxdCD37s=",
-    "display_name":"Foundry MCP Server",
-    "is_eligible":true,
-    "op_reward":744.81,
-    "round_id":"8",
-    "star_count":163,
-    "fork_count":23,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":6,
-    "onchain_builder_oso_project_ids":[
-      "RtKY/jR/ZQZcFZ3+6BIol7NCIenNffgO59/55hceklc=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
-      "AAhkBpzlnA5y0kvoCAEDtJoqf+ItxsbGkwYOa0RRmX0=",
-      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
-      "5uZFQH9IOekf6/GyA0E9dfbJwIRCmUIbU7Leycl0s4Y=",
-      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
-      "0x120cdd8e43ae1efbafdf02eda876e1952c05a52870c8d5a8f56d9ec0f79f586d",
-      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1"
-    ],
-    "trusted_developer_usernames":[
-      "tim-schultz",
-      "albertocentonze",
-      "ryanio",
-      "yorhodes",
-      "huaweigu",
-      "pcaversaccio"
-    ],
-    "downstream_gas":10.3148013418
   },
   {
     "op_atlas_id":"0xabdfa10e699db5127100da1dd2403692afe8d86e793d57780f1c7e93437a73a0",
@@ -5248,6 +5213,41 @@
     "downstream_gas":80.1325479902
   },
   {
+    "op_atlas_id":"0xa873dcdcc84e0022edd2f7d5cc8646667b87bf06609d506cd8e39dbd7412fa59",
+    "oso_project_id":"5AamWhqmMtR5oDQp4/5JFyOWySBwFLfsOGMBxdCD37s=",
+    "display_name":"Foundry MCP Server",
+    "is_eligible":true,
+    "op_reward":744.81,
+    "round_id":"8",
+    "star_count":163,
+    "fork_count":23,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":0,
+    "developer_connection_count":6,
+    "onchain_builder_oso_project_ids":[
+      "RtKY/jR/ZQZcFZ3+6BIol7NCIenNffgO59/55hceklc=",
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
+      "AAhkBpzlnA5y0kvoCAEDtJoqf+ItxsbGkwYOa0RRmX0=",
+      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
+      "5uZFQH9IOekf6/GyA0E9dfbJwIRCmUIbU7Leycl0s4Y=",
+      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
+      "0x120cdd8e43ae1efbafdf02eda876e1952c05a52870c8d5a8f56d9ec0f79f586d",
+      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1"
+    ],
+    "trusted_developer_usernames":[
+      "tim-schultz",
+      "albertocentonze",
+      "ryanio",
+      "yorhodes",
+      "huaweigu",
+      "pcaversaccio"
+    ],
+    "downstream_gas":10.3148013418
+  },
+  {
     "op_atlas_id":"0x07222a857f4522026d91faec337e3cb8cf6ec5f7afb823e0742e1a6c398b81ff",
     "oso_project_id":"T5JyiUTt5UnCt95/6Xyjn04da6UU9epzDAizTapPUUU=",
     "display_name":"Impersonator.xyz",
@@ -5306,6 +5306,29 @@
     "downstream_gas":1.5048496465
   },
   {
+    "op_atlas_id":"0xec7002ee89bf249ae4fca1ebe718a66dea7247e33cfc9319f979a3f9fb324b24",
+    "oso_project_id":"8mPN8mgfsI80y4lQoU7pnF3hgesjTI4NuHtgqQ5snG0=",
+    "display_name":"Explorer",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":9,
+    "fork_count":21,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
     "op_atlas_id":"0xf839a585342327848d4541a6fcc315404e879537a60a1370f2cd45a94283a1ba",
     "oso_project_id":"UZSaL/0UXqdDxpqfSpbeIu3OmDIpdUn8wjgU+TWzKbw=",
     "display_name":"Dappnode",
@@ -5334,15 +5357,15 @@
     "downstream_gas":4.0505924066
   },
   {
-    "op_atlas_id":"0xec7002ee89bf249ae4fca1ebe718a66dea7247e33cfc9319f979a3f9fb324b24",
-    "oso_project_id":"8mPN8mgfsI80y4lQoU7pnF3hgesjTI4NuHtgqQ5snG0=",
-    "display_name":"Explorer",
+    "op_atlas_id":"0xbe74d6076f833da93276495074d0356db90c495d3257f8958853e75e9df8e9c8",
+    "oso_project_id":"aAchjwkoUEQQyZsGvrYCDiDuAqFxemzS61Mqtb4pcLA=",
+    "display_name":"Web3GPT",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":9,
-    "fork_count":21,
-    "num_packages_in_deps_dev":0,
+    "star_count":33,
+    "fork_count":20,
+    "num_packages_in_deps_dev":1,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -5355,88 +5378,6 @@
 
     ],
     "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x2866fcc8ea2ad6cc691b8367023c08ba84a34a14685b0154ba4601b7d4981069",
-    "oso_project_id":"cgPK0M6LzR2cu6RZvz9f60fBsxjCV+ekE7jnvRRtEu4=",
-    "display_name":"go-ethereum-hdwallet",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":54,
-    "fork_count":20,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":1,
-    "developer_connection_count":3,
-    "onchain_builder_oso_project_ids":[
-      "dOKZpVgYpZmAJZ+f0bYZWqKGpkz25Klgk4ZjY/fdyAc=",
-      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
-      "VGUIq4rEXtAwcesetQyta4todTNXTpvpfHvczoJu0EQ=",
-      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
-      "0x3e2458fd10201c3e66960a93e2a94e95861450bd29d040f6a077581fce165e29",
-      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5"
-    ],
-    "trusted_developer_usernames":[
-      "matthiasgeihs",
-      "zouguangxian",
-      "mubaris"
-    ],
-    "downstream_gas":1.7144426386
-  },
-  {
-    "op_atlas_id":"0xab6214e09c6adc3022147ba7fffe1924f9bad3ecbe69e410f428808e91fd6f06",
-    "oso_project_id":"WtN9XI9Kg+Iiz3IcUCQYqqYdRLfiPssnfGoKxob6o3I=",
-    "display_name":"Zink Language",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":60,
-    "fork_count":20,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":3,
-    "onchain_builder_oso_project_ids":[
-      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
-      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5",
-      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
-    ],
-    "trusted_developer_usernames":[
-      "mathisgd",
-      "pcaversaccio",
-      "a5-pickle"
-    ],
-    "downstream_gas":2.067999849
-  },
-  {
-    "op_atlas_id":"0xe40733f18903b26f7880bb2fd78c39f3992efe9f8b2e89994c2869eeb3ba4470",
-    "oso_project_id":"vkAGsIYeAqlNsG1s6KG5Yp7APsJBiMNYe6kFImJjwXE=",
-    "display_name":"Chain Abstraction with 4337",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":26,
-    "fork_count":20,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":1,
-    "onchain_builder_oso_project_ids":[
-      "SrAW7CxbX2q6KzPf1xXwJsc5IQZqIkDDOkAx3/nTS0M="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0xc6052138bbdae5976fa2866f46b0537182d4126c4bb97485738d1b43f2276134"
-    ],
-    "trusted_developer_usernames":[
-      "joaquim-verges"
-    ],
-    "downstream_gas":1.1359796783
   },
   {
     "op_atlas_id":"0x9d93ec97ef2d3bd4c2b8d95abac9ce0cf43e4f3eb1f05709f8282da8200e69ee",
@@ -5470,50 +5411,86 @@
     "downstream_gas":2.5400589174
   },
   {
-    "op_atlas_id":"0xbe74d6076f833da93276495074d0356db90c495d3257f8958853e75e9df8e9c8",
-    "oso_project_id":"aAchjwkoUEQQyZsGvrYCDiDuAqFxemzS61Mqtb4pcLA=",
-    "display_name":"Web3GPT",
+    "op_atlas_id":"0x2866fcc8ea2ad6cc691b8367023c08ba84a34a14685b0154ba4601b7d4981069",
+    "oso_project_id":"cgPK0M6LzR2cu6RZvz9f60fBsxjCV+ekE7jnvRRtEu4=",
+    "display_name":"go-ethereum-hdwallet",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":33,
+    "star_count":54,
+    "fork_count":20,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":1,
+    "developer_connection_count":3,
+    "onchain_builder_oso_project_ids":[
+      "dOKZpVgYpZmAJZ+f0bYZWqKGpkz25Klgk4ZjY/fdyAc=",
+      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
+      "VGUIq4rEXtAwcesetQyta4todTNXTpvpfHvczoJu0EQ=",
+      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
+      "0x3e2458fd10201c3e66960a93e2a94e95861450bd29d040f6a077581fce165e29",
+      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5"
+    ],
+    "trusted_developer_usernames":[
+      "matthiasgeihs",
+      "zouguangxian",
+      "mubaris"
+    ],
+    "downstream_gas":1.7144426386
+  },
+  {
+    "op_atlas_id":"0xe40733f18903b26f7880bb2fd78c39f3992efe9f8b2e89994c2869eeb3ba4470",
+    "oso_project_id":"vkAGsIYeAqlNsG1s6KG5Yp7APsJBiMNYe6kFImJjwXE=",
+    "display_name":"Chain Abstraction with 4337",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":26,
     "fork_count":20,
     "num_packages_in_deps_dev":1,
     "package_connection_count":0,
-    "developer_connection_count":0,
+    "developer_connection_count":1,
     "onchain_builder_oso_project_ids":[
-
+      "SrAW7CxbX2q6KzPf1xXwJsc5IQZqIkDDOkAx3/nTS0M="
     ],
     "onchain_builder_op_atlas_ids":[
-
+      "0xc6052138bbdae5976fa2866f46b0537182d4126c4bb97485738d1b43f2276134"
     ],
     "trusted_developer_usernames":[
-
+      "joaquim-verges"
     ],
-    "downstream_gas":0.0
+    "downstream_gas":1.1359796783
   },
   {
-    "op_atlas_id":"0x2ccf4b9bd6ed894c10befd9fe00c467c4bfd84ff057ee956ab708259cfa845a9",
-    "oso_project_id":"NTbiwULtHzjj7Tn+vUs7rXkDdyrSbqHsoJ2Cxe71zp4=",
-    "display_name":"CodeTracer",
+    "op_atlas_id":"0xab6214e09c6adc3022147ba7fffe1924f9bad3ecbe69e410f428808e91fd6f06",
+    "oso_project_id":"WtN9XI9Kg+Iiz3IcUCQYqqYdRLfiPssnfGoKxob6o3I=",
+    "display_name":"Zink Language",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":1055,
-    "fork_count":19,
+    "star_count":60,
+    "fork_count":20,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
-    "developer_connection_count":1,
+    "developer_connection_count":3,
     "onchain_builder_oso_project_ids":[
-      "AAhkBpzlnA5y0kvoCAEDtJoqf+ItxsbGkwYOa0RRmX0="
+      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
+      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
     ],
     "onchain_builder_op_atlas_ids":[
-
+      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5",
+      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
     ],
     "trusted_developer_usernames":[
-      "romac"
+      "mathisgd",
+      "pcaversaccio",
+      "a5-pickle"
     ],
-    "downstream_gas":7.7054355469
+    "downstream_gas":2.067999849
   },
   {
     "op_atlas_id":"0xc0809225b6287417d08ec0fde8d632ecc935296e61e239e7e44559c7dd7f2495",
@@ -5590,6 +5567,29 @@
       "joshstevens19"
     ],
     "downstream_gas":4.974834883
+  },
+  {
+    "op_atlas_id":"0x2ccf4b9bd6ed894c10befd9fe00c467c4bfd84ff057ee956ab708259cfa845a9",
+    "oso_project_id":"NTbiwULtHzjj7Tn+vUs7rXkDdyrSbqHsoJ2Cxe71zp4=",
+    "display_name":"CodeTracer",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":1055,
+    "fork_count":19,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":1,
+    "onchain_builder_oso_project_ids":[
+      "AAhkBpzlnA5y0kvoCAEDtJoqf+ItxsbGkwYOa0RRmX0="
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+      "romac"
+    ],
+    "downstream_gas":7.7054355469
   },
   {
     "op_atlas_id":"0xc377ed1b705bcc856a628f961f1e7c8ca943e6f3727b7c179c657e227e8e852c",
@@ -5709,35 +5709,6 @@
     "downstream_gas":0.1099621066
   },
   {
-    "op_atlas_id":"0xb6266f3d955040aa7583f2f346db87abe0649f545389af3cc8fe302aacfc850b",
-    "oso_project_id":"sZQ3Kp1sgCPf39oJ1DWrfCgdlSzbnWJ7rflGyJ7sECQ=",
-    "display_name":"Splits",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":30,
-    "fork_count":17,
-    "num_packages_in_deps_dev":9,
-    "package_connection_count":2,
-    "developer_connection_count":3,
-    "onchain_builder_oso_project_ids":[
-      "iaCxomKbziHx/iiLlm9VAiA7rBKvS2KVUXZm9hL2hh8=",
-      "sPO1pl4Y+FnbbMxaMnMwDEGVxZFJzf6bGUNniLdJcaU=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x0b06e685eab9c4fee7d93ca54e1c02281e2be560bfc54f43fa738961fa2ce4c1",
-      "0x9102357674825ed224734387fbefbf41c16fe5d9764c2f7f3e897ad3325d3990",
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
-    ],
-    "trusted_developer_usernames":[
-      "pcaversaccio",
-      "oveddan",
-      "sweetmantech"
-    ],
-    "downstream_gas":2.3790689876
-  },
-  {
     "op_atlas_id":"0x2c97e213fef2bd3f30a71edf6ed48232640368d0083dc0a134a1b59391639bde",
     "oso_project_id":"TzX0BMlslDkdd45L1PJQePW0M+Tc0kQ0SqLdKkBGIwo=",
     "display_name":"hevm",
@@ -5772,6 +5743,87 @@
       "rubilmax"
     ],
     "downstream_gas":2.8475074823
+  },
+  {
+    "op_atlas_id":"0x50159544ec22884b777a997a625c75bb02e55b1dc8934aad3b78678e7c11d039",
+    "oso_project_id":"CO4y3z3N8dYNgMFAplseDCMMZ2OVKhfJ6Ibj4FkCfpI=",
+    "display_name":"\ud83d\udc0d snekmate",
+    "is_eligible":true,
+    "op_reward":4133.46,
+    "round_id":"8",
+    "star_count":73,
+    "fork_count":17,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":1,
+    "developer_connection_count":13,
+    "onchain_builder_oso_project_ids":[
+      "SrAW7CxbX2q6KzPf1xXwJsc5IQZqIkDDOkAx3/nTS0M=",
+      "1XmrMwdqgUb8jliAn9nIScPx7fAicOqIFPW42ioD1x0=",
+      "om+w927v3zYcmk77AShf/wH4sac6MkhpIWBW0H/wYkE=",
+      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
+      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4=",
+      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
+      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
+      "yZEfzA9tUugnZhQ0Yqx6FvvyEHiEgXVgx6A6tpglPdw=",
+      "kqujZQziAKlmF1hZHKciuM4kcUp+XOn5Fo/d+VZMa2E=",
+      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0xc6052138bbdae5976fa2866f46b0537182d4126c4bb97485738d1b43f2276134",
+      "0xe8833ceee8beb2b3fb0f7f2dcef576f6f9cf20e35d8e53324d71b0ed47b01982",
+      "0x447b6819a0fa334f2429f86c022cf75ef3cad7e6e96078cb361ab961514b5125",
+      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
+      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1",
+      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5",
+      "0xd61084147c0e08c9a304348584c6bd0e9974a4073bff55f6b1728730b6ce07f7",
+      "0xffffeb1d3576c1e847701c225975ee1a10259e05366b477e98fea7a47c5e5896",
+      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687"
+    ],
+    "trusted_developer_usernames":[
+      "piesrtasty",
+      "yorhodes",
+      "joaquim-verges",
+      "sebastiantf",
+      "macket",
+      "greg-schrammel",
+      "ianflexa",
+      "mathisgd",
+      "bout3fiddy",
+      "vyorkin",
+      "martinkrung",
+      "sejeff",
+      "danielschiavini"
+    ],
+    "downstream_gas":3.6560550921
+  },
+  {
+    "op_atlas_id":"0xb6266f3d955040aa7583f2f346db87abe0649f545389af3cc8fe302aacfc850b",
+    "oso_project_id":"sZQ3Kp1sgCPf39oJ1DWrfCgdlSzbnWJ7rflGyJ7sECQ=",
+    "display_name":"Splits",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":30,
+    "fork_count":17,
+    "num_packages_in_deps_dev":9,
+    "package_connection_count":2,
+    "developer_connection_count":3,
+    "onchain_builder_oso_project_ids":[
+      "iaCxomKbziHx/iiLlm9VAiA7rBKvS2KVUXZm9hL2hh8=",
+      "sPO1pl4Y+FnbbMxaMnMwDEGVxZFJzf6bGUNniLdJcaU=",
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x0b06e685eab9c4fee7d93ca54e1c02281e2be560bfc54f43fa738961fa2ce4c1",
+      "0x9102357674825ed224734387fbefbf41c16fe5d9764c2f7f3e897ad3325d3990",
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
+    ],
+    "trusted_developer_usernames":[
+      "pcaversaccio",
+      "oveddan",
+      "sweetmantech"
+    ],
+    "downstream_gas":2.3790689876
   },
   {
     "op_atlas_id":"0x2bb095e1f297c71da8bd4ee15097abad3b99e299fe14cd6aa704df3f36d0ae22",
@@ -5960,79 +6012,55 @@
     "downstream_gas":188.8082457306
   },
   {
-    "op_atlas_id":"0x50159544ec22884b777a997a625c75bb02e55b1dc8934aad3b78678e7c11d039",
-    "oso_project_id":"CO4y3z3N8dYNgMFAplseDCMMZ2OVKhfJ6Ibj4FkCfpI=",
-    "display_name":"\ud83d\udc0d snekmate",
+    "op_atlas_id":"0x2a04bac7482169a929fd70444bbfac10654d0588e022db7527566dbfc307d2e9",
+    "oso_project_id":"y7poby3XN/G2jUZCQF/NyXvyI/WbhpxmkmO+53p3FtA=",
+    "display_name":"Solc-select",
     "is_eligible":true,
-    "op_reward":4133.46,
+    "op_reward":3366.62,
     "round_id":"8",
-    "star_count":73,
-    "fork_count":17,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":1,
-    "developer_connection_count":13,
-    "onchain_builder_oso_project_ids":[
-      "SrAW7CxbX2q6KzPf1xXwJsc5IQZqIkDDOkAx3/nTS0M=",
-      "1XmrMwdqgUb8jliAn9nIScPx7fAicOqIFPW42ioD1x0=",
-      "om+w927v3zYcmk77AShf/wH4sac6MkhpIWBW0H/wYkE=",
-      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
-      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4=",
-      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
-      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
-      "yZEfzA9tUugnZhQ0Yqx6FvvyEHiEgXVgx6A6tpglPdw=",
-      "kqujZQziAKlmF1hZHKciuM4kcUp+XOn5Fo/d+VZMa2E=",
-      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0xc6052138bbdae5976fa2866f46b0537182d4126c4bb97485738d1b43f2276134",
-      "0xe8833ceee8beb2b3fb0f7f2dcef576f6f9cf20e35d8e53324d71b0ed47b01982",
-      "0x447b6819a0fa334f2429f86c022cf75ef3cad7e6e96078cb361ab961514b5125",
-      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
-      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1",
-      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5",
-      "0xd61084147c0e08c9a304348584c6bd0e9974a4073bff55f6b1728730b6ce07f7",
-      "0xffffeb1d3576c1e847701c225975ee1a10259e05366b477e98fea7a47c5e5896",
-      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687"
-    ],
-    "trusted_developer_usernames":[
-      "piesrtasty",
-      "yorhodes",
-      "joaquim-verges",
-      "sebastiantf",
-      "macket",
-      "greg-schrammel",
-      "ianflexa",
-      "mathisgd",
-      "bout3fiddy",
-      "vyorkin",
-      "martinkrung",
-      "sejeff",
-      "danielschiavini"
-    ],
-    "downstream_gas":3.6560550921
-  },
-  {
-    "op_atlas_id":"0x0ee3defac0e2a31b995bc073ac02a2140aaf01679e141eb8d1d80409f75f90ea",
-    "oso_project_id":"vCa+wBp0799NJ8j9L6UgKxKmqiLT95Zk/aQX/hXty7c=",
-    "display_name":"Mint Club",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":54,
+    "star_count":58,
     "fork_count":16,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
+    "num_packages_in_deps_dev":2,
+    "package_connection_count":1,
+    "developer_connection_count":11,
     "onchain_builder_oso_project_ids":[
-
+      "k51QTl16C/ZunIrGFIMHwuqxXmJO0qugcFKfmR0AGh0=",
+      "VGUIq4rEXtAwcesetQyta4todTNXTpvpfHvczoJu0EQ=",
+      "yZEfzA9tUugnZhQ0Yqx6FvvyEHiEgXVgx6A6tpglPdw=",
+      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
+      "jeSuNaJdsXDqq5y/C9zSGO3U6s9P4EJ/XV5bTejQ/kA=",
+      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ=",
+      "dOKZpVgYpZmAJZ+f0bYZWqKGpkz25Klgk4ZjY/fdyAc=",
+      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8=",
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
+      "PjPqPTput/vvThUxx6bMhInMKHuCV3t1s+K4YiHjIRg=",
+      "PCuBi0AunZbM9RokjCH3on5O9Gz+ixkNQFpaxZA9zrY="
     ],
     "onchain_builder_op_atlas_ids":[
-
+      "0xd4f0252e6ac2408099cd40d213fb6f42e8fa129b446d6e8da55e673598ef14c0",
+      "0x3e2458fd10201c3e66960a93e2a94e95861450bd29d040f6a077581fce165e29",
+      "0xd61084147c0e08c9a304348584c6bd0e9974a4073bff55f6b1728730b6ce07f7",
+      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
+      "0x6bd6aba90e1e5cb41236bc52a96f5ce65686568ff95fe535c865658c73947198",
+      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687",
+      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5",
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
+      "0x72723e07fe409557489a6643b43d9493a94c10ba68230b0527f01834cb6a550f"
     ],
     "trusted_developer_usernames":[
-
+      "pcaversaccio",
+      "chase-manning",
+      "anajuliabit",
+      "johnsaigle",
+      "k-g-j",
+      "yan-man",
+      "krzkaczor",
+      "nicholaspai",
+      "samczsun",
+      "sobolev-igor",
+      "mubaris"
     ],
-    "downstream_gas":0.0
+    "downstream_gas":5.445125461
   },
   {
     "op_atlas_id":"0x7e917a2d0718401c9fe2a82f43ea558f5128f251b1e658c76dc7ff9a5e9fd993",
@@ -6086,81 +6114,50 @@
     "downstream_gas":37.8041577798
   },
   {
-    "op_atlas_id":"0x2a04bac7482169a929fd70444bbfac10654d0588e022db7527566dbfc307d2e9",
-    "oso_project_id":"y7poby3XN/G2jUZCQF/NyXvyI/WbhpxmkmO+53p3FtA=",
-    "display_name":"Solc-select",
-    "is_eligible":true,
-    "op_reward":3366.62,
-    "round_id":"8",
-    "star_count":58,
-    "fork_count":16,
-    "num_packages_in_deps_dev":2,
-    "package_connection_count":1,
-    "developer_connection_count":11,
-    "onchain_builder_oso_project_ids":[
-      "k51QTl16C/ZunIrGFIMHwuqxXmJO0qugcFKfmR0AGh0=",
-      "VGUIq4rEXtAwcesetQyta4todTNXTpvpfHvczoJu0EQ=",
-      "yZEfzA9tUugnZhQ0Yqx6FvvyEHiEgXVgx6A6tpglPdw=",
-      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
-      "jeSuNaJdsXDqq5y/C9zSGO3U6s9P4EJ/XV5bTejQ/kA=",
-      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ=",
-      "dOKZpVgYpZmAJZ+f0bYZWqKGpkz25Klgk4ZjY/fdyAc=",
-      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
-      "PjPqPTput/vvThUxx6bMhInMKHuCV3t1s+K4YiHjIRg=",
-      "PCuBi0AunZbM9RokjCH3on5O9Gz+ixkNQFpaxZA9zrY="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0xd4f0252e6ac2408099cd40d213fb6f42e8fa129b446d6e8da55e673598ef14c0",
-      "0x3e2458fd10201c3e66960a93e2a94e95861450bd29d040f6a077581fce165e29",
-      "0xd61084147c0e08c9a304348584c6bd0e9974a4073bff55f6b1728730b6ce07f7",
-      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
-      "0x6bd6aba90e1e5cb41236bc52a96f5ce65686568ff95fe535c865658c73947198",
-      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687",
-      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5",
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
-      "0x72723e07fe409557489a6643b43d9493a94c10ba68230b0527f01834cb6a550f"
-    ],
-    "trusted_developer_usernames":[
-      "pcaversaccio",
-      "chase-manning",
-      "anajuliabit",
-      "johnsaigle",
-      "k-g-j",
-      "yan-man",
-      "krzkaczor",
-      "nicholaspai",
-      "samczsun",
-      "sobolev-igor",
-      "mubaris"
-    ],
-    "downstream_gas":5.445125461
-  },
-  {
-    "op_atlas_id":"0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745",
-    "oso_project_id":"D/phNjIkMkuESYi0XbICo299wHOagQbo2WSAyODxDp0=",
-    "display_name":"Stargate Finance",
+    "op_atlas_id":"0x0ee3defac0e2a31b995bc073ac02a2140aaf01679e141eb8d1d80409f75f90ea",
+    "oso_project_id":"vCa+wBp0799NJ8j9L6UgKxKmqiLT95Zk/aQX/hXty7c=",
+    "display_name":"Mint Club",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":29,
+    "star_count":54,
+    "fork_count":16,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xcc9301a401320c626839db9c4415f28a6e1f2fb3abdf38ada785b57409bdedb6",
+    "oso_project_id":"rrPYFAev9Bf/usv3MFfmNWtrEbfN66lmhxrqSBD6eJc=",
+    "display_name":"DexKit",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":22,
     "fork_count":15,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
-    "developer_connection_count":2,
+    "developer_connection_count":1,
     "onchain_builder_oso_project_ids":[
-      "Zy6ZHnI5FaGA6G9Pm0+DxqvFg3pcni2pcNqd6VPbsG8=",
-      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8="
+      "UC5tcNndmH8tCdnc342+GHveHm2UcUu0bRRWa1afnXw="
     ],
     "onchain_builder_op_atlas_ids":[
-      "0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745",
-      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5"
+      "0x0fad18f37ecec4f4f4ca18e60c353eb11462363e8aa14562b5d96af54108d106"
     ],
     "trusted_developer_usernames":[
-      "stglamps",
-      "calebbanister"
+      "jlin27"
     ],
-    "downstream_gas":0.4829101264
+    "downstream_gas":0.0045991043
   },
   {
     "op_atlas_id":"0x77a0eb2debb3ddd73bb629ae482d24771ef1b59029d28a04e13570c9e9644c44",
@@ -6212,76 +6209,61 @@
     "downstream_gas":0.2267226628
   },
   {
-    "op_atlas_id":"0xcc9301a401320c626839db9c4415f28a6e1f2fb3abdf38ada785b57409bdedb6",
-    "oso_project_id":"rrPYFAev9Bf/usv3MFfmNWtrEbfN66lmhxrqSBD6eJc=",
-    "display_name":"DexKit",
+    "op_atlas_id":"0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745",
+    "oso_project_id":"D/phNjIkMkuESYi0XbICo299wHOagQbo2WSAyODxDp0=",
+    "display_name":"Stargate Finance",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":22,
+    "star_count":29,
     "fork_count":15,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
-    "developer_connection_count":1,
-    "onchain_builder_oso_project_ids":[
-      "UC5tcNndmH8tCdnc342+GHveHm2UcUu0bRRWa1afnXw="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x0fad18f37ecec4f4f4ca18e60c353eb11462363e8aa14562b5d96af54108d106"
-    ],
-    "trusted_developer_usernames":[
-      "jlin27"
-    ],
-    "downstream_gas":0.0045991043
-  },
-  {
-    "op_atlas_id":"0xfbecd6308658b3d40a5249d4b249d10537165f57ea528cc796aef5ce1eb1f0d8",
-    "oso_project_id":"h3jEJdRcVAt02ak01S/7Bm7/lbtICszT1cgKKJziCro=",
-    "display_name":"executooor",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":72,
-    "fork_count":14,
-    "num_packages_in_deps_dev":3,
-    "package_connection_count":1,
     "developer_connection_count":2,
     "onchain_builder_oso_project_ids":[
-      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
-      "pWEQHj4IsxU8lx2EDLJpphYaGAvw/yRps3vgTbVCXjQ="
+      "Zy6ZHnI5FaGA6G9Pm0+DxqvFg3pcni2pcNqd6VPbsG8=",
+      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8="
     ],
     "onchain_builder_op_atlas_ids":[
-      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5",
-      "0x9d9162fac637991d2a56da8fbe03dba24c87eb82d47c7a00b921e39e956f8a9d"
+      "0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745",
+      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5"
     ],
     "trusted_developer_usernames":[
-      "haydenshively",
-      "zhongeric"
+      "stglamps",
+      "calebbanister"
     ],
-    "downstream_gas":44.5256899757
+    "downstream_gas":0.4829101264
   },
   {
-    "op_atlas_id":"0xc66e357ad67e63954cd1eb79da4d507d8800518f06c82e423e93e8771e7b8d13",
-    "oso_project_id":"mEvrDRjUXToNsXd9iYHuzB+iQr1YbbvKBy2OBObD31E=",
-    "display_name":"Brahma",
-    "is_eligible":false,
-    "op_reward":0.0,
+    "op_atlas_id":"0x7348ae42266ff626319e8ea5398343b847603b3cc7101b03d8e4fb2b75ea8db3",
+    "oso_project_id":"DRlRg7E3PMnS28ZcGS/ymLCgrnVrLYPprOlUDFHmTAA=",
+    "display_name":"Kontrol - formal verification tool based on Foundry and KEVM",
+    "is_eligible":true,
+    "op_reward":458.12,
     "round_id":"8",
-    "star_count":25,
+    "star_count":47,
     "fork_count":14,
-    "num_packages_in_deps_dev":1,
+    "num_packages_in_deps_dev":0,
     "package_connection_count":0,
-    "developer_connection_count":0,
+    "developer_connection_count":5,
     "onchain_builder_oso_project_ids":[
-
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
+      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
+      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
+      "gBq7Wl0q0X+/hAl3qY/vtLirLXpwMoCndZ8i/B/6wd0="
     ],
     "onchain_builder_op_atlas_ids":[
-
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
+      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
     ],
     "trusted_developer_usernames":[
-
+      "qgarchery",
+      "albertocentonze",
+      "remedcu",
+      "pcaversaccio",
+      "mathisgd"
     ],
-    "downstream_gas":0.0
+    "downstream_gas":2.2795737274
   },
   {
     "op_atlas_id":"0xc7798704a6d730cea776c4866a9636bfa04c1201e29b6b0c99cc3603bc1bca25",
@@ -6329,46 +6311,15 @@
     "downstream_gas":47.6271216023
   },
   {
-    "op_atlas_id":"0x7348ae42266ff626319e8ea5398343b847603b3cc7101b03d8e4fb2b75ea8db3",
-    "oso_project_id":"DRlRg7E3PMnS28ZcGS/ymLCgrnVrLYPprOlUDFHmTAA=",
-    "display_name":"Kontrol - formal verification tool based on Foundry and KEVM",
-    "is_eligible":true,
-    "op_reward":458.12,
-    "round_id":"8",
-    "star_count":47,
-    "fork_count":14,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":5,
-    "onchain_builder_oso_project_ids":[
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
-      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
-      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
-      "gBq7Wl0q0X+/hAl3qY/vtLirLXpwMoCndZ8i/B/6wd0="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
-      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
-    ],
-    "trusted_developer_usernames":[
-      "qgarchery",
-      "albertocentonze",
-      "remedcu",
-      "pcaversaccio",
-      "mathisgd"
-    ],
-    "downstream_gas":2.2795737274
-  },
-  {
-    "op_atlas_id":"0x4e13be6b98dd868cd13e9f4101431ab03d211f429b63f078fa7da260b54d256a",
-    "oso_project_id":"IqEX7DRaYV0Pl6ewCpPUvpvle/3Y3joI8ezX2StZb+8=",
-    "display_name":"Light Account",
+    "op_atlas_id":"0xc66e357ad67e63954cd1eb79da4d507d8800518f06c82e423e93e8771e7b8d13",
+    "oso_project_id":"mEvrDRjUXToNsXd9iYHuzB+iQr1YbbvKBy2OBObD31E=",
+    "display_name":"Brahma",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":29,
-    "fork_count":13,
-    "num_packages_in_deps_dev":0,
+    "star_count":25,
+    "fork_count":14,
+    "num_packages_in_deps_dev":1,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -6383,27 +6334,30 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xf24315614063278ba3543e1717791132a9afa79b0e65baa01a85bcccbdfa215f",
-    "oso_project_id":"tEUQBjhYBdWaLRVt375K9avn6ysFWbvqZz85jmaPR2w=",
-    "display_name":"deBridge",
+    "op_atlas_id":"0xfbecd6308658b3d40a5249d4b249d10537165f57ea528cc796aef5ce1eb1f0d8",
+    "oso_project_id":"h3jEJdRcVAt02ak01S/7Bm7/lbtICszT1cgKKJziCro=",
+    "display_name":"executooor",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":29,
-    "fork_count":13,
-    "num_packages_in_deps_dev":2,
-    "package_connection_count":0,
-    "developer_connection_count":1,
+    "star_count":72,
+    "fork_count":14,
+    "num_packages_in_deps_dev":3,
+    "package_connection_count":1,
+    "developer_connection_count":2,
     "onchain_builder_oso_project_ids":[
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
+      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
+      "pWEQHj4IsxU8lx2EDLJpphYaGAvw/yRps3vgTbVCXjQ="
     ],
     "onchain_builder_op_atlas_ids":[
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
+      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5",
+      "0x9d9162fac637991d2a56da8fbe03dba24c87eb82d47c7a00b921e39e956f8a9d"
     ],
     "trusted_developer_usernames":[
-      "pcaversaccio"
+      "haydenshively",
+      "zhongeric"
     ],
-    "downstream_gas":1.75190609
+    "downstream_gas":44.5256899757
   },
   {
     "op_atlas_id":"0xa790f0641e8d72abc88efd13ca215e2dc7e736a4a59ca5a9e0020af29d6297f2",
@@ -6432,6 +6386,52 @@
     "downstream_gas":1.9871040207
   },
   {
+    "op_atlas_id":"0xf24315614063278ba3543e1717791132a9afa79b0e65baa01a85bcccbdfa215f",
+    "oso_project_id":"tEUQBjhYBdWaLRVt375K9avn6ysFWbvqZz85jmaPR2w=",
+    "display_name":"deBridge",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":29,
+    "fork_count":13,
+    "num_packages_in_deps_dev":2,
+    "package_connection_count":0,
+    "developer_connection_count":1,
+    "onchain_builder_oso_project_ids":[
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
+    ],
+    "trusted_developer_usernames":[
+      "pcaversaccio"
+    ],
+    "downstream_gas":1.75190609
+  },
+  {
+    "op_atlas_id":"0x4e13be6b98dd868cd13e9f4101431ab03d211f429b63f078fa7da260b54d256a",
+    "oso_project_id":"IqEX7DRaYV0Pl6ewCpPUvpvle/3Y3joI8ezX2StZb+8=",
+    "display_name":"Light Account",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":29,
+    "fork_count":13,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
     "op_atlas_id":"0x8967594d2978692a35fea137ba640bb42f11cad907ca6b0bd01f3718fc4c7f5b",
     "oso_project_id":"KllBFOMJ9ASpCaQIN/D+I9LNDrMZTbEq9CKLA1VTbFo=",
     "display_name":"Hats Protocol",
@@ -6455,13 +6455,13 @@
     "downstream_gas":0.0291759216
   },
   {
-    "op_atlas_id":"0xa38f3efb4fb8f6fcefb80f0262645ac05d5548cad0308ee49520c48c4e8cbd1f",
-    "oso_project_id":"g/21ekEEllLNr5JyYQRcPl9TMgdIHm0KV/zZfX9TN6g=",
-    "display_name":"growthepie \ud83e\udd67\ud83d\udccf Ethereum and Superchain Analytics",
+    "op_atlas_id":"0x6d30328dd0e058bdd4c55c51d5f785268770040a66edbd2830902c4d87efee9c",
+    "oso_project_id":"9O4W5ETurOKiF0RvQJCaUtpXg7LWSAitGExf0ReNE0g=",
+    "display_name":"Clear Wallet",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":19,
+    "star_count":12,
     "fork_count":11,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -6478,13 +6478,13 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x6d30328dd0e058bdd4c55c51d5f785268770040a66edbd2830902c4d87efee9c",
-    "oso_project_id":"9O4W5ETurOKiF0RvQJCaUtpXg7LWSAitGExf0ReNE0g=",
-    "display_name":"Clear Wallet",
+    "op_atlas_id":"0xa38f3efb4fb8f6fcefb80f0262645ac05d5548cad0308ee49520c48c4e8cbd1f",
+    "oso_project_id":"g/21ekEEllLNr5JyYQRcPl9TMgdIHm0KV/zZfX9TN6g=",
+    "display_name":"growthepie \ud83e\udd67\ud83d\udccf Ethereum and Superchain Analytics",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":12,
+    "star_count":19,
     "fork_count":11,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -6563,35 +6563,6 @@
     "downstream_gas":16.7855228345
   },
   {
-    "op_atlas_id":"0x2704cd27b8c60b098d4fe8c5c0fbae2f8f5fe9067c687c501a4c6dc6e9887876",
-    "oso_project_id":"hZzfke/NjszziMEDX794UiUnSUmhtA67arwyY7kV9GY=",
-    "display_name":"Act",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":33,
-    "fork_count":10,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":3,
-    "onchain_builder_oso_project_ids":[
-      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
-      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5",
-      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5",
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
-    ],
-    "trusted_developer_usernames":[
-      "zouguangxian",
-      "mathisgd",
-      "pcaversaccio"
-    ],
-    "downstream_gas":2.4344698407
-  },
-  {
     "op_atlas_id":"0x8af71ece7f50d6962b589b19854ceac72b81e5f5b3014637b262c33809d5a395",
     "oso_project_id":"0QDHCcYryW4ErxzFqgrNhwrSP5sITsMcPXLS2kVE2zM=",
     "display_name":"K Semantics of the Ethereum Virtual Machine (EVM)",
@@ -6624,6 +6595,35 @@
       "sebastiantf"
     ],
     "downstream_gas":0.7610624396
+  },
+  {
+    "op_atlas_id":"0x2704cd27b8c60b098d4fe8c5c0fbae2f8f5fe9067c687c501a4c6dc6e9887876",
+    "oso_project_id":"hZzfke/NjszziMEDX794UiUnSUmhtA67arwyY7kV9GY=",
+    "display_name":"Act",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":33,
+    "fork_count":10,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":0,
+    "developer_connection_count":3,
+    "onchain_builder_oso_project_ids":[
+      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA=",
+      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8=",
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5",
+      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5",
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
+    ],
+    "trusted_developer_usernames":[
+      "zouguangxian",
+      "mathisgd",
+      "pcaversaccio"
+    ],
+    "downstream_gas":2.4344698407
   },
   {
     "op_atlas_id":"0xe6eb4d61eff4e2dc2d8dba01ac1b84c1683bdb1e8d677a66fa44a72e3f8b1faf",
@@ -6836,29 +6836,6 @@
     "downstream_gas":116.0309948878
   },
   {
-    "op_atlas_id":"0xbaccff0188ef78c1bab0c9798b0faceee552de1dee4f763d1801a9c1d5e3bca5",
-    "oso_project_id":"B7Gzx+ZyWdQ5tfzIxWc6A9uWVJ0ZPNOb0YnbtcjXS0w=",
-    "display_name":"Verifereum",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":18,
-    "fork_count":8,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":1,
-    "onchain_builder_oso_project_ids":[
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
-    ],
-    "trusted_developer_usernames":[
-      "pcaversaccio"
-    ],
-    "downstream_gas":1.75190609
-  },
-  {
     "op_atlas_id":"0xada9c2eabe94a7af5d96b3cb1765c8e3d6fb8a7f8e33f12ebd6d66feb1a807a3",
     "oso_project_id":"EoEQvd8AiTE29DCrO9dgB/AdJoYzO95+HsX/F+qCFhY=",
     "display_name":"Curvegrid MultiBaas",
@@ -6880,6 +6857,97 @@
 
     ],
     "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xd63cb23c26cc3bda03b1cc2971589fd26c9d22f3bbc8f1ff2bb74613e6d1c36d",
+    "oso_project_id":"jD1XHm/vOqe4VURVumfnsrgIOnwlL4eTm/2Lox+UqCI=",
+    "display_name":"Solidity Bytes Arrays Utils Library",
+    "is_eligible":true,
+    "op_reward":5451.59,
+    "round_id":"8",
+    "star_count":53,
+    "fork_count":8,
+    "num_packages_in_deps_dev":2,
+    "package_connection_count":12,
+    "developer_connection_count":12,
+    "onchain_builder_oso_project_ids":[
+      "IC4gXIZe/sWGrV5sOyeoSlqkS7t4BZd40afZT+2Q7bA=",
+      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8=",
+      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ=",
+      "cYKtZm5LcO+lBzh/EHUjfUxeT0RV+1rhpsH/ZXkfwms=",
+      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4=",
+      "7CbZT+Alw8Biv6iCgptzNOvAwOUFg3FBfHQ/Msuw4no=",
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
+      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
+      "1tglFLCPO1i0woe4TW7pBm1iMqrhlWJ1cv2L/5b0VUk=",
+      "ziS9zVwL0wejwpRl3exXS/sPkVTxes5OeRkH1buQ4Y4=",
+      "Zy6ZHnI5FaGA6G9Pm0+DxqvFg3pcni2pcNqd6VPbsG8=",
+      "k51QTl16C/ZunIrGFIMHwuqxXmJO0qugcFKfmR0AGh0=",
+      "SknvJ1fKqsEjRQTERy44BdTmY67lcFa3Yg9AHT5MwxQ=",
+      "LwtDC39OJgJjYwFAbn/kDkKJgaxSy6Rezg+lQhBAbMQ=",
+      "kCF+D9wyJM2PvCFVlX9aKksPQmQEIKOsEnQUW3Bipog=",
+      "wAHrubVV5dj+GrIz0KtzD1XqwA2MmyGmfUw74ZWFkYU=",
+      "Q3otD2dVMuz3OUvC1yAKkIrl9KIt8ksR1rOXG/vLvfI=",
+      "ZzH9XQNZ7nWOlugpkz8GaQQEmQzx1rKxaPrvhJ+l87Y=",
+      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x30769523b16315b6404ce3c6dbaf610028acdf3133dca8a4d427e0d19d3628c9",
+      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5",
+      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687",
+      "0x1ac8413aaf8110410b9447af27251ba89311f5ec4e2d289006e834b122a44dbf",
+      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1",
+      "0x892cf9449b4046f9b68efe6ffccfcd8df1322b1a9ffc65a2bbfe1207c4ceba8d",
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
+      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
+      "0xb98778ca9ff41446e2bc304f7b5d27f0fa7c2bcd11df19e22d1352c06698a1f6",
+      "0x4cf98b5dec7f0f51eb6b88ecb15639bafc7320bdc6e21ac443f4c58ebeb1245b",
+      "0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745",
+      "0xd4f0252e6ac2408099cd40d213fb6f42e8fa129b446d6e8da55e673598ef14c0",
+      "0x000c2ce4773defb3010a58d3800d0ec9d432189c574ba26d3103f1db44a5af6d",
+      "0xb9a5497fd056944f24bfa81e14367b54fa66c0a328f589c498b073f2b6c1abc8",
+      "0x9d4b7018b3a7c6010c5035ef99c485f960e6705ac0e99b4d832b2e748490f089",
+      "0xbcb5c437d5347be21add3972512679054416805274f80e85ab8053ae79340a69",
+      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
+    ],
+    "trusted_developer_usernames":[
+      "derekbar90",
+      "miguelmtzinf",
+      "zouguangxian",
+      "anajuliabit",
+      "adhusson",
+      "merlinegalite",
+      "aditya520",
+      "djb15",
+      "janjakubnanista",
+      "yorhodes",
+      "drortirosh",
+      "pcaversaccio"
+    ],
+    "downstream_gas":43.9028385392
+  },
+  {
+    "op_atlas_id":"0xbaccff0188ef78c1bab0c9798b0faceee552de1dee4f763d1801a9c1d5e3bca5",
+    "oso_project_id":"B7Gzx+ZyWdQ5tfzIxWc6A9uWVJ0ZPNOb0YnbtcjXS0w=",
+    "display_name":"Verifereum",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":18,
+    "fork_count":8,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":1,
+    "onchain_builder_oso_project_ids":[
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
+    ],
+    "trusted_developer_usernames":[
+      "pcaversaccio"
+    ],
+    "downstream_gas":1.75190609
   },
   {
     "op_atlas_id":"0xf2a60464d2a56fb47d2f8c13001edea71eda11ffd8fffec5f559495c6a5878d4",
@@ -6962,72 +7030,27 @@
     "downstream_gas":4.9613963902
   },
   {
-    "op_atlas_id":"0xd63cb23c26cc3bda03b1cc2971589fd26c9d22f3bbc8f1ff2bb74613e6d1c36d",
-    "oso_project_id":"jD1XHm/vOqe4VURVumfnsrgIOnwlL4eTm/2Lox+UqCI=",
-    "display_name":"Solidity Bytes Arrays Utils Library",
-    "is_eligible":true,
-    "op_reward":5451.59,
+    "op_atlas_id":"0x1aacb85f1d87039696b876ddcae98c56d38ea9eed07b265409fdb256c8f8172a",
+    "oso_project_id":"hWrcDUpWFQybynVtGEZXP8NRQAbakPCaa8xJCQG+XhM=",
+    "display_name":"Blockhead",
+    "is_eligible":false,
+    "op_reward":0.0,
     "round_id":"8",
-    "star_count":53,
-    "fork_count":8,
-    "num_packages_in_deps_dev":2,
-    "package_connection_count":12,
-    "developer_connection_count":12,
+    "star_count":17,
+    "fork_count":7,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
-      "IC4gXIZe/sWGrV5sOyeoSlqkS7t4BZd40afZT+2Q7bA=",
-      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8=",
-      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ=",
-      "cYKtZm5LcO+lBzh/EHUjfUxeT0RV+1rhpsH/ZXkfwms=",
-      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4=",
-      "7CbZT+Alw8Biv6iCgptzNOvAwOUFg3FBfHQ/Msuw4no=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
-      "/48A4/LZsBf1ztk3blMoY9kPQjx8knNp/EabsEszQ4Y=",
-      "1tglFLCPO1i0woe4TW7pBm1iMqrhlWJ1cv2L/5b0VUk=",
-      "ziS9zVwL0wejwpRl3exXS/sPkVTxes5OeRkH1buQ4Y4=",
-      "Zy6ZHnI5FaGA6G9Pm0+DxqvFg3pcni2pcNqd6VPbsG8=",
-      "k51QTl16C/ZunIrGFIMHwuqxXmJO0qugcFKfmR0AGh0=",
-      "SknvJ1fKqsEjRQTERy44BdTmY67lcFa3Yg9AHT5MwxQ=",
-      "LwtDC39OJgJjYwFAbn/kDkKJgaxSy6Rezg+lQhBAbMQ=",
-      "kCF+D9wyJM2PvCFVlX9aKksPQmQEIKOsEnQUW3Bipog=",
-      "wAHrubVV5dj+GrIz0KtzD1XqwA2MmyGmfUw74ZWFkYU=",
-      "Q3otD2dVMuz3OUvC1yAKkIrl9KIt8ksR1rOXG/vLvfI=",
-      "ZzH9XQNZ7nWOlugpkz8GaQQEmQzx1rKxaPrvhJ+l87Y=",
-      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA="
+
     ],
     "onchain_builder_op_atlas_ids":[
-      "0x30769523b16315b6404ce3c6dbaf610028acdf3133dca8a4d427e0d19d3628c9",
-      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5",
-      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687",
-      "0x1ac8413aaf8110410b9447af27251ba89311f5ec4e2d289006e834b122a44dbf",
-      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1",
-      "0x892cf9449b4046f9b68efe6ffccfcd8df1322b1a9ffc65a2bbfe1207c4ceba8d",
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
-      "0x35e2308213d675d5c25463a80fd318c2ae2478f47c4fabc854f23ac40df196c5",
-      "0xb98778ca9ff41446e2bc304f7b5d27f0fa7c2bcd11df19e22d1352c06698a1f6",
-      "0x4cf98b5dec7f0f51eb6b88ecb15639bafc7320bdc6e21ac443f4c58ebeb1245b",
-      "0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745",
-      "0xd4f0252e6ac2408099cd40d213fb6f42e8fa129b446d6e8da55e673598ef14c0",
-      "0x000c2ce4773defb3010a58d3800d0ec9d432189c574ba26d3103f1db44a5af6d",
-      "0xb9a5497fd056944f24bfa81e14367b54fa66c0a328f589c498b073f2b6c1abc8",
-      "0x9d4b7018b3a7c6010c5035ef99c485f960e6705ac0e99b4d832b2e748490f089",
-      "0xbcb5c437d5347be21add3972512679054416805274f80e85ab8053ae79340a69",
-      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
+
     ],
     "trusted_developer_usernames":[
-      "derekbar90",
-      "miguelmtzinf",
-      "zouguangxian",
-      "anajuliabit",
-      "adhusson",
-      "merlinegalite",
-      "aditya520",
-      "djb15",
-      "janjakubnanista",
-      "yorhodes",
-      "drortirosh",
-      "pcaversaccio"
+
     ],
-    "downstream_gas":43.9028385392
+    "downstream_gas":0.0
   },
   {
     "op_atlas_id":"0xc2d8139cd61ddc75689610ee0cca0fe37ba8bec3270beb6aac6eac91c6256f60",
@@ -7238,61 +7261,15 @@
     "downstream_gas":0.0808958283
   },
   {
-    "op_atlas_id":"0x1aacb85f1d87039696b876ddcae98c56d38ea9eed07b265409fdb256c8f8172a",
-    "oso_project_id":"hWrcDUpWFQybynVtGEZXP8NRQAbakPCaa8xJCQG+XhM=",
-    "display_name":"Blockhead",
+    "op_atlas_id":"0x229bbc8163bdee3891cde1c18c74ab3afc72e8683692fc7f1b767570cbe7c4a7",
+    "oso_project_id":"7tDBbSo+gDf0dB8U5Ks/FwS7Y2oZM+mNs3LsnX6Mlc0=",
+    "display_name":"EVM Explorer",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":17,
-    "fork_count":7,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x7cbd306b4b54416b83eb723a79b88d09554e245b1d7b29e7e4b7958ca1011d1f",
-    "oso_project_id":"g7Mm9ljqYwbSxWgNeCIVPfpNCiIBakHIjU4brUguhLw=",
-    "display_name":"ethdebug",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":30,
+    "star_count":24,
     "fork_count":6,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x9d16b5b4cd23af3a73104b213744296c044e42deb5ff9517101e61479e4e46b1",
-    "oso_project_id":"0YD5wE7ZTHXvyt8mHOdQGh+1SQTfsa8OyCz2W+G6IO4=",
-    "display_name":"Demeter: A DeFi Backtesting Framework for Arbitrum Developers",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":40,
-    "fork_count":6,
-    "num_packages_in_deps_dev":0,
+    "num_packages_in_deps_dev":3,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -7330,15 +7307,15 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x229bbc8163bdee3891cde1c18c74ab3afc72e8683692fc7f1b767570cbe7c4a7",
-    "oso_project_id":"7tDBbSo+gDf0dB8U5Ks/FwS7Y2oZM+mNs3LsnX6Mlc0=",
-    "display_name":"EVM Explorer",
+    "op_atlas_id":"0x9d16b5b4cd23af3a73104b213744296c044e42deb5ff9517101e61479e4e46b1",
+    "oso_project_id":"0YD5wE7ZTHXvyt8mHOdQGh+1SQTfsa8OyCz2W+G6IO4=",
+    "display_name":"Demeter: A DeFi Backtesting Framework for Arbitrum Developers",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":24,
+    "star_count":40,
     "fork_count":6,
-    "num_packages_in_deps_dev":3,
+    "num_packages_in_deps_dev":0,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -7399,9 +7376,9 @@
     "downstream_gas":1.75190609
   },
   {
-    "op_atlas_id":"0x5f9f1b45eb4a49e8c2482288e02c8fc1e0e60ad3e88f0ea87bbdb4932da1054d",
-    "oso_project_id":"vvd53Q/49SJ6mNQXcn67dlUHSbExIKjGDsZbloH8R6g=",
-    "display_name":"Diamondscaffold: Simplifying EIP-2535 Diamond Architecture Development",
+    "op_atlas_id":"0x7cbd306b4b54416b83eb723a79b88d09554e245b1d7b29e7e4b7958ca1011d1f",
+    "oso_project_id":"g7Mm9ljqYwbSxWgNeCIVPfpNCiIBakHIjU4brUguhLw=",
+    "display_name":"ethdebug",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -7422,38 +7399,14 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xf9a4e3b240bf6d40ee533e5ed63a8288b1a739ee382b1f23ccc5229b7bc8a498",
-    "oso_project_id":"YK2lvzF7UzCPd3j5zI0nxCi5/4hs50U7VusGwfq9IEE=",
-    "display_name":"Summer.fi",
+    "op_atlas_id":"0x5f9f1b45eb4a49e8c2482288e02c8fc1e0e60ad3e88f0ea87bbdb4932da1054d",
+    "oso_project_id":"vvd53Q/49SJ6mNQXcn67dlUHSbExIKjGDsZbloH8R6g=",
+    "display_name":"Diamondscaffold: Simplifying EIP-2535 Diamond Architecture Development",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":8,
-    "fork_count":5,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":2,
-    "onchain_builder_oso_project_ids":[
-      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
-    ],
-    "trusted_developer_usernames":[
-      "jean-grimal",
-      "merlinegalite"
-    ],
-    "downstream_gas":0.2351979307
-  },
-  {
-    "op_atlas_id":"0x81af86360a8e964cc907a5689a62e94231c7e42e05f49c0586716975d72e2e2e",
-    "oso_project_id":"IE6vY4600I0xdmwOkf+7hz5LzlT8GE8DoX1Gkgjh51c=",
-    "display_name":"Upnode Deploy",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":14,
-    "fork_count":5,
+    "star_count":30,
+    "fork_count":6,
     "num_packages_in_deps_dev":1,
     "package_connection_count":0,
     "developer_connection_count":0,
@@ -7515,15 +7468,15 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x8c0365628d69981ac162a89f2b391cc4adfd224e9a424f8e985e70e2421de6d1",
-    "oso_project_id":"j5WOiieuifGu5aqVNxwahWleSq38LxA9SB3hMq2ZWU4=",
-    "display_name":"SuperUI - UI for Supersim",
+    "op_atlas_id":"0x81af86360a8e964cc907a5689a62e94231c7e42e05f49c0586716975d72e2e2e",
+    "oso_project_id":"IE6vY4600I0xdmwOkf+7hz5LzlT8GE8DoX1Gkgjh51c=",
+    "display_name":"Upnode Deploy",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":33,
+    "star_count":14,
     "fork_count":5,
-    "num_packages_in_deps_dev":0,
+    "num_packages_in_deps_dev":1,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -7536,6 +7489,30 @@
 
     ],
     "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xf9a4e3b240bf6d40ee533e5ed63a8288b1a739ee382b1f23ccc5229b7bc8a498",
+    "oso_project_id":"YK2lvzF7UzCPd3j5zI0nxCi5/4hs50U7VusGwfq9IEE=",
+    "display_name":"Summer.fi",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":8,
+    "fork_count":5,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":0,
+    "developer_connection_count":2,
+    "onchain_builder_oso_project_ids":[
+      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
+    ],
+    "trusted_developer_usernames":[
+      "jean-grimal",
+      "merlinegalite"
+    ],
+    "downstream_gas":0.2351979307
   },
   {
     "op_atlas_id":"0x92f33d0611c514cafbf54780ec7925a6080a37a192683444c30116cb099d95e7",
@@ -7584,14 +7561,14 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xcbfdcf8f724d73504d1518d5ecd7d7256b12d37e68cd84569b383bfb6e2eeea4",
-    "oso_project_id":"Js09gjzwO4g6aeV2Fb+ZNlHypJc4DlUozk3enNLotIc=",
-    "display_name":"Dmail Network",
+    "op_atlas_id":"0x8c0365628d69981ac162a89f2b391cc4adfd224e9a424f8e985e70e2421de6d1",
+    "oso_project_id":"j5WOiieuifGu5aqVNxwahWleSq38LxA9SB3hMq2ZWU4=",
+    "display_name":"SuperUI - UI for Supersim",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":6,
-    "fork_count":4,
+    "star_count":33,
+    "fork_count":5,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
     "developer_connection_count":0,
@@ -7636,29 +7613,6 @@
       "welps"
     ],
     "downstream_gas":2.4732188631
-  },
-  {
-    "op_atlas_id":"0x8f7edabd00cd8a9bc0065eec465bd3d97ebe3f4632c8d3d52b336a9bc1d8fb3a",
-    "oso_project_id":"yHC4i4mkg5sXaXOF4Mih0UyHDYVS7+0+9zuqnDFvClY=",
-    "display_name":"SuperSwap",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":2,
-    "fork_count":4,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
   },
   {
     "op_atlas_id":"0x513265758a3804184b6a0771d99c1a4b04d3267bacd4b914e89ff991de229f6a",
@@ -7977,15 +7931,15 @@
     "downstream_gas":14.0089807956
   },
   {
-    "op_atlas_id":"0xe01f00da2ba1f43dd0dd1e2b93bbfc5a84021ded7e6d414e86fa12a8d4eeb347",
-    "oso_project_id":"L9VSOaOT9yJCY7BJc+BptpjSTF66LYeNOemyJ6tuQLs=",
-    "display_name":"simple-uniswap-sdk",
+    "op_atlas_id":"0xdd8b2e68cad9afa0701c8f27bf085302b152dbca3393083d3c664e3fc75945ab",
+    "oso_project_id":"uP0QHz7DXCN6rd4W6pC3Jp0ftkea+iT/OTf+rcwR4Is=",
+    "display_name":"Redprint",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":8,
+    "star_count":46,
     "fork_count":4,
-    "num_packages_in_deps_dev":0,
+    "num_packages_in_deps_dev":2,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -8000,15 +7954,15 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xdd8b2e68cad9afa0701c8f27bf085302b152dbca3393083d3c664e3fc75945ab",
-    "oso_project_id":"uP0QHz7DXCN6rd4W6pC3Jp0ftkea+iT/OTf+rcwR4Is=",
-    "display_name":"Redprint",
+    "op_atlas_id":"0xcbfdcf8f724d73504d1518d5ecd7d7256b12d37e68cd84569b383bfb6e2eeea4",
+    "oso_project_id":"Js09gjzwO4g6aeV2Fb+ZNlHypJc4DlUozk3enNLotIc=",
+    "display_name":"Dmail Network",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":46,
+    "star_count":6,
     "fork_count":4,
-    "num_packages_in_deps_dev":2,
+    "num_packages_in_deps_dev":0,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -8062,46 +8016,37 @@
     "downstream_gas":1.1997142162
   },
   {
-    "op_atlas_id":"0x850df51e29f2846a5f085d88e6b6fc13fad51ad7161f8a825ed09d470668161a",
-    "oso_project_id":"gUFAlmQjlPwJ47EfIYcW8OScZ5iHFZBD/TE4Mhx9WQc=",
-    "display_name":"Party.app + Party Protocol",
-    "is_eligible":true,
-    "op_reward":1207.17,
-    "round_id":"8",
-    "star_count":10,
-    "fork_count":3,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":5,
-    "onchain_builder_oso_project_ids":[
-      "pWEQHj4IsxU8lx2EDLJpphYaGAvw/yRps3vgTbVCXjQ=",
-      "iaCxomKbziHx/iiLlm9VAiA7rBKvS2KVUXZm9hL2hh8=",
-      "NgP0Wx6bYjRNFem2uqgwQDgI7uEir12R/KBBDSHZBzY=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x9d9162fac637991d2a56da8fbe03dba24c87eb82d47c7a00b921e39e956f8a9d",
-      "0x0b06e685eab9c4fee7d93ca54e1c02281e2be560bfc54f43fa738961fa2ce4c1",
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
-    ],
-    "trusted_developer_usernames":[
-      "horsefacts",
-      "pcaversaccio",
-      "gabrielayuso",
-      "sweetmantech",
-      "saucepoint"
-    ],
-    "downstream_gas":46.1331150285
-  },
-  {
-    "op_atlas_id":"0x85f58c1ce6ef97a8b2f4fd2b0cf4099798a598a02da7a0d2fc53ef75b5fb7fcb",
-    "oso_project_id":"oHjF8SsuGDWxTvoPCPaIvBwN3PWiaZiNtVt0ZorFYto=",
-    "display_name":"discord-deepseek-r1-bot",
+    "op_atlas_id":"0xe01f00da2ba1f43dd0dd1e2b93bbfc5a84021ded7e6d414e86fa12a8d4eeb347",
+    "oso_project_id":"L9VSOaOT9yJCY7BJc+BptpjSTF66LYeNOemyJ6tuQLs=",
+    "display_name":"simple-uniswap-sdk",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":26,
-    "fork_count":3,
+    "star_count":8,
+    "fork_count":4,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x8f7edabd00cd8a9bc0065eec465bd3d97ebe3f4632c8d3d52b336a9bc1d8fb3a",
+    "oso_project_id":"yHC4i4mkg5sXaXOF4Mih0UyHDYVS7+0+9zuqnDFvClY=",
+    "display_name":"SuperSwap",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":2,
+    "fork_count":4,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
     "developer_connection_count":0,
@@ -8138,6 +8083,61 @@
 
     ],
     "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x85f58c1ce6ef97a8b2f4fd2b0cf4099798a598a02da7a0d2fc53ef75b5fb7fcb",
+    "oso_project_id":"oHjF8SsuGDWxTvoPCPaIvBwN3PWiaZiNtVt0ZorFYto=",
+    "display_name":"discord-deepseek-r1-bot",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":26,
+    "fork_count":3,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x850df51e29f2846a5f085d88e6b6fc13fad51ad7161f8a825ed09d470668161a",
+    "oso_project_id":"gUFAlmQjlPwJ47EfIYcW8OScZ5iHFZBD/TE4Mhx9WQc=",
+    "display_name":"Party.app + Party Protocol",
+    "is_eligible":true,
+    "op_reward":1207.17,
+    "round_id":"8",
+    "star_count":10,
+    "fork_count":3,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":5,
+    "onchain_builder_oso_project_ids":[
+      "pWEQHj4IsxU8lx2EDLJpphYaGAvw/yRps3vgTbVCXjQ=",
+      "iaCxomKbziHx/iiLlm9VAiA7rBKvS2KVUXZm9hL2hh8=",
+      "NgP0Wx6bYjRNFem2uqgwQDgI7uEir12R/KBBDSHZBzY=",
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x9d9162fac637991d2a56da8fbe03dba24c87eb82d47c7a00b921e39e956f8a9d",
+      "0x0b06e685eab9c4fee7d93ca54e1c02281e2be560bfc54f43fa738961fa2ce4c1",
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
+    ],
+    "trusted_developer_usernames":[
+      "horsefacts",
+      "pcaversaccio",
+      "gabrielayuso",
+      "sweetmantech",
+      "saucepoint"
+    ],
+    "downstream_gas":46.1331150285
   },
   {
     "op_atlas_id":"0x28aec169f525d30fed96625a31fdd75ca906805d0ee4e7b1502945a9e1d29525",
@@ -8208,6 +8208,80 @@
 
     ],
     "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x7697147650b4b717ce5675982f2102da7c030498628fe37e3f403f875622b7f7",
+    "oso_project_id":"vta4u6W38N8RHqJkdq2crSlH5LEV6sVLc3njqXa7ABA=",
+    "display_name":"Gelato Relay SDK",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":7,
+    "fork_count":3,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":3,
+    "onchain_builder_oso_project_ids":[
+      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4=",
+      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ=",
+      "gBq7Wl0q0X+/hAl3qY/vtLirLXpwMoCndZ8i/B/6wd0="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1",
+      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687"
+    ],
+    "trusted_developer_usernames":[
+      "yorhodes",
+      "germartinez",
+      "sakulstra"
+    ],
+    "downstream_gas":1.5424983071
+  },
+  {
+    "op_atlas_id":"0x5dfcf84cc8ef7eb731a8175633c8da5cd3784fe57b05409f0df745b88443c034",
+    "oso_project_id":"kqcvkz/6LV6093wXMLjZAW7fKmU5r1bKNAehKDgja34=",
+    "display_name":"Simbolik - Solidity Debugger",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":37,
+    "fork_count":3,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":1,
+    "onchain_builder_oso_project_ids":[
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
+    ],
+    "trusted_developer_usernames":[
+      "pcaversaccio"
+    ],
+    "downstream_gas":1.75190609
+  },
+  {
+    "op_atlas_id":"0xf00e745fe6d96359adc3dc45d6d811bf1140549ad830d927cda5ca0b694a3063",
+    "oso_project_id":"m3O5xBXiEbaMu2XmINfk6Gdkt0AA80DLfzkdMRzp37U=",
+    "display_name":"EIP.Tools",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":6,
+    "fork_count":3,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":1,
+    "onchain_builder_oso_project_ids":[
+      "ngBRwzug+4yZnN2uE1wfoLeIsHQy9coImbvxkwYxfmk="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a"
+    ],
+    "trusted_developer_usernames":[
+      "apoorvlathey"
+    ],
+    "downstream_gas":0.1069450776
   },
   {
     "op_atlas_id":"0xc88dff5a8bb7326e7d9103bf84e77425e202a8275abffbbbc08954c309acf511",
@@ -8342,78 +8416,115 @@
     "downstream_gas":0.938173685
   },
   {
-    "op_atlas_id":"0x7697147650b4b717ce5675982f2102da7c030498628fe37e3f403f875622b7f7",
-    "oso_project_id":"vta4u6W38N8RHqJkdq2crSlH5LEV6sVLc3njqXa7ABA=",
-    "display_name":"Gelato Relay SDK",
-    "is_eligible":false,
-    "op_reward":0.0,
+    "op_atlas_id":"0xfeafe16f8c1a25aebe754f3653340a17943a483a3e389464e44cf14613e210f0",
+    "oso_project_id":"wNQvyx94jQ9dTrP4/4Y3k1LJIzWdvLgKGpxVi/ckSfk=",
+    "display_name":"foundry-storage-check",
+    "is_eligible":true,
+    "op_reward":373.36,
     "round_id":"8",
-    "star_count":7,
-    "fork_count":3,
+    "star_count":6,
+    "fork_count":2,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
-    "developer_connection_count":3,
+    "developer_connection_count":9,
     "onchain_builder_oso_project_ids":[
+      "1XmrMwdqgUb8jliAn9nIScPx7fAicOqIFPW42ioD1x0=",
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
       "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4=",
-      "hE1BjGS8I9OXjnYATSkRnNJlsItBXO+CKXU6UPKJlRQ=",
-      "gBq7Wl0q0X+/hAl3qY/vtLirLXpwMoCndZ8i/B/6wd0="
+      "yZEfzA9tUugnZhQ0Yqx6FvvyEHiEgXVgx6A6tpglPdw=",
+      "ngBRwzug+4yZnN2uE1wfoLeIsHQy9coImbvxkwYxfmk=",
+      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
+      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA="
     ],
     "onchain_builder_op_atlas_ids":[
+      "0xe8833ceee8beb2b3fb0f7f2dcef576f6f9cf20e35d8e53324d71b0ed47b01982",
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
       "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1",
-      "0x15d5177b8208aff43601f2a78292d6ae37c06872cab7f09889e6f0429277c687"
+      "0xd61084147c0e08c9a304348584c6bd0e9974a4073bff55f6b1728730b6ce07f7",
+      "0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a",
+      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
     ],
     "trusted_developer_usernames":[
       "yorhodes",
-      "germartinez",
-      "sakulstra"
+      "sebastiantf",
+      "albertocentonze",
+      "mathisgd",
+      "apoorvlathey",
+      "merlinegalite",
+      "pcaversaccio",
+      "vyorkin",
+      "xeno097"
     ],
-    "downstream_gas":1.5424983071
+    "downstream_gas":3.1583383097
   },
   {
-    "op_atlas_id":"0x5dfcf84cc8ef7eb731a8175633c8da5cd3784fe57b05409f0df745b88443c034",
-    "oso_project_id":"kqcvkz/6LV6093wXMLjZAW7fKmU5r1bKNAehKDgja34=",
-    "display_name":"Simbolik - Solidity Debugger",
+    "op_atlas_id":"0x1a26744683129e6e36c790c4d9ed2aba3fa08b02a1a127c5805241b9a442de3a",
+    "oso_project_id":"NxxzqQgvJFc1MnttV7BGBoIkzajSPtSFAddPoymqwHc=",
+    "display_name":"Dspyt",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":37,
-    "fork_count":3,
+    "star_count":19,
+    "fork_count":2,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
-    "developer_connection_count":1,
+    "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
+
     ],
     "onchain_builder_op_atlas_ids":[
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
+
     ],
     "trusted_developer_usernames":[
-      "pcaversaccio"
+
     ],
-    "downstream_gas":1.75190609
+    "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xf00e745fe6d96359adc3dc45d6d811bf1140549ad830d927cda5ca0b694a3063",
-    "oso_project_id":"m3O5xBXiEbaMu2XmINfk6Gdkt0AA80DLfzkdMRzp37U=",
-    "display_name":"EIP.Tools",
+    "op_atlas_id":"0x96a03f09bd8f6b4e82de71cb60626c5572e4a00d70f59dccaf512297f6deb93e",
+    "oso_project_id":"4t3CyBp0VQB7NDpZslCAl68AHcCuQkw3QZ79zYNyV78=",
+    "display_name":"Jobs",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":6,
-    "fork_count":3,
+    "star_count":2,
+    "fork_count":2,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
-    "developer_connection_count":1,
+    "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
-      "ngBRwzug+4yZnN2uE1wfoLeIsHQy9coImbvxkwYxfmk="
+
     ],
     "onchain_builder_op_atlas_ids":[
-      "0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a"
+
     ],
     "trusted_developer_usernames":[
-      "apoorvlathey"
+
     ],
-    "downstream_gas":0.1069450776
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x808b31862cec6dccf3894bb0e76ce4ca298e4c2820e2ccbf4816da740463b220",
+    "oso_project_id":"x9MZObEzydNAk1HPdRO8azvLIkNL0gAIgOIvKthPIbs=",
+    "display_name":"Fractal Visions",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":3,
+    "fork_count":2,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
   },
   {
     "op_atlas_id":"0xe9495ac0f2a00d424f4f2dca80fe34c59c78d5cbf9acad0536c4c0ede540e053",
@@ -8439,59 +8550,13 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xbd393d380c995845e0b26365d91e9730403baa30b4a80e955be1ab5713bba709",
-    "oso_project_id":"EYBY8WDf4DvsfT9jyp/YOagLBfwkA7zWEBIX7wzyfMM=",
-    "display_name":"Black Scholes library/compiler - go and rust ",
+    "op_atlas_id":"0x7539f43dc91f9c406c83a06339708e4033cdbf630916c6dfb9de2b5ef811affd",
+    "oso_project_id":"iXR35Xnzm4ioS5d0Eka/UAnUN9CHj4iasG/B8CgiWP8=",
+    "display_name":"Seamless Protocol",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":4,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xaa4cf223915387f8e0cd66640f86f4f770d0c1edfc4303ce1d596a735747e673",
-    "oso_project_id":"bZxCg+xwmOE0DGN2PUpSqA2ng072SyKx0wzlGSti5Qk=",
-    "display_name":"Farcaster Attestation",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":6,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xaec1c406b2a124ec90aeebdde35c6c0cd9a90f0c7730b0911d2f648c8b99d062",
-    "oso_project_id":"wpBF/kfL6NPevDlEHoK25InqGnRCeXqe0vGSLs61t9Y=",
-    "display_name":"Variance_dart",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":4,
+    "star_count":10,
     "fork_count":2,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -8551,138 +8616,30 @@
     "downstream_gas":3.0082553867
   },
   {
-    "op_atlas_id":"0x7539f43dc91f9c406c83a06339708e4033cdbf630916c6dfb9de2b5ef811affd",
-    "oso_project_id":"iXR35Xnzm4ioS5d0Eka/UAnUN9CHj4iasG/B8CgiWP8=",
-    "display_name":"Seamless Protocol",
+    "op_atlas_id":"0xcd107d2d50462310c2fb94dfb9ccb6dc79c5f06331fca4dae1fd56663baadb2a",
+    "oso_project_id":"lVbcUW4u4ZLzHtahbQB9o5NCTKxK+FC6D1Bj3RZWiF8=",
+    "display_name":"Natrix",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":10,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x1a26744683129e6e36c790c4d9ed2aba3fa08b02a1a127c5805241b9a442de3a",
-    "oso_project_id":"NxxzqQgvJFc1MnttV7BGBoIkzajSPtSFAddPoymqwHc=",
-    "display_name":"Dspyt",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":19,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xd7a4742a0a40480ce176892bb619295d2cdd357d7ad09411beaff6278014c191",
-    "oso_project_id":"GMKOWO+1Q5OHgnN+2f7jvflLOWwHuQ9qaw/k8idn2Ww=",
-    "display_name":"evmstate",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":13,
+    "star_count":7,
     "fork_count":2,
     "num_packages_in_deps_dev":1,
     "package_connection_count":0,
-    "developer_connection_count":0,
+    "developer_connection_count":3,
     "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xfeafe16f8c1a25aebe754f3653340a17943a483a3e389464e44cf14613e210f0",
-    "oso_project_id":"wNQvyx94jQ9dTrP4/4Y3k1LJIzWdvLgKGpxVi/ckSfk=",
-    "display_name":"foundry-storage-check",
-    "is_eligible":true,
-    "op_reward":373.36,
-    "round_id":"8",
-    "star_count":6,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":9,
-    "onchain_builder_oso_project_ids":[
-      "1XmrMwdqgUb8jliAn9nIScPx7fAicOqIFPW42ioD1x0=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA=",
-      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4=",
-      "yZEfzA9tUugnZhQ0Yqx6FvvyEHiEgXVgx6A6tpglPdw=",
-      "ngBRwzug+4yZnN2uE1wfoLeIsHQy9coImbvxkwYxfmk=",
       "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
-      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA="
+      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
     ],
     "onchain_builder_op_atlas_ids":[
-      "0xe8833ceee8beb2b3fb0f7f2dcef576f6f9cf20e35d8e53324d71b0ed47b01982",
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
-      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1",
-      "0xd61084147c0e08c9a304348584c6bd0e9974a4073bff55f6b1728730b6ce07f7",
-      "0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a",
-      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
+      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
     ],
     "trusted_developer_usernames":[
-      "yorhodes",
-      "sebastiantf",
-      "albertocentonze",
-      "mathisgd",
-      "apoorvlathey",
-      "merlinegalite",
-      "pcaversaccio",
-      "vyorkin",
-      "xeno097"
+      "martinkrung",
+      "danielschiavini",
+      "pcaversaccio"
     ],
-    "downstream_gas":3.1583383097
-  },
-  {
-    "op_atlas_id":"0x808b31862cec6dccf3894bb0e76ce4ca298e4c2820e2ccbf4816da740463b220",
-    "oso_project_id":"x9MZObEzydNAk1HPdRO8azvLIkNL0gAIgOIvKthPIbs=",
-    "display_name":"Fractal Visions",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":3,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
+    "downstream_gas":1.8176531339
   },
   {
     "op_atlas_id":"0xbcfa7063514406f498f2792ae6435bf488709709391cebfa260a552703b4a8f9",
@@ -8715,124 +8672,6 @@
     "op_reward":0.0,
     "round_id":"8",
     "star_count":5,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xf152ccbfb3aa63c2ddcc070dc6d4462368eb25b69c3c3137cc459189af681402",
-    "oso_project_id":"jYUG6qe4pgh61id8gGHR9vP6MgSDQBb5kKhLy5YN/FA=",
-    "display_name":"Derive Exchange SDK and Vault Executors",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":5,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xcd107d2d50462310c2fb94dfb9ccb6dc79c5f06331fca4dae1fd56663baadb2a",
-    "oso_project_id":"lVbcUW4u4ZLzHtahbQB9o5NCTKxK+FC6D1Bj3RZWiF8=",
-    "display_name":"Natrix",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":7,
-    "fork_count":2,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":3,
-    "onchain_builder_oso_project_ids":[
-      "obhZmsogKPwIoJqhhqsTg2tpVPoLJYjA5mOUzEKtSLs=",
-      "As9H82L8UoJzE97yMeP4TbewafniYHdvyC68sIc/NlA="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3"
-    ],
-    "trusted_developer_usernames":[
-      "martinkrung",
-      "danielschiavini",
-      "pcaversaccio"
-    ],
-    "downstream_gas":1.8176531339
-  },
-  {
-    "op_atlas_id":"0x96a03f09bd8f6b4e82de71cb60626c5572e4a00d70f59dccaf512297f6deb93e",
-    "oso_project_id":"4t3CyBp0VQB7NDpZslCAl68AHcCuQkw3QZ79zYNyV78=",
-    "display_name":"Jobs",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":2,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xed55afbfd8d94e1c60c9a6db38caff9ecb53543071756328d104504df644eb9e",
-    "oso_project_id":"h65vxKjl6PwevpMqqNFeGV+hpXNUb9twVVo0+GusGro=",
-    "display_name":"Web3 Hackers Collective",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":3,
-    "fork_count":2,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x26a8d2bf9f36f9632cc4ae2157270087f3c0a0425f4f0847095451a7532293a3",
-    "oso_project_id":"xq7+mszk8eyCmmne3tQc2zJFX1mHCmsy2j7vavZVkzg=",
-    "display_name":"Samba",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":20,
     "fork_count":2,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -8897,27 +8736,165 @@
     "downstream_gas":3.0310661559
   },
   {
-    "op_atlas_id":"0x492486eda6bcb71b4891dd39a4e150db1f7ab46f64b83f2f5a02aed82497e9ed",
-    "oso_project_id":"GmgRBIRVtbJJmDZE+yzHPe6q8DnwLrpj5YSHMMNn3jM=",
-    "display_name":"forge-stack-tracer",
+    "op_atlas_id":"0xf152ccbfb3aa63c2ddcc070dc6d4462368eb25b69c3c3137cc459189af681402",
+    "oso_project_id":"jYUG6qe4pgh61id8gGHR9vP6MgSDQBb5kKhLy5YN/FA=",
+    "display_name":"Derive Exchange SDK and Vault Executors",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":2,
-    "fork_count":1,
+    "star_count":5,
+    "fork_count":2,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
-    "developer_connection_count":1,
+    "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
-      "ngBRwzug+4yZnN2uE1wfoLeIsHQy9coImbvxkwYxfmk="
+
     ],
     "onchain_builder_op_atlas_ids":[
-      "0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a"
+
     ],
     "trusted_developer_usernames":[
-      "apoorvlathey"
+
     ],
-    "downstream_gas":0.1069450776
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x26a8d2bf9f36f9632cc4ae2157270087f3c0a0425f4f0847095451a7532293a3",
+    "oso_project_id":"xq7+mszk8eyCmmne3tQc2zJFX1mHCmsy2j7vavZVkzg=",
+    "display_name":"Samba",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":20,
+    "fork_count":2,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xd7a4742a0a40480ce176892bb619295d2cdd357d7ad09411beaff6278014c191",
+    "oso_project_id":"GMKOWO+1Q5OHgnN+2f7jvflLOWwHuQ9qaw/k8idn2Ww=",
+    "display_name":"evmstate",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":13,
+    "fork_count":2,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xaa4cf223915387f8e0cd66640f86f4f770d0c1edfc4303ce1d596a735747e673",
+    "oso_project_id":"bZxCg+xwmOE0DGN2PUpSqA2ng072SyKx0wzlGSti5Qk=",
+    "display_name":"Farcaster Attestation",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":6,
+    "fork_count":2,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xed55afbfd8d94e1c60c9a6db38caff9ecb53543071756328d104504df644eb9e",
+    "oso_project_id":"h65vxKjl6PwevpMqqNFeGV+hpXNUb9twVVo0+GusGro=",
+    "display_name":"Web3 Hackers Collective",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":3,
+    "fork_count":2,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xbd393d380c995845e0b26365d91e9730403baa30b4a80e955be1ab5713bba709",
+    "oso_project_id":"EYBY8WDf4DvsfT9jyp/YOagLBfwkA7zWEBIX7wzyfMM=",
+    "display_name":"Black Scholes library/compiler - go and rust ",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":4,
+    "fork_count":2,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xaec1c406b2a124ec90aeebdde35c6c0cd9a90f0c7730b0911d2f648c8b99d062",
+    "oso_project_id":"wpBF/kfL6NPevDlEHoK25InqGnRCeXqe0vGSLs61t9Y=",
+    "display_name":"Variance_dart",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":4,
+    "fork_count":2,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
   },
   {
     "op_atlas_id":"0x66cce776ce6eaa99192120fc25b91ecc7b98e03210a08f0d3bfda82f542d3e1a",
@@ -8943,50 +8920,30 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x2ec2ba35b39cfc086d3699918596470864e1ee1631d886215d0477f3f2e09326",
-    "oso_project_id":"3H+RA47sc24SWgLZqJKZJ3eTrO18bk1gJrB7tcAKRGw=",
-    "display_name":"Engagement.Vision",
+    "op_atlas_id":"0x363b77a4022f98f4d529b8a771d22f49b1092293980aab154fff63980bd1b2bf",
+    "oso_project_id":"+K3OrDKvASiVPDw6YwbzwsamF6URxSYCSlUun/KdTDU=",
+    "display_name":"viem-tracer",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":4,
+    "star_count":19,
     "fork_count":1,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":1,
+    "developer_connection_count":4,
     "onchain_builder_oso_project_ids":[
-
+      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA="
     ],
     "onchain_builder_op_atlas_ids":[
-
+      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
     ],
     "trusted_developer_usernames":[
-
+      "adhusson",
+      "oumar-fall",
+      "julien-devatom",
+      "tomrpl"
     ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x66818708d041152b7f9b45ee48e56ab6507ad493955fd256b62d7c9d8a27724f",
-    "oso_project_id":"rbnmNl6hycb3Tw0IzeCMtSY9mU1Cc5zsZr9oA62V+Ho=",
-    "display_name":"Bloctopus",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":17,
-    "fork_count":1,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
+    "downstream_gas":0.2351979307
   },
   {
     "op_atlas_id":"0x7504e494cb8d227193182e083128912173c14eaeecec9b90fa453de28377b269",
@@ -9033,52 +8990,6 @@
 
     ],
     "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xcdeb1723ae43478e77b36f2b6dea33f9485963a66ca951408faad33e13452e10",
-    "oso_project_id":"HqC3UoCbEcH+Nom5I1qNtHo6c9UCZgh5KEwsbxTbshg=",
-    "display_name":"WakeUp Labs | Rollup-as-a-Service for the OP Stack",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":4,
-    "fork_count":1,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x4f8902ac6eba8e2243237247302ab778a1e1f496cf62e1696fbb8d57eff7701d",
-    "oso_project_id":"kk3IEFYvO5Cr5t+Sd1k84whQZAgddeXihNudlYZwRb4=",
-    "display_name":"blocksmith.js",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":10,
-    "fork_count":1,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":1,
-    "onchain_builder_oso_project_ids":[
-      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1"
-    ],
-    "trusted_developer_usernames":[
-      "yorhodes"
-    ],
-    "downstream_gas":0.6682580849
   },
   {
     "op_atlas_id":"0x48220ef1d103189cd918e9290db4c4b99b463ae2817fb5ef0cc54556a7961b6f",
@@ -9200,15 +9111,15 @@
     "downstream_gas":3.4261048849
   },
   {
-    "op_atlas_id":"0xbea008dac0a4a2d2cc88ed14468f7ce06b1a13d43ead38f31df3ca5f6d70d12e",
-    "oso_project_id":"TRig8BLn/HiKYIfpULdbzll7fJzgB/aWPow6cG2mS+s=",
-    "display_name":"blob-archiver-rs",
+    "op_atlas_id":"0xcdeb1723ae43478e77b36f2b6dea33f9485963a66ca951408faad33e13452e10",
+    "oso_project_id":"HqC3UoCbEcH+Nom5I1qNtHo6c9UCZgh5KEwsbxTbshg=",
+    "display_name":"WakeUp Labs | Rollup-as-a-Service for the OP Stack",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":1,
+    "star_count":4,
     "fork_count":1,
-    "num_packages_in_deps_dev":0,
+    "num_packages_in_deps_dev":1,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -9223,13 +9134,13 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x7d3f1d8e9da32b6e81e791a440b28ce9fbd79a5396acc4039d1cdc44c609c6d3",
-    "oso_project_id":"n5hQyb62Lf2utHO/Dx2b+NPsV7xxwFHBlgDgjI/hKxA=",
-    "display_name":"OP STACK DEPLOYER",
+    "op_atlas_id":"0x66818708d041152b7f9b45ee48e56ab6507ad493955fd256b62d7c9d8a27724f",
+    "oso_project_id":"rbnmNl6hycb3Tw0IzeCMtSY9mU1Cc5zsZr9oA62V+Ho=",
+    "display_name":"Bloctopus",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":7,
+    "star_count":17,
     "fork_count":1,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -9269,13 +9180,82 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x10e9fc6dd7d01e09bd9440d507846432333a06f779287b29199010e2f50579cd",
-    "oso_project_id":"V0e8/oGPvS9UMonGvUVt4EWiNZcsBBPgEZniIWUhXss=",
-    "display_name":"Token Historical Balance",
+    "op_atlas_id":"0x4d71401a0dbd9b3dd890fbc70baaf872d16db80af149e20f7ef1805fc94f6df6",
+    "oso_project_id":"57FvWwsyNX2cCoYXRlrD084qD9kG/nh1tYNWPswNSs0=",
+    "display_name":"Router Protocol",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
     "star_count":0,
+    "fork_count":1,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x492486eda6bcb71b4891dd39a4e150db1f7ab46f64b83f2f5a02aed82497e9ed",
+    "oso_project_id":"GmgRBIRVtbJJmDZE+yzHPe6q8DnwLrpj5YSHMMNn3jM=",
+    "display_name":"forge-stack-tracer",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":2,
+    "fork_count":1,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":1,
+    "onchain_builder_oso_project_ids":[
+      "ngBRwzug+4yZnN2uE1wfoLeIsHQy9coImbvxkwYxfmk="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a"
+    ],
+    "trusted_developer_usernames":[
+      "apoorvlathey"
+    ],
+    "downstream_gas":0.1069450776
+  },
+  {
+    "op_atlas_id":"0x4f8902ac6eba8e2243237247302ab778a1e1f496cf62e1696fbb8d57eff7701d",
+    "oso_project_id":"kk3IEFYvO5Cr5t+Sd1k84whQZAgddeXihNudlYZwRb4=",
+    "display_name":"blocksmith.js",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":10,
+    "fork_count":1,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":0,
+    "developer_connection_count":1,
+    "onchain_builder_oso_project_ids":[
+      "Jpscljo0tkzVDYKwVNnTSuR+AFUyy4EHg4AWd+Mdnd4="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0xa47182d330bd0c5c69b1418462f3f742099138f09bff057189cdd19676a6acd1"
+    ],
+    "trusted_developer_usernames":[
+      "yorhodes"
+    ],
+    "downstream_gas":0.6682580849
+  },
+  {
+    "op_atlas_id":"0x7d3f1d8e9da32b6e81e791a440b28ce9fbd79a5396acc4039d1cdc44c609c6d3",
+    "oso_project_id":"n5hQyb62Lf2utHO/Dx2b+NPsV7xxwFHBlgDgjI/hKxA=",
+    "display_name":"OP STACK DEPLOYER",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":7,
     "fork_count":1,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -9301,29 +9281,6 @@
     "star_count":0,
     "fork_count":1,
     "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x8bfdc42f26bf691d378d2073ae509c46b85c0eed8db8abc6987b6725dd0d056a",
-    "oso_project_id":"1trB/l9QKhGRlHWNxeKxae3DYXIRAKtuzUHXcvpnpN8=",
-    "display_name":"Superfluid ",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":5,
-    "fork_count":1,
-    "num_packages_in_deps_dev":1,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -9386,29 +9343,6 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x04593b6dd5cd1043f81ccf23b750460f1b3b4dda5cbf3c94140fb6f04e476f7f",
-    "oso_project_id":"VX4MzzGJGGUqL8BGIma9fcZ1QzOGTfPjqfzXhHVrEgs=",
-    "display_name":"httpmock",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":2,
-    "fork_count":1,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
     "op_atlas_id":"0xeef42373d10554d65aba9e6deb8333a4eddebba829e0afea0dc93e32d8075d2d",
     "oso_project_id":"+ggFP7iiESvvHcrscQpCky9DBh+lBYC2xJziZ43DKsk=",
     "display_name":"ERCx: Token Test Library",
@@ -9432,35 +9366,55 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x363b77a4022f98f4d529b8a771d22f49b1092293980aab154fff63980bd1b2bf",
-    "oso_project_id":"+K3OrDKvASiVPDw6YwbzwsamF6URxSYCSlUun/KdTDU=",
-    "display_name":"viem-tracer",
+    "op_atlas_id":"0x8bfdc42f26bf691d378d2073ae509c46b85c0eed8db8abc6987b6725dd0d056a",
+    "oso_project_id":"1trB/l9QKhGRlHWNxeKxae3DYXIRAKtuzUHXcvpnpN8=",
+    "display_name":"Superfluid ",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":19,
+    "star_count":5,
     "fork_count":1,
     "num_packages_in_deps_dev":1,
-    "package_connection_count":1,
-    "developer_connection_count":4,
+    "package_connection_count":0,
+    "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
-      "8b2HLnQ2tYAjtu/DfLbp665a/JtmiU/ZBBxW0+ZStiA="
+
     ],
     "onchain_builder_op_atlas_ids":[
-      "0xda8c593717693ef30f5c62fc2689709784324cfb9b5fe92c9db3a47f596791e5"
+
     ],
     "trusted_developer_usernames":[
-      "adhusson",
-      "oumar-fall",
-      "julien-devatom",
-      "tomrpl"
+
     ],
-    "downstream_gas":0.2351979307
+    "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x4d71401a0dbd9b3dd890fbc70baaf872d16db80af149e20f7ef1805fc94f6df6",
-    "oso_project_id":"57FvWwsyNX2cCoYXRlrD084qD9kG/nh1tYNWPswNSs0=",
-    "display_name":"Router Protocol",
+    "op_atlas_id":"0x04593b6dd5cd1043f81ccf23b750460f1b3b4dda5cbf3c94140fb6f04e476f7f",
+    "oso_project_id":"VX4MzzGJGGUqL8BGIma9fcZ1QzOGTfPjqfzXhHVrEgs=",
+    "display_name":"httpmock",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":2,
+    "fork_count":1,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x10e9fc6dd7d01e09bd9440d507846432333a06f779287b29199010e2f50579cd",
+    "oso_project_id":"V0e8/oGPvS9UMonGvUVt4EWiNZcsBBPgEZniIWUhXss=",
+    "display_name":"Token Historical Balance",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -9481,9 +9435,55 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x55bff36906b3e55bff995b4a7d73fd6651eeba4274ad49e269b29157bbf2fee2",
-    "oso_project_id":"lGoc+rdKwNdooopWynCp0XdR8HNqPVawSR00mYSfv9g=",
-    "display_name":"8 Bit Cats\u2611\ufe0f",
+    "op_atlas_id":"0xbea008dac0a4a2d2cc88ed14468f7ce06b1a13d43ead38f31df3ca5f6d70d12e",
+    "oso_project_id":"TRig8BLn/HiKYIfpULdbzll7fJzgB/aWPow6cG2mS+s=",
+    "display_name":"blob-archiver-rs",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":1,
+    "fork_count":1,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x2ec2ba35b39cfc086d3699918596470864e1ee1631d886215d0477f3f2e09326",
+    "oso_project_id":"3H+RA47sc24SWgLZqJKZJ3eTrO18bk1gJrB7tcAKRGw=",
+    "display_name":"Engagement.Vision",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":4,
+    "fork_count":1,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x7fd813000c03bd11fdf3ded76a3b46db355218c72947acea7f14871a5b0a9258",
+    "oso_project_id":"Xrci3TfxGk1fFof+fNzWx6Had1yDlmU1CoHHRvzLMGo=",
+    "display_name":"Satoshi's Secret",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -9504,9 +9504,331 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x38c38455bb0fd71d2929fcf799279569ab5f5c5d3e1f92f8642ce87aa25accdf",
-    "oso_project_id":"5pKMLWfNkmCqGNkDWMXHeyYR+9Uc3EOVJRd+EG+ULsc=",
-    "display_name":"Decent.xyz",
+    "op_atlas_id":"0x4734611c02025e9a48eae0b9e0350eb84aa1daff896c520eadc5d1a116c631cd",
+    "oso_project_id":"s1mj5fqtlEfMpVmLmpSl5clfhz8YrBHhombxLXM3siQ=",
+    "display_name":"BuildForGood Games: Playful Onboarding for Optimism",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x9d439b2eeda990e571484f7002d4fb858b52b2fec28da0958b5647344947634e",
+    "oso_project_id":"TUyXIOABwiAJaOZY+y9irqSOEGeMz4NbqW4DJ2vfF50=",
+    "display_name":"\u25b6\ufe0f BuildForGood YouTube Channel",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x51504348243d8e8fa59cf2ba983d9255373e5eb23fe22a0d18c0d36028561ace",
+    "oso_project_id":"5DRU+kSqJj07dgVZUng7jkEn6Pqn3SZm2yQWrZEAS8M=",
+    "display_name":"Test Project",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x23de0728e6569822fc61ee61d2a79eda8b8322894a82700bff5d5c91606798d1",
+    "oso_project_id":"tNqq5J6FEjTlKKM9jd/JCwvk/g4pTiC8v7Xit1kNS4o=",
+    "display_name":"Blobs Guru",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x696c9b46af5eeaa2fcfa86f23da23ed1ce7938df67d90d422e6ba7ee2604b512",
+    "oso_project_id":"LtUbRD/QO0Bokl1Bxbws5tg4dP7fmNnp4/U21i2tiH0=",
+    "display_name":"Ethernaut CLI",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x5ae42b967b8cfb453ec0063849bc2b1f31b69c5846db7d7c4e385820dbb89a37",
+    "oso_project_id":"/DScGb8/v7BZ3WdP7B/Fjk1VkJeYD4kSWb07N253Yd0=",
+    "display_name":"OPSight",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xcb0434aaf86a5dca68f96edefc22bf04a16bbfaa48b0a4a40c844f1afb8d7b1e",
+    "oso_project_id":"iRL7HC30DiL3CfAxmFhFI1d6/zzZ7U7C0m6jScMGKuY=",
+    "display_name":"BASE BTC EARTH \ud83c\udf0d",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x18539618cdbab1c37092e7e0bd8e03c7c4037a55b8a356215bc15c8d6a8c68dd",
+    "oso_project_id":"VvNggDaql/smdOS/0t1CinLgcYy7jwICjC1P5gu8zI4=",
+    "display_name":"Purrmissionless Proofs",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xc9627399b5606969337a4ae917ae932fbaaeb71d56088b8ab546047ef3a7c941",
+    "oso_project_id":"fnWnB7dEZYjjNxP75u4wLajmo3wZ2VFJ53Zv6NBESM4=",
+    "display_name":"Capypay",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x6a13d3e82b5a090fca8ff9ee8ce2637cef515fc24f51760f76f36030b76e0a55",
+    "oso_project_id":"M8tDjaH5PrOfLIhPjNXOkNi/ve0MTTJ7tSDM1zMdiaI=",
+    "display_name":"Wild Water Bottle Cap Token",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x578d022acd70130def85327e2926a2ed4545e08617ced951ef54a872f5a2a5f5",
+    "oso_project_id":"Rrdcu7ny/AFlN1jLZPDFfPQQS9u3ekvswVXzNO5GO9E=",
+    "display_name":"Orki Finance",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x09c9f27e241cc6119c080457693a8bcfea77e0f9b4d3a2fb70d70f884410d7f1",
+    "oso_project_id":"tda0A2fopcG55G9UY6IVaCuc0PGi16ukxdjBI6W9rR0=",
+    "display_name":"Pipegate",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":16,
+    "fork_count":0,
+    "num_packages_in_deps_dev":2,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xe20f59eb1c8f9cb72e07b8d0f067bac997614fd6db06d8c031c5c9235f760dcc",
+    "oso_project_id":"zpXh+xI4A77C9Y/ortXA0jU/33Zj+QztUOpW3hJ+w8A=",
+    "display_name":"L2Pass",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xcad7dae6f4bb92689f5ea6a6fc830fc49b8e15cca0623f13316b528a8f8b805e",
+    "oso_project_id":"QdEipZreLcfm7xI5N6Bj6JIUitvThX5JoTjy9gvMHiY=",
+    "display_name":"zbase",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x935315db8c17993464cfb28337442ad60c6cd434305130a1d5d898e92d6d8123",
+    "oso_project_id":"NgoVNxiNTOzlsAv1ChtyIaJk2GnReYxexUZDOQJq4aU=",
+    "display_name":"Trash NFTs",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -9527,13 +9849,312 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xd4ed99cc6aaf73ca63b32f7a03b5427ac1d2955bf9efc31eb14f5773016988d0",
-    "oso_project_id":"KhgJMDdCk38bxrajjp9pJrxfmR+6DpKm3q4KnIprGwY=",
-    "display_name":"AWS KMS and YubiHSM signer for OP Stack",
+    "op_atlas_id":"0x926606219b6876c28d7185401763b7492decd48a7e89a2fd27de9dbf176507ad",
+    "oso_project_id":"o7yBqhAP2YwQutGZw+NBdFouJ046/Ka/+nDmQ1kLi3I=",
+    "display_name":"etherml",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":9,
+    "star_count":1,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x60565a1ff56360c729ec5e33b27040acd6d495e35e328fec7ec5a493b9c533e2",
+    "oso_project_id":"Do7XmLDYP7t4xDWAldvqGF8KevofT/SUPeKGpg089ag=",
+    "display_name":"New Project",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x3a942492f564e13e4a3fc11e9a8b5dcd8bf0213f9dd8571d888f32db84271c5f",
+    "oso_project_id":"t/dgn11ZvHldfKXg2+6wFS7LkRL93an78Mi3B3eZnLw=",
+    "display_name":"evm-rpcs-list",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":3,
+    "fork_count":0,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x1335476de5a24573f3fa1297827fbeb02921948d678b399c7367fb956d08a6cc",
+    "oso_project_id":"hxU1nnOFEhGsrGFfD7pziC+gqLyN61d5U1voAgtc0Lg=",
+    "display_name":"Opstack For Cats Dream \u2611\ufe0f",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x076a2b1418a515ff8c5bb11beed5630cc6fe7f65fd8d42d4403c4364514f2a30",
+    "oso_project_id":"eQqCoZ6ZUM1ejuDhFMANJnjGAF32f7Pf7cWVAbVCSC4=",
+    "display_name":"BAG Guild Dapp",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":1,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x3f32c65a09692da95d3a0a5a988065584b140a58e5462e45e38a382449045468",
+    "oso_project_id":"+v65bJR6Db8y6MgBsKOUVxu3+efddiNevqngmAKcBeI=",
+    "display_name":"farmlabs",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":1,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x2f22900fb20dd35ce72ef53c3aed7a3dd3364a83c32ae075799919b40f6018dc",
+    "oso_project_id":"VhGGSdMLn+D3Vfp7j/0pkXZaTDU4uMhacHXXESPeQRQ=",
+    "display_name":"Superchain Faucet",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x3061b642db56c507e265f03029735b0413a613bda43456a31e78128baeb18754",
+    "oso_project_id":"VsbnIqH0Z8ErW7VixsMTGcLVf45E645bcxAVcD/KZT0=",
+    "display_name":"Aave",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xd7a8e115b2b3772d7d5656d7798e349dcdedf2463302c78528c9e9686ab4efe3",
+    "oso_project_id":"FfXoEN2YNayzuwjlJN2xtQWdP5War/J/3WLgkc8sX6s=",
+    "display_name":"OmniHub",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x6ee546715053790bda72f913925b782461830ccdcc14ad12a2f288641510f448",
+    "oso_project_id":"EuhDcgpnkg14DgTCLAjODgWZQQEjR1En9nIllh/131U=",
+    "display_name":"Dragons On Op Stack \ud83d\udd34",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xeb6d215732b1ed881e718faa8bf8b4b88a94edf021efa9a3cf3e2cc3c22b0961",
+    "oso_project_id":"owZ14rxpDWPBMxBXsdu3ybsF/7IsdtcyAz5JpAp8sb0=",
+    "display_name":"Multichaintools",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x1c25ae2899ab6edb1e55c8cda5b736bb861a31da22bb9aa538f3868807eb1c73",
+    "oso_project_id":"YMhICPfTJIL3NuTWP+/uQgruO2wLN8vr01MjKrr5dso=",
+    "display_name":"Bonadocs ",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":2,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xb8cc15b51b7ae9acd5b771bb7872a9d54a9f19562e5a37df3a7d9b31044099df",
+    "oso_project_id":"vWtJQQ+tIY8584QcGvrVIguEyY/XUO/yk7lnhOyL8WA=",
+    "display_name":"Ladders.Vision",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xb773733e55b7267302f2622ae410a65a89552689387d0b86bce0f0cb833119d0",
+    "oso_project_id":"L6B16S3rzyLs1mNMTAy9zAwDIt9b3Z9tCUc3i2bENmw=",
+    "display_name":"Callthis",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":5,
     "fork_count":0,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -9548,75 +10169,6 @@
       "pcaversaccio"
     ],
     "downstream_gas":1.75190609
-  },
-  {
-    "op_atlas_id":"0x10da43868e7439419af2859f2539ed8b355a0f330bd05a6d028ddff8fd4a03d8",
-    "oso_project_id":"o6breg8faNvvKQn7n+MVsLpnPjfrMzmIHkhW2KeHtus=",
-    "display_name":"dwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadw",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x96c5627853d61ad931f8942bfdcc8b3f2507e830bad346b0d31b87c60637474e",
-    "oso_project_id":"YkMQQUKtbXB1JgNgNqSbUVBTsK70wrO3UA/Llyhi9fE=",
-    "display_name":"All Weather Protocol",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x2cf7c4cc06b7da1ea7c7c647f9a532cef3d75cc4df6a69a3a9204d4b4f99df9d",
-    "oso_project_id":"RFzv+HYMe8O4KTTeMyfR8Xb/ZlwQ4JlPZNqTemBJjyo=",
-    "display_name":"Save/nx",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
   },
   {
     "op_atlas_id":"0x24ff0fb2933e55b169a80d9bd35a00a7011795387717b27445ccdc0f8660d740",
@@ -9642,9 +10194,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x817133c5038efbbbba5fb2165466c4ec430691eff8e6bd04b6e19cef71a23f30",
-    "oso_project_id":"HmZx6qjamX0XBczuprKgSvGcdwzFh4zD5CP8lHSYGgs=",
-    "display_name":"Crypto Stock Exchange",
+    "op_atlas_id":"0xb3df6310de99d640f976422dba92de447b56bcec015a78ec07629d22497115a9",
+    "oso_project_id":"19GmI+YcdI6xARJ1gSGsw9nc3XiU9voC54b/YWXyPWc=",
+    "display_name":"Agent Treasury Policy Linter",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -9665,79 +10217,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x7e5614eb46520c523562a641649be228012355d0264c9130b2c1d9872bf5bad5",
-    "oso_project_id":"dSexksuFbpb8T3C4yr7N2nGH2LM9kwx5kFCQMA7w3Dc=",
-    "display_name":"ABIExplorer",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":2,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x495b81a381005f49592ee02a7ac6861b8da69762b7164180d0a1e4570f2d83bf",
-    "oso_project_id":"APxN0aDM3FTM/WDaBH2zFhzV721O0Y2IHkIRm5Xy0Lg=",
-    "display_name":"DEO AI: Ethereum Developer Assistant",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":2,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xab28184ffcd1429ce9bbcffdba320787e9d2ab1e2f365352af3b5a9ef64f4600",
-    "oso_project_id":"AsxMKwemcJWec/D3bdacdVunMOxC7EBmUqqb5Buj0/s=",
-    "display_name":"Hydrex",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":2,
-    "onchain_builder_oso_project_ids":[
-      "Te2nZaFW2M/6DMbfuJE3J0ahxI8d+hHBZa6GyGeq7E8="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x63d14cd07db0f56a91cb2f8972a29a225d24ea739034597f7c3e22f53817f7a8"
-    ],
-    "trusted_developer_usernames":[
-      "cottoneyebro",
-      "larrettgee"
-    ],
-    "downstream_gas":0.0390066096
-  },
-  {
-    "op_atlas_id":"0xf173b116c6383d6d7557d633de525a4535543265d800af3d8b15bc224dbab982",
-    "oso_project_id":"d6Us8Nyctz7rF5nxnucystePRDAQgQKjs01pyA1u+wo=",
-    "display_name":"FrameMaker",
+    "op_atlas_id":"0x41b61476ed56e21754276efdd23d62fabdcdb6e97a37a5a797d9a6c8e977d1dd",
+    "oso_project_id":"cR9ROU1oy+0AaoepiSUv5i2W1EPwDp4BqWi7Z/fo+to=",
+    "display_name":"Tribo Vault",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -9758,9 +10240,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x245d242bedf4afae4a9d49b570ca34ec7eadb7f2f68bf67f12347cb38394c740",
-    "oso_project_id":"R2G3dvHwT03B4JwlVh6AfU0Dv22vBqsE0vRJS0cgKH8=",
-    "display_name":"\ud83d\udcac Build for Good: Telegram Sticker Pack for Optimism",
+    "op_atlas_id":"0x11a2255f272c84328438f5081139455d8fd2a302fd35f0f08acdff1f1c0d84e6",
+    "oso_project_id":"ydTSZESziPA9s1Clx8TXPO3QS1jhjfzJf+MdBj4X/2k=",
+    "display_name":"Node Guardians",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -9781,13 +10263,13 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x2cb7fb23e5d066f65a80a09b2eab34d76bbac06de1af16c31dcf2e54119639c3",
-    "oso_project_id":"fUkDvtE6aGHLHs9dfhp8rzhhzh7uintrSaO61/OVooU=",
-    "display_name":"Smellcheckmate",
+    "op_atlas_id":"0x740297a85de756f69945e2cfd9d439598cdb06a70e409e91664c701f5c0af34c",
+    "oso_project_id":"AWt4h9zeTVKtlCCptcCdxAqt1P8tHvgZLjpDLlttfmc=",
+    "display_name":"TOCD Studio",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":1,
+    "star_count":0,
     "fork_count":0,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -9804,13 +10286,13 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x23f07ca364a1d414820085fcd2bdef2fcb30c0ba6a3c5d97f63d2092cb888934",
-    "oso_project_id":"xlKgH+A65Ow1PsDhxPrDjFrFdOl1PVV7g2KWHEOypfg=",
-    "display_name":"\ud83d\udcd6 Build for Good: The Optimism Way",
+    "op_atlas_id":"0x71549bba4368463e945a498af93bbde31854f886ba22dfb9c4b93fb2f3629f42",
+    "oso_project_id":"75y6sdgf8NFyaTCuQnRz67BguD+csvIcCYlCcHOm5ik=",
+    "display_name":"\ud83d\udcda Build for Good: Multilingual Editions",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":3,
+    "star_count":0,
     "fork_count":0,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -9896,128 +10378,13 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xd6622026215d1489594ab9bb76b1e652eae1fd42d1804f870ec30721bc03f292",
-    "oso_project_id":"astvh27IJsLywzvRvATs9iyfMYNt5s9A+WHTfy7smUU=",
-    "display_name":"Jolt Finance",
+    "op_atlas_id":"0x40483b3554ae17882db98d1cfd3aae6b10ba8250736279d184fd947931ed02c3",
+    "oso_project_id":"iDSZ8iz4xInsAO3aYqBnYUez/tK6LiZdejrZtWxvJSg=",
+    "display_name":"Superfuse",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x23de0728e6569822fc61ee61d2a79eda8b8322894a82700bff5d5c91606798d1",
-    "oso_project_id":"tNqq5J6FEjTlKKM9jd/JCwvk/g4pTiC8v7Xit1kNS4o=",
-    "display_name":"Blobs Guru",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xb8cc15b51b7ae9acd5b771bb7872a9d54a9f19562e5a37df3a7d9b31044099df",
-    "oso_project_id":"vWtJQQ+tIY8584QcGvrVIguEyY/XUO/yk7lnhOyL8WA=",
-    "display_name":"Ladders.Vision",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x540a207d40e876569b9fd660caf76ee6f1982695b3d0549f3a79af521465bde9",
-    "oso_project_id":"Awzr/YoCOXcaqxLyCRZ5i8LUFMiJk/cpDxkTmfH0mC0=",
-    "display_name":"\ud83d\udcc5 Build for Good: The 2026 Optimism Calendar",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x578d022acd70130def85327e2926a2ed4545e08617ced951ef54a872f5a2a5f5",
-    "oso_project_id":"Rrdcu7ny/AFlN1jLZPDFfPQQS9u3ekvswVXzNO5GO9E=",
-    "display_name":"Orki Finance",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x09c9f27e241cc6119c080457693a8bcfea77e0f9b4d3a2fb70d70f884410d7f1",
-    "oso_project_id":"tda0A2fopcG55G9UY6IVaCuc0PGi16ukxdjBI6W9rR0=",
-    "display_name":"Pipegate",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":16,
+    "star_count":39,
     "fork_count":0,
     "num_packages_in_deps_dev":2,
     "package_connection_count":0,
@@ -10034,78 +10401,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x7a4bb37bc7997b8e9b34775164682ff1f441b716cd235f2e7cdce76677b66007",
-    "oso_project_id":"a0PyEDtZEEjxDRe7zWNpHP+358umEogD6bQI1XfI2eY=",
-    "display_name":"zkCodex",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xe20f59eb1c8f9cb72e07b8d0f067bac997614fd6db06d8c031c5c9235f760dcc",
-    "oso_project_id":"zpXh+xI4A77C9Y/ortXA0jU/33Zj+QztUOpW3hJ+w8A=",
-    "display_name":"L2Pass",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xd35cc78b456bf11d4acc96d2c227b29fa4115ad9d93ae211a31974a408ed8303",
-    "oso_project_id":"/2hjsm9xH1NvgIs/dHx5VOVM4ml/C6hfQu97wBgdpfo=",
-    "display_name":"Diffuse Data Feeds",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":1,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xa1f96576ad998e804140caccd478bae81b8b1059a107166df87b59fbf42c9e4a",
-    "oso_project_id":"xyqCuzyp2siN+L8QgwpvSjTruF2y+tvB++HwqdWDFXY=",
-    "display_name":"OnChainGM",
+    "op_atlas_id":"0x23f07ca364a1d414820085fcd2bdef2fcb30c0ba6a3c5d97f63d2092cb888934",
+    "oso_project_id":"xlKgH+A65Ow1PsDhxPrDjFrFdOl1PVV7g2KWHEOypfg=",
+    "display_name":"\ud83d\udcd6 Build for Good: The Optimism Way",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -10126,9 +10424,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x935315db8c17993464cfb28337442ad60c6cd434305130a1d5d898e92d6d8123",
-    "oso_project_id":"NgoVNxiNTOzlsAv1ChtyIaJk2GnReYxexUZDOQJq4aU=",
-    "display_name":"Trash NFTs",
+    "op_atlas_id":"0x2cb7fb23e5d066f65a80a09b2eab34d76bbac06de1af16c31dcf2e54119639c3",
+    "oso_project_id":"fUkDvtE6aGHLHs9dfhp8rzhhzh7uintrSaO61/OVooU=",
+    "display_name":"Smellcheckmate",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -10149,124 +10447,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x6f550434232889366a40b5a6046615cdd444528db6fbe1f8186411f2f6ed676e",
-    "oso_project_id":"h5xu6Hbm8HnEDF0JwocW5gh0pAt2OKRS0yK8HCkBjsY=",
-    "display_name":"Charged Particles - Web3 Packs",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x1335476de5a24573f3fa1297827fbeb02921948d678b399c7367fb956d08a6cc",
-    "oso_project_id":"hxU1nnOFEhGsrGFfD7pziC+gqLyN61d5U1voAgtc0Lg=",
-    "display_name":"Opstack For Cats Dream \u2611\ufe0f",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x3f32c65a09692da95d3a0a5a988065584b140a58e5462e45e38a382449045468",
-    "oso_project_id":"+v65bJR6Db8y6MgBsKOUVxu3+efddiNevqngmAKcBeI=",
-    "display_name":"farmlabs",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":1,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x6ee546715053790bda72f913925b782461830ccdcc14ad12a2f288641510f448",
-    "oso_project_id":"EuhDcgpnkg14DgTCLAjODgWZQQEjR1En9nIllh/131U=",
-    "display_name":"Dragons On Op Stack \ud83d\udd34",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x740297a85de756f69945e2cfd9d439598cdb06a70e409e91664c701f5c0af34c",
-    "oso_project_id":"AWt4h9zeTVKtlCCptcCdxAqt1P8tHvgZLjpDLlttfmc=",
-    "display_name":"TOCD Studio",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x991062ec81edb818a542e45d7c142cc62bc06e68b582273bd2ae1b037c2d6791",
-    "oso_project_id":"zCbuxTOy64SbO/+l0E7LtLS2VMhiw+1o0eedXw2s/ao=",
-    "display_name":"Titan Layer",
+    "op_atlas_id":"0x245d242bedf4afae4a9d49b570ca34ec7eadb7f2f68bf67f12347cb38394c740",
+    "oso_project_id":"R2G3dvHwT03B4JwlVh6AfU0Dv22vBqsE0vRJS0cgKH8=",
+    "display_name":"\ud83d\udcac Build for Good: Telegram Sticker Pack for Optimism",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -10310,32 +10493,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x926606219b6876c28d7185401763b7492decd48a7e89a2fd27de9dbf176507ad",
-    "oso_project_id":"o7yBqhAP2YwQutGZw+NBdFouJ046/Ka/+nDmQ1kLi3I=",
-    "display_name":"etherml",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":1,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xcad7dae6f4bb92689f5ea6a6fc830fc49b8e15cca0623f13316b528a8f8b805e",
-    "oso_project_id":"QdEipZreLcfm7xI5N6Bj6JIUitvThX5JoTjy9gvMHiY=",
-    "display_name":"zbase",
+    "op_atlas_id":"0x991062ec81edb818a542e45d7c142cc62bc06e68b582273bd2ae1b037c2d6791",
+    "oso_project_id":"zCbuxTOy64SbO/+l0E7LtLS2VMhiw+1o0eedXw2s/ao=",
+    "display_name":"Titan Layer",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -10356,9 +10516,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x60565a1ff56360c729ec5e33b27040acd6d495e35e328fec7ec5a493b9c533e2",
-    "oso_project_id":"Do7XmLDYP7t4xDWAldvqGF8KevofT/SUPeKGpg089ag=",
-    "display_name":"New Project",
+    "op_atlas_id":"0x6f550434232889366a40b5a6046615cdd444528db6fbe1f8186411f2f6ed676e",
+    "oso_project_id":"h5xu6Hbm8HnEDF0JwocW5gh0pAt2OKRS0yK8HCkBjsY=",
+    "display_name":"Charged Particles - Web3 Packs",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -10379,429 +10539,15 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x40483b3554ae17882db98d1cfd3aae6b10ba8250736279d184fd947931ed02c3",
-    "oso_project_id":"iDSZ8iz4xInsAO3aYqBnYUez/tK6LiZdejrZtWxvJSg=",
-    "display_name":"Superfuse",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":39,
-    "fork_count":0,
-    "num_packages_in_deps_dev":2,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x076a2b1418a515ff8c5bb11beed5630cc6fe7f65fd8d42d4403c4364514f2a30",
-    "oso_project_id":"eQqCoZ6ZUM1ejuDhFMANJnjGAF32f7Pf7cWVAbVCSC4=",
-    "display_name":"BAG Guild Dapp",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":1,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x6a13d3e82b5a090fca8ff9ee8ce2637cef515fc24f51760f76f36030b76e0a55",
-    "oso_project_id":"M8tDjaH5PrOfLIhPjNXOkNi/ve0MTTJ7tSDM1zMdiaI=",
-    "display_name":"Wild Water Bottle Cap Token",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x2f22900fb20dd35ce72ef53c3aed7a3dd3364a83c32ae075799919b40f6018dc",
-    "oso_project_id":"VhGGSdMLn+D3Vfp7j/0pkXZaTDU4uMhacHXXESPeQRQ=",
-    "display_name":"Superchain Faucet",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x3061b642db56c507e265f03029735b0413a613bda43456a31e78128baeb18754",
-    "oso_project_id":"VsbnIqH0Z8ErW7VixsMTGcLVf45E645bcxAVcD/KZT0=",
-    "display_name":"Aave",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xc9627399b5606969337a4ae917ae932fbaaeb71d56088b8ab546047ef3a7c941",
-    "oso_project_id":"fnWnB7dEZYjjNxP75u4wLajmo3wZ2VFJ53Zv6NBESM4=",
-    "display_name":"Capypay",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xd7a8e115b2b3772d7d5656d7798e349dcdedf2463302c78528c9e9686ab4efe3",
-    "oso_project_id":"FfXoEN2YNayzuwjlJN2xtQWdP5War/J/3WLgkc8sX6s=",
-    "display_name":"OmniHub",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x18539618cdbab1c37092e7e0bd8e03c7c4037a55b8a356215bc15c8d6a8c68dd",
-    "oso_project_id":"VvNggDaql/smdOS/0t1CinLgcYy7jwICjC1P5gu8zI4=",
-    "display_name":"Purrmissionless Proofs",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xeb6d215732b1ed881e718faa8bf8b4b88a94edf021efa9a3cf3e2cc3c22b0961",
-    "oso_project_id":"owZ14rxpDWPBMxBXsdu3ybsF/7IsdtcyAz5JpAp8sb0=",
-    "display_name":"Multichaintools",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x1c25ae2899ab6edb1e55c8cda5b736bb861a31da22bb9aa538f3868807eb1c73",
-    "oso_project_id":"YMhICPfTJIL3NuTWP+/uQgruO2wLN8vr01MjKrr5dso=",
-    "display_name":"Bonadocs ",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":2,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xb3df6310de99d640f976422dba92de447b56bcec015a78ec07629d22497115a9",
-    "oso_project_id":"19GmI+YcdI6xARJ1gSGsw9nc3XiU9voC54b/YWXyPWc=",
-    "display_name":"Agent Treasury Policy Linter",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xcb0434aaf86a5dca68f96edefc22bf04a16bbfaa48b0a4a40c844f1afb8d7b1e",
-    "oso_project_id":"iRL7HC30DiL3CfAxmFhFI1d6/zzZ7U7C0m6jScMGKuY=",
-    "display_name":"BASE BTC EARTH \ud83c\udf0d",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x5ae42b967b8cfb453ec0063849bc2b1f31b69c5846db7d7c4e385820dbb89a37",
-    "oso_project_id":"/DScGb8/v7BZ3WdP7B/Fjk1VkJeYD4kSWb07N253Yd0=",
-    "display_name":"OPSight",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x696c9b46af5eeaa2fcfa86f23da23ed1ce7938df67d90d422e6ba7ee2604b512",
-    "oso_project_id":"LtUbRD/QO0Bokl1Bxbws5tg4dP7fmNnp4/U21i2tiH0=",
-    "display_name":"Ethernaut CLI",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x11a2255f272c84328438f5081139455d8fd2a302fd35f0f08acdff1f1c0d84e6",
-    "oso_project_id":"ydTSZESziPA9s1Clx8TXPO3QS1jhjfzJf+MdBj4X/2k=",
-    "display_name":"Node Guardians",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x41b61476ed56e21754276efdd23d62fabdcdb6e97a37a5a797d9a6c8e977d1dd",
-    "oso_project_id":"cR9ROU1oy+0AaoepiSUv5i2W1EPwDp4BqWi7Z/fo+to=",
-    "display_name":"Tribo Vault",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x71549bba4368463e945a498af93bbde31854f886ba22dfb9c4b93fb2f3629f42",
-    "oso_project_id":"75y6sdgf8NFyaTCuQnRz67BguD+csvIcCYlCcHOm5ik=",
-    "display_name":"\ud83d\udcda Build for Good: Multilingual Editions",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x4734611c02025e9a48eae0b9e0350eb84aa1daff896c520eadc5d1a116c631cd",
-    "oso_project_id":"s1mj5fqtlEfMpVmLmpSl5clfhz8YrBHhombxLXM3siQ=",
-    "display_name":"BuildForGood Games: Playful Onboarding for Optimism",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x3a942492f564e13e4a3fc11e9a8b5dcd8bf0213f9dd8571d888f32db84271c5f",
-    "oso_project_id":"t/dgn11ZvHldfKXg2+6wFS7LkRL93an78Mi3B3eZnLw=",
-    "display_name":"evm-rpcs-list",
+    "op_atlas_id":"0xa1f96576ad998e804140caccd478bae81b8b1059a107166df87b59fbf42c9e4a",
+    "oso_project_id":"xyqCuzyp2siN+L8QgwpvSjTruF2y+tvB++HwqdWDFXY=",
+    "display_name":"OnChainGM",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
     "star_count":3,
     "fork_count":0,
-    "num_packages_in_deps_dev":1,
+    "num_packages_in_deps_dev":0,
     "package_connection_count":0,
     "developer_connection_count":0,
     "onchain_builder_oso_project_ids":[
@@ -10816,9 +10562,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x7fd813000c03bd11fdf3ded76a3b46db355218c72947acea7f14871a5b0a9258",
-    "oso_project_id":"Xrci3TfxGk1fFof+fNzWx6Had1yDlmU1CoHHRvzLMGo=",
-    "display_name":"Satoshi's Secret",
+    "op_atlas_id":"0xab28184ffcd1429ce9bbcffdba320787e9d2ab1e2f365352af3b5a9ef64f4600",
+    "oso_project_id":"AsxMKwemcJWec/D3bdacdVunMOxC7EBmUqqb5Buj0/s=",
+    "display_name":"Hydrex",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -10826,114 +10572,23 @@
     "fork_count":0,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
-    "developer_connection_count":0,
+    "developer_connection_count":2,
     "onchain_builder_oso_project_ids":[
-
+      "Te2nZaFW2M/6DMbfuJE3J0ahxI8d+hHBZa6GyGeq7E8="
     ],
     "onchain_builder_op_atlas_ids":[
-
+      "0x63d14cd07db0f56a91cb2f8972a29a225d24ea739034597f7c3e22f53817f7a8"
     ],
     "trusted_developer_usernames":[
-
+      "cottoneyebro",
+      "larrettgee"
     ],
-    "downstream_gas":0.0
+    "downstream_gas":0.0390066096
   },
   {
-    "op_atlas_id":"0x51504348243d8e8fa59cf2ba983d9255373e5eb23fe22a0d18c0d36028561ace",
-    "oso_project_id":"5DRU+kSqJj07dgVZUng7jkEn6Pqn3SZm2yQWrZEAS8M=",
-    "display_name":"Test Project",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x9d439b2eeda990e571484f7002d4fb858b52b2fec28da0958b5647344947634e",
-    "oso_project_id":"TUyXIOABwiAJaOZY+y9irqSOEGeMz4NbqW4DJ2vfF50=",
-    "display_name":"\u25b6\ufe0f BuildForGood YouTube Channel",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x3d5ca7d9c33e8b697162e826b1064be3508be6ffac65974439e2593476da8644",
-    "oso_project_id":"RASUMhsvYGD/KY/pMy1j0LEk9g53Yi6DmeFbmqXvSz0=",
-    "display_name":"Formo",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":2,
-    "fork_count":0,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x43e690dc6503eef139d7acbe12100fa07fdf6dafc0779988854c94118c78dd5a",
-    "oso_project_id":"L3l8R/2ZJ5damj21w9P7nW6V9fIx1GLhvzj0Tj5Znn0=",
-    "display_name":"\ud83c\udfb5 Build for Good: Optimism Hymn",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":2,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xc7deacbdcba28f7d1126f681f1088783f3118d1912d573e63cd9db76c3a4ee3f",
-    "oso_project_id":"7t5tc5myq9pZPBoT8V9jFiJVpzN2NwDhf6PNsKgrlrA=",
-    "display_name":"Yecho",
+    "op_atlas_id":"0xd35cc78b456bf11d4acc96d2c227b29fa4115ad9d93ae211a31974a408ed8303",
+    "oso_project_id":"/2hjsm9xH1NvgIs/dHx5VOVM4ml/C6hfQu97wBgdpfo=",
+    "display_name":"Diffuse Data Feeds",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -10954,13 +10609,151 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xb773733e55b7267302f2622ae410a65a89552689387d0b86bce0f0cb833119d0",
-    "oso_project_id":"L6B16S3rzyLs1mNMTAy9zAwDIt9b3Z9tCUc3i2bENmw=",
-    "display_name":"Callthis",
+    "op_atlas_id":"0x495b81a381005f49592ee02a7ac6861b8da69762b7164180d0a1e4570f2d83bf",
+    "oso_project_id":"APxN0aDM3FTM/WDaBH2zFhzV721O0Y2IHkIRm5Xy0Lg=",
+    "display_name":"DEO AI: Ethereum Developer Assistant",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":5,
+    "star_count":2,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x7a4bb37bc7997b8e9b34775164682ff1f441b716cd235f2e7cdce76677b66007",
+    "oso_project_id":"a0PyEDtZEEjxDRe7zWNpHP+358umEogD6bQI1XfI2eY=",
+    "display_name":"zkCodex",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x2cf7c4cc06b7da1ea7c7c647f9a532cef3d75cc4df6a69a3a9204d4b4f99df9d",
+    "oso_project_id":"RFzv+HYMe8O4KTTeMyfR8Xb/ZlwQ4JlPZNqTemBJjyo=",
+    "display_name":"Save/nx",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x10da43868e7439419af2859f2539ed8b355a0f330bd05a6d028ddff8fd4a03d8",
+    "oso_project_id":"o6breg8faNvvKQn7n+MVsLpnPjfrMzmIHkhW2KeHtus=",
+    "display_name":"dwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadw",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x540a207d40e876569b9fd660caf76ee6f1982695b3d0549f3a79af521465bde9",
+    "oso_project_id":"Awzr/YoCOXcaqxLyCRZ5i8LUFMiJk/cpDxkTmfH0mC0=",
+    "display_name":"\ud83d\udcc5 Build for Good: The 2026 Optimism Calendar",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xd6622026215d1489594ab9bb76b1e652eae1fd42d1804f870ec30721bc03f292",
+    "oso_project_id":"astvh27IJsLywzvRvATs9iyfMYNt5s9A+WHTfy7smUU=",
+    "display_name":"Jolt Finance",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xd4ed99cc6aaf73ca63b32f7a03b5427ac1d2955bf9efc31eb14f5773016988d0",
+    "oso_project_id":"KhgJMDdCk38bxrajjp9pJrxfmR+6DpKm3q4KnIprGwY=",
+    "display_name":"AWS KMS and YubiHSM signer for OP Stack",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":9,
     "fork_count":0,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -10977,9 +10770,9 @@
     "downstream_gas":1.75190609
   },
   {
-    "op_atlas_id":"0xded45f5b4e2be2487ef301591cf49859e95ed6d2b33743a0c0b5e15c25e17694",
-    "oso_project_id":"DERMlsmnAEKOvTAxNC97PgHRrprkpDAiD/ipMGVgy6E=",
-    "display_name":"UTP Java Library",
+    "op_atlas_id":"0xf173b116c6383d6d7557d633de525a4535543265d800af3d8b15bc224dbab982",
+    "oso_project_id":"d6Us8Nyctz7rF5nxnucystePRDAQgQKjs01pyA1u+wo=",
+    "display_name":"FrameMaker",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -11000,13 +10793,13 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x853bb82b68a3cc3a16982f86b2d9c032ecf8675f1e575c27355a0e37a7775295",
-    "oso_project_id":"/NlfLHeR3m6Kyz+POQ8ON8TQ+yfQ/PYrzVXtFP7Ph4g=",
-    "display_name":"CheapGM",
+    "op_atlas_id":"0x7e5614eb46520c523562a641649be228012355d0264c9130b2c1d9872bf5bad5",
+    "oso_project_id":"dSexksuFbpb8T3C4yr7N2nGH2LM9kwx5kFCQMA7w3Dc=",
+    "display_name":"ABIExplorer",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":0,
+    "star_count":2,
     "fork_count":0,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -11023,218 +10816,9 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0x0c85267cd9d7e694e385467c9984fbc787228db0cf03e57254a5116001eac4ee",
-    "oso_project_id":"TKabb9V96NYlby3PBEyEnJjayZ88FtEg3Bf9OPMiq7w=",
-    "display_name":"Tachyon",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":1,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x84893ce34d8069c43d8814db55a1ff5d472e4765650f0c37c1156b5ce97421ff",
-    "oso_project_id":"64LVONxZqStiERLga/boELUNhHttJflHBaUlGkG2iSM=",
-    "display_name":"TPulseFi",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x2d38180d3da676251f337260f2a48fe03015629fce52943282f4d99ef8edba12",
-    "oso_project_id":"6zjHDw5YGpxbiWEmNUu52nXwPL816I80hVVI4kmTwnI=",
-    "display_name":"Test 2",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x57703c46bfc5c72dc1706d0c1ddcc342aa2b1471ca982b7b9a7e3ec130d31938",
-    "oso_project_id":"SmIuucfM8Yl8olRcJbNr5VtgYDZkTgZblQmVSyhNQ5s=",
-    "display_name":"\ud83d\udcd6 Build for Good: The Optimism Way",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":3,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x9dc9d9b8f79644cbe8634b022d4dd5ecaf4e438a71fe26256598f6e0d85a33a0",
-    "oso_project_id":"cp0S6ThVsjNFKGRoNdNuxHWooFfG5ZeMdv/5UnaBz6w=",
-    "display_name":"Superbeam",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":1,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0xd9d413772483111ca8ecfe5054737c6c80a65f03c0d289c632b05e3ec21d5680",
-    "oso_project_id":"NVaHlLLvCB4MDnHhpo8SshekHbelFyEatVRt5K7cxvM=",
-    "display_name":"Opstack Kit",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":16,
-    "fork_count":0,
-    "num_packages_in_deps_dev":2,
-    "package_connection_count":0,
-    "developer_connection_count":1,
-    "onchain_builder_oso_project_ids":[
-      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8=",
-      "Zy6ZHnI5FaGA6G9Pm0+DxqvFg3pcni2pcNqd6VPbsG8="
-    ],
-    "onchain_builder_op_atlas_ids":[
-      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5",
-      "0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745"
-    ],
-    "trusted_developer_usernames":[
-      "janjakubnanista"
-    ],
-    "downstream_gas":0.4829101264
-  },
-  {
-    "op_atlas_id":"0x6f455f9608732bc84e184233ac638310be78375076f4e77a9d3d5eff17907a3a",
-    "oso_project_id":"GLCT+t9/sjJaSoxW9yYnwDRbiLf3abLbHGclN3IXZnI=",
-    "display_name":"vscode opstack debugger",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":1,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x492d0bbb85672e7e5f1d439bfd8857ac0aa59a52010143bbaab1a411bf55be0c",
-    "oso_project_id":"rOygm3l4aj16QhC3PON0GlZokjUdhQIH+7nYCZlAKNI=",
-    "display_name":"TurtleShell",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x46d784ec075b98efe6a23e515cad06f1b7081f082cb0c7502c68a7a76c38c9e2",
-    "oso_project_id":"XLoqByB4S+esO4fmmeEQSAoPyvWrnxh1Iq8fXOZePuo=",
-    "display_name":"DistriButler: Multi Token Sender for Optimism, Base & Arbitrum",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "star_count":0,
-    "fork_count":0,
-    "num_packages_in_deps_dev":0,
-    "package_connection_count":0,
-    "developer_connection_count":0,
-    "onchain_builder_oso_project_ids":[
-
-    ],
-    "onchain_builder_op_atlas_ids":[
-
-    ],
-    "trusted_developer_usernames":[
-
-    ],
-    "downstream_gas":0.0
-  },
-  {
-    "op_atlas_id":"0x52b74da84ea50e0a6ddb28c1c78e0baaa284b7a95298cf23bf65dafd7b0c6d19",
-    "oso_project_id":"K1gYejJCg8UEic8jwRhE9HIlB5IHUv5Wy89uB08VrFQ=",
-    "display_name":"Skeleton ERA \ud83d\udc80",
+    "op_atlas_id":"0x55bff36906b3e55bff995b4a7d73fd6651eeba4274ad49e269b29157bbf2fee2",
+    "oso_project_id":"lGoc+rdKwNdooopWynCp0XdR8HNqPVawSR00mYSfv9g=",
+    "display_name":"8 Bit Cats\u2611\ufe0f",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -11278,13 +10862,130 @@
     "downstream_gas":0.0
   },
   {
-    "op_atlas_id":"0xba07fed41ba414e6fe8c76b17a1ea99b2068d5ac97b3064a483e6dd47b8d9dac",
-    "oso_project_id":"FzZmOSJUM5wtIUc2jNAan+umCJidUctGPRkHVUPWFiA=",
-    "display_name":"\ud83e\udd16 Build for Good: Hub (Website & Bot)",
+    "op_atlas_id":"0x817133c5038efbbbba5fb2165466c4ec430691eff8e6bd04b6e19cef71a23f30",
+    "oso_project_id":"HmZx6qjamX0XBczuprKgSvGcdwzFh4zD5CP8lHSYGgs=",
+    "display_name":"Crypto Stock Exchange",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
-    "star_count":2,
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xd9d413772483111ca8ecfe5054737c6c80a65f03c0d289c632b05e3ec21d5680",
+    "oso_project_id":"NVaHlLLvCB4MDnHhpo8SshekHbelFyEatVRt5K7cxvM=",
+    "display_name":"Opstack Kit",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":16,
+    "fork_count":0,
+    "num_packages_in_deps_dev":2,
+    "package_connection_count":0,
+    "developer_connection_count":1,
+    "onchain_builder_oso_project_ids":[
+      "o+HSkDisJ4Me0rmZT0iLKjKyUD8JxouPc31pw3ti4P8=",
+      "Zy6ZHnI5FaGA6G9Pm0+DxqvFg3pcni2pcNqd6VPbsG8="
+    ],
+    "onchain_builder_op_atlas_ids":[
+      "0x3230536d9c471231698a0fe66daeeda963282f2b594ce5a47d3dbfa53ac9d4a5",
+      "0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745"
+    ],
+    "trusted_developer_usernames":[
+      "janjakubnanista"
+    ],
+    "downstream_gas":0.4829101264
+  },
+  {
+    "op_atlas_id":"0x96c5627853d61ad931f8942bfdcc8b3f2507e830bad346b0d31b87c60637474e",
+    "oso_project_id":"YkMQQUKtbXB1JgNgNqSbUVBTsK70wrO3UA/Llyhi9fE=",
+    "display_name":"All Weather Protocol",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x9dc9d9b8f79644cbe8634b022d4dd5ecaf4e438a71fe26256598f6e0d85a33a0",
+    "oso_project_id":"cp0S6ThVsjNFKGRoNdNuxHWooFfG5ZeMdv/5UnaBz6w=",
+    "display_name":"Superbeam",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x38c38455bb0fd71d2929fcf799279569ab5f5c5d3e1f92f8642ce87aa25accdf",
+    "oso_project_id":"5pKMLWfNkmCqGNkDWMXHeyYR+9Uc3EOVJRd+EG+ULsc=",
+    "display_name":"Decent.xyz",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":1,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x57703c46bfc5c72dc1706d0c1ddcc342aa2b1471ca982b7b9a7e3ec130d31938",
+    "oso_project_id":"SmIuucfM8Yl8olRcJbNr5VtgYDZkTgZblQmVSyhNQ5s=",
+    "display_name":"\ud83d\udcd6 Build for Good: The Optimism Way",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":3,
     "fork_count":0,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,
@@ -11308,6 +11009,305 @@
     "op_reward":0.0,
     "round_id":"8",
     "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xba07fed41ba414e6fe8c76b17a1ea99b2068d5ac97b3064a483e6dd47b8d9dac",
+    "oso_project_id":"FzZmOSJUM5wtIUc2jNAan+umCJidUctGPRkHVUPWFiA=",
+    "display_name":"\ud83e\udd16 Build for Good: Hub (Website & Bot)",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":2,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x52b74da84ea50e0a6ddb28c1c78e0baaa284b7a95298cf23bf65dafd7b0c6d19",
+    "oso_project_id":"K1gYejJCg8UEic8jwRhE9HIlB5IHUv5Wy89uB08VrFQ=",
+    "display_name":"Skeleton ERA \ud83d\udc80",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x84893ce34d8069c43d8814db55a1ff5d472e4765650f0c37c1156b5ce97421ff",
+    "oso_project_id":"64LVONxZqStiERLga/boELUNhHttJflHBaUlGkG2iSM=",
+    "display_name":"TPulseFi",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x46d784ec075b98efe6a23e515cad06f1b7081f082cb0c7502c68a7a76c38c9e2",
+    "oso_project_id":"XLoqByB4S+esO4fmmeEQSAoPyvWrnxh1Iq8fXOZePuo=",
+    "display_name":"DistriButler: Multi Token Sender for Optimism, Base & Arbitrum",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x0c85267cd9d7e694e385467c9984fbc787228db0cf03e57254a5116001eac4ee",
+    "oso_project_id":"TKabb9V96NYlby3PBEyEnJjayZ88FtEg3Bf9OPMiq7w=",
+    "display_name":"Tachyon",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":1,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xc7deacbdcba28f7d1126f681f1088783f3118d1912d573e63cd9db76c3a4ee3f",
+    "oso_project_id":"7t5tc5myq9pZPBoT8V9jFiJVpzN2NwDhf6PNsKgrlrA=",
+    "display_name":"Yecho",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":1,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x3d5ca7d9c33e8b697162e826b1064be3508be6ffac65974439e2593476da8644",
+    "oso_project_id":"RASUMhsvYGD/KY/pMy1j0LEk9g53Yi6DmeFbmqXvSz0=",
+    "display_name":"Formo",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":2,
+    "fork_count":0,
+    "num_packages_in_deps_dev":1,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x492d0bbb85672e7e5f1d439bfd8857ac0aa59a52010143bbaab1a411bf55be0c",
+    "oso_project_id":"rOygm3l4aj16QhC3PON0GlZokjUdhQIH+7nYCZlAKNI=",
+    "display_name":"TurtleShell",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x6f455f9608732bc84e184233ac638310be78375076f4e77a9d3d5eff17907a3a",
+    "oso_project_id":"GLCT+t9/sjJaSoxW9yYnwDRbiLf3abLbHGclN3IXZnI=",
+    "display_name":"vscode opstack debugger",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":1,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x2d38180d3da676251f337260f2a48fe03015629fce52943282f4d99ef8edba12",
+    "oso_project_id":"6zjHDw5YGpxbiWEmNUu52nXwPL816I80hVVI4kmTwnI=",
+    "display_name":"Test 2",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x853bb82b68a3cc3a16982f86b2d9c032ecf8675f1e575c27355a0e37a7775295",
+    "oso_project_id":"/NlfLHeR3m6Kyz+POQ8ON8TQ+yfQ/PYrzVXtFP7Ph4g=",
+    "display_name":"CheapGM",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0xded45f5b4e2be2487ef301591cf49859e95ed6d2b33743a0c0b5e15c25e17694",
+    "oso_project_id":"DERMlsmnAEKOvTAxNC97PgHRrprkpDAiD/ipMGVgy6E=",
+    "display_name":"UTP Java Library",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":0,
+    "fork_count":0,
+    "num_packages_in_deps_dev":0,
+    "package_connection_count":0,
+    "developer_connection_count":0,
+    "onchain_builder_oso_project_ids":[
+
+    ],
+    "onchain_builder_op_atlas_ids":[
+
+    ],
+    "trusted_developer_usernames":[
+
+    ],
+    "downstream_gas":0.0
+  },
+  {
+    "op_atlas_id":"0x43e690dc6503eef139d7acbe12100fa07fdf6dafc0779988854c94118c78dd5a",
+    "oso_project_id":"L3l8R/2ZJ5damj21w9P7nW6V9fIx1GLhvzj0Tj5Znn0=",
+    "display_name":"\ud83c\udfb5 Build for Good: Optimism Hymn",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "star_count":2,
     "fork_count":0,
     "num_packages_in_deps_dev":0,
     "package_connection_count":0,

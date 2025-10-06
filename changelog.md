@@ -4,7 +4,8 @@ All notable changes to algorithms, weights, and underlying OSO models will be do
 
 ## [M8] - 2025-10-06
 
-_No changes to metrics or weights._
+### Fixed
+- Special handling for Oku's Uniswap deployments to only consider TVL on LISK and BOB.
 
 ## [M7] - 2025-09-08
 

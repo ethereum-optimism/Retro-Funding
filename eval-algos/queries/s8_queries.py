@@ -62,6 +62,13 @@ QUERIES = [
                 pbc.collection_name = '8-{THIS_PERIOD_NUMBER}'
                 AND m.sample_date >= DATE ('{LAST_PERIOD_DATE}')
                 AND m.sample_date < DATE '{END_DATE}'
+                AND (
+                    pbc.project_name != '0x9d9162fac637991d2a56da8fbe03dba24c87eb82d47c7a00b921e39e956f8a9d'
+                    OR NOT (
+                       m.metric_name = 'defillama_tvl'
+                       AND m.chain NOT IN ('LISK', 'BOB')
+                    )
+                )
         """
     },
     {

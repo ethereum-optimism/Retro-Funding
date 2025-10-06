@@ -30,8 +30,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":70770615.5333333462,
-      "contract_invocations":95471278.0,
       "gas_fees":12.2727451501,
+      "contract_invocations":95471278.0,
       "active_addresses_aggregation":31537.0
     }
   },
@@ -264,8 +264,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":36302.0,
       "gas_fees":0.6850387201,
+      "active_addresses_aggregation":36302.0,
       "contract_invocations":8383332.0
     }
   },
@@ -300,8 +300,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":1988398188.2000002861,
-      "active_addresses_aggregation":218878.0,
       "gas_fees":0.7988426179,
+      "active_addresses_aggregation":218878.0,
       "contract_invocations":9107291.0
     }
   },
@@ -336,8 +336,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":273610.0,
       "gas_fees":0.811964499,
+      "active_addresses_aggregation":273610.0,
       "contract_invocations":3083245.0
     }
   },
@@ -696,8 +696,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":59043.0,
       "gas_fees":0.5875204764,
+      "active_addresses_aggregation":59043.0,
       "contract_invocations":1592803.0
     }
   },
@@ -984,8 +984,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":20138.0,
       "contract_invocations":676071.0,
+      "active_addresses_aggregation":20138.0,
       "gas_fees":0.0313469644
     }
   },
@@ -1219,8 +1219,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "contract_invocations":390337.0,
-      "active_addresses_aggregation":9737.0,
-      "gas_fees":0.1062670078
+      "gas_fees":0.1062670078,
+      "active_addresses_aggregation":9737.0
     }
   },
   {
@@ -1596,8 +1596,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":12631.0,
       "gas_fees":0.0284727727,
+      "active_addresses_aggregation":12631.0,
       "contract_invocations":220581.0
     }
   },
@@ -1758,9 +1758,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":39611.0,
       "contract_invocations":227399.0,
-      "gas_fees":0.1103063906
+      "gas_fees":0.1103063906,
+      "active_addresses_aggregation":39611.0
     }
   },
   {
@@ -2191,8 +2191,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "active_addresses_aggregation":717.0,
-      "contract_invocations":109249.0,
-      "gas_fees":0.0047033955
+      "gas_fees":0.0047033955,
+      "contract_invocations":109249.0
     }
   },
   {
@@ -2532,8 +2532,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":124695.6666666667,
-      "active_addresses_aggregation":296.0,
       "contract_invocations":2659.0,
+      "active_addresses_aggregation":296.0,
       "gas_fees":0.0016902923
     }
   },
@@ -2801,8 +2801,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":100533.4,
-      "active_addresses_aggregation":555.0,
       "gas_fees":0.0036027391,
+      "active_addresses_aggregation":555.0,
       "contract_invocations":12885.0
     }
   },
@@ -3107,8 +3107,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":8971.0,
       "gas_fees":0.0019149301,
+      "active_addresses_aggregation":8971.0,
       "contract_invocations":15147.0
     }
   },
@@ -3125,8 +3125,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":22062.0,
       "gas_fees":0.0015164923,
+      "active_addresses_aggregation":22062.0,
       "contract_invocations":87855.0
     }
   },
@@ -3520,8 +3520,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":544.0,
       "gas_fees":0.0005282357,
+      "active_addresses_aggregation":544.0,
       "contract_invocations":8270.0
     }
   },
@@ -3934,8 +3934,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "active_addresses_aggregation":1735.0,
       "gas_fees":0.0346704572,
+      "active_addresses_aggregation":1735.0,
       "contract_invocations":6201.0
     }
   },
@@ -5455,24 +5455,6 @@
     }
   },
   {
-    "oso_project_id":"OT6BoCbHARe67sVFlqmawsQ8TwY9/XU7UQ883w27OUE=",
-    "op_atlas_id":"0xd9e0c75338d41d200ebe8d347cdedea7b648b38452aa45c9cd87bdebee726786",
-    "display_name":"Guide DAO",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "eligibility_metrics":{
-      "transaction_count":187,
-      "active_days":99
-    },
-    "monthly_metrics":{
-      "defillama_tvl":null,
-      "gas_fees":0.0000001249,
-      "active_addresses_aggregation":7.0,
-      "contract_invocations":38.0
-    }
-  },
-  {
     "oso_project_id":"LLK6remJzmNWYHJv5LsqViPMz+6FR4LML+t1E9V62WQ=",
     "op_atlas_id":"0xdd5998cc29bcd164fe277beb1e64f1fb28390886bc736a218fca0369537c719f",
     "display_name":"Records.xyz",
@@ -5488,6 +5470,24 @@
       "gas_fees":0.0000000419,
       "active_addresses_aggregation":11.0,
       "contract_invocations":14.0
+    }
+  },
+  {
+    "oso_project_id":"OT6BoCbHARe67sVFlqmawsQ8TwY9/XU7UQ883w27OUE=",
+    "op_atlas_id":"0xd9e0c75338d41d200ebe8d347cdedea7b648b38452aa45c9cd87bdebee726786",
+    "display_name":"Guide DAO",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "eligibility_metrics":{
+      "transaction_count":187,
+      "active_days":99
+    },
+    "monthly_metrics":{
+      "defillama_tvl":null,
+      "gas_fees":0.0000001249,
+      "active_addresses_aggregation":7.0,
+      "contract_invocations":38.0
     }
   },
   {
@@ -5694,24 +5694,6 @@
     }
   },
   {
-    "oso_project_id":"tXGS6SGDHNL8TAhS+fj8+qzF7+FFbx0qJrdfVY2j62I=",
-    "op_atlas_id":"0x93b1eafeb62f6cd5099ad82068763c1fd21f9d881c4e1a474ab854876ea84441",
-    "display_name":"Based Year 2024",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "eligibility_metrics":{
-      "transaction_count":28,
-      "active_days":19
-    },
-    "monthly_metrics":{
-      "defillama_tvl":null,
-      "contract_invocations":3.0,
-      "gas_fees":0.0000005407,
-      "active_addresses_aggregation":3.0
-    }
-  },
-  {
     "oso_project_id":"21b/3H5SNlkg/45LTGx1ukqqVeLqTW7FxujQAgPVKzU=",
     "op_atlas_id":"0x5f6f36a05c05d9c81416a77153f9b4fcf0abc43550ee70de113f4355c6c7e8ff",
     "display_name":"AnkitX4",
@@ -5727,6 +5709,24 @@
       "active_addresses_aggregation":1.0,
       "contract_invocations":3.0,
       "gas_fees":0.0000002252
+    }
+  },
+  {
+    "oso_project_id":"tXGS6SGDHNL8TAhS+fj8+qzF7+FFbx0qJrdfVY2j62I=",
+    "op_atlas_id":"0x93b1eafeb62f6cd5099ad82068763c1fd21f9d881c4e1a474ab854876ea84441",
+    "display_name":"Based Year 2024",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "eligibility_metrics":{
+      "transaction_count":28,
+      "active_days":19
+    },
+    "monthly_metrics":{
+      "defillama_tvl":null,
+      "contract_invocations":3.0,
+      "gas_fees":0.0000005407,
+      "active_addresses_aggregation":3.0
     }
   },
   {
@@ -5937,9 +5937,9 @@
     }
   },
   {
-    "oso_project_id":"Pbk+QmBSQjMMVayM2NC4roJq1go7oUlvVl0F1Kp33Xk=",
-    "op_atlas_id":"0xed3d54e5394dc3ed01f15a67fa6a70e203df31c928dad79f70e25cb84f6e2cf9",
-    "display_name":"HostIT",
+    "oso_project_id":"whSzne13utJrOkyjbU5X3xEuZbQPNrNOHTiQKzQFJlU=",
+    "op_atlas_id":"0xb60780abaff82da08ddb98703d6792d806f03f190f6dcd7d0b8e7346533bd4eb",
+    "display_name":"Web3bridge",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",
@@ -5952,9 +5952,9 @@
     }
   },
   {
-    "oso_project_id":"whSzne13utJrOkyjbU5X3xEuZbQPNrNOHTiQKzQFJlU=",
-    "op_atlas_id":"0xb60780abaff82da08ddb98703d6792d806f03f190f6dcd7d0b8e7346533bd4eb",
-    "display_name":"Web3bridge",
+    "oso_project_id":"Pbk+QmBSQjMMVayM2NC4roJq1go7oUlvVl0F1Kp33Xk=",
+    "op_atlas_id":"0xed3d54e5394dc3ed01f15a67fa6a70e203df31c928dad79f70e25cb84f6e2cf9",
+    "display_name":"HostIT",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",

@@ -2,6 +2,10 @@
 
 All notable changes to algorithms, weights, and underlying OSO models will be documented here.
 
+## [M8] - 2025-10-06
+
+_No changes to metrics or weights._
+
 ## [M7] - 2025-09-08
 
 _This is the first reward round for Season 8 (S8). Note that the total budgets for both Onchain Builders and Dev Tooling have been reduced in S8 compared to S7._

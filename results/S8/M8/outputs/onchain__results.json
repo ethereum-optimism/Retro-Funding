@@ -5980,5 +5980,23 @@
     "monthly_metrics":{
       "defillama_tvl":null
     }
+  },
+  {
+    "oso_project_id":"5W2V/EoUpbLReLyJGJCVGhpsrsGL3zryWyve0KOHuWg=",
+    "op_atlas_id":"0xc7104d126ffe628630e89f455711ef296175069fffb1f9c0e85b396ee1d23f27",
+    "display_name":"DIAMANTE",
+    "is_eligible":true,
+    "op_reward":2355.92,
+    "round_id":"8",
+    "eligibility_metrics":{
+      "transaction_count":9255540,
+      "active_days":95
+    },
+    "monthly_metrics":{
+      "defillama_tvl":null,
+      "gas_fees":0.1037995178,
+      "active_addresses_aggregation":180396.0,
+      "contract_invocations":3656243.0
+    }
   }
 ]

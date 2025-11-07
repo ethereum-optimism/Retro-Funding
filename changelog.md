@@ -2,6 +2,15 @@
 
 All notable changes to algorithms, weights, and underlying OSO models will be documented here.
 
+## [M9] - 2025-11-07
+
+### Fixed
+- Retroactive calculation of M7 and M8 rewards for one project affected by downtime from the attestation signer
+- One-time adjustment to the M9 onchain builder reward budget to 161,583.96 OP
+
+### Tracking
+- On 2025-10-09, GitHub [changed](https://github.blog/changelog/2025-08-08-upcoming-changes-to-github-events-api-payloads/) the data provided in its `PushEvents` API payload. This change coincided with a service interruption to OSO's source of raw GitHub data (see [here](https://github.com/igrigorik/gharchive.org/issues/312)). Service has since resumed, but detailed commit events are no longer included in the payload. The changes and interruption do not apear to have affected the M9 devtooling rewards, but OSO will modify its upstream models and continue tracking the impact on future rounds.
+
 ## [M8] - 2025-10-06
 
 ### Fixed

@@ -11,10 +11,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":550420015.1935484409,
+      "defillama_tvl":550085289.4516129494,
+      "active_addresses_aggregation":78287.0,
       "contract_invocations":223327059.0,
-      "gas_fees":396.3159840154,
-      "active_addresses_aggregation":78287.0
+      "gas_fees":396.3159840154
     }
   },
   {
@@ -29,9 +29,9 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":61213307.2258064523,
-      "contract_invocations":123060699.0,
+      "defillama_tvl":61196280.8709677458,
       "gas_fees":13.4163521781,
+      "contract_invocations":123060699.0,
       "active_addresses_aggregation":26528.0
     }
   },
@@ -47,10 +47,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":74710654.2903225869,
+      "defillama_tvl":74676661.5806451589,
+      "active_addresses_aggregation":560507.0,
       "contract_invocations":33541597.0,
-      "gas_fees":117.7610626876,
-      "active_addresses_aggregation":560507.0
+      "gas_fees":117.7610626876
     }
   },
   {
@@ -65,10 +65,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":42796693.2903225794,
+      "defillama_tvl":42796831.5806451589,
+      "active_addresses_aggregation":21698.0,
       "contract_invocations":31054523.0,
-      "gas_fees":57.8045516926,
-      "active_addresses_aggregation":21698.0
+      "gas_fees":57.8045516926
     }
   },
   {
@@ -84,9 +84,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":13556150.0,
       "gas_fees":0.0596950206,
-      "active_addresses_aggregation":171672.0,
-      "contract_invocations":13556150.0
+      "active_addresses_aggregation":171672.0
     }
   },
   {
@@ -101,10 +101,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":10403389.2258064523,
+      "defillama_tvl":10397933.6129032262,
       "contract_invocations":13472102.0,
-      "active_addresses_aggregation":259671.0,
-      "gas_fees":2.4976408541
+      "gas_fees":2.4976408541,
+      "active_addresses_aggregation":259671.0
     }
   },
   {
@@ -120,9 +120,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":122531.0,
       "contract_invocations":14278546.0,
-      "gas_fees":9.7744883857,
-      "active_addresses_aggregation":122531.0
+      "gas_fees":9.7744883857
     }
   },
   {
@@ -138,9 +138,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":1262871033.6129033566,
-      "contract_invocations":18607636.0,
       "gas_fees":12.4836306283,
-      "active_addresses_aggregation":75332.0
+      "active_addresses_aggregation":75332.0,
+      "contract_invocations":18607636.0
     }
   },
   {
@@ -156,9 +156,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":18377410.0,
       "gas_fees":0.1300453609,
-      "active_addresses_aggregation":714647.0,
-      "contract_invocations":18377410.0
+      "active_addresses_aggregation":714647.0
     }
   },
   {
@@ -174,9 +174,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":9324939.0,
       "gas_fees":35.012504862,
-      "active_addresses_aggregation":2295.0
+      "active_addresses_aggregation":2295.0,
+      "contract_invocations":9324939.0
     }
   },
   {
@@ -192,9 +192,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":10243451.0,
       "gas_fees":0.0578783085,
-      "active_addresses_aggregation":1185695.0,
-      "contract_invocations":10243451.0
+      "active_addresses_aggregation":1185695.0
     }
   },
   {
@@ -210,9 +210,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":11.5591027869,
       "active_addresses_aggregation":559119.0,
-      "contract_invocations":8257332.0
+      "contract_invocations":8257332.0,
+      "gas_fees":11.5591027869
     }
   },
   {
@@ -228,9 +228,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0216401546,
+      "contract_invocations":6236920.0,
       "active_addresses_aggregation":151343.0,
-      "contract_invocations":6236920.0
+      "gas_fees":0.0216401546
     }
   },
   {
@@ -245,10 +245,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":2104408787.5806450844,
-      "gas_fees":4.6475550104,
+      "defillama_tvl":2104408787.580644846,
       "active_addresses_aggregation":247521.0,
-      "contract_invocations":11681970.0
+      "contract_invocations":11681970.0,
+      "gas_fees":4.6475550104
     }
   },
   {
@@ -264,9 +264,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":7713220.0,
       "gas_fees":0.0133400965,
-      "active_addresses_aggregation":381090.0,
-      "contract_invocations":7713220.0
+      "active_addresses_aggregation":381090.0
     }
   },
   {
@@ -282,9 +282,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":6689780.0,
       "gas_fees":0.0613830329,
-      "active_addresses_aggregation":143480.0,
-      "contract_invocations":6689780.0
+      "active_addresses_aggregation":143480.0
     }
   },
   {
@@ -300,9 +300,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":215767.0,
       "gas_fees":0.1324043854,
-      "active_addresses_aggregation":5560.0
+      "active_addresses_aggregation":5560.0,
+      "contract_invocations":215767.0
     }
   },
   {
@@ -318,9 +318,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":5936090.0,
       "gas_fees":0.0392037944,
-      "active_addresses_aggregation":102219.0,
-      "contract_invocations":5936090.0
+      "active_addresses_aggregation":102219.0
     }
   },
   {
@@ -335,10 +335,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":9403474.9677419364,
+      "defillama_tvl":9402592.5806451607,
+      "active_addresses_aggregation":15032.0,
       "contract_invocations":5186567.0,
-      "gas_fees":4.1021709469,
-      "active_addresses_aggregation":15032.0
+      "gas_fees":4.1021709469
     }
   },
   {
@@ -354,9 +354,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":6081030.0,
       "gas_fees":0.0232406887,
-      "active_addresses_aggregation":301470.0,
-      "contract_invocations":6081030.0
+      "active_addresses_aggregation":301705.0
     }
   },
   {
@@ -364,7 +364,7 @@
     "op_atlas_id":"0x517eaa9c56951de89261f2d7830ea49aae92f2a903104a17d9c5c2edd4959806",
     "display_name":"LI.FI",
     "is_eligible":true,
-    "op_reward":2904.83,
+    "op_reward":2904.82,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":21250052,
@@ -372,8 +372,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":3271980.0,
       "gas_fees":2.2705849164,
+      "contract_invocations":3271980.0,
       "active_addresses_aggregation":241536.0
     }
   },
@@ -382,7 +382,7 @@
     "op_atlas_id":"0x2bdfa034cf1e853db8ed4b30531270c7a62d66550cd23383819e816abb234f0a",
     "display_name":"Cash Convert",
     "is_eligible":true,
-    "op_reward":2258.74,
+    "op_reward":2258.72,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":20490297,
@@ -390,9 +390,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":4132441.0,
       "gas_fees":0.0215726876,
-      "active_addresses_aggregation":211344.0,
-      "contract_invocations":4132441.0
+      "active_addresses_aggregation":211344.0
     }
   },
   {
@@ -407,10 +407,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":13506285.7096774206,
+      "defillama_tvl":13498191.5806451607,
       "contract_invocations":3745256.0,
-      "active_addresses_aggregation":25267.0,
-      "gas_fees":0.2842509583
+      "gas_fees":0.2842509583,
+      "active_addresses_aggregation":25267.0
     }
   },
   {
@@ -426,9 +426,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":101.0,
       "contract_invocations":4189754.0,
-      "gas_fees":1.520594916,
-      "active_addresses_aggregation":101.0
+      "gas_fees":1.520594916
     }
   },
   {
@@ -444,8 +444,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":14310249.0,
       "gas_fees":0.5498204724,
+      "contract_invocations":14310249.0,
       "active_addresses_aggregation":30980.0
     }
   },
@@ -461,10 +461,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":90701314.2258064449,
+      "defillama_tvl":90685663.1612903178,
+      "active_addresses_aggregation":8985.0,
       "contract_invocations":5475015.0,
-      "gas_fees":9.5426501829,
-      "active_addresses_aggregation":8985.0
+      "gas_fees":9.5426501829
     }
   },
   {
@@ -481,8 +481,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "contract_invocations":878.0,
-      "active_addresses_aggregation":146.0,
-      "gas_fees":0.0001142033
+      "gas_fees":0.0001142033,
+      "active_addresses_aggregation":146.0
     }
   },
   {
@@ -498,9 +498,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":2095052.0,
       "gas_fees":0.006413647,
-      "active_addresses_aggregation":132909.0,
-      "contract_invocations":2095052.0
+      "active_addresses_aggregation":132909.0
     }
   },
   {
@@ -516,9 +516,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":3163770.0,
       "gas_fees":0.0084344979,
-      "active_addresses_aggregation":100319.0,
-      "contract_invocations":3163770.0
+      "active_addresses_aggregation":100319.0
     }
   },
   {
@@ -534,9 +534,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":15709431.5806451589,
-      "gas_fees":2.3391297723,
       "active_addresses_aggregation":6897.0,
-      "contract_invocations":1920044.0
+      "contract_invocations":1920044.0,
+      "gas_fees":2.3391297723
     }
   },
   {
@@ -551,10 +551,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":5143547.5483870972,
+      "defillama_tvl":5141129.7419354841,
       "contract_invocations":1289236.0,
-      "active_addresses_aggregation":7176.0,
-      "gas_fees":0.1790356297
+      "gas_fees":0.1790356297,
+      "active_addresses_aggregation":7176.0
     }
   },
   {
@@ -562,7 +562,7 @@
     "op_atlas_id":"0x394cdf60010e890aeb52606b938e6ff6ef7a52b0b5a3e897daf0133bed243b14",
     "display_name":"Double or Nothing",
     "is_eligible":true,
-    "op_reward":1181.78,
+    "op_reward":1181.8,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":12792576,
@@ -570,9 +570,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":2478863.0,
       "gas_fees":0.1410309034,
-      "active_addresses_aggregation":97134.0,
-      "contract_invocations":2478863.0
+      "active_addresses_aggregation":97158.0
     }
   },
   {
@@ -588,9 +588,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":3142609.0,
       "gas_fees":0.0178456792,
-      "active_addresses_aggregation":152170.0,
-      "contract_invocations":3142609.0
+      "active_addresses_aggregation":152170.0
     }
   },
   {
@@ -598,7 +598,7 @@
     "op_atlas_id":"0x2c1d2ae68e4a718a04a41f1a9fde1ed0648602e08c150e3f72d3dc7ef22dd71a",
     "display_name":"GM",
     "is_eligible":true,
-    "op_reward":1203.22,
+    "op_reward":1203.21,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":11289111,
@@ -606,9 +606,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":1631209.0,
+      "gas_fees":0.0648933645,
       "active_addresses_aggregation":85710.0,
-      "gas_fees":0.0648933645
+      "contract_invocations":1631209.0
     }
   },
   {
@@ -623,10 +623,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":283567852.3225806355,
+      "defillama_tvl":283236929.9677419662,
+      "active_addresses_aggregation":28945.0,
       "contract_invocations":3218659.0,
-      "gas_fees":20.4400363209,
-      "active_addresses_aggregation":28945.0
+      "gas_fees":20.4400363209
     }
   },
   {
@@ -634,17 +634,17 @@
     "op_atlas_id":"0x41b2ae8a2ead458ff7c85549a9a11380353e1ae4b234666312d495326636f77a",
     "display_name":"Sushiswap",
     "is_eligible":true,
-    "op_reward":1628.61,
+    "op_reward":1628.6,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":9597839,
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":9109528.4838709664,
-      "gas_fees":0.8427811406,
+      "defillama_tvl":9115799.8387096766,
       "active_addresses_aggregation":1303.0,
-      "contract_invocations":1279416.0
+      "contract_invocations":1279416.0,
+      "gas_fees":0.8427811406
     }
   },
   {
@@ -660,9 +660,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":56.0,
       "contract_invocations":771434.0,
-      "gas_fees":0.5437367243,
-      "active_addresses_aggregation":56.0
+      "gas_fees":0.5437367243
     }
   },
   {
@@ -678,9 +678,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":1738435.0,
       "gas_fees":1.3589904958,
-      "active_addresses_aggregation":46656.0
+      "active_addresses_aggregation":46656.0,
+      "contract_invocations":1738435.0
     }
   },
   {
@@ -696,8 +696,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":1106859.0,
       "gas_fees":0.8897424602,
+      "contract_invocations":1106859.0,
       "active_addresses_aggregation":56278.0
     }
   },
@@ -713,10 +713,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":78376943.7741935551,
-      "contract_invocations":967648.0,
+      "defillama_tvl":78363671.9032257944,
       "gas_fees":0.0894899346,
-      "active_addresses_aggregation":27990.0
+      "active_addresses_aggregation":27990.0,
+      "contract_invocations":967648.0
     }
   },
   {
@@ -732,9 +732,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0063319416,
+      "contract_invocations":4206811.0,
       "active_addresses_aggregation":28275.0,
-      "contract_invocations":4206811.0
+      "gas_fees":0.0063319416
     }
   },
   {
@@ -750,9 +750,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":1812382.0,
       "gas_fees":0.0155902844,
-      "active_addresses_aggregation":113260.0,
-      "contract_invocations":1812382.0
+      "active_addresses_aggregation":113260.0
     }
   },
   {
@@ -760,17 +760,17 @@
     "op_atlas_id":"0xca3f26e1c876e821d2384a5cb699c6be494f9810301c2e2be49c232656262642",
     "display_name":"BaseSwap ",
     "is_eligible":true,
-    "op_reward":1054.15,
+    "op_reward":1054.14,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":8709321,
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":2195878.7419354836,
-      "gas_fees":0.7077209559,
+      "defillama_tvl":2195846.6129032257,
+      "active_addresses_aggregation":3807.0,
       "contract_invocations":518612.0,
-      "active_addresses_aggregation":3807.0
+      "gas_fees":0.7077209559
     }
   },
   {
@@ -786,9 +786,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":1137457.0,
       "gas_fees":0.0036096058,
-      "active_addresses_aggregation":45674.0,
-      "contract_invocations":1137457.0
+      "active_addresses_aggregation":45674.0
     }
   },
   {
@@ -804,9 +804,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":4118412.0,
       "gas_fees":0.0074381113,
-      "active_addresses_aggregation":248725.0,
-      "contract_invocations":4118412.0
+      "active_addresses_aggregation":248725.0
     }
   },
   {
@@ -814,7 +814,7 @@
     "op_atlas_id":"0x72723e07fe409557489a6643b43d9493a94c10ba68230b0527f01834cb6a550f",
     "display_name":"Across Protocol",
     "is_eligible":true,
-    "op_reward":2179.11,
+    "op_reward":2179.1,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7942042,
@@ -822,9 +822,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.85117955,
       "active_addresses_aggregation":30415.0,
-      "contract_invocations":1209189.0
+      "contract_invocations":1209189.0,
+      "gas_fees":0.85117955
     }
   },
   {
@@ -832,7 +832,7 @@
     "op_atlas_id":"0xd17c16ed0ff3c31ae81ae9af4070a2150db0be538cabcb720c67cc5f221d3965",
     "display_name":"World Billboard",
     "is_eligible":true,
-    "op_reward":1287.78,
+    "op_reward":1287.77,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7508548,
@@ -840,9 +840,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":2432009.0,
       "gas_fees":0.0138723835,
-      "active_addresses_aggregation":59350.0,
-      "contract_invocations":2432009.0
+      "active_addresses_aggregation":59350.0
     }
   },
   {
@@ -858,9 +858,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":3139355.1290322579,
+      "active_addresses_aggregation":548.0,
       "contract_invocations":539788.0,
-      "gas_fees":1.580251024,
-      "active_addresses_aggregation":548.0
+      "gas_fees":1.580251024
     }
   },
   {
@@ -876,9 +876,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":823.0,
       "contract_invocations":3816.0,
-      "gas_fees":0.0015754803,
-      "active_addresses_aggregation":823.0
+      "gas_fees":0.0015754803
     }
   },
   {
@@ -894,9 +894,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":664.0,
       "contract_invocations":1109746.0,
-      "gas_fees":0.0734105173,
-      "active_addresses_aggregation":664.0
+      "gas_fees":0.0734105173
     }
   },
   {
@@ -912,9 +912,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":910499.0,
+      "active_addresses_aggregation":22645.0,
       "gas_fees":1.4352490126,
-      "active_addresses_aggregation":22645.0
+      "contract_invocations":910499.0
     }
   },
   {
@@ -930,9 +930,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":2301887.0,
       "gas_fees":0.0048823117,
-      "active_addresses_aggregation":119931.0,
-      "contract_invocations":2301887.0
+      "active_addresses_aggregation":119931.0
     }
   },
   {
@@ -947,10 +947,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":668232.1935483871,
-      "gas_fees":0.008318756,
+      "defillama_tvl":668188.0967741936,
       "active_addresses_aggregation":515.0,
-      "contract_invocations":771034.0
+      "contract_invocations":771034.0,
+      "gas_fees":0.008318756
     }
   },
   {
@@ -966,9 +966,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":1872882.5483870967,
+      "contract_invocations":3772464.0,
       "gas_fees":0.057749967,
-      "active_addresses_aggregation":423703.0,
-      "contract_invocations":3772464.0
+      "active_addresses_aggregation":423703.0
     }
   },
   {
@@ -1001,10 +1001,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":2396.6451612903,
+      "defillama_tvl":2396.6129032258,
+      "active_addresses_aggregation":34.0,
       "contract_invocations":581905.0,
-      "gas_fees":0.0000535137,
-      "active_addresses_aggregation":34.0
+      "gas_fees":0.0000535137
     }
   },
   {
@@ -1019,10 +1019,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":4156327.2258064519,
-      "gas_fees":0.5178508257,
+      "defillama_tvl":4156215.6451612897,
       "active_addresses_aggregation":5490.0,
-      "contract_invocations":913007.0
+      "contract_invocations":913007.0,
+      "gas_fees":0.5178508257
     }
   },
   {
@@ -1038,9 +1038,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":298347.2903225807,
+      "active_addresses_aggregation":34.0,
       "contract_invocations":1211869.0,
-      "gas_fees":0.0015586777,
-      "active_addresses_aggregation":34.0
+      "gas_fees":0.0015586777
     }
   },
   {
@@ -1056,9 +1056,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":1091358.0,
       "gas_fees":0.0014149048,
-      "active_addresses_aggregation":47891.0,
-      "contract_invocations":1091358.0
+      "active_addresses_aggregation":47891.0
     }
   },
   {
@@ -1073,10 +1073,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":1805615.3225806451,
-      "gas_fees":0.1714375472,
+      "defillama_tvl":1805034.0967741935,
       "active_addresses_aggregation":133.0,
-      "contract_invocations":1110473.0
+      "contract_invocations":1110473.0,
+      "gas_fees":0.1714375472
     }
   },
   {
@@ -1092,9 +1092,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":444890.3225806451,
+      "active_addresses_aggregation":377.0,
       "contract_invocations":412898.0,
-      "gas_fees":0.4929845591,
-      "active_addresses_aggregation":377.0
+      "gas_fees":0.4929845591
     }
   },
   {
@@ -1109,10 +1109,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":11935946.2258064523,
+      "defillama_tvl":null,
+      "active_addresses_aggregation":7063.0,
       "contract_invocations":2321476.0,
-      "gas_fees":2.9622731701,
-      "active_addresses_aggregation":7063.0
+      "gas_fees":2.9622731701
     }
   },
   {
@@ -1127,9 +1127,9 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":80180.7419354839,
-      "contract_invocations":623626.0,
+      "defillama_tvl":80170.1612903226,
       "active_addresses_aggregation":133.0,
+      "contract_invocations":623626.0,
       "gas_fees":0.0042768478
     }
   },
@@ -1146,8 +1146,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000000018,
-      "contract_invocations":1.0
+      "contract_invocations":1.0,
+      "gas_fees":0.0000000018
     }
   },
   {
@@ -1180,7 +1180,7 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":15848.4838709677,
+      "defillama_tvl":15836.5806451613,
       "gas_fees":0.00048937,
       "active_addresses_aggregation":35.0,
       "contract_invocations":675309.0
@@ -1199,9 +1199,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":1330772.0,
       "gas_fees":0.0304165921,
-      "active_addresses_aggregation":102457.0,
-      "contract_invocations":1330772.0
+      "active_addresses_aggregation":102457.0
     }
   },
   {
@@ -1216,10 +1216,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":192607.7741935484,
-      "gas_fees":0.1883974416,
+      "defillama_tvl":192549.2258064516,
       "active_addresses_aggregation":12909.0,
-      "contract_invocations":654554.0
+      "contract_invocations":654554.0,
+      "gas_fees":0.1883974416
     }
   },
   {
@@ -1235,9 +1235,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000895541,
       "active_addresses_aggregation":13.0,
-      "contract_invocations":142.0
+      "contract_invocations":142.0,
+      "gas_fees":0.0000895541
     }
   },
   {
@@ -1253,9 +1253,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.2132387158,
+      "contract_invocations":741349.0,
       "active_addresses_aggregation":3499.0,
-      "contract_invocations":741349.0
+      "gas_fees":0.2132387158
     }
   },
   {
@@ -1270,10 +1270,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":1341344.7419354839,
-      "contract_invocations":860575.0,
+      "defillama_tvl":1341430.0322580647,
       "gas_fees":0.803635277,
-      "active_addresses_aggregation":92444.0
+      "active_addresses_aggregation":92444.0,
+      "contract_invocations":860575.0
     }
   },
   {
@@ -1288,10 +1288,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":334307.4193548387,
+      "defillama_tvl":333436.0322580645,
+      "active_addresses_aggregation":2277.0,
       "contract_invocations":317757.0,
-      "gas_fees":0.1597527837,
-      "active_addresses_aggregation":2277.0
+      "gas_fees":0.1597527837
     }
   },
   {
@@ -1306,10 +1306,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":78427.5806451613,
+      "defillama_tvl":78398.1935483871,
       "contract_invocations":948049.0,
-      "active_addresses_aggregation":12629.0,
-      "gas_fees":0.134658142
+      "gas_fees":0.134658142,
+      "active_addresses_aggregation":12629.0
     }
   },
   {
@@ -1324,10 +1324,10 @@
       "active_days":153
     },
     "monthly_metrics":{
-      "defillama_tvl":5712.4516129032,
+      "defillama_tvl":5738.935483871,
+      "contract_invocations":583018.0,
       "gas_fees":0.0294448599,
-      "active_addresses_aggregation":19053.0,
-      "contract_invocations":583018.0
+      "active_addresses_aggregation":19053.0
     }
   },
   {
@@ -1343,9 +1343,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":817787.0,
       "gas_fees":0.0030062466,
-      "active_addresses_aggregation":304401.0,
-      "contract_invocations":817787.0
+      "active_addresses_aggregation":304761.0
     }
   },
   {
@@ -1353,7 +1353,7 @@
     "op_atlas_id":"0x1f998a77880db01b4938b7fa84fc2f6577fee032fd0a55393406e665d7f3a9e1",
     "display_name":"Dalgona",
     "is_eligible":true,
-    "op_reward":498.73,
+    "op_reward":498.82,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3022922,
@@ -1361,9 +1361,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":1042370.0,
       "gas_fees":0.0029177307,
-      "active_addresses_aggregation":42851.0,
-      "contract_invocations":1042370.0
+      "active_addresses_aggregation":42870.0
     }
   },
   {
@@ -1379,9 +1379,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":439674.0,
       "gas_fees":0.0008655448,
-      "active_addresses_aggregation":31207.0,
-      "contract_invocations":439674.0
+      "active_addresses_aggregation":31207.0
     }
   },
   {
@@ -1397,9 +1397,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":307191.0,
       "gas_fees":0.0004113747,
-      "active_addresses_aggregation":23847.0,
-      "contract_invocations":307191.0
+      "active_addresses_aggregation":23847.0
     }
   },
   {
@@ -1415,9 +1415,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.5288473165,
       "active_addresses_aggregation":1804.0,
-      "contract_invocations":840898.0
+      "contract_invocations":840898.0,
+      "gas_fees":0.5288473165
     }
   },
   {
@@ -1434,8 +1434,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "contract_invocations":411547.0,
-      "active_addresses_aggregation":7408.0,
-      "gas_fees":0.1182436371
+      "gas_fees":0.1182436371,
+      "active_addresses_aggregation":7408.0
     }
   },
   {
@@ -1452,8 +1452,8 @@
     "monthly_metrics":{
       "defillama_tvl":2611089.935483871,
       "contract_invocations":566990.0,
-      "active_addresses_aggregation":12014.0,
-      "gas_fees":0.0968046534
+      "gas_fees":0.0968046534,
+      "active_addresses_aggregation":12014.0
     }
   },
   {
@@ -1468,10 +1468,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":2861528.2258064514,
+      "defillama_tvl":2860228.6774193547,
+      "active_addresses_aggregation":5836.0,
       "contract_invocations":498253.0,
-      "gas_fees":1.1275136809,
-      "active_addresses_aggregation":5836.0
+      "gas_fees":1.1275136809
     }
   },
   {
@@ -1487,9 +1487,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":141723.1612903226,
+      "contract_invocations":540982.0,
       "gas_fees":0.023866109,
-      "active_addresses_aggregation":3109.0,
-      "contract_invocations":540982.0
+      "active_addresses_aggregation":3109.0
     }
   },
   {
@@ -1523,9 +1523,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":21208.0,
       "contract_invocations":351597.0,
-      "gas_fees":0.1388553533,
-      "active_addresses_aggregation":21208.0
+      "gas_fees":0.1388553533
     }
   },
   {
@@ -1541,9 +1541,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":5684.0,
       "contract_invocations":345304.0,
-      "gas_fees":0.1291080278,
-      "active_addresses_aggregation":5684.0
+      "gas_fees":0.1291080278
     }
   },
   {
@@ -1551,7 +1551,7 @@
     "op_atlas_id":"0x5614d129eba060ce7d224e8e8f9f29aeddfdb572b0dd45edc81f18f5307bc01a",
     "display_name":"Send",
     "is_eligible":true,
-    "op_reward":474.63,
+    "op_reward":474.62,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2267534,
@@ -1559,15 +1559,15 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":3612.0,
       "contract_invocations":576132.0,
-      "gas_fees":0.3474146739,
-      "active_addresses_aggregation":3612.0
+      "gas_fees":0.3474146739
     }
   },
   {
     "oso_project_id":"u38XduipVR3L+BAGZ6k4tN4efhqF4F08LlUsn93+ftA=",
     "op_atlas_id":"0x33f99467bb08ce97fc0829a766e06555c7a7c6870db71a13d82241ecd186406a",
-    "display_name":"Dark Forest MUD",
+    "display_name":"Dark Forest Punk",
     "is_eligible":true,
     "op_reward":323.79,
     "round_id":"8",
@@ -1577,9 +1577,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0173933545,
       "active_addresses_aggregation":70.0,
-      "contract_invocations":318267.0
+      "contract_invocations":318267.0,
+      "gas_fees":0.0173933545
     }
   },
   {
@@ -1595,8 +1595,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":26142.0,
       "gas_fees":0.0127262249,
+      "contract_invocations":26142.0,
       "active_addresses_aggregation":5551.0
     }
   },
@@ -1613,9 +1613,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":2018.0,
       "contract_invocations":12492.0,
-      "gas_fees":0.0211260335,
-      "active_addresses_aggregation":2018.0
+      "gas_fees":0.0211260335
     }
   },
   {
@@ -1631,9 +1631,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":16939.0,
       "contract_invocations":1091557.0,
-      "gas_fees":1.5951938181,
-      "active_addresses_aggregation":16939.0
+      "gas_fees":1.5951938181
     }
   },
   {
@@ -1648,10 +1648,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":612199.6129032258,
+      "defillama_tvl":611450.5483870967,
       "contract_invocations":396859.0,
-      "active_addresses_aggregation":4012.0,
-      "gas_fees":0.1168834161
+      "gas_fees":0.1168834161,
+      "active_addresses_aggregation":4012.0
     }
   },
   {
@@ -1659,17 +1659,17 @@
     "op_atlas_id":"0xc850d11fe786d1168bfeda108721101427dd5425d9d9e6595c35573f7616e940",
     "display_name":"Daimo Pay",
     "is_eligible":true,
-    "op_reward":302.1,
+    "op_reward":302.09,
     "round_id":"8",
     "eligibility_metrics":{
-      "transaction_count":1743746,
+      "transaction_count":1743747,
       "active_days":181
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.148364896,
       "active_addresses_aggregation":2202.0,
-      "contract_invocations":571893.0
+      "contract_invocations":571893.0,
+      "gas_fees":0.148364896
     }
   },
   {
@@ -1684,9 +1684,9 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":429100.0,
-      "gas_fees":0.0059364036,
+      "defillama_tvl":429101.0322580645,
       "active_addresses_aggregation":235.0,
+      "gas_fees":0.0059364036,
       "contract_invocations":7967.0
     }
   },
@@ -1702,10 +1702,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":2108922.7096774187,
+      "defillama_tvl":2110502.3870967743,
+      "active_addresses_aggregation":1691.0,
       "contract_invocations":231453.0,
-      "gas_fees":0.5513054366,
-      "active_addresses_aggregation":1691.0
+      "gas_fees":0.5513054366
     }
   },
   {
@@ -1722,8 +1722,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "contract_invocations":86366.0,
-      "active_addresses_aggregation":214.0,
-      "gas_fees":0.0140057133
+      "gas_fees":0.0140057133,
+      "active_addresses_aggregation":214.0
     }
   },
   {
@@ -1739,9 +1739,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0471721442,
       "active_addresses_aggregation":718.0,
-      "contract_invocations":106924.0
+      "contract_invocations":106924.0,
+      "gas_fees":0.0471721442
     }
   },
   {
@@ -1775,9 +1775,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":1.168336128,
       "active_addresses_aggregation":18482.0,
-      "contract_invocations":347546.0
+      "contract_invocations":347546.0,
+      "gas_fees":1.168336128
     }
   },
   {
@@ -1793,9 +1793,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0635986095,
       "active_addresses_aggregation":436.0,
-      "contract_invocations":234801.0
+      "contract_invocations":234801.0,
+      "gas_fees":0.0635986095
     }
   },
   {
@@ -1828,10 +1828,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":23590660.7419354841,
+      "defillama_tvl":23573779.5483870953,
+      "active_addresses_aggregation":23136.0,
       "contract_invocations":323836.0,
-      "gas_fees":0.2149526886,
-      "active_addresses_aggregation":23136.0
+      "gas_fees":0.2149526886
     }
   },
   {
@@ -1847,9 +1847,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":66016.0,
       "gas_fees":0.0002627209,
-      "active_addresses_aggregation":12924.0,
-      "contract_invocations":66016.0
+      "active_addresses_aggregation":12924.0
     }
   },
   {
@@ -1865,9 +1865,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.1111078214,
       "active_addresses_aggregation":14823.0,
-      "contract_invocations":144476.0
+      "contract_invocations":144476.0,
+      "gas_fees":0.1111078214
     }
   },
   {
@@ -1883,9 +1883,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":387.0,
       "contract_invocations":114691.0,
-      "gas_fees":0.2278885115,
-      "active_addresses_aggregation":387.0
+      "gas_fees":0.2278885115
     }
   },
   {
@@ -1901,9 +1901,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":1.0,
       "contract_invocations":132879.0,
-      "gas_fees":0.0553946821,
-      "active_addresses_aggregation":1.0
+      "gas_fees":0.0553946821
     }
   },
   {
@@ -1911,7 +1911,7 @@
     "op_atlas_id":"0x42bdd05fa3beb0b21780bbd35b34eefc3e69e45bc4f17043f6eb6b2bbed26237",
     "display_name":"Superhero",
     "is_eligible":true,
-    "op_reward":374.28,
+    "op_reward":374.27,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1096723,
@@ -1919,9 +1919,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":218137.0,
       "gas_fees":0.0004469048,
-      "active_addresses_aggregation":40286.0,
-      "contract_invocations":218137.0
+      "active_addresses_aggregation":40286.0
     }
   },
   {
@@ -1937,8 +1937,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000122774,
       "contract_invocations":302.0,
+      "gas_fees":0.0000122774,
       "active_addresses_aggregation":4.0
     }
   },
@@ -1954,10 +1954,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":103710027.2580645233,
-      "gas_fees":0.7457468799,
+      "defillama_tvl":103670686.8709677458,
       "active_addresses_aggregation":10931.0,
-      "contract_invocations":204694.0
+      "contract_invocations":204694.0,
+      "gas_fees":0.7457468799
     }
   },
   {
@@ -1972,10 +1972,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":1472423.8709677418,
+      "defillama_tvl":1472186.4193548388,
+      "active_addresses_aggregation":250.0,
       "contract_invocations":164456.0,
-      "gas_fees":0.4571845851,
-      "active_addresses_aggregation":250.0
+      "gas_fees":0.4571845851
     }
   },
   {
@@ -1991,9 +1991,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":107.0,
       "contract_invocations":119178.0,
-      "gas_fees":0.085372947,
-      "active_addresses_aggregation":107.0
+      "gas_fees":0.085372947
     }
   },
   {
@@ -2010,8 +2010,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "contract_invocations":7091.0,
-      "active_addresses_aggregation":876.0,
-      "gas_fees":0.0035614051
+      "gas_fees":0.0035614051,
+      "active_addresses_aggregation":876.0
     }
   },
   {
@@ -2022,14 +2022,14 @@
     "op_reward":513.8,
     "round_id":"8",
     "eligibility_metrics":{
-      "transaction_count":1000686,
+      "transaction_count":1000691,
       "active_days":181
     },
     "monthly_metrics":{
       "defillama_tvl":null,
       "gas_fees":0.042776102,
-      "contract_invocations":158608.0,
-      "active_addresses_aggregation":556.0
+      "active_addresses_aggregation":556.0,
+      "contract_invocations":158608.0
     }
   },
   {
@@ -2045,9 +2045,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":14714.0,
       "contract_invocations":90824.0,
-      "gas_fees":0.0690224268,
-      "active_addresses_aggregation":14714.0
+      "gas_fees":0.0690224268
     }
   },
   {
@@ -2062,10 +2062,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":104805166.1290322542,
-      "gas_fees":0.7373950323,
+      "defillama_tvl":104777381.6774193645,
       "active_addresses_aggregation":18933.0,
-      "contract_invocations":208616.0
+      "contract_invocations":208616.0,
+      "gas_fees":0.7373950323
     }
   },
   {
@@ -2081,9 +2081,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":123545.0,
       "gas_fees":0.0001440429,
-      "active_addresses_aggregation":3970.0,
-      "contract_invocations":123545.0
+      "active_addresses_aggregation":3970.0
     }
   },
   {
@@ -2091,7 +2091,7 @@
     "op_atlas_id":"0xe2ef3fbfd10df401a0221939359e96af29805db8936c1199ae7532262c69ec5f",
     "display_name":"The Button",
     "is_eligible":true,
-    "op_reward":680.93,
+    "op_reward":680.9,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":796640,
@@ -2099,9 +2099,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":296752.0,
       "gas_fees":0.0006792442,
-      "active_addresses_aggregation":71247.0,
-      "contract_invocations":296752.0
+      "active_addresses_aggregation":71247.0
     }
   },
   {
@@ -2117,9 +2117,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":2838.0,
       "contract_invocations":88501.0,
-      "gas_fees":0.1624339542,
-      "active_addresses_aggregation":2838.0
+      "gas_fees":0.1624339542
     }
   },
   {
@@ -2130,13 +2130,13 @@
     "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
-      "transaction_count":702154,
+      "transaction_count":702155,
       "active_days":181
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":34789.0,
       "gas_fees":0.0078030605,
+      "contract_invocations":34789.0,
       "active_addresses_aggregation":589.0
     }
   },
@@ -2152,10 +2152,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":10647436.7096774206,
+      "defillama_tvl":10643853.9032258056,
+      "active_addresses_aggregation":1470.0,
       "contract_invocations":142213.0,
-      "gas_fees":0.6744598787,
-      "active_addresses_aggregation":1470.0
+      "gas_fees":0.6744598787
     }
   },
   {
@@ -2171,9 +2171,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":154116.0,
       "gas_fees":0.2306083512,
-      "active_addresses_aggregation":1067.0
+      "active_addresses_aggregation":1067.0,
+      "contract_invocations":154116.0
     }
   },
   {
@@ -2188,10 +2188,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":102460710.2903226018,
+      "defillama_tvl":102472225.645161286,
+      "active_addresses_aggregation":2992.0,
       "contract_invocations":91986.0,
-      "gas_fees":0.0303057897,
-      "active_addresses_aggregation":2992.0
+      "gas_fees":0.0303057897
     }
   },
   {
@@ -2207,9 +2207,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":34021.0,
       "contract_invocations":99638.0,
-      "gas_fees":0.0361786346,
-      "active_addresses_aggregation":34021.0
+      "gas_fees":0.0361786346
     }
   },
   {
@@ -2224,10 +2224,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":33634512.9677419364,
-      "contract_invocations":19360.0,
+      "defillama_tvl":33619304.0645161271,
       "gas_fees":0.0016999241,
-      "active_addresses_aggregation":856.0
+      "active_addresses_aggregation":856.0,
+      "contract_invocations":19360.0
     }
   },
   {
@@ -2244,8 +2244,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "contract_invocations":16901.0,
-      "active_addresses_aggregation":1702.0,
-      "gas_fees":0.0012640477
+      "gas_fees":0.0012640477,
+      "active_addresses_aggregation":1702.0
     }
   },
   {
@@ -2260,10 +2260,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":15980679.6451612897,
-      "gas_fees":0.1266611028,
+      "defillama_tvl":15987607.064516129,
       "active_addresses_aggregation":5190.0,
-      "contract_invocations":117274.0
+      "contract_invocations":117274.0,
+      "gas_fees":0.1266611028
     }
   },
   {
@@ -2279,9 +2279,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":183.0,
       "contract_invocations":34066.0,
-      "gas_fees":0.0351876855,
-      "active_addresses_aggregation":183.0
+      "gas_fees":0.0351876855
     }
   },
   {
@@ -2296,10 +2296,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":217755.6129032258,
+      "defillama_tvl":217751.6129032258,
       "contract_invocations":82692.0,
-      "active_addresses_aggregation":1597.0,
-      "gas_fees":0.0051579715
+      "gas_fees":0.0051579715,
+      "active_addresses_aggregation":1597.0
     }
   },
   {
@@ -2333,9 +2333,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":46398.0,
       "gas_fees":0.0427567535,
-      "active_addresses_aggregation":4547.0
+      "active_addresses_aggregation":4547.0,
+      "contract_invocations":46398.0
     }
   },
   {
@@ -2351,9 +2351,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":128261.0,
       "gas_fees":0.2025401391,
-      "active_addresses_aggregation":14062.0
+      "active_addresses_aggregation":14062.0,
+      "contract_invocations":128261.0
     }
   },
   {
@@ -2369,9 +2369,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":124434.0,
       "gas_fees":0.058991884,
-      "active_addresses_aggregation":13815.0
+      "active_addresses_aggregation":13815.0,
+      "contract_invocations":124434.0
     }
   },
   {
@@ -2386,10 +2386,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":511552.5806451613,
-      "gas_fees":0.0464791072,
+      "defillama_tvl":511518.2580645161,
       "active_addresses_aggregation":4171.0,
-      "contract_invocations":81809.0
+      "contract_invocations":81809.0,
+      "gas_fees":0.0464791072
     }
   },
   {
@@ -2404,9 +2404,9 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":279528.6774193548,
-      "gas_fees":0.0678754764,
+      "defillama_tvl":279471.8709677419,
       "active_addresses_aggregation":1668.0,
+      "gas_fees":0.0678754764,
       "contract_invocations":37240.0
     }
   },
@@ -2423,9 +2423,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000000148,
       "active_addresses_aggregation":1.0,
-      "contract_invocations":6.0
+      "contract_invocations":6.0,
+      "gas_fees":0.0000000148
     }
   },
   {
@@ -2440,10 +2440,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":4675781.4838709673,
-      "gas_fees":0.0412914365,
+      "defillama_tvl":4675091.1935483869,
       "active_addresses_aggregation":596.0,
-      "contract_invocations":43694.0
+      "contract_invocations":43694.0,
+      "gas_fees":0.0412914365
     }
   },
   {
@@ -2459,9 +2459,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":17.0,
+      "active_addresses_aggregation":109.0,
       "contract_invocations":537.0,
-      "gas_fees":0.0001321401,
-      "active_addresses_aggregation":109.0
+      "gas_fees":0.0001321401
     }
   },
   {
@@ -2477,9 +2477,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":30110.0,
       "gas_fees":0.0254529497,
-      "active_addresses_aggregation":16040.0
+      "active_addresses_aggregation":16040.0,
+      "contract_invocations":30110.0
     }
   },
   {
@@ -2495,9 +2495,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":351404.935483871,
+      "active_addresses_aggregation":723.0,
       "contract_invocations":35056.0,
-      "gas_fees":0.0233716771,
-      "active_addresses_aggregation":723.0
+      "gas_fees":0.0233716771
     }
   },
   {
@@ -2512,10 +2512,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":63152.064516129,
-      "contract_invocations":161544.0,
+      "defillama_tvl":63141.0,
       "gas_fees":0.0046942127,
-      "active_addresses_aggregation":8235.0
+      "active_addresses_aggregation":8236.0,
+      "contract_invocations":161544.0
     }
   },
   {
@@ -2531,9 +2531,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0234758853,
       "active_addresses_aggregation":9173.0,
-      "contract_invocations":54960.0
+      "contract_invocations":54960.0,
+      "gas_fees":0.0234758853
     }
   },
   {
@@ -2548,10 +2548,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":52608.5161290323,
+      "defillama_tvl":52609.6774193548,
+      "active_addresses_aggregation":5982.0,
       "contract_invocations":84927.0,
-      "gas_fees":0.2528263571,
-      "active_addresses_aggregation":5982.0
+      "gas_fees":0.2528263571
     }
   },
   {
@@ -2567,9 +2567,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":73500.0,
       "gas_fees":0.0022472029,
-      "active_addresses_aggregation":40427.0,
-      "contract_invocations":73500.0
+      "active_addresses_aggregation":40427.0
     }
   },
   {
@@ -2586,8 +2586,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "contract_invocations":6854.0,
-      "active_addresses_aggregation":56.0,
-      "gas_fees":0.0035372015
+      "gas_fees":0.0035372015,
+      "active_addresses_aggregation":56.0
     }
   },
   {
@@ -2603,9 +2603,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":32542.0,
       "gas_fees":0.0271436196,
-      "active_addresses_aggregation":4396.0
+      "active_addresses_aggregation":4396.0,
+      "contract_invocations":32542.0
     }
   },
   {
@@ -2621,9 +2621,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":1.0,
       "contract_invocations":45165.0,
-      "gas_fees":0.0127593669,
-      "active_addresses_aggregation":1.0
+      "gas_fees":0.0127593669
     }
   },
   {
@@ -2639,9 +2639,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.7138745923,
       "active_addresses_aggregation":2959.0,
-      "contract_invocations":13459.0
+      "contract_invocations":13459.0,
+      "gas_fees":0.7138745923
     }
   },
   {
@@ -2657,9 +2657,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.2303429055,
       "active_addresses_aggregation":44605.0,
-      "contract_invocations":146996.0
+      "contract_invocations":146996.0,
+      "gas_fees":0.2303429055
     }
   },
   {
@@ -2675,9 +2675,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":375.0,
       "contract_invocations":74875.0,
-      "gas_fees":0.016161566,
-      "active_addresses_aggregation":375.0
+      "gas_fees":0.016161566
     }
   },
   {
@@ -2693,9 +2693,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":36095305.6774193496,
-      "gas_fees":0.0288138521,
       "active_addresses_aggregation":1833.0,
-      "contract_invocations":37925.0
+      "contract_invocations":37925.0,
+      "gas_fees":0.0288138521
     }
   },
   {
@@ -2711,9 +2711,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0203843561,
       "active_addresses_aggregation":751.0,
-      "contract_invocations":23646.0
+      "contract_invocations":23646.0,
+      "gas_fees":0.0203843561
     }
   },
   {
@@ -2729,9 +2729,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":47086.0,
       "gas_fees":0.0081960448,
-      "active_addresses_aggregation":3975.0
+      "active_addresses_aggregation":3975.0,
+      "contract_invocations":47086.0
     }
   },
   {
@@ -2747,9 +2747,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":33392.0,
       "gas_fees":0.0043267311,
-      "active_addresses_aggregation":6255.0
+      "active_addresses_aggregation":6255.0,
+      "contract_invocations":33392.0
     }
   },
   {
@@ -2765,9 +2765,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0001762887,
       "active_addresses_aggregation":1.0,
-      "contract_invocations":20446.0
+      "contract_invocations":20446.0,
+      "gas_fees":0.0001762887
     }
   },
   {
@@ -2783,9 +2783,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":26778.0,
       "gas_fees":0.0117495228,
-      "active_addresses_aggregation":2761.0
+      "active_addresses_aggregation":2761.0,
+      "contract_invocations":26778.0
     }
   },
   {
@@ -2801,9 +2801,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0573391598,
       "active_addresses_aggregation":5907.0,
-      "contract_invocations":31074.0
+      "contract_invocations":31074.0,
+      "gas_fees":0.0573391598
     }
   },
   {
@@ -2819,9 +2819,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":412.0,
       "contract_invocations":134380.0,
-      "gas_fees":0.1224939002,
-      "active_addresses_aggregation":412.0
+      "gas_fees":0.1224939002
     }
   },
   {
@@ -2837,9 +2837,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":743.0,
       "contract_invocations":9797.0,
-      "gas_fees":0.0202341374,
-      "active_addresses_aggregation":743.0
+      "gas_fees":0.0202341374
     }
   },
   {
@@ -2855,9 +2855,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":159239.0,
       "gas_fees":0.0167473853,
-      "active_addresses_aggregation":3723.0
+      "active_addresses_aggregation":3723.0,
+      "contract_invocations":159239.0
     }
   },
   {
@@ -2873,8 +2873,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":58306.0,
       "gas_fees":0.0083525296,
+      "contract_invocations":58306.0,
       "active_addresses_aggregation":7855.0
     }
   },
@@ -2891,9 +2891,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":8.0,
       "contract_invocations":2113.0,
-      "gas_fees":0.0005691724,
-      "active_addresses_aggregation":8.0
+      "gas_fees":0.0005691724
     }
   },
   {
@@ -2908,7 +2908,7 @@
       "active_days":168
     },
     "monthly_metrics":{
-      "defillama_tvl":8960.2258064516,
+      "defillama_tvl":8957.9032258065,
       "contract_invocations":199.0,
       "gas_fees":0.0001193973
     }
@@ -2926,9 +2926,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":392.0,
       "contract_invocations":4022.0,
-      "gas_fees":0.0018748528,
-      "active_addresses_aggregation":392.0
+      "gas_fees":0.0018748528
     }
   },
   {
@@ -2944,9 +2944,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":14.0,
       "contract_invocations":60263.0,
-      "gas_fees":0.0626343769,
-      "active_addresses_aggregation":14.0
+      "gas_fees":0.0626343769
     }
   },
   {
@@ -2961,10 +2961,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":33343550.2903225794,
-      "gas_fees":0.0781108803,
+      "defillama_tvl":33300718.6451612934,
       "active_addresses_aggregation":758.0,
-      "contract_invocations":46809.0
+      "contract_invocations":46809.0,
+      "gas_fees":0.0781108803
     }
   },
   {
@@ -2980,9 +2980,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000743857,
       "active_addresses_aggregation":2.0,
-      "contract_invocations":16096.0
+      "contract_invocations":16096.0,
+      "gas_fees":0.0000743857
     }
   },
   {
@@ -2998,9 +2998,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":64080.4838709677,
-      "gas_fees":0.0147630676,
       "active_addresses_aggregation":4924.0,
-      "contract_invocations":18459.0
+      "contract_invocations":18459.0,
+      "gas_fees":0.0147630676
     }
   },
   {
@@ -3016,9 +3016,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":4977.0,
+      "gas_fees":0.0011032096,
       "active_addresses_aggregation":1098.0,
-      "gas_fees":0.0011032096
+      "contract_invocations":4977.0
     }
   },
   {
@@ -3033,7 +3033,7 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":61141.6129032258,
+      "defillama_tvl":61115.0967741935,
       "gas_fees":0.0027065544,
       "active_addresses_aggregation":366.0,
       "contract_invocations":8300.0
@@ -3052,9 +3052,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":156.8387096774,
-      "gas_fees":0.0000211363,
       "active_addresses_aggregation":2.0,
-      "contract_invocations":11917.0
+      "contract_invocations":11917.0,
+      "gas_fees":0.0000211363
     }
   },
   {
@@ -3070,9 +3070,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":162779.2903225806,
+      "active_addresses_aggregation":1388.0,
       "contract_invocations":11848.0,
-      "gas_fees":0.0044280942,
-      "active_addresses_aggregation":1388.0
+      "gas_fees":0.0044280942
     }
   },
   {
@@ -3087,10 +3087,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":4675781.4838709673,
-      "gas_fees":0.0131232042,
+      "defillama_tvl":4675091.1935483869,
       "active_addresses_aggregation":34.0,
-      "contract_invocations":15297.0
+      "contract_invocations":15297.0,
+      "gas_fees":0.0131232042
     }
   },
   {
@@ -3106,9 +3106,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":6576824.0322580645,
-      "gas_fees":0.125295377,
       "active_addresses_aggregation":17.0,
-      "contract_invocations":22137.0
+      "contract_invocations":22137.0,
+      "gas_fees":0.125295377
     }
   },
   {
@@ -3124,8 +3124,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":10830.0,
       "gas_fees":0.0031453321,
+      "contract_invocations":10830.0,
       "active_addresses_aggregation":6793.0
     }
   },
@@ -3141,10 +3141,10 @@
       "active_days":180
     },
     "monthly_metrics":{
-      "defillama_tvl":9968887.9677419346,
-      "gas_fees":0.0190338237,
+      "defillama_tvl":9969587.8709677421,
       "active_addresses_aggregation":6403.0,
-      "contract_invocations":22834.0
+      "contract_invocations":22834.0,
+      "gas_fees":0.0190338237
     }
   },
   {
@@ -3160,9 +3160,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0059849529,
+      "active_addresses_aggregation":103.0,
       "contract_invocations":18792.0,
-      "active_addresses_aggregation":103.0
+      "gas_fees":0.0059849529
     }
   },
   {
@@ -3178,9 +3178,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":986.0,
       "gas_fees":0.0005594213,
-      "active_addresses_aggregation":213.0
+      "active_addresses_aggregation":213.0,
+      "contract_invocations":986.0
     }
   },
   {
@@ -3196,9 +3196,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0057155329,
       "active_addresses_aggregation":558.0,
-      "contract_invocations":11097.0
+      "contract_invocations":11097.0,
+      "gas_fees":0.0057155329
     }
   },
   {
@@ -3214,9 +3214,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0383922836,
       "active_addresses_aggregation":7.0,
-      "contract_invocations":55329.0
+      "contract_invocations":55329.0,
+      "gas_fees":0.0383922836
     }
   },
   {
@@ -3231,10 +3231,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":24615670.1290322542,
-      "gas_fees":0.0653483065,
+      "defillama_tvl":24607320.3225806467,
       "active_addresses_aggregation":803.0,
-      "contract_invocations":13311.0
+      "contract_invocations":13311.0,
+      "gas_fees":0.0653483065
     }
   },
   {
@@ -3249,10 +3249,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":157791844.4193548262,
-      "contract_invocations":39687.0,
+      "defillama_tvl":157725240.2580645084,
+      "active_addresses_aggregation":613.0,
       "gas_fees":0.0059793041,
-      "active_addresses_aggregation":613.0
+      "contract_invocations":39687.0
     }
   },
   {
@@ -3268,9 +3268,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0843181496,
       "active_addresses_aggregation":4975.0,
-      "contract_invocations":39950.0
+      "contract_invocations":39950.0,
+      "gas_fees":0.0843181496
     }
   },
   {
@@ -3285,10 +3285,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":9052.0967741935,
+      "defillama_tvl":9053.1612903226,
+      "contract_invocations":9882.0,
       "gas_fees":0.0000239609,
-      "active_addresses_aggregation":762.0,
-      "contract_invocations":9882.0
+      "active_addresses_aggregation":762.0
     }
   },
   {
@@ -3304,9 +3304,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":45.0,
       "contract_invocations":421.0,
-      "gas_fees":0.0002691229,
-      "active_addresses_aggregation":45.0
+      "gas_fees":0.0002691229
     }
   },
   {
@@ -3321,10 +3321,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":923847.7096774193,
-      "gas_fees":0.0015839024,
+      "defillama_tvl":923844.7741935484,
       "active_addresses_aggregation":261.0,
-      "contract_invocations":2125.0
+      "contract_invocations":2125.0,
+      "gas_fees":0.0015839024
     }
   },
   {
@@ -3339,10 +3339,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":226502.8709677419,
-      "gas_fees":0.0042389369,
+      "defillama_tvl":226827.2258064516,
       "active_addresses_aggregation":164.0,
-      "contract_invocations":4685.0
+      "contract_invocations":4685.0,
+      "gas_fees":0.0042389369
     }
   },
   {
@@ -3358,9 +3358,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.001277712,
       "active_addresses_aggregation":161.0,
-      "contract_invocations":8816.0
+      "contract_invocations":8816.0,
+      "gas_fees":0.001277712
     }
   },
   {
@@ -3376,8 +3376,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":31918.0,
       "gas_fees":0.0347664812,
+      "contract_invocations":31918.0,
       "active_addresses_aggregation":9654.0
     }
   },
@@ -3394,9 +3394,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":86.0,
       "contract_invocations":5708.0,
-      "gas_fees":0.0024137602,
-      "active_addresses_aggregation":86.0
+      "gas_fees":0.0024137602
     }
   },
   {
@@ -3412,9 +3412,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":773.0,
       "contract_invocations":5589.0,
-      "gas_fees":0.007828096,
-      "active_addresses_aggregation":773.0
+      "gas_fees":0.007828096
     }
   },
   {
@@ -3430,9 +3430,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0015765242,
       "active_addresses_aggregation":248.0,
-      "contract_invocations":2107.0
+      "contract_invocations":2107.0,
+      "gas_fees":0.0015765242
     }
   },
   {
@@ -3447,10 +3447,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":75924.2580645161,
+      "defillama_tvl":75064.9677419355,
+      "active_addresses_aggregation":333.0,
       "contract_invocations":15010.0,
-      "gas_fees":0.0403418875,
-      "active_addresses_aggregation":333.0
+      "gas_fees":0.0403418875
     }
   },
   {
@@ -3467,8 +3467,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "contract_invocations":19819.0,
-      "active_addresses_aggregation":2276.0,
-      "gas_fees":0.0030961699
+      "gas_fees":0.0030961699,
+      "active_addresses_aggregation":2276.0
     }
   },
   {
@@ -3484,9 +3484,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":1.0,
       "contract_invocations":45344.0,
-      "gas_fees":0.0166555656,
-      "active_addresses_aggregation":1.0
+      "gas_fees":0.0166555656
     }
   },
   {
@@ -3502,9 +3502,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":268.0,
       "contract_invocations":919.0,
-      "gas_fees":0.001048248,
-      "active_addresses_aggregation":268.0
+      "gas_fees":0.001048248
     }
   },
   {
@@ -3520,8 +3520,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":10927.0,
       "gas_fees":0.0068207114,
+      "contract_invocations":10927.0,
       "active_addresses_aggregation":3924.0
     }
   },
@@ -3538,8 +3538,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":3509.0,
       "gas_fees":0.0002540515,
+      "contract_invocations":3509.0,
       "active_addresses_aggregation":107.0
     }
   },
@@ -3556,9 +3556,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":801.0,
       "contract_invocations":7370.0,
-      "gas_fees":0.0329270895,
-      "active_addresses_aggregation":801.0
+      "gas_fees":0.0329270895
     }
   },
   {
@@ -3574,9 +3574,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":557.0,
       "contract_invocations":3524.0,
-      "gas_fees":0.0082218818,
-      "active_addresses_aggregation":557.0
+      "gas_fees":0.0082218818
     }
   },
   {
@@ -3592,9 +3592,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.00454323,
       "active_addresses_aggregation":2626.0,
-      "contract_invocations":6279.0
+      "contract_invocations":6279.0,
+      "gas_fees":0.00454323
     }
   },
   {
@@ -3610,8 +3610,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0049894543,
       "active_addresses_aggregation":1279.0,
+      "gas_fees":0.0049894543,
       "contract_invocations":5517.0
     }
   },
@@ -3627,9 +3627,9 @@
       "active_days":180
     },
     "monthly_metrics":{
-      "defillama_tvl":7490.1290322581,
-      "gas_fees":0.0003903276,
+      "defillama_tvl":7488.0322580645,
       "active_addresses_aggregation":45.0,
+      "gas_fees":0.0003903276,
       "contract_invocations":3021.0
     }
   },
@@ -3664,9 +3664,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":53.0,
       "contract_invocations":799.0,
-      "gas_fees":0.0106028652,
-      "active_addresses_aggregation":53.0
+      "gas_fees":0.0106028652
     }
   },
   {
@@ -3682,9 +3682,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":2278.0,
       "gas_fees":0.0013368586,
-      "active_addresses_aggregation":829.0
+      "active_addresses_aggregation":829.0,
+      "contract_invocations":2278.0
     }
   },
   {
@@ -3700,9 +3700,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0016334641,
       "active_addresses_aggregation":409.0,
-      "contract_invocations":2000.0
+      "contract_invocations":2000.0,
+      "gas_fees":0.0016334641
     }
   },
   {
@@ -3718,9 +3718,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":8921162.2903225813,
+      "active_addresses_aggregation":1426.0,
       "contract_invocations":4115.0,
-      "gas_fees":0.0046482491,
-      "active_addresses_aggregation":1426.0
+      "gas_fees":0.0046482491
     }
   },
   {
@@ -3736,9 +3736,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":3791.0,
       "gas_fees":0.0011326559,
-      "active_addresses_aggregation":1505.0
+      "active_addresses_aggregation":1505.0,
+      "contract_invocations":3791.0
     }
   },
   {
@@ -3754,9 +3754,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":5409.0,
       "contract_invocations":24464.0,
-      "gas_fees":0.0140473896,
-      "active_addresses_aggregation":5409.0
+      "gas_fees":0.0140473896
     }
   },
   {
@@ -3772,9 +3772,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":254.0,
       "contract_invocations":2825.0,
-      "gas_fees":0.000658224,
-      "active_addresses_aggregation":254.0
+      "gas_fees":0.000658224
     }
   },
   {
@@ -3805,9 +3805,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":298.0,
       "contract_invocations":4889.0,
-      "gas_fees":0.0061931967,
-      "active_addresses_aggregation":298.0
+      "gas_fees":0.0061931967
     }
   },
   {
@@ -3823,9 +3823,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":315.0,
       "contract_invocations":2822.0,
-      "gas_fees":0.0163231659,
-      "active_addresses_aggregation":315.0
+      "gas_fees":0.0163231659
     }
   },
   {
@@ -3841,9 +3841,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":352.0,
       "contract_invocations":7910.0,
-      "gas_fees":0.0065733944,
-      "active_addresses_aggregation":352.0
+      "gas_fees":0.0065733944
     }
   },
   {
@@ -3859,9 +3859,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0026462144,
       "active_addresses_aggregation":573.0,
-      "contract_invocations":5087.0
+      "contract_invocations":5087.0,
+      "gas_fees":0.0026462144
     }
   },
   {
@@ -3877,9 +3877,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":385.0,
       "contract_invocations":1365.0,
-      "gas_fees":0.0152423767,
-      "active_addresses_aggregation":385.0
+      "gas_fees":0.0152423767
     }
   },
   {
@@ -3895,9 +3895,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":781.0,
       "contract_invocations":6152.0,
-      "gas_fees":0.0027410377,
-      "active_addresses_aggregation":781.0
+      "gas_fees":0.0027410377
     }
   },
   {
@@ -3913,9 +3913,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":11485.0,
       "gas_fees":0.0000231856,
-      "active_addresses_aggregation":4147.0,
-      "contract_invocations":11485.0
+      "active_addresses_aggregation":4147.0
     }
   },
   {
@@ -3931,9 +3931,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":67.0,
       "contract_invocations":2863.0,
-      "gas_fees":0.0293401769,
-      "active_addresses_aggregation":67.0
+      "gas_fees":0.0293401769
     }
   },
   {
@@ -3949,9 +3949,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":312.0,
       "contract_invocations":1968.0,
-      "gas_fees":0.0102917481,
-      "active_addresses_aggregation":312.0
+      "gas_fees":0.0102917481
     }
   },
   {
@@ -3968,8 +3968,8 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "gas_fees":0.0035341604,
-      "contract_invocations":23303.0,
-      "active_addresses_aggregation":5029.0
+      "active_addresses_aggregation":5029.0,
+      "contract_invocations":23303.0
     }
   },
   {
@@ -3985,9 +3985,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0020666592,
       "active_addresses_aggregation":225.0,
-      "contract_invocations":4158.0
+      "contract_invocations":4158.0,
+      "gas_fees":0.0020666592
     }
   },
   {
@@ -4003,9 +4003,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000033299,
       "active_addresses_aggregation":4.0,
-      "contract_invocations":25.0
+      "contract_invocations":25.0,
+      "gas_fees":0.0000033299
     }
   },
   {
@@ -4021,9 +4021,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0084681681,
       "active_addresses_aggregation":447.0,
-      "contract_invocations":7284.0
+      "contract_invocations":7284.0,
+      "gas_fees":0.0084681681
     }
   },
   {
@@ -4039,9 +4039,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":12.0,
       "contract_invocations":2975.0,
-      "gas_fees":0.0021258411,
-      "active_addresses_aggregation":12.0
+      "gas_fees":0.0021258411
     }
   },
   {
@@ -4074,9 +4074,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":1017.0,
       "gas_fees":0.0003298583,
-      "active_addresses_aggregation":930.0
+      "active_addresses_aggregation":930.0,
+      "contract_invocations":1017.0
     }
   },
   {
@@ -4092,9 +4092,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":728.0,
       "gas_fees":0.0073334795,
-      "active_addresses_aggregation":298.0
+      "active_addresses_aggregation":298.0,
+      "contract_invocations":728.0
     }
   },
   {
@@ -4110,9 +4110,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":482674.8064516129,
+      "active_addresses_aggregation":33.0,
       "contract_invocations":1903.0,
-      "gas_fees":0.0030714715,
-      "active_addresses_aggregation":33.0
+      "gas_fees":0.0030714715
     }
   },
   {
@@ -4128,9 +4128,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":278.0,
       "gas_fees":0.0000448252,
-      "active_addresses_aggregation":126.0
+      "active_addresses_aggregation":126.0,
+      "contract_invocations":278.0
     }
   },
   {
@@ -4146,9 +4146,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":15.0,
       "contract_invocations":11588.0,
-      "gas_fees":0.0036412388,
-      "active_addresses_aggregation":15.0
+      "gas_fees":0.0036412388
     }
   },
   {
@@ -4164,9 +4164,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":512.0,
       "contract_invocations":1499.0,
-      "gas_fees":0.0028492141,
-      "active_addresses_aggregation":512.0
+      "gas_fees":0.0028492141
     }
   },
   {
@@ -4200,9 +4200,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.2789742103,
       "active_addresses_aggregation":111.0,
-      "contract_invocations":5885.0
+      "contract_invocations":5885.0,
+      "gas_fees":0.2789742103
     }
   },
   {
@@ -4218,9 +4218,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":15.0,
       "contract_invocations":344.0,
-      "gas_fees":0.0003683166,
-      "active_addresses_aggregation":15.0
+      "gas_fees":0.0003683166
     }
   },
   {
@@ -4236,9 +4236,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":328.0,
       "contract_invocations":4413.0,
-      "gas_fees":0.0017650932,
-      "active_addresses_aggregation":328.0
+      "gas_fees":0.0017650932
     }
   },
   {
@@ -4253,10 +4253,10 @@
       "active_days":114
     },
     "monthly_metrics":{
-      "defillama_tvl":6341130.8387096776,
+      "defillama_tvl":6335270.4193548383,
+      "active_addresses_aggregation":181.0,
       "contract_invocations":5147.0,
-      "gas_fees":0.0025605007,
-      "active_addresses_aggregation":181.0
+      "gas_fees":0.0025605007
     }
   },
   {
@@ -4272,9 +4272,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":5.0,
       "contract_invocations":5.0,
-      "gas_fees":0.0000028487,
-      "active_addresses_aggregation":5.0
+      "gas_fees":0.0000028487
     }
   },
   {
@@ -4290,9 +4290,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0012368853,
       "active_addresses_aggregation":1049.0,
-      "contract_invocations":4978.0
+      "contract_invocations":4978.0,
+      "gas_fees":0.0012368853
     }
   },
   {
@@ -4308,9 +4308,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":303.0,
       "contract_invocations":1642.0,
-      "gas_fees":0.0009777115,
-      "active_addresses_aggregation":303.0
+      "gas_fees":0.0009777115
     }
   },
   {
@@ -4326,9 +4326,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":83.0,
       "contract_invocations":1268.0,
-      "gas_fees":0.0006955076,
-      "active_addresses_aggregation":83.0
+      "gas_fees":0.0006955076
     }
   },
   {
@@ -4344,9 +4344,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0004017693,
       "active_addresses_aggregation":12.0,
-      "contract_invocations":1859.0
+      "contract_invocations":1859.0,
+      "gas_fees":0.0004017693
     }
   },
   {
@@ -4379,9 +4379,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":628.0,
       "gas_fees":0.000428011,
-      "active_addresses_aggregation":439.0
+      "active_addresses_aggregation":439.0,
+      "contract_invocations":628.0
     }
   },
   {
@@ -4397,9 +4397,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":236.0,
       "contract_invocations":1641.0,
-      "gas_fees":0.0060092888,
-      "active_addresses_aggregation":236.0
+      "gas_fees":0.0060092888
     }
   },
   {
@@ -4415,9 +4415,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":1428.0,
       "contract_invocations":6490.0,
-      "gas_fees":0.0036453468,
-      "active_addresses_aggregation":1428.0
+      "gas_fees":0.0036453468
     }
   },
   {
@@ -4433,9 +4433,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":8174.0,
       "gas_fees":0.0079265537,
-      "active_addresses_aggregation":3157.0
+      "active_addresses_aggregation":3157.0,
+      "contract_invocations":8174.0
     }
   },
   {
@@ -4451,9 +4451,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":1209.0,
       "gas_fees":0.000012894,
-      "active_addresses_aggregation":558.0,
-      "contract_invocations":1209.0
+      "active_addresses_aggregation":558.0
     }
   },
   {
@@ -4469,9 +4469,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":71.0,
       "contract_invocations":494.0,
-      "gas_fees":0.0003487987,
-      "active_addresses_aggregation":71.0
+      "gas_fees":0.0003487987
     }
   },
   {
@@ -4502,9 +4502,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":83.0,
       "contract_invocations":837.0,
-      "gas_fees":0.0011976472,
-      "active_addresses_aggregation":83.0
+      "gas_fees":0.0011976472
     }
   },
   {
@@ -4520,9 +4520,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":4.0,
       "contract_invocations":1344.0,
-      "gas_fees":0.0001426061,
-      "active_addresses_aggregation":4.0
+      "gas_fees":0.0001426061
     }
   },
   {
@@ -4538,8 +4538,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":142.0,
       "active_addresses_aggregation":5.0,
+      "contract_invocations":142.0,
       "gas_fees":0.0000003911
     }
   },
@@ -4556,9 +4556,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":11.0,
       "contract_invocations":905.0,
-      "gas_fees":0.0004499532,
-      "active_addresses_aggregation":11.0
+      "gas_fees":0.0004499532
     }
   },
   {
@@ -4574,9 +4574,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":508069.1935483871,
+      "active_addresses_aggregation":30.0,
       "contract_invocations":538.0,
-      "gas_fees":0.0154777302,
-      "active_addresses_aggregation":30.0
+      "gas_fees":0.0154777302
     }
   },
   {
@@ -4592,9 +4592,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":64.0,
       "contract_invocations":273.0,
-      "gas_fees":0.0007296375,
-      "active_addresses_aggregation":64.0
+      "gas_fees":0.0007296375
     }
   },
   {
@@ -4610,9 +4610,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":4468.0,
       "gas_fees":0.0015469276,
-      "active_addresses_aggregation":1964.0
+      "active_addresses_aggregation":1964.0,
+      "contract_invocations":4468.0
     }
   },
   {
@@ -4628,9 +4628,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":106.0,
       "contract_invocations":786.0,
-      "gas_fees":0.0001957582,
-      "active_addresses_aggregation":106.0
+      "gas_fees":0.0001957582
     }
   },
   {
@@ -4646,9 +4646,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":3.7419354839,
-      "gas_fees":0.0000030656,
       "active_addresses_aggregation":4.0,
-      "contract_invocations":100.0
+      "contract_invocations":100.0,
+      "gas_fees":0.0000030656
     }
   },
   {
@@ -4664,9 +4664,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0007400584,
       "active_addresses_aggregation":79.0,
-      "contract_invocations":570.0
+      "contract_invocations":570.0,
+      "gas_fees":0.0007400584
     }
   },
   {
@@ -4682,9 +4682,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "contract_invocations":1187.0,
       "gas_fees":0.0009962005,
-      "active_addresses_aggregation":4.0,
-      "contract_invocations":1187.0
+      "active_addresses_aggregation":4.0
     }
   },
   {
@@ -4699,10 +4699,10 @@
       "active_days":152
     },
     "monthly_metrics":{
-      "defillama_tvl":25019.1612903226,
-      "gas_fees":0.0000049534,
+      "defillama_tvl":25018.1290322581,
       "active_addresses_aggregation":48.0,
-      "contract_invocations":585.0
+      "contract_invocations":585.0,
+      "gas_fees":0.0000049534
     }
   },
   {
@@ -4718,9 +4718,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":56.0,
       "contract_invocations":334.0,
-      "gas_fees":0.0011214339,
-      "active_addresses_aggregation":56.0
+      "gas_fees":0.0011214339
     }
   },
   {
@@ -4735,10 +4735,10 @@
       "active_days":181
     },
     "monthly_metrics":{
-      "defillama_tvl":138822.3225806452,
+      "defillama_tvl":138781.9677419355,
+      "active_addresses_aggregation":5.0,
       "contract_invocations":288.0,
-      "gas_fees":0.0001608732,
-      "active_addresses_aggregation":5.0
+      "gas_fees":0.0001608732
     }
   },
   {
@@ -4754,9 +4754,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0002065366,
       "active_addresses_aggregation":92.0,
-      "contract_invocations":323.0
+      "contract_invocations":323.0,
+      "gas_fees":0.0002065366
     }
   },
   {
@@ -4772,9 +4772,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":39.0,
       "contract_invocations":315.0,
-      "gas_fees":0.0002897216,
-      "active_addresses_aggregation":39.0
+      "gas_fees":0.0002897216
     }
   },
   {
@@ -4808,9 +4808,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000090574,
       "active_addresses_aggregation":6.0,
-      "contract_invocations":128.0
+      "contract_invocations":128.0,
+      "gas_fees":0.0000090574
     }
   },
   {
@@ -4826,8 +4826,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":247.0,
       "active_addresses_aggregation":65.0,
+      "contract_invocations":247.0,
       "gas_fees":0.0002319887
     }
   },
@@ -4844,9 +4844,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":179.0,
       "contract_invocations":359.0,
-      "gas_fees":0.0002151979,
-      "active_addresses_aggregation":179.0
+      "gas_fees":0.0002151979
     }
   },
   {
@@ -4862,9 +4862,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":412.0,
       "contract_invocations":2015.0,
-      "gas_fees":0.007111458,
-      "active_addresses_aggregation":412.0
+      "gas_fees":0.007111458
     }
   },
   {
@@ -4880,9 +4880,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":2552.8387096774,
+      "active_addresses_aggregation":2.0,
       "contract_invocations":150.0,
-      "gas_fees":0.0002044867,
-      "active_addresses_aggregation":2.0
+      "gas_fees":0.0002044867
     }
   },
   {
@@ -4898,9 +4898,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":23.0,
       "contract_invocations":460.0,
-      "gas_fees":0.0001315156,
-      "active_addresses_aggregation":23.0
+      "gas_fees":0.0001315156
     }
   },
   {
@@ -4916,9 +4916,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000074516,
       "active_addresses_aggregation":11.0,
-      "contract_invocations":138.0
+      "contract_invocations":138.0,
+      "gas_fees":0.0000074516
     }
   },
   {
@@ -4934,9 +4934,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":423.0,
       "gas_fees":0.0005790221,
-      "active_addresses_aggregation":95.0
+      "active_addresses_aggregation":95.0,
+      "contract_invocations":423.0
     }
   },
   {
@@ -4952,9 +4952,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":118.0,
       "contract_invocations":595.0,
-      "gas_fees":0.0007162509,
-      "active_addresses_aggregation":118.0
+      "gas_fees":0.0007162509
     }
   },
   {
@@ -4970,9 +4970,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0004552376,
       "active_addresses_aggregation":60.0,
-      "contract_invocations":154.0
+      "contract_invocations":154.0,
+      "gas_fees":0.0004552376
     }
   },
   {
@@ -4988,9 +4988,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":75.0,
       "contract_invocations":221.0,
-      "gas_fees":0.0004706845,
-      "active_addresses_aggregation":75.0
+      "gas_fees":0.0004706845
     }
   },
   {
@@ -5006,9 +5006,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":89.0,
       "contract_invocations":235.0,
-      "gas_fees":0.0008580201,
-      "active_addresses_aggregation":89.0
+      "gas_fees":0.0008580201
     }
   },
   {
@@ -5024,9 +5024,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":1.0,
       "contract_invocations":2.0,
-      "gas_fees":0.0001515121,
-      "active_addresses_aggregation":1.0
+      "gas_fees":0.0001515121
     }
   },
   {
@@ -5042,9 +5042,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":52.0,
       "gas_fees":0.0000289853,
-      "active_addresses_aggregation":37.0
+      "active_addresses_aggregation":37.0,
+      "contract_invocations":52.0
     }
   },
   {
@@ -5060,9 +5060,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.000000174,
       "active_addresses_aggregation":21.0,
-      "contract_invocations":64.0
+      "contract_invocations":64.0,
+      "gas_fees":0.000000174
     }
   },
   {
@@ -5078,9 +5078,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":147.0,
       "contract_invocations":413.0,
-      "gas_fees":0.0002441018,
-      "active_addresses_aggregation":147.0
+      "gas_fees":0.0002441018
     }
   },
   {
@@ -5096,9 +5096,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":15.0,
       "contract_invocations":395.0,
-      "gas_fees":0.0004597256,
-      "active_addresses_aggregation":15.0
+      "gas_fees":0.0004597256
     }
   },
   {
@@ -5114,9 +5114,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":31.0,
       "contract_invocations":130.0,
-      "gas_fees":0.0000576076,
-      "active_addresses_aggregation":31.0
+      "gas_fees":0.0000576076
     }
   },
   {
@@ -5132,9 +5132,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":58.0,
       "contract_invocations":340.0,
-      "gas_fees":0.0001323263,
-      "active_addresses_aggregation":58.0
+      "gas_fees":0.0001323263
     }
   },
   {
@@ -5168,8 +5168,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000002139,
-      "contract_invocations":101.0
+      "contract_invocations":101.0,
+      "gas_fees":0.0000002139
     }
   },
   {
@@ -5185,9 +5185,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":158.0,
       "gas_fees":0.0000168134,
-      "active_addresses_aggregation":12.0
+      "active_addresses_aggregation":12.0,
+      "contract_invocations":158.0
     }
   },
   {
@@ -5203,8 +5203,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000865222,
       "contract_invocations":488.0,
+      "gas_fees":0.0000865222,
       "active_addresses_aggregation":6.0
     }
   },
@@ -5221,9 +5221,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000202202,
+      "active_addresses_aggregation":10.0,
       "contract_invocations":68.0,
-      "active_addresses_aggregation":10.0
+      "gas_fees":0.0000202202
     }
   },
   {
@@ -5239,9 +5239,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":3722482.5483870967,
-      "gas_fees":0.0000000318,
       "active_addresses_aggregation":1.0,
-      "contract_invocations":2.0
+      "contract_invocations":2.0,
+      "gas_fees":0.0000000318
     }
   },
   {
@@ -5257,9 +5257,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.00000021,
       "active_addresses_aggregation":7.0,
-      "contract_invocations":34.0
+      "contract_invocations":34.0,
+      "gas_fees":0.00000021
     }
   },
   {
@@ -5275,9 +5275,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000009958,
       "active_addresses_aggregation":21.0,
-      "contract_invocations":87.0
+      "contract_invocations":87.0,
+      "gas_fees":0.0000009958
     }
   },
   {
@@ -5293,9 +5293,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":9.0,
       "contract_invocations":196.0,
-      "gas_fees":0.000728265,
-      "active_addresses_aggregation":9.0
+      "gas_fees":0.000728265
     }
   },
   {
@@ -5311,9 +5311,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.000017389,
       "active_addresses_aggregation":4.0,
-      "contract_invocations":51.0
+      "contract_invocations":51.0,
+      "gas_fees":0.000017389
     }
   },
   {
@@ -5329,9 +5329,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000185705,
       "active_addresses_aggregation":36.0,
-      "contract_invocations":71.0
+      "contract_invocations":71.0,
+      "gas_fees":0.0000185705
     }
   },
   {
@@ -5347,9 +5347,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":13.0,
       "contract_invocations":40.0,
-      "gas_fees":0.0000147781,
-      "active_addresses_aggregation":13.0
+      "gas_fees":0.0000147781
     }
   },
   {
@@ -5365,9 +5365,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000378166,
       "active_addresses_aggregation":13.0,
-      "contract_invocations":76.0
+      "contract_invocations":76.0,
+      "gas_fees":0.0000378166
     }
   },
   {
@@ -5383,9 +5383,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":10.0,
       "contract_invocations":45.0,
-      "gas_fees":0.0000126224,
-      "active_addresses_aggregation":10.0
+      "gas_fees":0.0000126224
     }
   },
   {
@@ -5401,9 +5401,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0007612956,
+      "active_addresses_aggregation":48.0,
       "contract_invocations":251.0,
-      "active_addresses_aggregation":48.0
+      "gas_fees":0.0007612956
     }
   },
   {
@@ -5419,9 +5419,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":2.0,
       "contract_invocations":69.0,
-      "gas_fees":0.0000371,
-      "active_addresses_aggregation":2.0
+      "gas_fees":0.0000371
     }
   },
   {
@@ -5437,9 +5437,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":2.0,
       "contract_invocations":21.0,
-      "gas_fees":0.0000133354,
-      "active_addresses_aggregation":2.0
+      "gas_fees":0.0000133354
     }
   },
   {
@@ -5455,9 +5455,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":42.0,
       "contract_invocations":52.0,
-      "gas_fees":0.0010246787,
-      "active_addresses_aggregation":42.0
+      "gas_fees":0.0010246787
     }
   },
   {
@@ -5473,9 +5473,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000001873,
       "active_addresses_aggregation":2.0,
-      "contract_invocations":30.0
+      "contract_invocations":30.0,
+      "gas_fees":0.0000001873
     }
   },
   {
@@ -5491,9 +5491,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":11.0,
       "contract_invocations":29.0,
-      "gas_fees":0.0000221154,
-      "active_addresses_aggregation":11.0
+      "gas_fees":0.0000221154
     }
   },
   {
@@ -5509,9 +5509,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":54.0,
       "contract_invocations":81.0,
-      "gas_fees":0.0001698045,
-      "active_addresses_aggregation":54.0
+      "gas_fees":0.0001698045
     }
   },
   {
@@ -5527,9 +5527,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000207021,
+      "active_addresses_aggregation":1.0,
       "contract_invocations":12.0,
-      "active_addresses_aggregation":1.0
+      "gas_fees":0.0000207021
     }
   },
   {
@@ -5545,9 +5545,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":5.0,
       "contract_invocations":6.0,
-      "gas_fees":0.0000018818,
-      "active_addresses_aggregation":5.0
+      "gas_fees":0.0000018818
     }
   },
   {
@@ -5563,9 +5563,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":6.0,
       "contract_invocations":38.0,
-      "gas_fees":0.0000102305,
-      "active_addresses_aggregation":6.0
+      "gas_fees":0.0000102305
     }
   },
   {
@@ -5581,9 +5581,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":4.0,
       "contract_invocations":5.0,
-      "gas_fees":0.0000056746,
-      "active_addresses_aggregation":4.0
+      "gas_fees":0.0000056746
     }
   },
   {
@@ -5598,28 +5598,10 @@
       "active_days":58
     },
     "monthly_metrics":{
-      "defillama_tvl":478679.5483870968,
-      "gas_fees":0.0000010666,
+      "defillama_tvl":478999.3548387097,
       "active_addresses_aggregation":16.0,
-      "contract_invocations":80.0
-    }
-  },
-  {
-    "oso_project_id":"OT6BoCbHARe67sVFlqmawsQ8TwY9/XU7UQ883w27OUE=",
-    "op_atlas_id":"0xd9e0c75338d41d200ebe8d347cdedea7b648b38452aa45c9cd87bdebee726786",
-    "display_name":"Guide DAO",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "eligibility_metrics":{
-      "transaction_count":178,
-      "active_days":93
-    },
-    "monthly_metrics":{
-      "defillama_tvl":null,
-      "gas_fees":0.0000002321,
-      "active_addresses_aggregation":8.0,
-      "contract_invocations":25.0
+      "contract_invocations":80.0,
+      "gas_fees":0.0000010666
     }
   },
   {
@@ -5635,9 +5617,27 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.00001718,
       "active_addresses_aggregation":14.0,
-      "contract_invocations":42.0
+      "contract_invocations":42.0,
+      "gas_fees":0.00001718
+    }
+  },
+  {
+    "oso_project_id":"OT6BoCbHARe67sVFlqmawsQ8TwY9/XU7UQ883w27OUE=",
+    "op_atlas_id":"0xd9e0c75338d41d200ebe8d347cdedea7b648b38452aa45c9cd87bdebee726786",
+    "display_name":"Guide DAO",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "eligibility_metrics":{
+      "transaction_count":178,
+      "active_days":93
+    },
+    "monthly_metrics":{
+      "defillama_tvl":null,
+      "active_addresses_aggregation":8.0,
+      "contract_invocations":25.0,
+      "gas_fees":0.0000002321
     }
   },
   {
@@ -5653,9 +5653,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000000846,
       "active_addresses_aggregation":10.0,
-      "contract_invocations":11.0
+      "contract_invocations":11.0,
+      "gas_fees":0.0000000846
     }
   },
   {
@@ -5671,9 +5671,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":17.0,
+      "gas_fees":0.0000011519,
       "active_addresses_aggregation":6.0,
-      "gas_fees":0.0000011519
+      "contract_invocations":17.0
     }
   },
   {
@@ -5689,9 +5689,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":99.0,
       "contract_invocations":112.0,
-      "gas_fees":0.0000980465,
-      "active_addresses_aggregation":99.0
+      "gas_fees":0.0000980465
     }
   },
   {
@@ -5707,9 +5707,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":5.0,
       "contract_invocations":11.0,
-      "gas_fees":0.0000055152,
-      "active_addresses_aggregation":5.0
+      "gas_fees":0.0000055152
     }
   },
   {
@@ -5725,8 +5725,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000000877,
-      "contract_invocations":2.0
+      "contract_invocations":2.0,
+      "gas_fees":0.0000000877
     }
   },
   {
@@ -5742,9 +5742,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":4.0,
       "contract_invocations":73.0,
-      "gas_fees":0.0000432484,
-      "active_addresses_aggregation":4.0
+      "gas_fees":0.0000432484
     }
   },
   {
@@ -5760,9 +5760,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":3.0,
       "contract_invocations":9.0,
-      "gas_fees":0.0000033869,
-      "active_addresses_aggregation":3.0
+      "gas_fees":0.0000033869
     }
   },
   {
@@ -5793,9 +5793,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":17.0,
       "contract_invocations":31.0,
-      "gas_fees":0.0000150648,
-      "active_addresses_aggregation":17.0
+      "gas_fees":0.0000150648
     }
   },
   {
@@ -5811,9 +5811,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000001128,
       "active_addresses_aggregation":3.0,
-      "contract_invocations":6.0
+      "contract_invocations":6.0,
+      "gas_fees":0.0000001128
     }
   },
   {
@@ -5844,9 +5844,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "contract_invocations":9.0,
       "gas_fees":0.0000057692,
-      "active_addresses_aggregation":5.0
+      "active_addresses_aggregation":5.0,
+      "contract_invocations":9.0
     }
   },
   {
@@ -5862,9 +5862,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000001921,
+      "active_addresses_aggregation":1.0,
       "contract_invocations":2.0,
-      "active_addresses_aggregation":1.0
+      "gas_fees":0.0000001921
     }
   },
   {
@@ -5880,9 +5880,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000000556,
       "active_addresses_aggregation":2.0,
-      "contract_invocations":8.0
+      "contract_invocations":8.0,
+      "gas_fees":0.0000000556
     }
   },
   {
@@ -5897,7 +5897,7 @@
       "active_days":4
     },
     "monthly_metrics":{
-      "defillama_tvl":3061.9677419355
+      "defillama_tvl":3062.3225806452
     }
   },
   {
@@ -5929,8 +5929,26 @@
     "monthly_metrics":{
       "defillama_tvl":null,
       "contract_invocations":2.0,
+      "gas_fees":0.0000001724,
+      "active_addresses_aggregation":1.0
+    }
+  },
+  {
+    "oso_project_id":"NgoVNxiNTOzlsAv1ChtyIaJk2GnReYxexUZDOQJq4aU=",
+    "op_atlas_id":"0x935315db8c17993464cfb28337442ad60c6cd434305130a1d5d898e92d6d8123",
+    "display_name":"Trash NFTs",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "eligibility_metrics":{
+      "transaction_count":10,
+      "active_days":8
+    },
+    "monthly_metrics":{
+      "defillama_tvl":null,
       "active_addresses_aggregation":1.0,
-      "gas_fees":0.0000001724
+      "contract_invocations":1.0,
+      "gas_fees":0.0000001357
     }
   },
   {
@@ -5949,24 +5967,6 @@
     }
   },
   {
-    "oso_project_id":"NgoVNxiNTOzlsAv1ChtyIaJk2GnReYxexUZDOQJq4aU=",
-    "op_atlas_id":"0x935315db8c17993464cfb28337442ad60c6cd434305130a1d5d898e92d6d8123",
-    "display_name":"Trash NFTs",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "eligibility_metrics":{
-      "transaction_count":10,
-      "active_days":8
-    },
-    "monthly_metrics":{
-      "defillama_tvl":null,
-      "contract_invocations":1.0,
-      "gas_fees":0.0000001357,
-      "active_addresses_aggregation":1.0
-    }
-  },
-  {
     "oso_project_id":"12zkxLUMRU5rtnRi6MToafW1bkyD3yn/ksFVk/OE3+0=",
     "op_atlas_id":"0xee345ddf96e54920ab4b32bf055b6324ca49dcce0063787137557de0a3b20d35",
     "display_name":"F1337",
@@ -5979,9 +5979,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":2.0,
       "contract_invocations":3.0,
-      "gas_fees":0.0000007816,
-      "active_addresses_aggregation":2.0
+      "gas_fees":0.0000007816
     }
   },
   {
@@ -5997,8 +5997,8 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000000155,
-      "contract_invocations":1.0
+      "contract_invocations":1.0,
+      "gas_fees":0.0000000155
     }
   },
   {
@@ -6044,9 +6044,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000000003,
       "active_addresses_aggregation":3.0,
-      "contract_invocations":3.0
+      "contract_invocations":3.0,
+      "gas_fees":0.0000000003
     }
   },
   {
@@ -6092,9 +6092,9 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
-      "gas_fees":0.0000000014,
       "active_addresses_aggregation":1.0,
-      "contract_invocations":1.0
+      "contract_invocations":1.0,
+      "gas_fees":0.0000000014
     }
   },
   {
@@ -6110,9 +6110,24 @@
     },
     "monthly_metrics":{
       "defillama_tvl":null,
+      "active_addresses_aggregation":1.0,
       "contract_invocations":1.0,
-      "gas_fees":0.0000020473,
-      "active_addresses_aggregation":1.0
+      "gas_fees":0.0000020473
+    }
+  },
+  {
+    "oso_project_id":"jxyZJmCIfOjgmygX+xfrjrczCzVNGl6y/3qNAN+b/YI=",
+    "op_atlas_id":"0x0674e95c746371103249c2c987d64515a4ed5c19dc3fd6a7338f7716ab8afeb4",
+    "display_name":"SnakyCat",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "eligibility_metrics":{
+      "transaction_count":1,
+      "active_days":1
+    },
+    "monthly_metrics":{
+      "defillama_tvl":null
     }
   },
   {
@@ -6146,39 +6161,24 @@
     }
   },
   {
-    "oso_project_id":"whSzne13utJrOkyjbU5X3xEuZbQPNrNOHTiQKzQFJlU=",
-    "op_atlas_id":"0xb60780abaff82da08ddb98703d6792d806f03f190f6dcd7d0b8e7346533bd4eb",
-    "display_name":"Web3bridge",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "eligibility_metrics":{
-      "transaction_count":1,
-      "active_days":1
-    },
-    "monthly_metrics":{
-      "defillama_tvl":null
-    }
-  },
-  {
-    "oso_project_id":"jxyZJmCIfOjgmygX+xfrjrczCzVNGl6y/3qNAN+b/YI=",
-    "op_atlas_id":"0x0674e95c746371103249c2c987d64515a4ed5c19dc3fd6a7338f7716ab8afeb4",
-    "display_name":"SnakyCat",
-    "is_eligible":false,
-    "op_reward":0.0,
-    "round_id":"8",
-    "eligibility_metrics":{
-      "transaction_count":1,
-      "active_days":1
-    },
-    "monthly_metrics":{
-      "defillama_tvl":null
-    }
-  },
-  {
     "oso_project_id":"A719ksIo3buGRqG1DyL5moppo/kyqc10gIVZ/CNU2BI=",
     "op_atlas_id":"0x6287767a34d62134eb1935891fa48f9b5e64811d79e0099bb9e64d7bdde3f993",
     "display_name":"Verse",
+    "is_eligible":false,
+    "op_reward":0.0,
+    "round_id":"8",
+    "eligibility_metrics":{
+      "transaction_count":1,
+      "active_days":1
+    },
+    "monthly_metrics":{
+      "defillama_tvl":null
+    }
+  },
+  {
+    "oso_project_id":"whSzne13utJrOkyjbU5X3xEuZbQPNrNOHTiQKzQFJlU=",
+    "op_atlas_id":"0xb60780abaff82da08ddb98703d6792d806f03f190f6dcd7d0b8e7346533bd4eb",
+    "display_name":"Web3bridge",
     "is_eligible":false,
     "op_reward":0.0,
     "round_id":"8",

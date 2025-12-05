@@ -2,12 +2,12 @@
 This module contains all the SQL queries used to fetch data from OSO.
 """
 
-THIS_PERIOD = 'M9'
-THIS_PERIOD_NUMBER = THIS_PERIOD[-1]
+THIS_PERIOD = 'M10'
+THIS_PERIOD_NUMBER = THIS_PERIOD[1:]
 START_DATE = '2024-11-01'
-END_DATE = '2025-11-01'
-THIS_PERIOD_DATE = '2025-10-01'
-LAST_PERIOD_DATE = '2025-09-01'
+END_DATE = '2025-12-01'
+THIS_PERIOD_DATE = '2025-11-01'
+LAST_PERIOD_DATE = '2025-10-01'
 FLAG_LIST = [
     '0xaa1b878800206da24ee7297fb202ef98a6af0fb3ec298a65ba6b675cb4f4144b', # Test Project
     '0x482720e73e91229b5f7d5e2d80a54eb8a722309c26dba03355359788b18f4373', # M4 RubyScore (manufactured activity)
@@ -76,6 +76,7 @@ QUERIES = [
         "filetype": "csv",
         "query": f"""
             SELECT 
+                -- {THIS_PERIOD}
                 project_id,
                 project_name,
                 display_name,
@@ -91,6 +92,7 @@ QUERIES = [
         "filetype": "csv",
         "query": f"""
             SELECT DISTINCT
+                -- {THIS_PERIOD}
                 b.project_id,
                 p.project_name,
                 p.display_name,
@@ -107,6 +109,7 @@ QUERIES = [
         "filetype": "csv",
         "query": f"""
             SELECT
+              -- {THIS_PERIOD}
               onchain_builder_project_id,
               devtooling_project_id,
               CASE
@@ -122,6 +125,7 @@ QUERIES = [
         "filename": "devtooling__developer_graph",
         "filetype": "csv",
         "query": f"""
+            -- {THIS_PERIOD}
             SELECT *
             FROM int_superchain_s8_devtooling_devs_to_projects_graph
             WHERE project_id != '8Cgztczct8fnsJW6D2OQcFRY6nClKNyOC7Le0soED94='
@@ -131,6 +135,7 @@ QUERIES = [
         "filename": "devtooling__raw_metrics",
         "filetype": "json",
         "query": f"""
+            -- {THIS_PERIOD}
             SELECT * 
             FROM int_superchain_s8_devtooling_metrics_by_project
         """

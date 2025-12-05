@@ -22,7 +22,7 @@
     "op_atlas_id":"0x08df6e20a3cfabbaf8f34d4f4d048fe7da40447c24be0f3ad513db6f13c755dd",
     "display_name":"Velodrome Finance",
     "is_eligible":true,
-    "op_reward":2896.94,
+    "op_reward":5000.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":585815055,
@@ -40,7 +40,7 @@
     "op_atlas_id":"0x9d9162fac637991d2a56da8fbe03dba24c87eb82d47c7a00b921e39e956f8a9d",
     "display_name":"Uniswap on Superchain (Oku)",
     "is_eligible":true,
-    "op_reward":2907.76,
+    "op_reward":5000.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":194577218,
@@ -58,7 +58,7 @@
     "op_atlas_id":"0x1ac8413aaf8110410b9447af27251ba89311f5ec4e2d289006e834b122a44dbf",
     "display_name":"PancakeSwap",
     "is_eligible":true,
-    "op_reward":2976.63,
+    "op_reward":5000.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":156314923,
@@ -76,7 +76,7 @@
     "op_atlas_id":"0x2c41bf7b4d36a344881581e20ecb2929d38c3415fffa4bf65f81ae049dfb2e72",
     "display_name":"PUF",
     "is_eligible":true,
-    "op_reward":1758.4,
+    "op_reward":4006.5,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":92674419,
@@ -94,7 +94,7 @@
     "op_atlas_id":"0x780cf3d5aa4e3c94b8a4157f4b06a3f92ebcc20813585e20e3fe0271bf76b7a9",
     "display_name":"Virtuals Protocol",
     "is_eligible":true,
-    "op_reward":3144.46,
+    "op_reward":5000.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":79789111,
@@ -112,7 +112,7 @@
     "op_atlas_id":"0x5958eb35cf4d4b8871924adc5e6272eff2ac701e368ca6ad043ee486cce9e223",
     "display_name":"Kyo finance",
     "is_eligible":true,
-    "op_reward":2048.98,
+    "op_reward":4580.58,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":76817718,
@@ -130,7 +130,7 @@
     "op_atlas_id":"0x9fb539aa3ddb63cda1c29b50fbeaa6071f290926ce10f3d224233577b823454e",
     "display_name":"UNO",
     "is_eligible":true,
-    "op_reward":2076.16,
+    "op_reward":5000.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":64933030,
@@ -166,7 +166,7 @@
     "op_atlas_id":"0xb98778ca9ff41446e2bc304f7b5d27f0fa7c2bcd11df19e22d1352c06698a1f6",
     "display_name":"Account Abstraction - ERC-4337",
     "is_eligible":true,
-    "op_reward":2945.83,
+    "op_reward":5000.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":54359802,
@@ -184,7 +184,7 @@
     "op_atlas_id":"0x250065e82e6a2fd0127f0f7c7e0df7eb305810bd9796f72aa28a0c7f2c71ae08",
     "display_name":"Relay Protocol",
     "is_eligible":true,
-    "op_reward":2618.34,
+    "op_reward":5000.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":48754399,
@@ -202,7 +202,7 @@
     "op_atlas_id":"0x40ee6048c99aefd288f6133db207849d0951fe6b62afa1cca0db5a4ad7f558de",
     "display_name":"ORO",
     "is_eligible":true,
-    "op_reward":1625.28,
+    "op_reward":4164.08,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":45127028,
@@ -238,7 +238,7 @@
     "op_atlas_id":"0xf4e56e0c6654d6ef621191708f27ee20242462f541d3e79dc5512e1a10d90736",
     "display_name":"Eggs Vault",
     "is_eligible":true,
-    "op_reward":1196.54,
+    "op_reward":3297.45,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":35240190,
@@ -256,7 +256,7 @@
     "op_atlas_id":"0x5831a5bc2b6e683bcb8e392453a85c5e7f755aa700e827ed9c3e1c6d67fb2a96",
     "display_name":"World Republic",
     "is_eligible":true,
-    "op_reward":1133.62,
+    "op_reward":2595.41,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":34780924,
@@ -274,7 +274,7 @@
     "op_atlas_id":"0x00d5eaebec0fa6a41bbf5e29d347162dabc04dfffcd188663fc16393a5d9917a",
     "display_name":"The Box",
     "is_eligible":true,
-    "op_reward":1351.7,
+    "op_reward":3075.6,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":32909095,
@@ -292,7 +292,7 @@
     "op_atlas_id":"0x738c0967c0f70a0a78d8794dcf2c40540f60ea9568e163dd5826b85e8e2a9a79",
     "display_name":"Enso Build",
     "is_eligible":true,
-    "op_reward":385.7,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":28821925,
@@ -328,7 +328,7 @@
     "op_atlas_id":"0xf9af65e8afbd0fd21802bca92c9d0d6201a8b1d114d5c9170fea7e914fd2b392",
     "display_name":"Drop Wallet",
     "is_eligible":true,
-    "op_reward":1162.23,
+    "op_reward":2901.62,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":25716990,
@@ -346,7 +346,7 @@
     "op_atlas_id":"0x7d5bcf0b123ca5611f1bb0c889816753cc215b0a230849c8464c6c2a08c4eddc",
     "display_name":"FLAG!",
     "is_eligible":true,
-    "op_reward":964.18,
+    "op_reward":2095.64,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":25607874,
@@ -364,7 +364,7 @@
     "op_atlas_id":"0x596292c1581406fc4cfba89bc8ed86e32c7ac85c6239d074df7b91fcbc53f4c8",
     "display_name":"SynFutures",
     "is_eligible":true,
-    "op_reward":1323.87,
+    "op_reward":2761.89,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":23349308,
@@ -382,7 +382,7 @@
     "op_atlas_id":"0x7eb6ba7a1057659d04ec414446c1b32509bf57704958139266c7120903446ad6",
     "display_name":"Pinto Protocol",
     "is_eligible":true,
-    "op_reward":1668.85,
+    "op_reward":3108.94,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":22537482,
@@ -400,7 +400,7 @@
     "op_atlas_id":"0x517eaa9c56951de89261f2d7830ea49aae92f2a903104a17d9c5c2edd4959806",
     "display_name":"LI.FI",
     "is_eligible":true,
-    "op_reward":1335.08,
+    "op_reward":4125.46,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":20458117,
@@ -436,7 +436,7 @@
     "op_atlas_id":"0x18923b60296e26a8ce35a0b4754cd6fd5427b2820a202f82901c826794fdbc9e",
     "display_name":"Sake",
     "is_eligible":true,
-    "op_reward":691.01,
+    "op_reward":1280.5,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":19456545,
@@ -454,7 +454,7 @@
     "op_atlas_id":"0x2bdfa034cf1e853db8ed4b30531270c7a62d66550cd23383819e816abb234f0a",
     "display_name":"Cash Convert",
     "is_eligible":true,
-    "op_reward":970.91,
+    "op_reward":2288.2,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":18954447,
@@ -472,7 +472,7 @@
     "op_atlas_id":"0x4f64c34669043d9fac6a8fd01a93c27b2ab0c88a803c7b72dedb8cef035ede01",
     "display_name":"MetaMap",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":16970955,
@@ -490,7 +490,7 @@
     "op_atlas_id":"0xc55fe3df4a2689935cc0a4b912e3f913de7a8c1c6758370550aaf25a949ec79c",
     "display_name":"Otterverse",
     "is_eligible":true,
-    "op_reward":1272.26,
+    "op_reward":2820.18,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":16745714,
@@ -508,7 +508,7 @@
     "op_atlas_id":"0x3ecbf66c1b21342b26acb0f7d4c6b8bbbef168ffafff3f425de3503fd8dfa535",
     "display_name":"Superfluid",
     "is_eligible":true,
-    "op_reward":1507.29,
+    "op_reward":3234.37,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":16151569,
@@ -526,7 +526,7 @@
     "op_atlas_id":"0x57b84242462a1ddfb9006369b96a60d85ec41fa29aa20b8f2902ce9ba22e3f54",
     "display_name":"SONEX",
     "is_eligible":true,
-    "op_reward":1253.13,
+    "op_reward":2749.3,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":15882338,
@@ -544,7 +544,7 @@
     "op_atlas_id":"0xc7104d126ffe628630e89f455711ef296175069fffb1f9c0e85b396ee1d23f27",
     "display_name":"DIAMANTE",
     "is_eligible":true,
-    "op_reward":684.05,
+    "op_reward":1462.76,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":14047585,
@@ -562,7 +562,7 @@
     "op_atlas_id":"0x394cdf60010e890aeb52606b938e6ff6ef7a52b0b5a3e897daf0133bed243b14",
     "display_name":"Double or Nothing",
     "is_eligible":true,
-    "op_reward":805.68,
+    "op_reward":2035.93,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":13444896,
@@ -580,7 +580,7 @@
     "op_atlas_id":"0xcae812d91b7b86edf3141f44f006e8a03931ebc489e0a417b82b603bf325bc96",
     "display_name":"World MiniApps - NFT and Gaming",
     "is_eligible":true,
-    "op_reward":1038.69,
+    "op_reward":2113.9,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":13233801,
@@ -598,7 +598,7 @@
     "op_atlas_id":"0xdafc4d2a060c7d08913ceb05b19c4fe7fb6d93a7f5f1142642be939be16bf6e9",
     "display_name":"DNA Token",
     "is_eligible":true,
-    "op_reward":446.4,
+    "op_reward":584.25,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":12974663,
@@ -634,7 +634,7 @@
     "op_atlas_id":"0x2c1d2ae68e4a718a04a41f1a9fde1ed0648602e08c150e3f72d3dc7ef22dd71a",
     "display_name":"GM",
     "is_eligible":true,
-    "op_reward":716.52,
+    "op_reward":1182.04,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":10769106,
@@ -652,7 +652,7 @@
     "op_atlas_id":"0x6fbc494492f9d721670f2a4b6b7b9a3a86c5050cb342146d4d4e3a606e1a3478",
     "display_name":"EARN HUB!",
     "is_eligible":true,
-    "op_reward":949.0,
+    "op_reward":2598.28,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":10704290,
@@ -670,7 +670,7 @@
     "op_atlas_id":"0xab28184ffcd1429ce9bbcffdba320787e9d2ab1e2f365352af3b5a9ef64f4600",
     "display_name":"Hydrex",
     "is_eligible":true,
-    "op_reward":1900.61,
+    "op_reward":4026.9,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":9451181,
@@ -688,7 +688,7 @@
     "op_atlas_id":"0xc66e357ad67e63954cd1eb79da4d507d8800518f06c82e423e93e8771e7b8d13",
     "display_name":"Brahma",
     "is_eligible":true,
-    "op_reward":1423.26,
+    "op_reward":1926.8,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":9351625,
@@ -706,7 +706,7 @@
     "op_atlas_id":"0x41b2ae8a2ead458ff7c85549a9a11380353e1ae4b234666312d495326636f77a",
     "display_name":"Sushiswap",
     "is_eligible":true,
-    "op_reward":1330.28,
+    "op_reward":2003.78,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":9300446,
@@ -724,7 +724,7 @@
     "op_atlas_id":"0x8fbddc02ddbc9c9b303b7bbb645aa933541876a31a93d7dea165fb0283d7f685",
     "display_name":"Holdstation Wallet",
     "is_eligible":true,
-    "op_reward":496.12,
+    "op_reward":830.95,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":8577442,
@@ -742,7 +742,7 @@
     "op_atlas_id":"0x08447636de20816960f0427a65677df5571d503f09235b2bec37f7dd5c28161d",
     "display_name":"Credit",
     "is_eligible":true,
-    "op_reward":909.65,
+    "op_reward":2764.48,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":8392574,
@@ -760,7 +760,7 @@
     "op_atlas_id":"0xe8833ceee8beb2b3fb0f7f2dcef576f6f9cf20e35d8e53324d71b0ed47b01982",
     "display_name":"SOCKET protocol",
     "is_eligible":true,
-    "op_reward":567.05,
+    "op_reward":832.96,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":8318543,
@@ -778,7 +778,7 @@
     "op_atlas_id":"0xd17c16ed0ff3c31ae81ae9af4070a2150db0be538cabcb720c67cc5f221d3965",
     "display_name":"World Billboard",
     "is_eligible":true,
-    "op_reward":535.33,
+    "op_reward":905.36,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":8052828,
@@ -796,7 +796,7 @@
     "op_atlas_id":"0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745",
     "display_name":"Stargate Finance",
     "is_eligible":true,
-    "op_reward":1374.09,
+    "op_reward":2728.99,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7980986,
@@ -814,7 +814,7 @@
     "op_atlas_id":"0x91a4420e2fcc8311e97dad480f201a8ce221f2cd64c2de77280cbcc6ce193752",
     "display_name":"Layer3",
     "is_eligible":true,
-    "op_reward":1016.08,
+    "op_reward":1697.56,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7595951,
@@ -832,7 +832,7 @@
     "op_atlas_id":"0x72723e07fe409557489a6643b43d9493a94c10ba68230b0527f01834cb6a550f",
     "display_name":"Across Protocol",
     "is_eligible":true,
-    "op_reward":857.97,
+    "op_reward":1397.85,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7509939,
@@ -850,7 +850,7 @@
     "op_atlas_id":"0x12721a0927c5d0598380e718e69c7f3395cc7b8847da42ac384af9c59efd025d",
     "display_name":"AION",
     "is_eligible":true,
-    "op_reward":494.81,
+    "op_reward":810.05,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7292154,
@@ -868,7 +868,7 @@
     "op_atlas_id":"0x041baee0d8c07a4e89e4c6c19410d8f6cd0a8439cbe8ea0687bf9a504f1c6a88",
     "display_name":"Worldle",
     "is_eligible":true,
-    "op_reward":431.76,
+    "op_reward":504.9,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7207166,
@@ -886,7 +886,7 @@
     "op_atlas_id":"0xbcb5c437d5347be21add3972512679054416805274f80e85ab8053ae79340a69",
     "display_name":"Ionic Protocol",
     "is_eligible":true,
-    "op_reward":466.2,
+    "op_reward":561.22,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6804500,
@@ -904,7 +904,7 @@
     "op_atlas_id":"0x70ba3cb2e433f1cd9ace8aea84c46d167ba5db12293cd108eaca068d06be3a71",
     "display_name":"Gains Network (gTrade)",
     "is_eligible":true,
-    "op_reward":552.43,
+    "op_reward":807.29,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6519482,
@@ -922,7 +922,7 @@
     "op_atlas_id":"0xca3f26e1c876e821d2384a5cb699c6be494f9810301c2e2be49c232656262642",
     "display_name":"BaseSwap ",
     "is_eligible":true,
-    "op_reward":710.61,
+    "op_reward":1013.14,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6391054,
@@ -940,7 +940,7 @@
     "op_atlas_id":"0x578d022acd70130def85327e2926a2ed4545e08617ced951ef54a872f5a2a5f5",
     "display_name":"Orki Finance",
     "is_eligible":true,
-    "op_reward":399.11,
+    "op_reward":264.71,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6207388,
@@ -958,7 +958,7 @@
     "op_atlas_id":"0x61438e534ef14ce82cde9a10e36272e51cb56709b996e096157821948a705856",
     "display_name":"Plaza Finance",
     "is_eligible":true,
-    "op_reward":382.47,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6162754,
@@ -976,7 +976,7 @@
     "op_atlas_id":"0x000c2ce4773defb3010a58d3800d0ec9d432189c574ba26d3103f1db44a5af6d",
     "display_name":"WOOFi",
     "is_eligible":true,
-    "op_reward":518.64,
+    "op_reward":660.79,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":5965431,
@@ -994,7 +994,7 @@
     "op_atlas_id":"0xfd9f98de666c5b0a5ce96d4a4b8d4ceee9f8c2156734d57bf6c23d0cff183e90",
     "display_name":"Kim Exchange",
     "is_eligible":true,
-    "op_reward":646.42,
+    "op_reward":689.76,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":5726079,
@@ -1012,7 +1012,7 @@
     "op_atlas_id":"0x84893ce34d8069c43d8814db55a1ff5d472e4765650f0c37c1156b5ce97421ff",
     "display_name":"TPulseFi",
     "is_eligible":true,
-    "op_reward":1159.47,
+    "op_reward":2520.07,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":5566952,
@@ -1030,7 +1030,7 @@
     "op_atlas_id":"0x469f813ce1b0c64293d1f884363808f076d27abc8c6060bd3abe46bedd0d7982",
     "display_name":"Neptune Finance",
     "is_eligible":true,
-    "op_reward":399.54,
+    "op_reward":268.13,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":5557359,
@@ -1048,7 +1048,7 @@
     "op_atlas_id":"0x24ff0fb2933e55b169a80d9bd35a00a7011795387717b27445ccdc0f8660d740",
     "display_name":"OpenOcean",
     "is_eligible":true,
-    "op_reward":580.51,
+    "op_reward":825.4,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":5273320,
@@ -1066,7 +1066,7 @@
     "op_atlas_id":"0x79e3ed10841da009fbbaef5ac13c27022dd35e95ac5c02bae078775981a9aaa0",
     "display_name":"BitMaster",
     "is_eligible":true,
-    "op_reward":599.05,
+    "op_reward":1202.24,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":5262752,
@@ -1084,7 +1084,7 @@
     "op_atlas_id":"0x81c88822ad7d004a94a2a5ce5d6a2a04466f78d211931230ac0c5a804d36c855",
     "display_name":"Mint Forest",
     "is_eligible":true,
-    "op_reward":382.76,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":5078874,
@@ -1102,7 +1102,7 @@
     "op_atlas_id":"0x3526b9c6fdc34076d7d2c31893b94e760f4d5a010387b6b76b45f8b5577ceb98",
     "display_name":"Gyroscope",
     "is_eligible":true,
-    "op_reward":517.32,
+    "op_reward":623.26,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":4945251,
@@ -1120,7 +1120,7 @@
     "op_atlas_id":"0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
     "display_name":"CreateX",
     "is_eligible":true,
-    "op_reward":1854.36,
+    "op_reward":3627.66,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":4557833,
@@ -1156,7 +1156,7 @@
     "op_atlas_id":"0xf9513b5bfca3be3513450bd56b48ae485ce157aa56c1d8b2e06a68bce0b8d084",
     "display_name":"LeverageX by Javsphere",
     "is_eligible":true,
-    "op_reward":395.75,
+    "op_reward":217.97,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":4407776,
@@ -1174,7 +1174,7 @@
     "op_atlas_id":"0x491ffd3c2e4c25ab7fbdbefe0f5fc8dc2beee5ab801287b9c6c93c9c3c810463",
     "display_name":"SwapMode",
     "is_eligible":true,
-    "op_reward":402.42,
+    "op_reward":288.46,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":4254432,
@@ -1192,7 +1192,7 @@
     "op_atlas_id":"0x18e7582de42dd9a7fd2cb69fb6566b8bcb3e86b936b229b0c5af78fa1de791a4",
     "display_name":"DackieSwap",
     "is_eligible":true,
-    "op_reward":522.96,
+    "op_reward":508.3,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3887021,
@@ -1210,7 +1210,7 @@
     "op_atlas_id":"0x0ee3defac0e2a31b995bc073ac02a2140aaf01679e141eb8d1d80409f75f90ea",
     "display_name":"Mint Club",
     "is_eligible":true,
-    "op_reward":785.37,
+    "op_reward":1237.98,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3879648,
@@ -1228,7 +1228,7 @@
     "op_atlas_id":"0x30769523b16315b6404ce3c6dbaf610028acdf3133dca8a4d427e0d19d3628c9",
     "display_name":"Beefy",
     "is_eligible":true,
-    "op_reward":400.46,
+    "op_reward":269.24,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3668616,
@@ -1264,7 +1264,7 @@
     "op_atlas_id":"0x96767e87a27cdb9798f40c3a6fd78e70da611afe53a5e45cbaafc50cae4ad0e7",
     "display_name":"Sonus Exchange",
     "is_eligible":true,
-    "op_reward":486.01,
+    "op_reward":581.98,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3518265,
@@ -1282,7 +1282,7 @@
     "op_atlas_id":"0x1f998a77880db01b4938b7fa84fc2f6577fee032fd0a55393406e665d7f3a9e1",
     "display_name":"Dalgona",
     "is_eligible":true,
-    "op_reward":402.02,
+    "op_reward":313.61,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3444802,
@@ -1300,7 +1300,7 @@
     "op_atlas_id":"0xfb9ddb0fdae7aa1049979189c20c53bad5ab49b44435ca939cef7c618c96a187",
     "display_name":"X3X",
     "is_eligible":true,
-    "op_reward":395.79,
+    "op_reward":253.2,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3436445,
@@ -1318,7 +1318,7 @@
     "op_atlas_id":"0x8595f830f4d1716621d19bca6394f304837133fb473d8fcd1699e84402df1409",
     "display_name":"SwapBased",
     "is_eligible":true,
-    "op_reward":705.62,
+    "op_reward":908.05,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3268844,
@@ -1336,7 +1336,7 @@
     "op_atlas_id":"0xdd73108cfd9ee7517836e18800a06412a6ba08b43356791c2db6a7a75b910692",
     "display_name":"Omni Exchange",
     "is_eligible":true,
-    "op_reward":411.06,
+    "op_reward":315.2,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3246176,
@@ -1354,7 +1354,7 @@
     "op_atlas_id":"0xb620f012eb197e5661f65c1a5aee6a4bbb43629f0056879ae4dc66adf8383ae3",
     "display_name":"ORB",
     "is_eligible":true,
-    "op_reward":700.62,
+    "op_reward":1592.78,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3243848,
@@ -1372,7 +1372,7 @@
     "op_atlas_id":"0x7e7d21d6fd33a544b7d1dc853239b1af732c778d16dbf0e2e059f5f34b1c1bfe",
     "display_name":"Uman",
     "is_eligible":true,
-    "op_reward":423.26,
+    "op_reward":306.32,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2928486,
@@ -1390,7 +1390,7 @@
     "op_atlas_id":"0x2ecedc3cad0a68d398020bf6d41167535fcaeb6d5bbf1602d6318f07e9c59af6",
     "display_name":"Untitled Bank",
     "is_eligible":true,
-    "op_reward":431.58,
+    "op_reward":389.3,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2898572,
@@ -1408,7 +1408,7 @@
     "op_atlas_id":"0x82d0c4b823b28da0bfeeef79d42a5daa8c039bdbeb75cd4b426c0748832a21da",
     "display_name":"Winance",
     "is_eligible":true,
-    "op_reward":389.84,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2799664,
@@ -1426,7 +1426,7 @@
     "op_atlas_id":"0x259b729af86ba38c0c84be9b739dfbca109a6df985371d8cabd43116d18d7a1a",
     "display_name":"Flaunch",
     "is_eligible":true,
-    "op_reward":418.15,
+    "op_reward":319.85,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2717804,
@@ -1444,7 +1444,7 @@
     "op_atlas_id":"0xc850d11fe786d1168bfeda108721101427dd5425d9d9e6595c35573f7616e940",
     "display_name":"Daimo Pay",
     "is_eligible":true,
-    "op_reward":880.68,
+    "op_reward":911.08,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2551319,
@@ -1462,7 +1462,7 @@
     "op_atlas_id":"0xb926ab918147d2264dba94a429eb07986aa533fd6062a78736d3eda4e0b4a69b",
     "display_name":"Oku Trade",
     "is_eligible":true,
-    "op_reward":596.83,
+    "op_reward":827.17,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2417531,
@@ -1480,7 +1480,7 @@
     "op_atlas_id":"0xc0901c8f9503f0bf91a1cca0c6c90e55af8719cc2237fb4a0bf0770b307cbd11",
     "display_name":"Basepaint",
     "is_eligible":true,
-    "op_reward":386.74,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2370414,
@@ -1498,7 +1498,7 @@
     "op_atlas_id":"0xc55da0ccb43d29814ac5ac3e1eacb85a5008a30df7fff6c34c45684c89ad5f11",
     "display_name":"O\uff1dC\uff1dO",
     "is_eligible":true,
-    "op_reward":392.27,
+    "op_reward":227.22,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2364724,
@@ -1516,7 +1516,7 @@
     "op_atlas_id":"0x5962ef9e4955bc4cd4c6ed080c55879be9ee2dddb1b7cd37d72182a142dc9eab",
     "display_name":"Arkada",
     "is_eligible":true,
-    "op_reward":720.41,
+    "op_reward":886.04,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2185189,
@@ -1534,7 +1534,7 @@
     "op_atlas_id":"0x0b06e685eab9c4fee7d93ca54e1c02281e2be560bfc54f43fa738961fa2ce4c1",
     "display_name":"Coop Records",
     "is_eligible":true,
-    "op_reward":765.64,
+    "op_reward":1479.68,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2154626,
@@ -1552,7 +1552,7 @@
     "op_atlas_id":"0x5614d129eba060ce7d224e8e8f9f29aeddfdb572b0dd45edc81f18f5307bc01a",
     "display_name":"Send",
     "is_eligible":true,
-    "op_reward":394.74,
+    "op_reward":219.4,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2101284,
@@ -1570,7 +1570,7 @@
     "op_atlas_id":"0x33f99467bb08ce97fc0829a766e06555c7a7c6870db71a13d82241ecd186406a",
     "display_name":"Dark Forest Punk",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2063118,
@@ -1588,7 +1588,7 @@
     "op_atlas_id":"0xdb3560a0c42f54dea2bc0b226fb45dc14bc19821b95cc18fae812d199feb5cbc",
     "display_name":"waveX",
     "is_eligible":true,
-    "op_reward":511.1,
+    "op_reward":515.98,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1944583,
@@ -1606,7 +1606,7 @@
     "op_atlas_id":"0xd7a8e115b2b3772d7d5656d7798e349dcdedf2463302c78528c9e9686ab4efe3",
     "display_name":"OmniHub",
     "is_eligible":true,
-    "op_reward":397.29,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1906066,
@@ -1624,7 +1624,7 @@
     "op_atlas_id":"0xf87906563da69538c969ba438f127ce5f2196e76c84c9026ab6dafc4280b6be3",
     "display_name":"PHI",
     "is_eligible":true,
-    "op_reward":383.86,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1828933,
@@ -1642,7 +1642,7 @@
     "op_atlas_id":"0xf24315614063278ba3543e1717791132a9afa79b0e65baa01a85bcccbdfa215f",
     "display_name":"deBridge",
     "is_eligible":true,
-    "op_reward":487.04,
+    "op_reward":600.14,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1620306,
@@ -1660,7 +1660,7 @@
     "op_atlas_id":"0x6318678f29da36a652cda174bf1cf5ed9bba753381c7b3b613b981803ba3d550",
     "display_name":"UniDerpFun",
     "is_eligible":true,
-    "op_reward":1136.77,
+    "op_reward":1412.94,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1599110,
@@ -1678,7 +1678,7 @@
     "op_atlas_id":"0x02065e72fe4eebfa1ebca19238e6147c8571c2b7fefae4e86e62ce768edceeb9",
     "display_name":"Exa App",
     "is_eligible":true,
-    "op_reward":385.56,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1558843,
@@ -1696,7 +1696,7 @@
     "op_atlas_id":"0xe5c133e05956a3939b9a78f4ad5d0a897a027da60a7d5e1b6276a2266211f69f",
     "display_name":"BMX",
     "is_eligible":true,
-    "op_reward":461.99,
+    "op_reward":436.03,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1556065,
@@ -1714,7 +1714,7 @@
     "op_atlas_id":"0xcc230da6ee8cbcc2d4039a526fbc8aa910d63201e350be2fae0cab9864194974",
     "display_name":"Bunni.xyz",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1487004,
@@ -1732,7 +1732,7 @@
     "op_atlas_id":"0x42bdd05fa3beb0b21780bbd35b34eefc3e69e45bc4f17043f6eb6b2bbed26237",
     "display_name":"Superhero",
     "is_eligible":true,
-    "op_reward":561.56,
+    "op_reward":572.96,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1359759,
@@ -1750,7 +1750,7 @@
     "op_atlas_id":"0xef71b036123a72aa9aa64afb1263751bdfc7e7e4e63ec658c323136dc3a88d37",
     "display_name":"GMonchain",
     "is_eligible":true,
-    "op_reward":820.41,
+    "op_reward":2024.15,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1304071,
@@ -1768,7 +1768,7 @@
     "op_atlas_id":"0xe6aa409da818b166ea4d354534d92745f2153fca126c1c38de675d42c3c559fe",
     "display_name":"Mint.Rich",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1275975,
@@ -1786,7 +1786,7 @@
     "op_atlas_id":"0xa1f96576ad998e804140caccd478bae81b8b1059a107166df87b59fbf42c9e4a",
     "display_name":"OnChainGM",
     "is_eligible":true,
-    "op_reward":866.97,
+    "op_reward":1371.3,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1270227,
@@ -1804,7 +1804,7 @@
     "op_atlas_id":"0x1f60db63651f74e2fc8b3ff900d05142552a763c31caf3a8c8e62b0953f02bf2",
     "display_name":"SuperVol",
     "is_eligible":true,
-    "op_reward":382.4,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1174131,
@@ -1822,7 +1822,7 @@
     "op_atlas_id":"0xa09305aa57a60e362b11911666f6310f46c959ead9116333d2e7ca91aee180bf",
     "display_name":"Super Account",
     "is_eligible":true,
-    "op_reward":384.09,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1117267,
@@ -1840,7 +1840,7 @@
     "op_atlas_id":"0x512f97f1de28ad530f752d53bf4f56ed16d34a3121f0512cd5a0485c2074b312",
     "display_name":"Extra Finance",
     "is_eligible":true,
-    "op_reward":395.32,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1092135,
@@ -1858,7 +1858,7 @@
     "op_atlas_id":"0x22f19557b1142eeed40eceffa2e5b31fb8393ca57dafb3454035a71c613b5ce1",
     "display_name":"DICE MAXx6",
     "is_eligible":true,
-    "op_reward":383.74,
+    "op_reward":877.22,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1090301,
@@ -1876,7 +1876,7 @@
     "op_atlas_id":"0xab1ddf597f6539acc5ad601c2a6d2899c0475cfd9cc3b837939b1084ba5d7a36",
     "display_name":"Reserve Protocol",
     "is_eligible":true,
-    "op_reward":385.66,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1082801,
@@ -1894,7 +1894,7 @@
     "op_atlas_id":"0x0b8acaf73a25ba1f64bf829f9678beb8b7edf825353ebea38085590d78d74d5d",
     "display_name":"Tokiemon",
     "is_eligible":true,
-    "op_reward":415.02,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1082252,
@@ -1912,7 +1912,7 @@
     "op_atlas_id":"0x97553b3e60fedc3d6e888c26132dfd49b6bc0174fc4546966215e1be3224d0de",
     "display_name":"Warpslot",
     "is_eligible":true,
-    "op_reward":385.73,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1073055,
@@ -1930,7 +1930,7 @@
     "op_atlas_id":"0xb1ee13dc3a4f1db5840d4852e7c81977fcd14d7b423f3ed15407bbf13d1a3986",
     "display_name":"HumanFi",
     "is_eligible":true,
-    "op_reward":385.92,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1023549,
@@ -1948,7 +1948,7 @@
     "op_atlas_id":"0xdd35cc4641c3c35bee5782fc0442b2a1b88a058ec0a7b90ba32c70347e4e9194",
     "display_name":"Arcadia Finance ",
     "is_eligible":true,
-    "op_reward":411.52,
+    "op_reward":301.48,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1006160,
@@ -1966,7 +1966,7 @@
     "op_atlas_id":"0xb6266f3d955040aa7583f2f346db87abe0649f545389af3cc8fe302aacfc850b",
     "display_name":"Splits",
     "is_eligible":true,
-    "op_reward":461.09,
+    "op_reward":465.55,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":971679,
@@ -1984,7 +1984,7 @@
     "op_atlas_id":"0xdba6f6be6f7cddd6b7f291292ab4179ad4dbe92fc8a85612f76dc67fc480a8a9",
     "display_name":"LasMeta",
     "is_eligible":true,
-    "op_reward":382.35,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":945748,
@@ -2002,7 +2002,7 @@
     "op_atlas_id":"0x7f0e98c70d1401fb100dc804f28743bb567a2fee12315f52300113df514b7bd3",
     "display_name":"SuperBoring",
     "is_eligible":true,
-    "op_reward":385.87,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":945537,
@@ -2020,7 +2020,7 @@
     "op_atlas_id":"0xc938557155993da8f33857e52d7deb04421d1bb341fc24216563aae64fe32d36",
     "display_name":"BSX",
     "is_eligible":true,
-    "op_reward":384.07,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":931333,
@@ -2038,7 +2038,7 @@
     "op_atlas_id":"0xe2ef3fbfd10df401a0221939359e96af29805db8936c1199ae7532262c69ec5f",
     "display_name":"The Button",
     "is_eligible":true,
-    "op_reward":404.67,
+    "op_reward":359.01,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":903836,
@@ -2056,7 +2056,7 @@
     "op_atlas_id":"0xd3d00c946f62ac8cf49a85e3ab7d295d3b56f68d0b9f1fa4d595742fa372cf78",
     "display_name":"Compound Finance",
     "is_eligible":true,
-    "op_reward":397.4,
+    "op_reward":211.45,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":896153,
@@ -2074,7 +2074,7 @@
     "op_atlas_id":"0xb0a62ebee7f20fd4c4bf96822c062b5fc13e7865702a9abfa49e02549418cffc",
     "display_name":"Bloom",
     "is_eligible":true,
-    "op_reward":382.96,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":890259,
@@ -2092,7 +2092,7 @@
     "op_atlas_id":"0x558ad0914eaf21a4965b2e4b7fef4cd66ef9d5bb861c5c42f4795a9e4614df71",
     "display_name":"Chonks",
     "is_eligible":true,
-    "op_reward":382.38,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":865126,
@@ -2110,7 +2110,7 @@
     "op_atlas_id":"0x70624cd9a8be4ead96e5097025eb645b9848e2643e5025a4006dee2cff1a4138",
     "display_name":"WAGMI",
     "is_eligible":true,
-    "op_reward":383.68,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":815113,
@@ -2128,7 +2128,7 @@
     "op_atlas_id":"0x9f63aa0f49f9b6a09c014535bb0b06d6bbe643fd92d528cd58679433b6ebd6d4",
     "display_name":"Blockchain Messages",
     "is_eligible":true,
-    "op_reward":1509.51,
+    "op_reward":1890.84,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":745545,
@@ -2146,7 +2146,7 @@
     "op_atlas_id":"0xa88844cea135382e3484e39c3172033437121b35ca0bc8b10b9b8253984876b5",
     "display_name":"Ethereum Attestation Service (EAS)",
     "is_eligible":true,
-    "op_reward":409.46,
+    "op_reward":246.36,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":744663,
@@ -2164,7 +2164,7 @@
     "op_atlas_id":"0x76596da0afbf2980ce80e6238c974495fbe52f5c29ec38893dcfdacd5378eaa3",
     "display_name":"DAOBase",
     "is_eligible":true,
-    "op_reward":382.74,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":696280,
@@ -2182,7 +2182,7 @@
     "op_atlas_id":"0x31704fee34d3edec158b5df714b613642bfbbb58ad7466204ded66a3f811b979",
     "display_name":"Superchain Safe",
     "is_eligible":true,
-    "op_reward":1101.89,
+    "op_reward":1225.66,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":608671,
@@ -2200,7 +2200,7 @@
     "op_atlas_id":"0x7539f43dc91f9c406c83a06339708e4033cdbf630916c6dfb9de2b5ef811affd",
     "display_name":"Seamless Protocol",
     "is_eligible":true,
-    "op_reward":391.27,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":597089,
@@ -2218,7 +2218,7 @@
     "op_atlas_id":"0x5c7ac8becc35168a91b594f18284f7ea661ab2bf727d6bfac80fb6f04c4792ec",
     "display_name":"Catex",
     "is_eligible":true,
-    "op_reward":382.73,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":571235,
@@ -2236,7 +2236,7 @@
     "op_atlas_id":"0xeecfa614f020c2ea4c2eb431246befedf35ddc6c52cfaa83d0c4caf2f580f9f4",
     "display_name":"doginme memecoin",
     "is_eligible":true,
-    "op_reward":510.04,
+    "op_reward":578.26,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":556240,
@@ -2254,7 +2254,7 @@
     "op_atlas_id":"0xff1edf67227651293a9cff4dce3577c6ca52bf8c7c6f5f133f07b05255379b27",
     "display_name":"Kelp",
     "is_eligible":true,
-    "op_reward":1137.19,
+    "op_reward":2452.89,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":540689,
@@ -2272,7 +2272,7 @@
     "op_atlas_id":"0x82edc3ac2a03da21c5a6033159ba8e97aab2f61dc5d1d9813929fea6d6c35362",
     "display_name":"Superform",
     "is_eligible":true,
-    "op_reward":392.07,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":526726,
@@ -2290,7 +2290,7 @@
     "op_atlas_id":"0xffffeb1d3576c1e847701c225975ee1a10259e05366b477e98fea7a47c5e5896",
     "display_name":"Rainbow (Rainbow Router)",
     "is_eligible":true,
-    "op_reward":420.94,
+    "op_reward":312.47,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":506433,
@@ -2308,7 +2308,7 @@
     "op_atlas_id":"0xd54e1032bf16d649f8f8f0a7da42a249966ad4a270b4c17b24ded1e32c97b2bf",
     "display_name":"NFTs2Me",
     "is_eligible":true,
-    "op_reward":459.17,
+    "op_reward":440.71,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":486739,
@@ -2326,7 +2326,7 @@
     "op_atlas_id":"0x331511dd6300baf10a35b2d3f3953fd7160412b970049b3a63b64564ce26c347",
     "display_name":"Highlight",
     "is_eligible":true,
-    "op_reward":410.55,
+    "op_reward":264.61,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":483656,
@@ -2344,7 +2344,7 @@
     "op_atlas_id":"0x869d601d2c5d78bcad37b589225632a9674c7bfbafeebf3c379ccc41265d6f33",
     "display_name":"SynStation",
     "is_eligible":true,
-    "op_reward":491.76,
+    "op_reward":406.29,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":451413,
@@ -2362,7 +2362,7 @@
     "op_atlas_id":"0x47047238c33fb3f16f4e93d5b9844c06a64525c8a483538dc72085c0df4495e8",
     "display_name":"Symbiosis",
     "is_eligible":true,
-    "op_reward":383.0,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":401850,
@@ -2380,7 +2380,7 @@
     "op_atlas_id":"0x720f2e5268d6524ee01235aee002629ba29cf27392751671971f9e38e0ca8f02",
     "display_name":"Extrafi XLend",
     "is_eligible":true,
-    "op_reward":383.5,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":381243,
@@ -2398,7 +2398,7 @@
     "op_atlas_id":"0xdf3eb6b429b2150c71241de0c591b18c98a3528ad0e8d838d069b6fff291d803",
     "display_name":"CreateMyToken",
     "is_eligible":true,
-    "op_reward":683.37,
+    "op_reward":672.43,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":377767,
@@ -2416,7 +2416,7 @@
     "op_atlas_id":"0xfe8e35b3487bd0e0457b9431b12b73403ca1f5c9c19dd1db81a2317c97c1e1a2",
     "display_name":"Stoke Fire",
     "is_eligible":true,
-    "op_reward":382.42,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":377729,
@@ -2434,7 +2434,7 @@
     "op_atlas_id":"0x27f345fdead33d831d6022462628b6a9ad384e7681ee58648824d17c4addc089",
     "display_name":"Festify",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":350470,
@@ -2449,7 +2449,7 @@
     "op_atlas_id":"0x40cda7edf27894d647d9433ded29290966f5c258dade2c3ea36427fccf0ef3c9",
     "display_name":"Veil Cash",
     "is_eligible":true,
-    "op_reward":492.95,
+    "op_reward":558.7,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":329487,
@@ -2467,7 +2467,7 @@
     "op_atlas_id":"0x85bef37b528ec9d7e1a9cb864e298e3c117071507acd3f522c28561435d167f5",
     "display_name":"rhinofi",
     "is_eligible":true,
-    "op_reward":388.74,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":320650,
@@ -2485,7 +2485,7 @@
     "op_atlas_id":"0x3d009f8f7c1e8a3bcbc81ca8ed60d2e86b956dd0fa68c4595f851be37052a2b5",
     "display_name":"Guild.xyz",
     "is_eligible":true,
-    "op_reward":496.9,
+    "op_reward":561.6,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":312903,
@@ -2503,7 +2503,7 @@
     "op_atlas_id":"0xaf0b91c11966164d5b8e3cf02f082b19479c5f3faca1108ca1e2aec1e1177d06",
     "display_name":"Rolu",
     "is_eligible":true,
-    "op_reward":393.39,
+    "op_reward":251.48,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":307999,
@@ -2521,7 +2521,7 @@
     "op_atlas_id":"0xefaeef1446de875ab6e50d31c8dbe776f99d884cb8cb68d50b1384067e4aeb6b",
     "display_name":"Synapse Protocol",
     "is_eligible":true,
-    "op_reward":383.23,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":290138,
@@ -2539,7 +2539,7 @@
     "op_atlas_id":"0x0bde66b4a96dfb7d47c06364766abebfbe616357f8af50c79cae5d34989f93a9",
     "display_name":"Micro3",
     "is_eligible":true,
-    "op_reward":394.38,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":282506,
@@ -2557,7 +2557,7 @@
     "op_atlas_id":"0x9c691ba3012549259099205cc1a7ca4d09d9b7a24a1b7b821b52c7bf1c9b89f4",
     "display_name":"Origin Protocol",
     "is_eligible":true,
-    "op_reward":383.28,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":273592,
@@ -2575,7 +2575,7 @@
     "op_atlas_id":"0x43c0bbbedc1c04715c3fb34b9387a0779a0d43092c716c29949e7099429eccdb",
     "display_name":"Pixotchi",
     "is_eligible":true,
-    "op_reward":382.48,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":270282,
@@ -2593,7 +2593,7 @@
     "op_atlas_id":"0xaa64734cea7bda013313aec2a1a60ecc7f7dd1e4236f0780ddd5a05ea94d5d30",
     "display_name":"BaseVol",
     "is_eligible":true,
-    "op_reward":383.08,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":265528,
@@ -2611,7 +2611,7 @@
     "op_atlas_id":"0x0c327d5f07a0abc24d646de807a9768619a34ba5277b24fc935b1edf57fa6244",
     "display_name":"dHEDGE",
     "is_eligible":true,
-    "op_reward":382.5,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":260652,
@@ -2629,7 +2629,7 @@
     "op_atlas_id":"0xf092e1e49c09e78fad22f81c54f645848835cb60bf2c3d23d6d2309fced93114",
     "display_name":"AUX",
     "is_eligible":true,
-    "op_reward":382.44,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":260576,
@@ -2647,7 +2647,7 @@
     "op_atlas_id":"0x1364d2ab6e00d2b29feea08d4687e5e4dcb435ce8ba41cbfe9c534981d9fef52",
     "display_name":"Untron",
     "is_eligible":true,
-    "op_reward":393.23,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":248045,
@@ -2665,7 +2665,7 @@
     "op_atlas_id":"0xf2780313b6d15a9be15973bac05fcb0d849d656f63ace8cab54b9d723d4a2ea2",
     "display_name":"LogX",
     "is_eligible":true,
-    "op_reward":383.25,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":244913,
@@ -2683,7 +2683,7 @@
     "op_atlas_id":"0xfc54b4a9c537be25238cba3f05100b733aeee83a3eb3fdae60d651b3b913390c",
     "display_name":"Multicaller",
     "is_eligible":true,
-    "op_reward":398.37,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":237710,
@@ -2701,7 +2701,7 @@
     "op_atlas_id":"0x2de0aff968ce9b118d16044d2b59cac6e43878ed658ba8e5a6c15838dc1892d0",
     "display_name":"On-Chain Check-in",
     "is_eligible":true,
-    "op_reward":393.19,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":221818,
@@ -2719,7 +2719,7 @@
     "op_atlas_id":"0x79fa54d6c030c7803827e96933fc93b092f638079c738d13a27a08b3905b95ec",
     "display_name":"Smol",
     "is_eligible":true,
-    "op_reward":1164.47,
+    "op_reward":2504.15,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":211050,
@@ -2737,7 +2737,7 @@
     "op_atlas_id":"0x33da4c1ddb983c46b18a0a003266a3d25c00a1ea8d3655499bbce027701f1097",
     "display_name":"Derive Automated Structured Product Vaults",
     "is_eligible":true,
-    "op_reward":382.46,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":195931,
@@ -2755,7 +2755,7 @@
     "op_atlas_id":"0x850df51e29f2846a5f085d88e6b6fc13fad51ad7161f8a825ed09d470668161a",
     "display_name":"Party.app + Party Protocol",
     "is_eligible":true,
-    "op_reward":392.07,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":184108,
@@ -2773,7 +2773,7 @@
     "op_atlas_id":"0x4f9ef6f8a732858918de5e9e53a4a5a344aecbe62562946a3078d507d1d15cc0",
     "display_name":"40acres.finance",
     "is_eligible":true,
-    "op_reward":383.4,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":175420,
@@ -2791,7 +2791,7 @@
     "op_atlas_id":"0x536837a3ba2cd12878251809d144270a54ec09bbe041fb019a9b5c223966918a",
     "display_name":"Biru",
     "is_eligible":true,
-    "op_reward":399.93,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":172808,
@@ -2809,7 +2809,7 @@
     "op_atlas_id":"0xa2a580dae44336df1cbcb7a5303880f393068fb96116e10e180e10f5745dccd4",
     "display_name":"fxhash / $fxh",
     "is_eligible":true,
-    "op_reward":382.52,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":159680,
@@ -2827,7 +2827,7 @@
     "op_atlas_id":"0xf6d85abeac025b1e33f6ae3402557762e65cc437d0a3d03673d71a4d1236f8f4",
     "display_name":"Robots.Farm",
     "is_eligible":true,
-    "op_reward":382.6,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":156818,
@@ -2845,7 +2845,7 @@
     "op_atlas_id":"0x38c38455bb0fd71d2929fcf799279569ab5f5c5d3e1f92f8642ce87aa25accdf",
     "display_name":"Decent.xyz",
     "is_eligible":true,
-    "op_reward":390.82,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":152911,
@@ -2863,7 +2863,7 @@
     "op_atlas_id":"0xd35cc78b456bf11d4acc96d2c227b29fa4115ad9d93ae211a31974a408ed8303",
     "display_name":"Diffuse Data Feeds",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":148835,
@@ -2881,7 +2881,7 @@
     "op_atlas_id":"0x120cdd8e43ae1efbafdf02eda876e1952c05a52870c8d5a8f56d9ec0f79f586d",
     "display_name":"Passport XYZ | Gitcoin Passport",
     "is_eligible":true,
-    "op_reward":383.56,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":145073,
@@ -2899,7 +2899,7 @@
     "op_atlas_id":"0x2a2d2dbfa03619094fbeb6474776f2f3b5f6be443c8576abc6f3caa2c18dc45e",
     "display_name":"Morkie",
     "is_eligible":true,
-    "op_reward":382.41,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":140161,
@@ -2917,7 +2917,7 @@
     "op_atlas_id":"0x7262ed9c020b3b41ac7ba405aab4ff37575f8b6f975ebed2e65554a08419f8f4",
     "display_name":"Sablier",
     "is_eligible":true,
-    "op_reward":389.92,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":137291,
@@ -2935,7 +2935,7 @@
     "op_atlas_id":"0x1b39e39acd4a6481b09da7e616909031e221a79fde9324e2c2af02ddff79ebad",
     "display_name":"2p2e",
     "is_eligible":true,
-    "op_reward":382.67,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":123677,
@@ -2953,7 +2953,7 @@
     "op_atlas_id":"0x8f7edabd00cd8a9bc0065eec465bd3d97ebe3f4632c8d3d52b336a9bc1d8fb3a",
     "display_name":"SuperSwap",
     "is_eligible":true,
-    "op_reward":409.27,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":121476,
@@ -2989,7 +2989,7 @@
     "op_atlas_id":"0x4eaa0df4cfbda85126db57a231598d33c283b8aacf3a441539877ce7e17be22a",
     "display_name":"daos.world",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":117972,
@@ -3007,7 +3007,7 @@
     "op_atlas_id":"0x9c3a49cb4acf213a090a65920d3b23698d8da7588596dbdca20e903549f761ab",
     "display_name":"DeFi Saver",
     "is_eligible":true,
-    "op_reward":392.41,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":115320,
@@ -3025,7 +3025,7 @@
     "op_atlas_id":"0xd4e9dc39dfebabb65106ab73953dea2aea365375733a9aa458712f23cdd27973",
     "display_name":"Strands",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":110859,
@@ -3043,7 +3043,7 @@
     "op_atlas_id":"0x99320dc98c211eb9f1e1d9106d376029075d9d75d1293a40135b3c05d83d779d",
     "display_name":"AlfaFrens",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":100467,
@@ -3061,7 +3061,7 @@
     "op_atlas_id":"0xc8a6f84677aca1ce288713e63616048e307d4c2d50aa76d65bc46e4c75aa3d53",
     "display_name":"Flat Money",
     "is_eligible":true,
-    "op_reward":382.35,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":96231,
@@ -3079,7 +3079,7 @@
     "op_atlas_id":"0x4fbca6c29f26eac481379ffa48ebef14eaab04075bff11e1636aae429542c224",
     "display_name":"ZEROBASE Staking",
     "is_eligible":true,
-    "op_reward":382.38,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":95968,
@@ -3097,7 +3097,7 @@
     "op_atlas_id":"0x8ad96c5faa1c26fbe2c53a8a1ad6ff88f449a976a0a83a262ee95cc46192bf78",
     "display_name":"TactiBall",
     "is_eligible":true,
-    "op_reward":382.45,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":94358,
@@ -3114,7 +3114,7 @@
     "op_atlas_id":"0xa2447abd4724c68eff8635f01a39a46bd00a2380a56513fbcd430653cfd74c98",
     "display_name":"ZNS",
     "is_eligible":true,
-    "op_reward":534.12,
+    "op_reward":658.99,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":94307,
@@ -3132,7 +3132,7 @@
     "op_atlas_id":"0xafca3591b83586f14e21b397135b95af668f5ebb54cb45053af44a73df7d7640",
     "display_name":"Layerswap",
     "is_eligible":true,
-    "op_reward":384.69,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":93969,
@@ -3150,7 +3150,7 @@
     "op_atlas_id":"0x2e1a94f8fb64a47ca41c370eadc2275b5d689f47ede89e62d9dc229dec687056",
     "display_name":"Heavy Helms",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":91753,
@@ -3168,7 +3168,7 @@
     "op_atlas_id":"0xefb1b38ba875f579e1e27a9e1c5a83e6c7347ca0cb1835afd334c4bc36e2a178",
     "display_name":"Super DCA",
     "is_eligible":true,
-    "op_reward":389.56,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":86257,
@@ -3186,7 +3186,7 @@
     "op_atlas_id":"0xf7669f10edbb4ca465f6a6b5ec7e90521a0011e8b3233c43e3cd0dd22633d67f",
     "display_name":"Human ID",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":81741,
@@ -3204,7 +3204,7 @@
     "op_atlas_id":"0xf9a4e3b240bf6d40ee533e5ed63a8288b1a739ee382b1f23ccc5229b7bc8a498",
     "display_name":"Summer.fi",
     "is_eligible":true,
-    "op_reward":382.9,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":76065,
@@ -3222,7 +3222,7 @@
     "op_atlas_id":"0x800707befd6c94e7cea794200a6fee1155e54ca94bc10ee85d15c3f23845b10c",
     "display_name":"Ethereum Follow Protocol",
     "is_eligible":true,
-    "op_reward":382.42,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":75883,
@@ -3240,7 +3240,7 @@
     "op_atlas_id":"0xb26d9315cec30e60b52efd523c25a260c41d573458b246e60cf2de76eefd15a4",
     "display_name":"MintSwap Finance",
     "is_eligible":true,
-    "op_reward":388.08,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":75114,
@@ -3258,7 +3258,7 @@
     "op_atlas_id":"0x019ccd1a7cafff57a05d1dc463ad4acd4d138ad4f7c74675e205dfcda2498053",
     "display_name":"Flight to Zora Planet",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":75006,
@@ -3276,7 +3276,7 @@
     "op_atlas_id":"0xdc28e29764ca79368f426f106458f2c427392e32d088b04f4c372ab51b25d2cf",
     "display_name":"Meson Finance",
     "is_eligible":true,
-    "op_reward":382.45,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":72380,
@@ -3294,7 +3294,7 @@
     "op_atlas_id":"0x4f6091bc27c7e7c6fcd6588c086932115836445feabe29bb4e24a2d91421a36a",
     "display_name":"SurfLayer",
     "is_eligible":true,
-    "op_reward":1272.44,
+    "op_reward":2022.02,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":72096,
@@ -3312,7 +3312,7 @@
     "op_atlas_id":"0x7a4bb37bc7997b8e9b34775164682ff1f441b716cd235f2e7cdce76677b66007",
     "display_name":"zkCodex",
     "is_eligible":true,
-    "op_reward":414.91,
+    "op_reward":277.9,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":71214,
@@ -3330,7 +3330,7 @@
     "op_atlas_id":"0x4602ef8ac6aa7a0e04813c9ae6474f0836746b12054e492ad75d688e8521b494",
     "display_name":"Who Is Ebert",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":70441,
@@ -3348,7 +3348,7 @@
     "op_atlas_id":"0x1ed3db8a901902a64b94930059be6872ce9f265b3ca84010c3a881ee505b5b6c",
     "display_name":"Sonova",
     "is_eligible":true,
-    "op_reward":387.83,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":63667,
@@ -3366,7 +3366,7 @@
     "op_atlas_id":"0xd765664dd27255f1ba341fbb3375439a57fb6a92313df2f7af7856233f415ed7",
     "display_name":"Linkdrop",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":63058,
@@ -3384,7 +3384,7 @@
     "op_atlas_id":"0xc6203aeab9c0b7346ca9bcb36a2db50c7823908fd66ad61913a53ad6dbc77192",
     "display_name":"ZKP2P",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":59341,
@@ -3402,7 +3402,7 @@
     "op_atlas_id":"0xda59222ef8b1cd429ad08e9d1ca90f38988834e74cf3439a780428b85e4788bd",
     "display_name":"Fit Club",
     "is_eligible":true,
-    "op_reward":385.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":58809,
@@ -3420,7 +3420,7 @@
     "op_atlas_id":"0x692340d3ec51f53411126f8247003e2b87b113cfdf4a322b4e38d6bbe5822c5f",
     "display_name":"MemeWallet",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":57419,
@@ -3438,7 +3438,7 @@
     "op_atlas_id":"0x9e36344284fba2ef9215763d94c253ded9c216dacfd9ec9184a44aaf1e339cc4",
     "display_name":"DRAZE",
     "is_eligible":true,
-    "op_reward":382.47,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":54513,
@@ -3456,7 +3456,7 @@
     "op_atlas_id":"0xe13ef8130233ba5feca029110f3abf30cb33f7efe2d915ba7e536200b67fe0bf",
     "display_name":"Glo Dollar",
     "is_eligible":true,
-    "op_reward":382.35,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":53934,
@@ -3474,7 +3474,7 @@
     "op_atlas_id":"0x9474aa1827bd6386bdb0290bd89b6a13ebfc5d5aefc1ca370e9f2dd5355e330b",
     "display_name":"Sweep",
     "is_eligible":true,
-    "op_reward":384.67,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":53231,
@@ -3492,7 +3492,7 @@
     "op_atlas_id":"0x7974baaeef5e3af2e165a0911471ccddcb47d8ca74438558a89abb515aa64275",
     "display_name":"Krystal",
     "is_eligible":true,
-    "op_reward":382.36,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":52265,
@@ -3510,7 +3510,7 @@
     "op_atlas_id":"0xc3a50c1784f3ac4fc8ae72d07cf0bfcf933e3d23ffb5a3ab46263182a098e617",
     "display_name":"remx.xyz",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":50719,
@@ -3528,7 +3528,7 @@
     "op_atlas_id":"0xeb6d215732b1ed881e718faa8bf8b4b88a94edf021efa9a3cf3e2cc3c22b0961",
     "display_name":"Multichaintools",
     "is_eligible":true,
-    "op_reward":382.35,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":47126,
@@ -3546,7 +3546,7 @@
     "op_atlas_id":"0xdce84cb69d195ad28d7dcf878c7b43b284b7f5c2d2df5c0bc0f1e6d486bad786",
     "display_name":"JOOCE",
     "is_eligible":true,
-    "op_reward":382.37,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":46023,
@@ -3564,7 +3564,7 @@
     "op_atlas_id":"0x0b110fbc9ef6a75eeaacc4b701674ddfc8dbc34762a72e08c0a3c5694244eed7",
     "display_name":"Rigoblock",
     "is_eligible":true,
-    "op_reward":383.18,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":45737,
@@ -3582,7 +3582,7 @@
     "op_atlas_id":"0x670140099063200aa424366d77f43b2ef5ff2b715189f412d76846ba0abf2058",
     "display_name":"Liberoverse",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":45134,
@@ -3600,7 +3600,7 @@
     "op_atlas_id":"0x17192aa9ad034d44d99abdcea664c21532e69f865eb7824d10db09e94e7418da",
     "display_name":"HAMsters",
     "is_eligible":true,
-    "op_reward":383.81,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":41723,
@@ -3618,7 +3618,7 @@
     "op_atlas_id":"0x9d4b7018b3a7c6010c5035ef99c485f960e6705ac0e99b4d832b2e748490f089",
     "display_name":"Orbiter",
     "is_eligible":true,
-    "op_reward":389.4,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":38897,
@@ -3636,7 +3636,7 @@
     "op_atlas_id":"0xa47bb509e844a9261ae3ea59fcca1de1b642c7a7482818f1009ce28ff3a9e0bb",
     "display_name":"MintAura",
     "is_eligible":true,
-    "op_reward":383.12,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":37287,
@@ -3654,7 +3654,7 @@
     "op_atlas_id":"0xbd0a2132830ab98440f052dd378cfad9cc3133bd0fa226fd485da2540179b458",
     "display_name":"Rubic",
     "is_eligible":true,
-    "op_reward":382.62,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":36801,
@@ -3672,7 +3672,7 @@
     "op_atlas_id":"0x46d819ee72e9b51fb0175286e6ade010776b39cdb56aee88bc9f39501050eb92",
     "display_name":"Team Finance",
     "is_eligible":true,
-    "op_reward":382.42,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":34075,
@@ -3690,7 +3690,7 @@
     "op_atlas_id":"0x414337e38203428ae9cb52ad0bf27e04edca92374b1c771327098b4e4b3f76a8",
     "display_name":"TapTapGG",
     "is_eligible":true,
-    "op_reward":382.68,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":33641,
@@ -3708,7 +3708,7 @@
     "op_atlas_id":"0x098fca4a62159ddfc2c45dc2931a727d56f039b8f68e31222b927aaf2ce75b9e",
     "display_name":"pods.media",
     "is_eligible":true,
-    "op_reward":382.36,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":32776,
@@ -3726,7 +3726,7 @@
     "op_atlas_id":"0x513265758a3804184b6a0771d99c1a4b04d3267bacd4b914e89ff991de229f6a",
     "display_name":"Create2Deployer",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":29977,
@@ -3744,7 +3744,7 @@
     "op_atlas_id":"0xfa43f3b12992a9d3d7811ac876c9baa5a81bf9775abfc605e720ec0a90f67786",
     "display_name":"Metopia",
     "is_eligible":true,
-    "op_reward":382.54,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":29636,
@@ -3762,7 +3762,7 @@
     "op_atlas_id":"0xb23f12d6f2b8bc60e72710053d823163208ba7169565613e034423b09aaeafce",
     "display_name":"Shredding Sassy & SHAKA",
     "is_eligible":true,
-    "op_reward":382.42,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":28764,
@@ -3780,7 +3780,7 @@
     "op_atlas_id":"0x9c41aa9eccf18c7d96a98a84466a9406d4f325e83eae555efe40000d5fe39d8f",
     "display_name":"Raize",
     "is_eligible":true,
-    "op_reward":382.46,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":28227,
@@ -3798,7 +3798,7 @@
     "op_atlas_id":"0x94db05b6b1f8196cbc00d76fba5434c275f26cc90826351ecb327a85df4bb25a",
     "display_name":"MySphere",
     "is_eligible":true,
-    "op_reward":382.4,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":27489,
@@ -3816,7 +3816,7 @@
     "op_atlas_id":"0x4dc32aaf6b60deda7ef0f98ea1b35dbb938741f16375a25fe0ce75c872f5d0ab",
     "display_name":"InfinityName",
     "is_eligible":true,
-    "op_reward":457.97,
+    "op_reward":442.91,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":26376,
@@ -3834,7 +3834,7 @@
     "op_atlas_id":"0x34521bed3b3eb4c08223fb87b6fcc64718d994bc3312c13522a67b90fbfd1df6",
     "display_name":"Vexy Marketplace",
     "is_eligible":true,
-    "op_reward":382.37,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":26134,
@@ -3852,7 +3852,7 @@
     "op_atlas_id":"0xe434930e189c807b137ff0d8e2fa6a95eaa57dde574143a02ca0d7fb31a40bea",
     "display_name":"Giveth",
     "is_eligible":true,
-    "op_reward":382.36,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":25486,
@@ -3870,7 +3870,7 @@
     "op_atlas_id":"0xa9251c0d6979f5bb40a5ea73d7c0da678740905895cca1298fe2afff5014ef98",
     "display_name":"Based Bits",
     "is_eligible":true,
-    "op_reward":382.52,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":25279,
@@ -3888,7 +3888,7 @@
     "op_atlas_id":"0x2e0e80846b4d52b126f3c9a20a01876bbcb80de67befe916870c5d8736af6c2a",
     "display_name":"Builder Score",
     "is_eligible":true,
-    "op_reward":382.47,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":24810,
@@ -3906,7 +3906,7 @@
     "op_atlas_id":"0x24937e547db8ac83965a3d781ef7fe2861f9bbf79828cbc60fcc0598213c5b0a",
     "display_name":"Echow",
     "is_eligible":true,
-    "op_reward":384.44,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":24503,
@@ -3924,7 +3924,7 @@
     "op_atlas_id":"0xc22f48e35fb4298e3f91fc77720d208870fba1686be3fadbff82aa84859880d6",
     "display_name":"OXBT",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":24407,
@@ -3942,7 +3942,7 @@
     "op_atlas_id":"0x50b442d0244a351acff81a3efa0824983cb4488118af2462488c3376e72ad898",
     "display_name":"Arrows",
     "is_eligible":true,
-    "op_reward":382.35,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":24325,
@@ -3960,7 +3960,7 @@
     "op_atlas_id":"0x5decc7c7bb5ac6448be3408fd18e5c75738725d739711985e2c55026d2fa1391",
     "display_name":"DeVouch powered by Giveth",
     "is_eligible":true,
-    "op_reward":382.35,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":22468,
@@ -3978,7 +3978,7 @@
     "op_atlas_id":"0x3205af3590c303efaaf05769caa5b5290d42b47f857e41a9e0ae285f2b9bce37",
     "display_name":"Empire Builder",
     "is_eligible":true,
-    "op_reward":382.36,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":20446,
@@ -3996,7 +3996,7 @@
     "op_atlas_id":"0x0d72f0fd9ca1d475f2fc199ebe456f80212d24d02d9dbabca6137442e61c5f3f",
     "display_name":"Infected",
     "is_eligible":true,
-    "op_reward":467.01,
+    "op_reward":316.67,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":20347,
@@ -4014,7 +4014,7 @@
     "op_atlas_id":"0x867b0364ac86ff4cc61a47ee99a0f96c8b952af8728442a048f7e3ac5892aae9",
     "display_name":"Gaslite Drop",
     "is_eligible":true,
-    "op_reward":382.35,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":18887,
@@ -4032,7 +4032,7 @@
     "op_atlas_id":"0x15b210abdc6acfd99e60255792b2b78714f4e8c92c4c5e91b898d48d046212a4",
     "display_name":"MiniBridge",
     "is_eligible":true,
-    "op_reward":382.36,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":17888,
@@ -4050,7 +4050,7 @@
     "op_atlas_id":"0xd81fa9e87a999faa70214d7981f6b85f3ea0c7922db0cc91a83552e208f0ec8f",
     "display_name":"Garden",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":17685,
@@ -4068,7 +4068,7 @@
     "op_atlas_id":"0x59e17037d11869aaa2dfcaa96a2695bb849d6c1edc2cc8bb4d4c1545b8284318",
     "display_name":"Farville",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":17643,
@@ -4086,7 +4086,7 @@
     "op_atlas_id":"0xdf92f936b0ddd6c5a944d3e2be594168ea108b0909e510b955333c5ef0b40242",
     "display_name":"ethOS - The Ethereum Phone",
     "is_eligible":true,
-    "op_reward":382.35,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":17600,
@@ -4104,7 +4104,7 @@
     "op_atlas_id":"0x2d5167181143298e3d002d318d8b1d2917b8c3205a5634549c95cab0ff32cbdf",
     "display_name":"Pheasant Network",
     "is_eligible":true,
-    "op_reward":382.55,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":17340,
@@ -4122,7 +4122,7 @@
     "op_atlas_id":"0xccd4cb370389d0d1a04e436a7babd12649591457b587734fe67dc6264b7feeae",
     "display_name":"Size Credit",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":17110,
@@ -4140,7 +4140,7 @@
     "op_atlas_id":"0x808b31862cec6dccf3894bb0e76ce4ca298e4c2820e2ccbf4816da740463b220",
     "display_name":"Fractal Visions",
     "is_eligible":true,
-    "op_reward":383.69,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":16712,
@@ -4158,7 +4158,7 @@
     "op_atlas_id":"0x182f5a5c04ccdc4739ee9f362af72d7a0f55d6b410cc9dc2b52dc7f99f06f3f9",
     "display_name":"far.quest - Farcaster Super App",
     "is_eligible":true,
-    "op_reward":382.62,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":16238,
@@ -4176,7 +4176,7 @@
     "op_atlas_id":"0x2dd925f4a51934773e7ab85d73f235d19ee7a6e8819002d6dba91368d206db3b",
     "display_name":"SONGS",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":15601,
@@ -4194,7 +4194,7 @@
     "op_atlas_id":"0x8efcf1b6e879bb6ec89d5982b8da840757053731b8972c4a07a6ce9b6ffcfc89",
     "display_name":"Blueshift.fi",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":15305,
@@ -4212,7 +4212,7 @@
     "op_atlas_id":"0x149bc5c396fd3dccac39c92164bb6b8bccc4d215321b58e241af07a76616e031",
     "display_name":"Hop Protocol",
     "is_eligible":true,
-    "op_reward":382.36,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":14572,
@@ -4230,7 +4230,7 @@
     "op_atlas_id":"0x27198d58714460ce484799b2a9628e6a990f366164120bd20bde1caeb762d6d7",
     "display_name":"Black Swan",
     "is_eligible":true,
-    "op_reward":387.08,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":13857,
@@ -4248,7 +4248,7 @@
     "op_atlas_id":"0xf1358b33be174954b454aebca311fc83753dc1d8c743e25c829091ccd69fedd0",
     "display_name":"Tiny Based Frogs",
     "is_eligible":true,
-    "op_reward":382.44,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":13625,
@@ -4266,7 +4266,7 @@
     "op_atlas_id":"0x6435c8574014275b1d554a3ab9dd85f775fa3563258ce855d6aeb07e7918f6e5",
     "display_name":"Hypersub",
     "is_eligible":true,
-    "op_reward":382.5,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":12761,
@@ -4284,7 +4284,7 @@
     "op_atlas_id":"0x913ca97cfc8b587734059e4df9cc6de28ef590727e13e1b30ae9a57bea881731",
     "display_name":"April Token",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":10106,
@@ -4302,7 +4302,7 @@
     "op_atlas_id":"0xe329147afe5f04d45a1ba005819ef75b36136576aff042b0714ba793f0727938",
     "display_name":"Poopzter",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":9398,
@@ -4320,7 +4320,7 @@
     "op_atlas_id":"0x6fc25d7c763441933c53333f0f9105b37cc74d88f21ef61b3b7eaf94cba45bfb",
     "display_name":"Amped Finance",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":9120,
@@ -4337,7 +4337,7 @@
     "op_atlas_id":"0xbab91bafd9fe45c24eba6cfd48ff18f3a5e1c62e47daa1f6a04f9dd70328fbb4",
     "display_name":"EtherScore",
     "is_eligible":true,
-    "op_reward":382.43,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":9057,
@@ -4355,7 +4355,7 @@
     "op_atlas_id":"0xe6371e0b190ff5db00617519599cbbafe719db0386e42a0af106b8c7f9161b63",
     "display_name":"NERZO",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":8813,
@@ -4373,7 +4373,7 @@
     "op_atlas_id":"0x3ec6984e7bff6938fff5a4494ece1c1dcf7ef83d1bbb1176705b5db98e4fa9d7",
     "display_name":"SwaptoX",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":8275,
@@ -4391,7 +4391,7 @@
     "op_atlas_id":"0x79159d9bd4981ce68651fb4d585fd5827215309e503f46209adb0ec438f71b30",
     "display_name":"Slice",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7916,
@@ -4409,7 +4409,7 @@
     "op_atlas_id":"0x853bb82b68a3cc3a16982f86b2d9c032ecf8675f1e575c27355a0e37a7775295",
     "display_name":"CheapGM",
     "is_eligible":true,
-    "op_reward":449.27,
+    "op_reward":380.35,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7772,
@@ -4427,7 +4427,7 @@
     "op_atlas_id":"0xe470be829b6d31d1d6165d4dbdd4243673272e858cfa4a0ee6a34a9880cc7390",
     "display_name":"Hippie Apes Deluxe",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7182,
@@ -4445,7 +4445,7 @@
     "op_atlas_id":"0xe11a4f107e474ae204a45e4f674f6d422f2230c9675f9ebfba1eb2af217c2d1b",
     "display_name":"Eat The Pie",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":7086,
@@ -4463,7 +4463,7 @@
     "op_atlas_id":"0xe20f59eb1c8f9cb72e07b8d0f067bac997614fd6db06d8c031c5c9235f760dcc",
     "display_name":"L2Pass",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6918,
@@ -4481,7 +4481,7 @@
     "op_atlas_id":"0x6e5ddc88d6aaa30a6a1518797767c106483cacf0f8f2620b8522a671165f7a66",
     "display_name":"Memecoin Prediction Markets",
     "is_eligible":true,
-    "op_reward":382.42,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6876,
@@ -4499,7 +4499,7 @@
     "op_atlas_id":"0x6f550434232889366a40b5a6046615cdd444528db6fbe1f8186411f2f6ed676e",
     "display_name":"Charged Particles - Web3 Packs",
     "is_eligible":true,
-    "op_reward":382.37,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6843,
@@ -4517,7 +4517,7 @@
     "op_atlas_id":"0x5762c6aceafd26961b7f862255d04a4ea7c1217a873838ac841d0a964f71eb0d",
     "display_name":"GM Coin",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6411,
@@ -4535,7 +4535,7 @@
     "op_atlas_id":"0x12da4f117ab1a57f2f02078df3dbb9ecd4c66fe7b40535314b21218529f554cd",
     "display_name":"Whirl Protocol",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6383,
@@ -4553,7 +4553,7 @@
     "op_atlas_id":"0x928dcd931ff2bc44a5d3b15c500adfbf8d3e3a89e4936823e0b3f053c38f978c",
     "display_name":"Hedgey",
     "is_eligible":true,
-    "op_reward":382.36,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":6122,
@@ -4571,7 +4571,7 @@
     "op_atlas_id":"0x3cd7461bfc56982b9e128172617cf423fa76bab573f0f29155963d076214b3fb",
     "display_name":"Nexart",
     "is_eligible":true,
-    "op_reward":612.71,
+    "op_reward":567.39,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":5942,
@@ -4589,7 +4589,7 @@
     "op_atlas_id":"0x9286757c91ac602b39faea64043091ecfbd5c12a7c30a1f1fe009ac0bf31d6fb",
     "display_name":"Astrology by OMBRUJA ",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":5712,
@@ -4607,7 +4607,7 @@
     "op_atlas_id":"0xa80b4deb2380dce6c6974b9eb164b3cdfbe168cb43fe132f9f83cdf7768eb9ba",
     "display_name":"Monstro DeFi",
     "is_eligible":true,
-    "op_reward":382.37,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":4580,
@@ -4625,7 +4625,7 @@
     "op_atlas_id":"0x857c78f111b50455cff5d1a4e1ffeaf1927a3ed9f671ab09851de3357c906a14",
     "display_name":"Native",
     "is_eligible":true,
-    "op_reward":382.35,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":4524,
@@ -4643,7 +4643,7 @@
     "op_atlas_id":"0x55c2b578a1e34fbbc872dd8736b8e7dda4c87d12522db966f1bf3e75af900f13",
     "display_name":"WorldPot",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":875.79,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":4128,
@@ -4661,7 +4661,7 @@
     "op_atlas_id":"0x347650f58fdf1d96a770b46ad90a029f524d13028fb2107e0123c53c02223ef7",
     "display_name":"OpenCover",
     "is_eligible":true,
-    "op_reward":399.88,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":4087,
@@ -4679,7 +4679,7 @@
     "op_atlas_id":"0xf87dc66be181007e6d394553b4498ef833f7a53059d86e6ae399b4ca8db61543",
     "display_name":"Gardens \ud83c\udf31",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3669,
@@ -4697,7 +4697,7 @@
     "op_atlas_id":"0xd774790974f07c7c5130903d47ae885f0f3415f0c8ee1bee9c4b17ed2faaafaa",
     "display_name":"create.party.app",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3645,
@@ -4715,7 +4715,7 @@
     "op_atlas_id":"0x7fe1f445a110236c7355b3abb2d7fe8c02e32f400253b9b134ad6ab7afc0f6fc",
     "display_name":"TapBase",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":3054,
@@ -4733,7 +4733,7 @@
     "op_atlas_id":"0x44ca2c89a912ec7e3f2a38aaecde63044fcaa3024839eb628081a3bcba9c0490",
     "display_name":"DackieVerse",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2781,
@@ -4751,7 +4751,7 @@
     "op_atlas_id":"0x5fcb5b5c96378c69afb73677a80bf38ca5032dea8759be6f29f191945ebc3ade",
     "display_name":"POLICAST",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2573,
@@ -4769,7 +4769,7 @@
     "op_atlas_id":"0x97fc40c9204daf6249f40f99850fb9f05d2759d75099a6e1e3a01b9faa02bcb6",
     "display_name":"Most Bridge",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2566,
@@ -4787,7 +4787,7 @@
     "op_atlas_id":"0x260127629089be48b8b1ee07c8962451a7f54374163217c7e72188d1ffc8749f",
     "display_name":"BakerFi",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2336,
@@ -4820,7 +4820,7 @@
     "op_atlas_id":"0x740297a85de756f69945e2cfd9d439598cdb06a70e409e91664c701f5c0af34c",
     "display_name":"TOCD Studio",
     "is_eligible":true,
-    "op_reward":382.39,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2324,
@@ -4838,7 +4838,7 @@
     "op_atlas_id":"0x4d71401a0dbd9b3dd890fbc70baaf872d16db80af149e20f7ef1805fc94f6df6",
     "display_name":"Router Protocol",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2306,
@@ -4856,7 +4856,7 @@
     "op_atlas_id":"0xdb5a398a3e5575d284e15f7d4b4ba44ee07c082fbf96b77e217ce2bd4a723168",
     "display_name":"Songbirdz",
     "is_eligible":true,
-    "op_reward":382.36,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2253,
@@ -4874,7 +4874,7 @@
     "op_atlas_id":"0x8997fa34367532a9072ca36c424498162980303a8d36fc49d58c5ac7daac9311",
     "display_name":"VRNouns",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2244,
@@ -4892,7 +4892,7 @@
     "op_atlas_id":"0x0f252f5c82f75b9b03398e3e25a44de8bc0e60b144bb4955266789399c605097",
     "display_name":"Perfect Pool",
     "is_eligible":true,
-    "op_reward":383.08,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2186,
@@ -4910,7 +4910,7 @@
     "op_atlas_id":"0x900cedf4b0a62c4da0b5a7e7854d870b7b07ce2e55e62987999dc68fa32abad3",
     "display_name":"CASET",
     "is_eligible":true,
-    "op_reward":382.38,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2086,
@@ -4928,7 +4928,7 @@
     "op_atlas_id":"0x4b987d79912367ada6c3fa1bf6ad1daa6d164078f8c5efc8db2128b9231087a9",
     "display_name":"Sturdy",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":2069,
@@ -4946,7 +4946,7 @@
     "op_atlas_id":"0x5a9c81abc79e40fe55a28e080cd3f5edfe73cc15824564b5a8bc086b6724b06b",
     "display_name":"Immutable Ratings",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1994,
@@ -4964,7 +4964,7 @@
     "op_atlas_id":"0xdc8c675a16e135a3518852b240cde44e9105622473623bf86725a9abb8d18847",
     "display_name":"Get Mint",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1950,
@@ -4982,7 +4982,7 @@
     "op_atlas_id":"0x5ced7d87c8959f87ad11da2c58751c19021a60085b99d298241d886d8d492fbd",
     "display_name":"Human Card",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1289,
@@ -5000,7 +5000,7 @@
     "op_atlas_id":"0xae3efd865f9584671ede5e94c83190b0aea5ac5d77eb0179ba849bcaae314546",
     "display_name":"Base Logos",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1230,
@@ -5018,7 +5018,7 @@
     "op_atlas_id":"0x533b2f5a5496206f22fc2fa7bf4343db0318c1b2598f9dd2098eacb42a8bae67",
     "display_name":"Chimpers",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1227,
@@ -5036,7 +5036,7 @@
     "op_atlas_id":"0x71235a21ecc7917daf805f832b7e18566f8fefde5ce05f741b64cebcd208e92b",
     "display_name":"Unlock Protocol",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1171,
@@ -5054,7 +5054,7 @@
     "op_atlas_id":"0xf8e1a0a465eb42239f0c15651c658cd25e922880a3b5714949804034c57ace41",
     "display_name":"Womex",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1165,
@@ -5071,7 +5071,7 @@
     "op_atlas_id":"0xb9b7f1175044c211555b5589ee389263d2e455f99c1505e6b121cf6e3f5caaff",
     "display_name":"Based Onchain Dinos",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1146,
@@ -5089,7 +5089,7 @@
     "op_atlas_id":"0x1d3ec77661554ddaeab18519930b218ba5185016a0e770ce4664a831a1eef7f4",
     "display_name":"Larry",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1104,
@@ -5107,7 +5107,7 @@
     "op_atlas_id":"0x7fd813000c03bd11fdf3ded76a3b46db355218c72947acea7f14871a5b0a9258",
     "display_name":"Satoshi's Secret",
     "is_eligible":true,
-    "op_reward":382.34,
+    "op_reward":0.0,
     "round_id":"8",
     "eligibility_metrics":{
       "transaction_count":1007,

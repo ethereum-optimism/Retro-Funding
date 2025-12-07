@@ -2,6 +2,16 @@
 
 All notable changes to algorithms, weights, and underlying OSO models will be documented here.
 
+## [M10] - 2025-12-04
+
+### Changed
+
+- Onchain builders:
+  - Adjusted metric weights: `contract_invocations` decreased from 0.35 to 0.30, `layer2_gas_fees_amortized` increased from 0.35 to 0.40.
+  - Rebalanced metric variant weights: `adoption` increased from 0.20 to 0.50, `growth` decreased from 0.30 to 0.20, `retention` decreased from 0.50 to 0.30.
+  - Increased `percentile_cap` from 97.5 to 98.5.
+  - Budget increased back to 166,667 OP.
+
 ## [M9] - 2025-11-07
 
 ### Fixed

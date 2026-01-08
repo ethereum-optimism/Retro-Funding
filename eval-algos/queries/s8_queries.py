@@ -2,12 +2,12 @@
 This module contains all the SQL queries used to fetch data from OSO.
 """
 
-THIS_PERIOD = 'M10'
+THIS_PERIOD = 'M11'
 THIS_PERIOD_NUMBER = THIS_PERIOD[1:]
 START_DATE = '2024-11-01'
-END_DATE = '2025-12-01'
-THIS_PERIOD_DATE = '2025-11-01'
-LAST_PERIOD_DATE = '2025-10-01'
+END_DATE = '2026-01-01'
+THIS_PERIOD_DATE = '2025-12-01'
+LAST_PERIOD_DATE = '2025-11-01'
 FLAG_LIST = [
     '0xaa1b878800206da24ee7297fb202ef98a6af0fb3ec298a65ba6b675cb4f4144b', # Test Project
     '0x482720e73e91229b5f7d5e2d80a54eb8a722309c26dba03355359788b18f4373', # M4 RubyScore (manufactured activity)

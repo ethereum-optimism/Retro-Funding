@@ -55,7 +55,7 @@ simulation:
     retention: 0.40   # Minimum of current and previous
 
   # Percentile cap for min-max scaling (100 = no cap)
-  percentile_cap: 98
+  percentile_cap: 97.5
 
 allocation:
   budget: 166666.6

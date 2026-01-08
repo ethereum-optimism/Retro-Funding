@@ -2,6 +2,16 @@
 
 All notable changes to algorithms, weights, and underlying OSO models will be documented here.
 
+## [M11] - 2026-01-08
+
+### Changed
+
+- Onchain builders:
+  - Rebalanced metric variant weights: `growth` decreased from 0.20 to 0.10, `retention` increased from 0.30 to 0.40.
+  - Decreased `percentile_cap` from 98.5 to 97.5.
+- Dev Tooling:
+  - No algorithm parameter changes from M10.
+
 ## [M10] - 2025-12-04
 
 ### Changed

@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 import numpy as np
 import pandas as pd
 import traceback
@@ -36,6 +36,7 @@ class SimulationConfig:
     tvl_maximum: float = 0
     eligibility_filter: bool = False
     percentile_cap: float = 100
+    user_metric_blend: Dict[str, Dict[str, float]] = field(default_factory=dict)
 
 
 # ------------------------------------------------------------------------
@@ -65,7 +66,11 @@ class OnchainBuildersCalculator:
         Returns:
             Dict[str, pd.DataFrame]: Analysis dictionary with all intermediate outputs.
         """
-        # Store raw input data
+        # Store raw input data (optionally inject blended user metrics — issue #13)
+        self.analysis = {"raw_data": df_data}
+        self._inject_blended_user_metrics()
+        df_data = self.analysis["raw_data"]
+
         if self.config.eligibility_filter:
             print(f"[INFO] Eligibility filter: {self.config.eligibility_filter}")
             df_data = df_data[df_data['is_eligible'] == True]
@@ -81,6 +86,52 @@ class OnchainBuildersCalculator:
         self._prepare_final_results()
 
         return self.analysis
+
+    def _inject_blended_user_metrics(self) -> None:
+        """
+        Synthesize composite user-activity metrics from multiple sources (issue #13).
+        Example config:
+          user_metric_blend:
+            diversified_user_activity:
+              farcaster_users: 0.4
+              kyc_verified_users: 0.3
+              cex_linked_active_users: 0.2
+              non_kyc_active_users: 0.1
+        """
+        blends = self.config.user_metric_blend or {}
+        if not blends:
+            return
+
+        df = self.analysis.get("raw_data")
+        if df is None or df.empty:
+            return
+
+        group_cols = [col for col in ["project_id", "project_name", "display_name", "chain", "measurement_period"] if col in df.columns]
+        if not group_cols:
+            return
+
+        new_rows = []
+        for _, group in df.groupby(group_cols, dropna=False):
+            for composite_name, source_weights in blends.items():
+                weighted_sum = 0.0
+                weight_total = 0.0
+                for source_metric, weight in source_weights.items():
+                    if weight <= 0:
+                        continue
+                    matches = group[group["metric_name"] == source_metric]
+                    if matches.empty:
+                        continue
+                    weighted_sum += float(matches["amount"].iloc[0]) * float(weight)
+                    weight_total += float(weight)
+                if weight_total <= 0:
+                    continue
+                row = group.iloc[0].copy()
+                row["metric_name"] = composite_name
+                row["amount"] = weighted_sum / weight_total
+                new_rows.append(row)
+
+        if new_rows:
+            self.analysis["raw_data"] = pd.concat([df, pd.DataFrame(new_rows)], ignore_index=True)
 
     # --------------------------------------------------------------------
     # Step 1: Pivot raw data
@@ -435,7 +486,8 @@ def load_config(config_path: str) -> Tuple[DataSnapshot, SimulationConfig]:
         tvl_minimum=sim.get('tvl_minimum', 0),
         tvl_maximum=sim.get('tvl_maximum', 0),
         eligibility_filter=sim.get('eligibility_filter', False),
-        percentile_cap=sim.get('percentile_cap', 100)
+        percentile_cap=sim.get('percentile_cap', 100),
+        user_metric_blend=sim.get('user_metric_blend', {}),
     )
 
     return ds, sc

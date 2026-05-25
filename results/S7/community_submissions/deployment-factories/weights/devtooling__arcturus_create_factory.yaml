@@ -1,0 +1,34 @@
+# Proposal: create-factory dependency weighting (issue #12)
+
+data_snapshot:
+  data_dir: 'results/S8/M7/data/'
+  devtooling_projects: 'devtooling__project_metadata.csv'
+  onchain_projects: 'devtooling__onchain_metadata.csv'
+  project_dependencies: 'devtooling__dependency_graph.csv'
+  developers_to_projects: 'devtooling__developer_graph.csv'
+  utility_labels: 'devtooling__utility_labels.csv'
+
+simulation:
+  alpha_onchain: 0.5
+  alpha_devtooling: 0.25
+  link_type_time_decays:
+    package_dependency: 1.0
+    create_factory_dependency: 0.90
+    onchain_project_to_developer: 0.80
+    developer_to_devtooling_project: 0.60
+  link_type_weights:
+    package_dependency: 1.0
+    create_factory_dependency: 1.5
+    onchain_project_to_developer: 1.0
+    developer_to_devtooling_project: 1.0
+  event_type_weights:
+    create_factory: 1.0
+    deployment_factory: 1.0
+    npm: 1.0
+    pip: 1.0
+    go: 1.0
+
+allocation:
+  budget: 500000
+  min_amount_per_project: 200
+  max_share_per_project: 0.05

@@ -12,6 +12,26 @@ from openrank_sdk import EigenTrust
 import networkx as nx
 warnings.filterwarnings('ignore', message='Defaulting to the \'raw\' score scale*')
 
+CREATE_FACTORY_SOURCES = frozenset({
+    "CREATE_FACTORY",
+    "DEPLOYMENT_FACTORY",
+    "DEPLOY_FACTORY",
+    "FACTORY",
+})
+
+PACKAGE_LIKE_LINK_TYPES = frozenset({
+    "PACKAGE_DEPENDENCY",
+    "CREATE_FACTORY_DEPENDENCY",
+})
+
+
+def resolve_dependency_link_type(source: str) -> str:
+    """Map dependency_source to graph link type (issue #12: deployment factories)."""
+    normalized = str(source or "").strip().upper()
+    if normalized in CREATE_FACTORY_SOURCES or "FACTORY" in normalized:
+        return "CREATE_FACTORY_DEPENDENCY"
+    return "PACKAGE_DEPENDENCY"
+
 
 # ------------------------------------------------------------------------
 # Dataclass Definitions
@@ -181,7 +201,7 @@ class DevtoolingCalculator:
         df_dependencies['event_month'] = time_ref
         df_dependencies['i_name'] = df_dependencies['i'].map(project_mapping)
         df_dependencies['j_name'] = df_dependencies['j'].map(project_mapping)
-        df_dependencies['link_type'] = 'PACKAGE_DEPENDENCY'
+        df_dependencies['link_type'] = df_dependencies['event_type'].map(resolve_dependency_link_type)
         
         # --- Part 2: Commit Events ---
         df_devs2onchain = df_devs2projects[
@@ -225,7 +245,6 @@ class DevtoolingCalculator:
         df_devs2tool.drop(columns=['is_duplicate'], inplace=True)
         
         # --- Combine All Edges ---
-        df_dependencies['link_type'] = 'PACKAGE_DEPENDENCY'
         df_devs2onchain['link_type'] = 'ONCHAIN_PROJECT_TO_DEVELOPER'
         df_devs2tool['link_type'] = 'DEVELOPER_TO_DEVTOOLING_PROJECT'
         df_combined = pd.concat([df_dependencies, df_devs2onchain, df_devs2tool], ignore_index=True)
@@ -275,7 +294,7 @@ class DevtoolingCalculator:
         df_edges = self.analysis['unweighted_edges']
         
         # Calculate package connections
-        package_connections = df_edges[df_edges['link_type'] == 'PACKAGE_DEPENDENCY'].groupby('j').size()
+        package_connections = df_edges[df_edges['link_type'].isin(PACKAGE_LIKE_LINK_TYPES)].groupby('j').size()
         df_devtooling['num_package_connections'] = df_devtooling['i'].map(package_connections).fillna(0)
         
         # Calculate developer connections
@@ -364,7 +383,7 @@ class DevtoolingCalculator:
             base_weights = df_edges.loc[mask, 'event_type'].map(event_type_weights)
             
             # Apply utility weights for devtooling projects
-            if link_type == 'PACKAGE_DEPENDENCY':
+            if link_type in PACKAGE_LIKE_LINK_TYPES:
                 # For package dependencies, apply utility weight to the target project (j)
                 # If project not in utility_label_map, use default weight of 1.0
                 utility_weights_series = df_edges.loc[mask, 'j'].map(
@@ -437,7 +456,7 @@ class DevtoolingCalculator:
         package_edge_records = [
             {'i': row['i'], 'j': row['j'], 'v': row['v_edge']}
             for _, row in df_edges.iterrows()
-            if row['link_type'] == 'PACKAGE_DEPENDENCY'
+            if row['link_type'] in PACKAGE_LIKE_LINK_TYPES
         ]
         package_scores = et_onchain.run_eigentrust(package_edge_records, pretrust_list)
         df_package_scores = pd.DataFrame(package_scores, columns=['i', 'v'])
@@ -505,7 +524,7 @@ class DevtoolingCalculator:
         passes = {
             "PACKAGE_DEPENDENCY": {
                 "alpha": self.config.alpha_onchain,   # damping factor
-                "edges": df_edges.query("link_type == 'PACKAGE_DEPENDENCY'"),
+                "edges": df_edges[df_edges['link_type'].isin(PACKAGE_LIKE_LINK_TYPES)],
             },
             "DEVELOPER": {
                 "alpha": self.config.alpha_devtooling,
@@ -581,7 +600,7 @@ class DevtoolingCalculator:
         df_scores = self.analysis['project_openrank_scores'].copy()
         df_edges = self.analysis['weighted_edges']
 
-        df_pkg_deps = df_edges[df_edges['link_type'] == 'PACKAGE_DEPENDENCY']
+        df_pkg_deps = df_edges[df_edges['link_type'].isin(PACKAGE_LIKE_LINK_TYPES)]
         df_results['total_dependents'] = df_results['project_id'].apply(
             lambda pid: df_pkg_deps[df_pkg_deps['j'] == pid]['i'].nunique()
         )
@@ -642,7 +661,7 @@ class DevtoolingCalculator:
                  .to_dict()
         )
         
-        df_pkg = edges.loc[edges['link_type'] == 'PACKAGE_DEPENDENCY', ['i', 'j']].copy()
+        df_pkg = edges.loc[edges['link_type'].isin(PACKAGE_LIKE_LINK_TYPES), ['i', 'j']].copy()
 
         df_dev = edges.loc[edges['link_type'] == 'DEVELOPER_TO_DEVTOOLING_PROJECT', ['i', 'j']].copy()
         df_dev['onchain_list'] = df_dev['i'].map(lambda d: onchain_projects_by_dev.get(d, []))

@@ -1,0 +1,38 @@
+# Proposal: diversified onchain user metrics (issue #13)
+
+data_snapshot:
+  data_dir: 'results/S8/M7/data/'
+  projects_file: 'onchain__project_metadata.csv'
+  metrics_file: 'onchain__metrics_by_project.csv'
+
+simulation:
+  periods:
+    previous: 'Jul 2025'
+    current: 'Aug 2025'
+  eligibility_filter: true
+  chains:
+    base: 1.0
+    optimism: 1.0
+  user_metric_blend:
+    diversified_user_activity:
+      farcaster_users: 0.35
+      kyc_verified_users: 0.25
+      cex_linked_active_users: 0.20
+      non_kyc_active_users: 0.20
+  metrics:
+    contract_invocations: 0.35
+    layer2_gas_fees_amortized: 0.35
+    diversified_user_activity: 0.175
+    worldchain_users_aggregation: 0.125
+    defillama_tvl: 0.0
+    active_addresses_aggregation: 0.0
+  metric_variants:
+    adoption: 0.20
+    growth: 0.30
+    retention: 0.50
+  percentile_cap: 97.5
+
+allocation:
+  budget: 166666.67
+  min_amount_per_project: 200
+  max_share_per_project: 0.03
